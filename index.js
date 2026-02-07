@@ -393,7 +393,11 @@
     function loadGame(node) {
         const iframe = document.createElement('iframe');
         iframe.className = 'game-iframe';
-        iframe.src = `games/game_loader.html?file=${encodeURIComponent(node.id)}`;
+        // Detect base path for GitHub Pages vs local
+        const basePath = window.location.pathname.includes('.html')
+            ? window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1)
+            : window.location.pathname;
+        iframe.src = `${basePath}games/game_loader.html?file=${encodeURIComponent(node.id)}`;
         viewBodyEl.appendChild(iframe);
 
         iframe.onload = () => {

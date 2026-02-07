@@ -61,7 +61,9 @@
 
                 // 2. Fallback: Datei laden
                 if (!data) {
-                    const res = await fetch('../' + filePath);
+                    // Detect base path (works for both local and GitHub Pages)
+                    const basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/games/'));
+                    const res = await fetch(basePath + '/' + filePath);
                     if (!res.ok) throw new Error(`Ladefehler: ${res.status}`);
                     data = await res.json();
                 }
@@ -87,8 +89,9 @@
                 // Wir speichern den Pfad, GameBase lädt ihn dann selbst (oder wir übergeben das Objekt)
                 sessionStorage.setItem('game_payload_id', filePath);
 
-                // 5. Weiterleitung
-                window.location.href = targetHtml;
+                // 5. Weiterleitung (absolute path from current location)
+                const currentDir = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+                window.location.href = currentDir + targetHtml;
 
             } catch (e) {
                 showError(e.message);
