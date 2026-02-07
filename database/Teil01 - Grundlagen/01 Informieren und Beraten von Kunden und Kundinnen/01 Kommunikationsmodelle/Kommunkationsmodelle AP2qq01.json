@@ -1,0 +1,103 @@
+{
+    "game_type": "quick_quiz",
+    "title": "Quick-Quiz – Kommunikationsmodelle & Verkaufsgespräche",
+    "introText": "Klick auf „Start", um das Quick-Quiz zu Kommunikation zu starten.","sublineText": "Wähle den passenden Begriff zur Aussage.",
+    "timePerQuestionSeconds": 12,
+    "answerLabels": [
+        "Aktives Zuhören",
+        "Paraphrasieren",
+        "4-Ohren-Modell",
+        "Sender-Empfänger-Modell",
+        "Telefonkonferenz",
+        "Chat/virtuelle Teambesprechung",
+        "Kundenanfrage",
+        "Kundenbedürfnisse analysieren",
+        "Angebot erstellen",
+        "Auftrag bestätigen",
+        "Nonverbale Signale",
+        "alle",
+        "keine"
+    ],
+    "questions": [
+        {
+            "text": "Dem Gesprächspartner aufmerksam folgen und Verständnis durch Rückfragen signalisieren.",
+            "correct": "Aktives Zuhören"
+        },
+        {
+            "text": "Das Gesagte mit eigenen Worten wiedergeben, um Missverständnisse zu vermeiden.",
+            "correct": "Paraphrasieren"
+        },
+        {
+            "text": "Modell, das besagt, dass jede Nachricht auf vier Ebenen verstanden werden kann: Sachinhalt, Selbstoffenbarung, Beziehung, Appell.",
+            "correct": "4-Ohren-Modell"
+        },
+        {
+            "text": "Grundlegendes Kommunikationsmodell mit Sender, Kanal, Empfänger und möglichen Störungen.",
+            "correct": "Sender-Empfänger-Modell"
+        },
+        {
+            "text": "Synchroner, audio-basierter Kommunikationskanal für Meetings mit mehreren Teilnehmern.",
+            "correct": "Telefonkonferenz"
+        },
+        {
+            "text": "Digitale, oft asynchrone Kommunikation über Messaging-Tools für schnelle Abstimmungen.",
+            "correct": "Chat/virtuelle Teambesprechung"
+        },
+        {
+            "text": "Erster Schritt im Verkaufsgespräch: Kunde äußert Bedarf, Berater nimmt Anfrage entgegen.",
+            "correct": "Kundenanfrage"
+        },
+        {
+            "text": "Durch gezielte Fragen die tatsächlichen Anforderungen und Wünsche des Kunden ermitteln.",
+            "correct": "Kundenbedürfnisse analysieren"
+        },
+        {
+            "text": "Schriftliches Dokument mit Leistungen, Preisen, Lieferzeiten und Konditionen.",
+            "correct": "Angebot erstellen"
+        },
+        {
+            "text": "Nach Annahme des Angebots den Auftrag schriftlich bestätigen und Umsetzung einleiten.",
+            "correct": "Auftrag bestätigen"
+        },
+        {
+            "text": "Körpersprache, Mimik und Tonfall wahrnehmen, um emotionale Ebene zu verstehen.",
+            "correct": "Nonverbale Signale"
+        },
+        {
+            "text": "Wird genutzt, um zu prüfen, ob man den Kunden richtig verstanden hat.",
+            "correct": "Paraphrasieren"
+        },
+        {
+            "text": "Hilft, Missverständnisse durch unterschiedliche Interpretation derselben Nachricht zu erklären.",
+            "correct": "4-Ohren-Modell"
+        },
+        {
+            "text": "Ist besonders wichtig, um Kundenwünsche genau zu erfassen, bevor man ein Angebot macht.",
+            "correct": "Kundenbedürfnisse analysieren"
+        },
+        {
+            "text": "Kann durch technische Probleme oder Fachbegriffe gestört werden.",
+            "correct": "Sender-Empfänger-Modell"
+        },
+        {
+            "text": "Eignet sich für spontane, kurze Abstimmungen im Team ohne festen Termin.",
+            "correct": "Chat/virtuelle Teambesprechung"
+        },
+        {
+            "text": "Wird oft für wöchentliche Status-Meetings mit verteilten Teams genutzt.",
+            "correct": "Telefonkonferenz"
+        },
+        {
+            "text": "Zeigt sich besonders in persönlichen Gesprächen durch Körperhaltung und Gesichtsausdruck.",
+            "correct": "Nonverbale Signale"
+        },
+        {
+            "text": "Markiert den formalen Beginn der Zusammenarbeit nach erfolgreicher Verhandlung.",
+            "correct": "Auftrag bestätigen"
+        },
+        {
+            "text": "Erfordert Empathie und die Fähigkeit, zwischen den Zeilen zu lesen.",
+            "correct": "Aktives Zuhören"
+        }
+    ]
+}

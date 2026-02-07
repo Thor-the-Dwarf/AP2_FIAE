@@ -1,0 +1,15 @@
+Algorithmen formulieren:
+- Pseudocode, Struktogramme
+- Aktivitätsdiagramme
+
+Algorithmen implementieren:
+- Programmiersprachen-Auswahl (Performance, Portabilität)
+- Datenstrukturen
+- Cyber-physische Systeme (Sensoren/Aktoren)
+- Automatisierung (PowerShell, Bash, Python)
+
+Algorithmen bewerten:
+- Laufzeitanalyse, O-Notation
+- Effizienz
+- Suche (linear/binär)
+- Sortieren (Bubble Sort, Selection Sort, Insertion Sort)

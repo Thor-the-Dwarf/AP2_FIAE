@@ -1,0 +1,13 @@
+Qualitätssicherung:
+- Ursachen von Qualitätsmängeln feststellen, dokumentieren und beseitigen
+- Kennzahlen, Audits
+
+IT-Sicherheit:
+- Schutzziele (Vertraulichkeit, Integrität, Verfügbarkeit)
+
+QM-Prozess:
+- PDCA-Zyklus
+- KVP (Kontinuierlicher Verbesserungsprozess)
+- Soll-Ist-Vergleiche
+- Testdatengeneratoren, Testprotokolle
+- Abnahmeprotokoll

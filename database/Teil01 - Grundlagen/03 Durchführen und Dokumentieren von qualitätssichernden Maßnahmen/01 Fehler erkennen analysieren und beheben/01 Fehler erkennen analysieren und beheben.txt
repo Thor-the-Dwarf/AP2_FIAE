@@ -1,0 +1,1 @@
+Debugging, Software-Testverfahren (Black Box, White Box, Greybox), Versionsmanagement (z. B. Git, SVN)

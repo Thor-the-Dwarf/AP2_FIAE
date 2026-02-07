@@ -1,0 +1,13 @@
+Konfiguration:
+- Konfigurationsmanagement
+- Deployment
+
+Übergabe:
+- Rollout
+- Schulung
+- Dokumentation
+
+Einführung:
+- Change Management
+- Migration
+- Softwareanwendungen an Kunden übergeben

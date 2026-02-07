@@ -1,0 +1,16 @@
+Testkonzepte:
+- Unit-Tests
+- Integrationstests
+- Systemtests
+- Black Box/White Box Tests
+
+Werkzeuge:
+- Testing-Frameworks
+- Code-Review-Tools
+- CI/CD (Continuous Integration/Continuous Deployment)
+
+Fehleranalyse:
+- Debugging
+- Refactoring
+- Bug-Tracking
+- Ursachen von Fehlern systematisch feststellen, beheben und dokumentieren

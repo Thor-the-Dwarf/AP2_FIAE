@@ -1,0 +1,344 @@
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Kommunikationsmodelle verstehen",
+    "topic": "Aktives Zuhören, Kommunikationsmodelle, Verkaufsgespräche, Kundenbedürfnisse analysieren",
+    "estimated_minutes": 25,
+    "sections": [
+        {
+            "id": "komm-sort-grundlagen",
+            "type": "sort",
+            "title": "Rätsel 1: Kommunikationsbereiche zuordnen",
+            "subtitle": "Ordne die Begriffe den passenden Kommunikationsbereichen zu.",
+            "hintDefault": "Tipp: Zuhören = Techniken, Modelle = Theorien/Kanäle, Verkauf = Prozessschritte.",
+            "sortColumns": [
+                {
+                    "zone": "zuhoeren",
+                    "label": "Aktives Zuhören",
+                    "hint": "(Techniken, Empathie, Feedback)"
+                },
+                {
+                    "zone": "modelle",
+                    "label": "Kommunikationsmodelle & Kanäle",
+                    "hint": "(Theorien, digitale Tools)"
+                },
+                {
+                    "zone": "verkauf",
+                    "label": "Verkaufsgespräche",
+                    "hint": "(Anfrage, Angebot, Auftrag)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Paraphrasieren",
+                    "correctZone": "zuhoeren"
+                },
+                {
+                    "id": "s2",
+                    "text": "Empathie zeigen",
+                    "correctZone": "zuhoeren"
+                },
+                {
+                    "id": "s3",
+                    "text": "Rückfragen stellen",
+                    "correctZone": "zuhoeren"
+                },
+                {
+                    "id": "s4",
+                    "text": "Nonverbale Signale beachten",
+                    "correctZone": "zuhoeren"
+                },
+                {
+                    "id": "s5",
+                    "text": "Sender-Empfänger-Modell",
+                    "correctZone": "modelle"
+                },
+                {
+                    "id": "s6",
+                    "text": "4-Ohren-Modell (Schulz von Thun)",
+                    "correctZone": "modelle"
+                },
+                {
+                    "id": "s7",
+                    "text": "Telefonkonferenz",
+                    "correctZone": "modelle"
+                },
+                {
+                    "id": "s8",
+                    "text": "Chat / virtuelle Teambesprechung",
+                    "correctZone": "modelle"
+                },
+                {
+                    "id": "s9",
+                    "text": "Kundenanfrage aufnehmen",
+                    "correctZone": "verkauf"
+                },
+                {
+                    "id": "s10",
+                    "text": "Angebot erstellen",
+                    "correctZone": "verkauf"
+                },
+                {
+                    "id": "s11",
+                    "text": "Auftrag bestätigen",
+                    "correctZone": "verkauf"
+                },
+                {
+                    "id": "s12",
+                    "text": "Kundenbedürfnisse analysieren",
+                    "correctZone": "verkauf"
+                }
+            ]
+        },
+        {
+            "id": "komm-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Kommunikation",
+            "subtitle": "Teste dein Wissen zu Kommunikationsmodellen und -techniken.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was bedeutet 'aktives Zuhören' primär?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Dem Gesprächspartner aufmerksam folgen und Verständnis signalisieren"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur schweigen und nicken"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Sofort Lösungen präsentieren"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Welches Modell beschreibt, dass eine Nachricht auf vier Ebenen verstanden werden kann (Sachinhalt, Selbstoffenbarung, Beziehung, Appell)?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Sender-Empfänger-Modell"
+                        },
+                        {
+                            "value": "b",
+                            "text": "4-Ohren-Modell (Schulz von Thun)"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Eisberg-Modell"
+                        }
+                    ],
+                    "correct": "b"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist der erste Schritt in einem typischen Verkaufsgespräch?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Auftrag bestätigen"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Kundenanfrage aufnehmen und Bedürfnisse analysieren"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Rechnung schreiben"
+                        }
+                    ],
+                    "correct": "b"
+                },
+                {
+                    "id": "q4",
+                    "text": "4. Welcher Kommunikationskanal eignet sich besonders für asynchrone, schriftliche Teamkommunikation?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Telefonkonferenz"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Chat / virtuelle Teambesprechung"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Persönliches Treffen"
+                        }
+                    ],
+                    "correct": "b"
+                }
+            ]
+        },
+        {
+            "id": "komm-reihenfolge-verkauf",
+            "type": "capital",
+            "title": "Rätsel 3: Verkaufsprozess in die richtige Reihenfolge bringen",
+            "subtitle": "Bringe die Schritte eines Verkaufsgesprächs in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Erst Anfrage, dann Bedürfnisse klären, dann Angebot, dann Auftrag.",
+            "rows": [
+                {
+                    "key": "anfrage",
+                    "label": "Kundenanfrage entgegennehmen",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        },
+                        {
+                            "value": "5",
+                            "text": "5"
+                        }
+                    ]
+                },
+                {
+                    "key": "beduerfnisse",
+                    "label": "Kundenbedürfnisse analysieren (aktives Zuhören, Rückfragen)",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        },
+                        {
+                            "value": "5",
+                            "text": "5"
+                        }
+                    ]
+                },
+                {
+                    "key": "loesungsvorschlag",
+                    "label": "Lösungsvorschlag entwickeln und kommunizieren",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        },
+                        {
+                            "value": "5",
+                            "text": "5"
+                        }
+                    ]
+                },
+                {
+                    "key": "angebot",
+                    "label": "Angebot erstellen und präsentieren",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        },
+                        {
+                            "value": "5",
+                            "text": "5"
+                        }
+                    ]
+                },
+                {
+                    "key": "auftrag",
+                    "label": "Auftrag bestätigen und dokumentieren",
+                    "correct": "5",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        },
+                        {
+                            "value": "5",
+                            "text": "5"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

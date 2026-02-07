@@ -1,0 +1,19 @@
+Programmiersprachen:
+- OOP (Objektorientierte Programmierung)
+- Funktionale Programmierung
+
+OO-Konzepte:
+- Kapselung, Vererbung, Polymorphie
+- Interfaces
+- Fehlerbehandlung (Exceptions)
+
+Design Patterns:
+- Observer, Singleton, Factory
+- MVC (Model-View-Controller)
+
+Entwicklungswerkzeuge:
+- IDE, Debugger
+- Versionsverwaltung
+
+Bibliotheken und Frameworks:
+- Frameworks, APIs, Libraries

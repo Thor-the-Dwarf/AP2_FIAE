@@ -1,0 +1,84 @@
+{
+    "game_type": "matching_puzzle",
+    "title": "Kommunikationsmodelle – Matching",
+    "schema_version": "1.0",
+    "subtitle": "Ziel: Kombiniere jeweils den passenden Kommunikationsbegriff mit der richtigen Kurzbeschreibung und einem typischen Praxisbeispiel.",
+    "columnTitles": {
+        "column1": "Begriff",
+        "column2": "Kurzbeschreibung",
+        "column3": "Praxisbeispiel"
+    },
+    "columnHints": {
+        "column1": "Wähle einen Kommunikationsbegriff.",
+        "column2": "Wähle die passende Definition.",
+        "column3": "Ordne ein realistisches Beispiel zu."
+    },
+    "sets": [
+        {
+            "id": "aktives_zuhoeren",
+            "name": "Aktives Zuhören",
+            "description": "Technik, bei der man dem Gesprächspartner aufmerksam folgt, Verständnis signalisiert und durch Rückfragen oder Paraphrasieren das Gesagte bestätigt.",
+            "example": "Im Kundengespräch fasst der IT-Berater zusammen: „Sie benötigen also eine Lösung, die sowohl mobil als auch im Büro funktioniert?" und wartet auf Bestätigung."
+        },
+        {
+            "id": "paraphrasieren",
+            "name": "Paraphrasieren",
+            "description": "Das Gesagte mit eigenen Worten wiedergeben, um Verständnis zu prüfen und Missverständnisse zu vermeiden.",
+            "example": "Kunde: „Die Software stürzt ständig ab." – Support: „Verstehe ich richtig, dass die Anwendung sich mehrmals täglich unerwartet beendet?""
+        },
+        {
+            "id": "vier_ohren_modell",
+            "name": "4-Ohren-Modell (Schulz von Thun)",
+            "description": "Kommunikationsmodell, das besagt, dass jede Nachricht vier Ebenen hat: Sachinhalt, Selbstoffenbarung, Beziehung und Appell.",
+            "example": "Chef sagt: „Die Präsentation ist noch nicht fertig." – Kann als Sachinfo, als Kritik (Beziehung), als Stress-Signal (Selbstoffenbarung) oder als Aufforderung (Appell) verstanden werden."
+        },
+        {
+            "id": "sender_empfaenger",
+            "name": "Sender-Empfänger-Modell",
+            "description": "Grundlegendes Kommunikationsmodell: Sender kodiert Nachricht, überträgt sie über einen Kanal, Empfänger dekodiert sie; Störungen können auftreten.",
+            "example": "Ein Entwickler (Sender) schreibt eine E-Mail (Kanal) an den Kunden (Empfänger), aber technische Fachbegriffe (Kodierung) führen zu Missverständnissen (Störung)."
+        },
+        {
+            "id": "telefonkonferenz",
+            "name": "Telefonkonferenz",
+            "description": "Synchroner, audio-basierter Kommunikationskanal für Meetings mit mehreren Teilnehmern, oft ergänzt durch Bildschirmfreigabe.",
+            "example": "Das Projektteam hält wöchentlich eine Telefonkonferenz ab, um den Status zu besprechen und offene Fragen zu klären."
+        },
+        {
+            "id": "chat_virtuell",
+            "name": "Chat / virtuelle Teambesprechung",
+            "description": "Digitale, oft asynchrone oder semi-synchrone Kommunikation über Messaging-Tools oder Videokonferenzen für schnelle Abstimmungen.",
+            "example": "Das Team nutzt Microsoft Teams für kurze Rückfragen und spontane Video-Calls, wenn ein Problem auftritt."
+        },
+        {
+            "id": "kundenanfrage",
+            "name": "Kundenanfrage aufnehmen",
+            "description": "Erster Schritt im Verkaufsgespräch: Kunde äußert Bedarf oder Problem, Berater nimmt Anfrage entgegen und dokumentiert sie.",
+            "example": "Ein Kunde ruft an und fragt nach einer CRM-Lösung für 50 Mitarbeiter; der Vertrieb notiert die Anforderungen."
+        },
+        {
+            "id": "beduerfnisanalyse",
+            "name": "Kundenbedürfnisse analysieren",
+            "description": "Durch gezielte Fragen und aktives Zuhören die tatsächlichen Anforderungen, Wünsche und Rahmenbedingungen des Kunden ermitteln.",
+            "example": "Der Berater fragt: „Welche Prozesse sollen optimiert werden? Wie viele Nutzer? Welches Budget steht zur Verfügung?""
+        },
+        {
+            "id": "angebot_erstellen",
+            "name": "Angebot erstellen",
+            "description": "Auf Basis der Bedarfsanalyse ein schriftliches Angebot mit Leistungen, Preisen, Lieferzeiten und Konditionen formulieren.",
+            "example": "Nach dem Gespräch erstellt der Vertrieb ein detailliertes Angebot für die CRM-Software inklusive Schulung und Support."
+        },
+        {
+            "id": "auftrag_bestaetigen",
+            "name": "Auftrag bestätigen",
+            "description": "Nach Annahme des Angebots durch den Kunden den Auftrag schriftlich bestätigen und die Umsetzung einleiten.",
+            "example": "Der Kunde unterschreibt das Angebot; der Vertrieb sendet eine Auftragsbestätigung und informiert die Projektleitung."
+        },
+        {
+            "id": "nonverbale_signale",
+            "name": "Nonverbale Signale beachten",
+            "description": "Körpersprache, Mimik, Gestik und Tonfall wahrnehmen und interpretieren, um die emotionale Ebene der Kommunikation zu verstehen.",
+            "example": "Im persönlichen Gespräch bemerkt der Berater, dass der Kunde bei Preisnennung die Stirn runzelt, und geht darauf ein."
+        }
+    ]
+}

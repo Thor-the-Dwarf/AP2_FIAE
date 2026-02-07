@@ -1,0 +1,16 @@
+Bedrohungsszenarien:
+- Schadenspotenziale (Imageschaden, wirtschaftlicher Schaden, Datenverlust)
+- Datendiebstahl, Ransomware, Phishing
+
+Maßnahmen:
+- IT-Grundschutzmodellierung
+- Security by Design
+- Technisch-Organisatorische Maßnahmen (TOM):
+  * Zutrittskontrolle (Alarm, Video)
+  * Zugangskontrolle (Passwort, Biometrie)
+  * Zugriffskontrolle (Verschlüsselung, Rollenkonzepte)
+
+Prüfung:
+- Schwachstellenidentifikation
+- Log Management
+- Compliance Reports

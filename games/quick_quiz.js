@@ -177,10 +177,27 @@
             }, 100);
         }
 
-        renderOptions() {
+        renderOptions(correctAnswer = null) {
             this.optionsContainer.innerHTML = '';
-            // Shuffle labels for display to prevent patterns
-            const labels = this.shuffleArray([...this.answerLabels]);
+
+            let labels;
+
+            // Adaptive Quiz: Show only 4 options per question
+            if (correctAnswer && this.answerLabels.length > 4) {
+                // Ensure correct answer is included
+                const wrongAnswers = this.answerLabels.filter(label => label !== correctAnswer);
+
+                // Pick 3 random wrong answers
+                const shuffledWrong = this.shuffleArray(wrongAnswers);
+                const selectedWrong = shuffledWrong.slice(0, 3);
+
+                // Combine correct + 3 wrong, then shuffle for display
+                labels = this.shuffleArray([correctAnswer, ...selectedWrong]);
+            } else {
+                // Fallback: show all labels (for games with ≤4 options or initial render)
+                labels = this.shuffleArray([...this.answerLabels]);
+            }
+
             labels.forEach(label => {
                 const btn = document.createElement('button');
                 btn.className = 'option-btn';
@@ -228,8 +245,12 @@
 
             this.locked = false;
             this.resetFeedback();
-            this.setOptionsDisabled(false);
             this.currentQuestion = this.pickRandomQuestion();
+
+            // Render adaptive options (4 choices including correct answer)
+            this.renderOptions(this.currentQuestion.correct);
+            this.setOptionsDisabled(false);
+
             this.questionTextEl.textContent = this.currentQuestion.text;
             this.questionCount++;
             this.updateStats();

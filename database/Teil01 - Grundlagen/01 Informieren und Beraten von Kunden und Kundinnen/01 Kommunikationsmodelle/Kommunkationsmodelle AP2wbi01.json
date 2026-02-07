@@ -1,0 +1,229 @@
+{
+    "game_type": "wer_bin_ich",
+    "title": "Wer bin ich? – Kommunikationsmodelle & -techniken",
+    "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewählt.",
+    "legalForms": [
+        {
+            "id": "aktives_zuhoeren",
+            "name": "Aktives Zuhören",
+            "attributes": {
+                "is_communication_technique": true,
+                "is_communication_model": false,
+                "is_sales_process_step": false,
+                "requires_empathy": true,
+                "involves_feedback": true,
+                "is_digital_channel": false,
+                "is_synchronous": true,
+                "has_four_levels": false,
+                "involves_sender_receiver": false,
+                "is_written": false
+            }
+        },
+        {
+            "id": "paraphrasieren",
+            "name": "Paraphrasieren",
+            "attributes": {
+                "is_communication_technique": true,
+                "is_communication_model": false,
+                "is_sales_process_step": false,
+                "requires_empathy": true,
+                "involves_feedback": true,
+                "is_digital_channel": false,
+                "is_synchronous": true,
+                "has_four_levels": false,
+                "involves_sender_receiver": false,
+                "is_written": false
+            }
+        },
+        {
+            "id": "vier_ohren_modell",
+            "name": "4-Ohren-Modell (Schulz von Thun)",
+            "attributes": {
+                "is_communication_technique": false,
+                "is_communication_model": true,
+                "is_sales_process_step": false,
+                "requires_empathy": false,
+                "involves_feedback": false,
+                "is_digital_channel": false,
+                "is_synchronous": false,
+                "has_four_levels": true,
+                "involves_sender_receiver": false,
+                "is_written": false
+            }
+        },
+        {
+            "id": "sender_empfaenger_modell",
+            "name": "Sender-Empfänger-Modell",
+            "attributes": {
+                "is_communication_technique": false,
+                "is_communication_model": true,
+                "is_sales_process_step": false,
+                "requires_empathy": false,
+                "involves_feedback": false,
+                "is_digital_channel": false,
+                "is_synchronous": false,
+                "has_four_levels": false,
+                "involves_sender_receiver": true,
+                "is_written": false
+            }
+        },
+        {
+            "id": "telefonkonferenz",
+            "name": "Telefonkonferenz",
+            "attributes": {
+                "is_communication_technique": false,
+                "is_communication_model": false,
+                "is_sales_process_step": false,
+                "requires_empathy": false,
+                "involves_feedback": true,
+                "is_digital_channel": true,
+                "is_synchronous": true,
+                "has_four_levels": false,
+                "involves_sender_receiver": false,
+                "is_written": false
+            }
+        },
+        {
+            "id": "chat_virtuell",
+            "name": "Chat / virtuelle Teambesprechung",
+            "attributes": {
+                "is_communication_technique": false,
+                "is_communication_model": false,
+                "is_sales_process_step": false,
+                "requires_empathy": false,
+                "involves_feedback": true,
+                "is_digital_channel": true,
+                "is_synchronous": false,
+                "has_four_levels": false,
+                "involves_sender_receiver": false,
+                "is_written": true
+            }
+        },
+        {
+            "id": "kundenanfrage",
+            "name": "Kundenanfrage aufnehmen",
+            "attributes": {
+                "is_communication_technique": false,
+                "is_communication_model": false,
+                "is_sales_process_step": true,
+                "requires_empathy": true,
+                "involves_feedback": true,
+                "is_digital_channel": false,
+                "is_synchronous": true,
+                "has_four_levels": false,
+                "involves_sender_receiver": false,
+                "is_written": false
+            }
+        },
+        {
+            "id": "beduerfnisanalyse",
+            "name": "Kundenbedürfnisse analysieren",
+            "attributes": {
+                "is_communication_technique": true,
+                "is_communication_model": false,
+                "is_sales_process_step": true,
+                "requires_empathy": true,
+                "involves_feedback": true,
+                "is_digital_channel": false,
+                "is_synchronous": true,
+                "has_four_levels": false,
+                "involves_sender_receiver": false,
+                "is_written": false
+            }
+        },
+        {
+            "id": "angebot_erstellen",
+            "name": "Angebot erstellen",
+            "attributes": {
+                "is_communication_technique": false,
+                "is_communication_model": false,
+                "is_sales_process_step": true,
+                "requires_empathy": false,
+                "involves_feedback": false,
+                "is_digital_channel": false,
+                "is_synchronous": false,
+                "has_four_levels": false,
+                "involves_sender_receiver": false,
+                "is_written": true
+            }
+        },
+        {
+            "id": "auftrag_bestaetigen",
+            "name": "Auftrag bestätigen",
+            "attributes": {
+                "is_communication_technique": false,
+                "is_communication_model": false,
+                "is_sales_process_step": true,
+                "requires_empathy": false,
+                "involves_feedback": false,
+                "is_digital_channel": false,
+                "is_synchronous": false,
+                "has_four_levels": false,
+                "involves_sender_receiver": false,
+                "is_written": true
+            }
+        }
+    ],
+    "questions": [
+        {
+            "id": "q01",
+            "hotkey": "1",
+            "text": "Ist es eine Kommunikationstechnik (z.B. zum aktiven Zuhören)?",
+            "attributeKey": "is_communication_technique"
+        },
+        {
+            "id": "q02",
+            "hotkey": "2",
+            "text": "Ist es ein Kommunikationsmodell (theoretischer Rahmen)?",
+            "attributeKey": "is_communication_model"
+        },
+        {
+            "id": "q03",
+            "hotkey": "3",
+            "text": "Ist es ein Schritt im Verkaufsprozess?",
+            "attributeKey": "is_sales_process_step"
+        },
+        {
+            "id": "q04",
+            "hotkey": "4",
+            "text": "Erfordert es Empathie und Einfühlungsvermögen?",
+            "attributeKey": "requires_empathy"
+        },
+        {
+            "id": "q05",
+            "hotkey": "5",
+            "text": "Beinhaltet es Feedback oder Rückmeldung?",
+            "attributeKey": "involves_feedback"
+        },
+        {
+            "id": "q06",
+            "hotkey": "6",
+            "text": "Ist es ein digitaler Kommunikationskanal?",
+            "attributeKey": "is_digital_channel"
+        },
+        {
+            "id": "q07",
+            "hotkey": "7",
+            "text": "Findet es synchron (in Echtzeit) statt?",
+            "attributeKey": "is_synchronous"
+        },
+        {
+            "id": "q08",
+            "hotkey": "8",
+            "text": "Hat es vier Ebenen oder Dimensionen?",
+            "attributeKey": "has_four_levels"
+        },
+        {
+            "id": "q09",
+            "hotkey": "9",
+            "text": "Beinhaltet es explizit Sender und Empfänger?",
+            "attributeKey": "involves_sender_receiver"
+        },
+        {
+            "id": "q10",
+            "hotkey": "0",
+            "text": "Ist es primär schriftlich/dokumentiert?",
+            "attributeKey": "is_written"
+        }
+    ]
+}
