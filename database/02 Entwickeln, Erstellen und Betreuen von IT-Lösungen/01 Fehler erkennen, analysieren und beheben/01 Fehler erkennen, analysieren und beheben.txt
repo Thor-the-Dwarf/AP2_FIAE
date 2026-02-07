@@ -1,0 +1,6 @@
+01 Fehler erkennen, analysieren und beheben
+- Debugging, Breakpoint
+• Software-Test, dynamische und statische Testverfah-ren, z. B. Black Box, White Box, Review, Extremwer-tetest
+- Testdaten
+- Komponententest, Integrationstest, Systemtest
+- Versionsmanagement des Quellcodes
