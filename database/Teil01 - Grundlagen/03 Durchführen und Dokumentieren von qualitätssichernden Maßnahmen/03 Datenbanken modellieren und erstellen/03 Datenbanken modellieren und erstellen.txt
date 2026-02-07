@@ -1,1 +1,0 @@
-Relational/NoSQL, Datentypen, Normalisierung, ER-Modell, SQL

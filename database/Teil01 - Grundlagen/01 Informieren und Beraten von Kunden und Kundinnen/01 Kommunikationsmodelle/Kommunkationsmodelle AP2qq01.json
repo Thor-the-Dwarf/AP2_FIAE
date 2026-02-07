@@ -1,7 +1,8 @@
 {
     "game_type": "quick_quiz",
-    "title": "Quick-Quiz – Kommunikationsmodelle & Verkaufsgespräche",
-    "introText": "Klick auf „Start", um das Quick-Quiz zu Kommunikation zu starten.","sublineText": "Wähle den passenden Begriff zur Aussage.",
+    "title": "Quick-Quiz - Kommunikationsmodelle & Verkaufsgespräche",
+    "introText": "Klick auf 'Start', um das Quick-Quiz zu Kommunikation zu starten.",
+    "sublineText": "Wähle den passenden Begriff zur Aussage.",
     "timePerQuestionSeconds": 12,
     "answerLabels": [
         "Aktives Zuhören",

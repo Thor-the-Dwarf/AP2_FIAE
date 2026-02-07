@@ -1,8 +1,0 @@
-Fachrichtungsübergreifende berufsprofilgebende Fertigkeiten, Kenntnisse und Fähigkeiten
-
-Themen:
-- Informieren und Beraten von Kunden und Kundinnen
-- Entwickeln, Erstellen und Betreuen von IT-Lösungen
-- Durchführen und Dokumentieren von qualitätssichernden Maßnahmen
-- Umsetzen, Integrieren und Prüfen von Maßnahmen zur IT-Sicherheit und zum Datenschutz
-- Erbringen von Serviceleistungen und Beauftragen von Dienstleistern

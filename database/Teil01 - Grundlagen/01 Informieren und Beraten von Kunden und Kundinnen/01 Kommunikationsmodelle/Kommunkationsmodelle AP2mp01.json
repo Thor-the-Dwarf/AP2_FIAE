@@ -1,6 +1,6 @@
 {
     "game_type": "matching_puzzle",
-    "title": "Kommunikationsmodelle – Matching",
+    "title": "Kommunikationsmodelle - Matching",
     "schema_version": "1.0",
     "subtitle": "Ziel: Kombiniere jeweils den passenden Kommunikationsbegriff mit der richtigen Kurzbeschreibung und einem typischen Praxisbeispiel.",
     "columnTitles": {
@@ -18,19 +18,19 @@
             "id": "aktives_zuhoeren",
             "name": "Aktives Zuhören",
             "description": "Technik, bei der man dem Gesprächspartner aufmerksam folgt, Verständnis signalisiert und durch Rückfragen oder Paraphrasieren das Gesagte bestätigt.",
-            "example": "Im Kundengespräch fasst der IT-Berater zusammen: „Sie benötigen also eine Lösung, die sowohl mobil als auch im Büro funktioniert?" und wartet auf Bestätigung."
+            "example": "Im Kundengespräch fasst der IT-Berater zusammen: 'Sie benötigen also eine Lösung, die sowohl mobil als auch im Büro funktioniert?' und wartet auf Bestätigung."
         },
         {
             "id": "paraphrasieren",
             "name": "Paraphrasieren",
             "description": "Das Gesagte mit eigenen Worten wiedergeben, um Verständnis zu prüfen und Missverständnisse zu vermeiden.",
-            "example": "Kunde: „Die Software stürzt ständig ab." – Support: „Verstehe ich richtig, dass die Anwendung sich mehrmals täglich unerwartet beendet?""
+            "example": "Kunde: 'Die Software stürzt ständig ab.' - Support: 'Verstehe ich richtig, dass die Anwendung sich mehrmals täglich unerwartet beendet?'"
         },
         {
             "id": "vier_ohren_modell",
             "name": "4-Ohren-Modell (Schulz von Thun)",
             "description": "Kommunikationsmodell, das besagt, dass jede Nachricht vier Ebenen hat: Sachinhalt, Selbstoffenbarung, Beziehung und Appell.",
-            "example": "Chef sagt: „Die Präsentation ist noch nicht fertig." – Kann als Sachinfo, als Kritik (Beziehung), als Stress-Signal (Selbstoffenbarung) oder als Aufforderung (Appell) verstanden werden."
+            "example": "Chef sagt: 'Die Präsentation ist noch nicht fertig.' - Kann als Sachinfo, als Kritik (Beziehung), als Stress-Signal (Selbstoffenbarung) oder als Aufforderung (Appell) verstanden werden."
         },
         {
             "id": "sender_empfaenger",
@@ -60,7 +60,7 @@
             "id": "beduerfnisanalyse",
             "name": "Kundenbedürfnisse analysieren",
             "description": "Durch gezielte Fragen und aktives Zuhören die tatsächlichen Anforderungen, Wünsche und Rahmenbedingungen des Kunden ermitteln.",
-            "example": "Der Berater fragt: „Welche Prozesse sollen optimiert werden? Wie viele Nutzer? Welches Budget steht zur Verfügung?""
+            "example": "Der Berater fragt: 'Welche Prozesse sollen optimiert werden? Wie viele Nutzer? Welches Budget steht zur Verfügung?'"
         },
         {
             "id": "angebot_erstellen",

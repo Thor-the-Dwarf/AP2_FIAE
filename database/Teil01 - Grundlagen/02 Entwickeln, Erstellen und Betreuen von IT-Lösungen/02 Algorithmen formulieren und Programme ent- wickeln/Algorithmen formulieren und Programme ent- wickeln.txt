@@ -1,5 +1,0 @@
-02 Algorithmen formulieren und Programme entwickeln
-- Abbildung der Kontrollstrukturen mittels Aktivi-tätsdiagramm oder Pseudocode als didaktisches
-Hilfsmittel
-- UML (siehe Anhang des Prüfungskatalogs: Use Case bzw. Anwendungsfalldiagramme, Klassendiagramm, Aktivitätsdiagramm)
-- Entwurf der Bildschirmausgabemasken (Software-ergonomie, Barrierefreiheit)

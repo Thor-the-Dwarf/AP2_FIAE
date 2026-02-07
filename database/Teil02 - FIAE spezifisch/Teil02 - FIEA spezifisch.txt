@@ -1,9 +1,0 @@
-Berufsprofilgebende Fertigkeiten, Kenntnisse und Fähigkeiten in der Fachrichtung Anwendungsentwicklung
-
-Themen:
-- Betreiben von IT-Systemen
-- Planen eines Softwareproduktes
-- Entwickeln und Umsetzen von Algorithmen
-- Entwickeln von Anwendungen
-- Sicherstellen der Qualität von Softwareanwendungen
-- Bereitstellen von Softwareanwendungen

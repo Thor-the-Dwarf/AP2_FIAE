@@ -1,1 +1,0 @@
-Verschlüsselung, Authentifizierung, Firewall, DSGVO, BDSG
