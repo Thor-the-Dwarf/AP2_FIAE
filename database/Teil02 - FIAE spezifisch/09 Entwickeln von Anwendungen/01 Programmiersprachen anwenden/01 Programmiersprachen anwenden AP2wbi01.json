@@ -1,1 +1,93 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Programmiersprachen-Edition",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewählt.",
+  "legalForms": [
+    {
+      "id": "oop",
+      "name": "Objektorientierung",
+      "attributes": {
+        "has_classes": true,
+        "has_objects": true,
+        "uses_inheritance": true,
+        "focuses_state": true,
+        "favors_immutability": false,
+        "uses_pure_functions": false,
+        "is_syntax_rule": false,
+        "requires_type_decl": false,
+        "runtime_typed": false
+      }
+    },
+    {
+      "id": "functional",
+      "name": "Funktionale Programmierung",
+      "attributes": {
+        "has_classes": false,
+        "has_objects": false,
+        "uses_inheritance": false,
+        "focuses_state": false,
+        "favors_immutability": true,
+        "uses_pure_functions": true,
+        "is_syntax_rule": false,
+        "requires_type_decl": false,
+        "runtime_typed": false
+      }
+    },
+    {
+      "id": "syntax",
+      "name": "Syntax",
+      "attributes": {
+        "has_classes": false,
+        "has_objects": false,
+        "uses_inheritance": false,
+        "focuses_state": false,
+        "favors_immutability": false,
+        "uses_pure_functions": false,
+        "is_syntax_rule": true,
+        "requires_type_decl": false,
+        "runtime_typed": false
+      }
+    },
+    {
+      "id": "static_types",
+      "name": "Statische Typisierung",
+      "attributes": {
+        "has_classes": false,
+        "has_objects": false,
+        "uses_inheritance": false,
+        "focuses_state": false,
+        "favors_immutability": false,
+        "uses_pure_functions": false,
+        "is_syntax_rule": false,
+        "requires_type_decl": true,
+        "runtime_typed": false
+      }
+    },
+    {
+      "id": "dynamic_types",
+      "name": "Dynamische Typisierung",
+      "attributes": {
+        "has_classes": false,
+        "has_objects": false,
+        "uses_inheritance": false,
+        "focuses_state": false,
+        "favors_immutability": false,
+        "uses_pure_functions": false,
+        "is_syntax_rule": false,
+        "requires_type_decl": false,
+        "runtime_typed": true
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Gibt es Klassen als Baupläne für Objekte?", "attributeKey": "has_classes" },
+    { "id": "q02", "hotkey": "2", "text": "Gibt es Objekte mit eigenem Zustand?", "attributeKey": "has_objects" },
+    { "id": "q03", "hotkey": "3", "text": "Spielt Vererbung eine zentrale Rolle?", "attributeKey": "uses_inheritance" },
+    { "id": "q04", "hotkey": "4", "text": "Steht veränderlicher Zustand (State) im Fokus?", "attributeKey": "focuses_state" },
+    { "id": "q05", "hotkey": "5", "text": "Sind Daten möglichst unveränderlich (Immutability)?", "attributeKey": "favors_immutability" },
+    { "id": "q06", "hotkey": "6", "text": "Sind reine Funktionen ohne Seiteneffekte zentral?", "attributeKey": "uses_pure_functions" },
+    { "id": "q07", "hotkey": "7", "text": "Geht es primär um Schreibregeln einer Sprache?", "attributeKey": "is_syntax_rule" },
+    { "id": "q08", "hotkey": "8", "text": "Müssen Typen explizit deklariert werden?", "attributeKey": "requires_type_decl" },
+    { "id": "q09", "hotkey": "9", "text": "Werden Typen erst zur Laufzeit geprüft?", "attributeKey": "runtime_typed" }
+  ]
+}

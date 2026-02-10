@@ -1,1 +1,35 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Entwicklungswerkzeuge",
+  "introText": "Klick auf „Start“, um das Quick-Quiz zu IDE, Debugger und Git zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "IDE",
+    "Debugger",
+    "Breakpoint",
+    "Step Over",
+    "Watch",
+    "Commit",
+    "Branch",
+    "Merge",
+    "Pull Request",
+    "Staging",
+    "Refactoring",
+    "Code Completion"
+  ],
+  "questions": [
+    { "text": "Integrierte Entwicklungsumgebung mit Editor und Tools.", "correct": "IDE" },
+    { "text": "Werkzeug zur schrittweisen Ausführung und Fehlersuche.", "correct": "Debugger" },
+    { "text": "Haltepunkt, an dem die Programmausführung stoppt.", "correct": "Breakpoint" },
+    { "text": "Einzelschritt, der Funktionsaufrufe überspringt.", "correct": "Step Over" },
+    { "text": "Anzeige überwachter Variablen während des Debuggens.", "correct": "Watch" },
+    { "text": "Snapshot von Änderungen im Versionsverlauf.", "correct": "Commit" },
+    { "text": "Abzweig für parallele Entwicklung.", "correct": "Branch" },
+    { "text": "Zusammenführen von Änderungen aus zwei Branches.", "correct": "Merge" },
+    { "text": "Anfrage, Änderungen zur Prüfung/Merge vorzuschlagen.", "correct": "Pull Request" },
+    { "text": "Auswahl von Dateien, die in den nächsten Commit sollen.", "correct": "Staging" },
+    { "text": "Struktur verbessern ohne Verhalten zu ändern.", "correct": "Refactoring" },
+    { "text": "Vorschläge für Methoden/Variablen beim Tippen.", "correct": "Code Completion" }
+  ]
+}

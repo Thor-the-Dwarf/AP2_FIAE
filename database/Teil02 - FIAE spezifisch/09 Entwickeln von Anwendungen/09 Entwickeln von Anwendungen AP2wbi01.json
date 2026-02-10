@@ -1,1 +1,93 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Anwendungen entwickeln",
+    "topic": "OOP, Design Patterns, Tools",
+    "estimated_minutes": 12,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "_____ fasst Daten und Methoden zusammen.",
+            "correctAnswer": "Kapselung",
+            "hint": "Zusammenfassen"
+        },
+        {
+            "id": "s2",
+            "text": "_____ übernimmt Eigenschaften von Basisklasse.",
+            "correctAnswer": "Vererbung",
+            "hint": "Übernehmen"
+        },
+        {
+            "id": "s3",
+            "text": "_____ ermöglicht mehrere Formen eines Objekts.",
+            "correctAnswer": "Polymorphie",
+            "hint": "Mehrere Formen"
+        },
+        {
+            "id": "s4",
+            "text": "Ein _____ ist ein Vertrag für Klassen.",
+            "correctAnswer": "Interface",
+            "hint": "Vertrag"
+        },
+        {
+            "id": "s5",
+            "text": "Eine _____ behandelt Fehler.",
+            "correctAnswer": "Exception",
+            "hint": "Fehlerbehandlung"
+        },
+        {
+            "id": "s6",
+            "text": "Das _____-Pattern benachrichtigt bei Änderungen.",
+            "correctAnswer": "Observer",
+            "hint": "Benachrichtigung"
+        },
+        {
+            "id": "s7",
+            "text": "Das _____-Pattern erlaubt nur eine Instanz.",
+            "correctAnswer": "Singleton",
+            "hint": "Eine Instanz"
+        },
+        {
+            "id": "s8",
+            "text": "Das _____-Pattern erzeugt Objekte.",
+            "correctAnswer": "Factory",
+            "hint": "Erzeugen"
+        },
+        {
+            "id": "s9",
+            "text": "_____ steht für Model-View-Controller.",
+            "correctAnswer": "MVC",
+            "hint": "Architektur"
+        },
+        {
+            "id": "s10",
+            "text": "Eine _____ ist eine integrierte Entwicklungsumgebung.",
+            "correctAnswer": "IDE",
+            "hint": "Entwicklungsumgebung"
+        },
+        {
+            "id": "s11",
+            "text": "Ein _____ sucht Fehler im Code.",
+            "correctAnswer": "Debugger",
+            "hint": "Fehlersuche"
+        },
+        {
+            "id": "s12",
+            "text": "_____ verwaltet Code-Versionen.",
+            "correctAnswer": "Versionsverwaltung",
+            "hint": "Versionen"
+        },
+        {
+            "id": "s13",
+            "text": "Ein _____ ist ein Grundgerüst für Anwendungen.",
+            "correctAnswer": "Framework",
+            "hint": "Grundgerüst"
+        },
+        {
+            "id": "s14",
+            "text": "Eine _____ ist eine Programmierschnittstelle.",
+            "correctAnswer": "API",
+            "hint": "Schnittstelle"
+        }
+    ]
+}

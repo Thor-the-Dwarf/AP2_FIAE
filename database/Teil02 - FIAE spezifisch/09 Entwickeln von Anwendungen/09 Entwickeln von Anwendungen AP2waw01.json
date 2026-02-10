@@ -1,1 +1,130 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Anwendungen entwickeln",
+    "topic": "OOP, Design Patterns, Tools",
+    "estimated_minutes": 15,
+    "centerWord": "Anwendungsentwicklung",
+    "associations": [
+        {
+            "word": "Kapselung",
+            "connections": [
+                "Daten",
+                "Methoden",
+                "Zusammenfassen"
+            ]
+        },
+        {
+            "word": "Vererbung",
+            "connections": [
+                "Basisklasse",
+                "Eigenschaften",
+                "Übernehmen"
+            ]
+        },
+        {
+            "word": "Polymorphie",
+            "connections": [
+                "Mehrere Formen",
+                "Überschreiben",
+                "Dynamisch"
+            ]
+        },
+        {
+            "word": "Interface",
+            "connections": [
+                "Vertrag",
+                "Implementierung",
+                "Abstraktion"
+            ]
+        },
+        {
+            "word": "Exception",
+            "connections": [
+                "Fehler",
+                "Try-Catch",
+                "Behandlung"
+            ]
+        },
+        {
+            "word": "Observer",
+            "connections": [
+                "Benachrichtigung",
+                "Änderung",
+                "Event"
+            ]
+        },
+        {
+            "word": "Singleton",
+            "connections": [
+                "Eine Instanz",
+                "Global",
+                "Zugriff"
+            ]
+        },
+        {
+            "word": "Factory",
+            "connections": [
+                "Erzeugen",
+                "Objekte",
+                "Abstraktion"
+            ]
+        },
+        {
+            "word": "MVC",
+            "connections": [
+                "Model",
+                "View",
+                "Controller"
+            ]
+        },
+        {
+            "word": "IDE",
+            "connections": [
+                "Entwicklung",
+                "Editor",
+                "Tools"
+            ]
+        },
+        {
+            "word": "Debugger",
+            "connections": [
+                "Fehlersuche",
+                "Breakpoints",
+                "Analyse"
+            ]
+        },
+        {
+            "word": "Versionsverwaltung",
+            "connections": [
+                "Git",
+                "Commit",
+                "Versionen"
+            ]
+        },
+        {
+            "word": "Framework",
+            "connections": [
+                "Grundgerüst",
+                "Struktur",
+                "Wiederverwendung"
+            ]
+        },
+        {
+            "word": "API",
+            "connections": [
+                "Schnittstelle",
+                "Integration",
+                "Kommunikation"
+            ]
+        },
+        {
+            "word": "Library",
+            "connections": [
+                "Funktionen",
+                "Wiederverwendung",
+                "Module"
+            ]
+        }
+    ]
+}

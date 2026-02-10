@@ -1,1 +1,127 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Programmiersprachen anwenden",
+  "description": "Schritt 1: Passenden Ansatz wählen · Schritt 2: Zutreffende Begründungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du modellierst reale Dinge (z. B. Kunde, Bestellung) und willst Daten plus Verhalten in einem Konzept bündeln.",
+      "tags": ["OOP", "Klassen", "Objekte"],
+      "options": [
+        {
+          "id": "oop",
+          "label": "Objektorientierte Programmierung",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Klassen bündeln Daten und Methoden in einem Modell.", "correct": true },
+            { "id": "w2", "text": "Objekte sind Instanzen dieser Klassen mit eigenem Zustand.", "correct": true },
+            { "id": "w3", "text": "Seiteneffekte sind grundsätzlich verboten.", "correct": false },
+            { "id": "w4", "text": "Der Fokus liegt ausschließlich auf Syntaxregeln.", "correct": false }
+          ]
+        },
+        {
+          "id": "functional",
+          "label": "Funktionale Programmierung",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Reine Funktionen ohne Zustand sind zentral.", "correct": true },
+            { "id": "w2", "text": "Daten werden möglichst unveränderlich behandelt.", "correct": true },
+            { "id": "w3", "text": "Klassenhierarchien sind das Kernprinzip.", "correct": false },
+            { "id": "w4", "text": "Es geht primär um Klammern und Schlüsselwörter.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "OOP passt, wenn Daten + Verhalten in Klassen/Objekten gebündelt werden sollen."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst Seiteneffekte vermeiden und Funktionen sollen deterministisch sein.",
+      "tags": ["funktional", "pure Funktionen", "Immutability"],
+      "options": [
+        {
+          "id": "functional",
+          "label": "Funktionale Programmierung",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Gleiche Eingabe liefert gleiche Ausgabe.", "correct": true },
+            { "id": "w2", "text": "Immutability reduziert ungewollte Zustandsänderungen.", "correct": true },
+            { "id": "w3", "text": "Vererbungshierarchien sind zwingend.", "correct": false },
+            { "id": "w4", "text": "Syntaxregeln sind der Hauptgrund.", "correct": false }
+          ]
+        },
+        {
+          "id": "oop",
+          "label": "Objektorientierte Programmierung",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Daten werden oft in veränderlichen Objekten gehalten.", "correct": true },
+            { "id": "w2", "text": "Kapselung hilft, aber Zustand ist typisch.", "correct": true },
+            { "id": "w3", "text": "Seiteneffekte sind per Definition ausgeschlossen.", "correct": false },
+            { "id": "w4", "text": "Es geht ausschließlich um Schreibregeln.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Funktional passt hier, weil reine Funktionen und Immutability im Fokus stehen."
+    },
+    {
+      "id": "c03",
+      "profile": "Der Compiler meldet: „Unexpected token }“. Du suchst den Fehler in der Schreibweise.",
+      "tags": ["Syntax", "Fehler"],
+      "options": [
+        {
+          "id": "syntax",
+          "label": "Syntaxregeln prüfen",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Klammern, Semikolons und Schlüsselwörter müssen korrekt sein.", "correct": true },
+            { "id": "w2", "text": "Syntaxfehler entstehen durch falsche Schreibweise.", "correct": true },
+            { "id": "w3", "text": "Es ist garantiert ein Logikfehler.", "correct": false },
+            { "id": "w4", "text": "Das hat nichts mit der Sprache zu tun.", "correct": false }
+          ]
+        },
+        {
+          "id": "runtime",
+          "label": "Laufzeitfehler analysieren",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Tritt erst bei Programmausführung auf.", "correct": true },
+            { "id": "w2", "text": "Kann von falschen Daten zur Laufzeit verursacht sein.", "correct": true },
+            { "id": "w3", "text": "Ein fehlendes Semikolon ist typisch für Laufzeitfehler.", "correct": false },
+            { "id": "w4", "text": "Compiler meldet diese Fehler gewöhnlich nicht.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Die Meldung deutet auf einen Syntaxfehler hin (Schreibregeln prüfen)."
+    },
+    {
+      "id": "c04",
+      "profile": "Du willst gleiche Operationen für verschiedene Datentypen anbieten, ohne Code zu duplizieren.",
+      "tags": ["Polymorphie", "OOP"],
+      "options": [
+        {
+          "id": "polymorph",
+          "label": "Polymorphie",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Gleiche Schnittstelle, unterschiedliche Implementierung.", "correct": true },
+            { "id": "w2", "text": "Ermöglicht, dass Methoden je nach Objekt anders arbeiten.", "correct": true },
+            { "id": "w3", "text": "Bedeutet, dass Daten unveränderlich sind.", "correct": false },
+            { "id": "w4", "text": "Ist eine reine Syntax-Regel ohne Konzeptbezug.", "correct": false }
+          ]
+        },
+        {
+          "id": "recursion",
+          "label": "Rekursion",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Funktion ruft sich selbst für Teilprobleme auf.", "correct": true },
+            { "id": "w2", "text": "Hilft bei bestimmten Algorithmen (z. B. Baumdurchlauf).", "correct": true },
+            { "id": "w3", "text": "Ersetzt Polymorphie vollständig.", "correct": false },
+            { "id": "w4", "text": "Ziel ist die Schreibweise zu regeln.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Polymorphie ermöglicht dieselbe Operation für unterschiedliche Typen ohne Duplikate."
+    }
+  ]
+}

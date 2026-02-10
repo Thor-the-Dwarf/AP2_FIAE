@@ -1,1 +1,177 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Programmiersprachen anwenden",
+  "topic": "OOP, funktionale Programmierung, Syntax",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "lang-sort",
+      "type": "sort",
+      "title": "Rätsel 1: Konzepte zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: OOP = Klassen/Objekte, funktional = reine Funktionen/Immutability, Syntax = Sprachregeln.",
+      "sortColumns": [
+        { "zone": "oop", "label": "OOP-Konzepte", "hint": "(Klassen, Objekte, Vererbung)" },
+        { "zone": "functional", "label": "Funktionale Programmierung", "hint": "(pure Funktionen, Immutability)" },
+        { "zone": "syntax", "label": "Syntax/Sprachregeln", "hint": "(Klammern, Schlüsselwörter)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Klasse", "correctZone": "oop" },
+        { "id": "s2", "text": "Objekt", "correctZone": "oop" },
+        { "id": "s3", "text": "Vererbung", "correctZone": "oop" },
+        { "id": "s4", "text": "Polymorphie", "correctZone": "oop" },
+        { "id": "s5", "text": "Pure Funktion", "correctZone": "functional" },
+        { "id": "s6", "text": "Immutability", "correctZone": "functional" },
+        { "id": "s7", "text": "Higher-Order Function", "correctZone": "functional" },
+        { "id": "s8", "text": "Rekursion", "correctZone": "functional" },
+        { "id": "s9", "text": "Schlüsselwörter (if, for)", "correctZone": "syntax" },
+        { "id": "s10", "text": "Block-/Klammerstruktur", "correctZone": "syntax" },
+        { "id": "s11", "text": "Datentyp-Deklaration", "correctZone": "syntax" },
+        { "id": "s12", "text": "Operatoren", "correctZone": "syntax" }
+      ]
+    },
+    {
+      "id": "lang-quiz",
+      "type": "quiz",
+      "title": "Rätsel 2: Kurz-Quiz Programmiersprachen",
+      "subtitle": "Teste dein Wissen zu OOP, funktional und Syntax.",
+      "hintDefault": "Alle Antworten müssen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Was beschreibt Kapselung in der OOP am besten?",
+          "options": [
+            { "value": "a", "text": "Daten und Methoden gehören zusammen und werden geschützt." },
+            { "value": "b", "text": "Funktionen haben keine Seiteneffekte." },
+            { "value": "c", "text": "Code wird zeilenweise interpretiert." }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Eine reine Funktion bedeutet:",
+          "options": [
+            { "value": "a", "text": "Sie greift auf globale Variablen zu." },
+            { "value": "b", "text": "Gleiche Eingabe liefert immer gleiche Ausgabe." },
+            { "value": "c", "text": "Sie verändert Objekte im Speicher." }
+          ],
+          "correct": "b"
+        },
+        {
+          "id": "q3",
+          "text": "3. Was ist ein Syntaxfehler?",
+          "options": [
+            { "value": "a", "text": "Falsche Logik trotz korrekter Schreibweise." },
+            { "value": "b", "text": "Verstoß gegen die Sprachregeln (z. B. fehlende Klammer)." },
+            { "value": "c", "text": "Zu langsame Laufzeit." }
+          ],
+          "correct": "b"
+        },
+        {
+          "id": "q4",
+          "text": "4. Was beschreibt am ehesten eine Lambda-Funktion?",
+          "options": [
+            { "value": "a", "text": "Anonyme Kurzfunktion ohne eigenen Namen." },
+            { "value": "b", "text": "Spezielle Klassenform in der OOP." },
+            { "value": "c", "text": "Modul für Versionsverwaltung." }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "lang-seq",
+      "type": "capital",
+      "title": "Rätsel 3: Vom Problem zum laufenden Programm",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Erst verstehen, dann entwerfen, dann implementieren und prüfen.",
+      "rows": [
+        {
+          "key": "anforderung",
+          "label": "Anforderung/Problem verstehen",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "entwurf",
+          "label": "Lösung/Algorithmus entwerfen",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "code",
+          "label": "Code schreiben (Syntax beachten)",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "build",
+          "label": "Kompilieren/Interpretieren",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "testen",
+          "label": "Testen und Debuggen",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "verbessern",
+          "label": "Refactoring/Verbessern",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

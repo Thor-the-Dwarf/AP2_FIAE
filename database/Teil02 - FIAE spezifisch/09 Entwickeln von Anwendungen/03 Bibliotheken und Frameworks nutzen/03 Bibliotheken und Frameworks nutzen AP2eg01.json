@@ -1,1 +1,177 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Bibliotheken & Frameworks",
+  "topic": "Frameworks, APIs, Libraries",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "lib-sort",
+      "type": "sort",
+      "title": "Rätsel 1: Begriffe zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Kategorien zu.",
+      "hintDefault": "Tipp: Framework = Rahmen/Struktur, Library = Baustein, API = Schnittstelle.",
+      "sortColumns": [
+        { "zone": "framework", "label": "Frameworks", "hint": "(Struktur, Konventionen)" },
+        { "zone": "library", "label": "Libraries", "hint": "(wiederverwendbare Bausteine)" },
+        { "zone": "api", "label": "APIs", "hint": "(Schnittstellen, Endpoints)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Routing & Controller", "correctZone": "framework" },
+        { "id": "s2", "text": "Konventionen/Projektstruktur", "correctZone": "framework" },
+        { "id": "s3", "text": "Dependency Injection", "correctZone": "framework" },
+        { "id": "s4", "text": "Lifecycle/Hooks", "correctZone": "framework" },
+        { "id": "s5", "text": "HTTP-Client", "correctZone": "library" },
+        { "id": "s6", "text": "JSON-Parser", "correctZone": "library" },
+        { "id": "s7", "text": "Logging-Bibliothek", "correctZone": "library" },
+        { "id": "s8", "text": "UI-Komponenten-Bibliothek", "correctZone": "library" },
+        { "id": "s9", "text": "REST-Endpunkt", "correctZone": "api" },
+        { "id": "s10", "text": "Auth-Token verwenden", "correctZone": "api" },
+        { "id": "s11", "text": "Request/Response Schema", "correctZone": "api" },
+        { "id": "s12", "text": "Rate Limiting", "correctZone": "api" }
+      ]
+    },
+    {
+      "id": "lib-quiz",
+      "type": "quiz",
+      "title": "Rätsel 2: Kurz-Quiz",
+      "subtitle": "Teste dein Wissen zu Frameworks, APIs und Libraries.",
+      "hintDefault": "Alle Antworten müssen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Was zeichnet ein Framework im Vergleich zu einer Library aus?",
+          "options": [
+            { "value": "a", "text": "Framework gibt Struktur und Ablauf vor (Inversion of Control)." },
+            { "value": "b", "text": "Framework ist nur eine Sammlung von Hilfsfunktionen." },
+            { "value": "c", "text": "Framework ist immer kleiner als eine Library." }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Wofür steht API?",
+          "options": [
+            { "value": "a", "text": "Application Programming Interface" },
+            { "value": "b", "text": "Advanced Program Integration" },
+            { "value": "c", "text": "Application Process Implementation" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Was ist eine Library?",
+          "options": [
+            { "value": "a", "text": "Ein vorgegebener Rahmen, der den Ablauf diktiert." },
+            { "value": "b", "text": "Wiederverwendbarer Baustein, den man aufruft." },
+            { "value": "c", "text": "Ein vollständiges Betriebssystem." }
+          ],
+          "correct": "b"
+        },
+        {
+          "id": "q4",
+          "text": "4. Ein REST-Endpunkt ist Teil einer …",
+          "options": [
+            { "value": "a", "text": "Library" },
+            { "value": "b", "text": "API" },
+            { "value": "c", "text": "IDE" }
+          ],
+          "correct": "b"
+        }
+      ]
+    },
+    {
+      "id": "lib-seq",
+      "type": "capital",
+      "title": "Rätsel 3: API sauber nutzen",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Erst verstehen, dann einbinden, dann testen.",
+      "rows": [
+        {
+          "key": "bedarf",
+          "label": "Anforderung/Use Case klären",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "doku",
+          "label": "API-Dokumentation lesen (Auth, Endpoints)",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "einbinden",
+          "label": "SDK/Library einbinden oder HTTP-Client konfigurieren",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "aufruf",
+          "label": "API-Aufrufe implementieren",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "handling",
+          "label": "Fehler- und Rate-Limit-Handling",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "tests",
+          "label": "Tests durchführen und Ergebnisse prüfen",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

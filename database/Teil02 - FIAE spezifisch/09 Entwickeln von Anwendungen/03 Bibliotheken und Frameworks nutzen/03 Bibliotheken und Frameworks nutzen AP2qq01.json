@@ -1,1 +1,35 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Frameworks, APIs & Libraries",
+  "introText": "Klick auf „Start“, um das Quick-Quiz zu Frameworks, APIs und Libraries zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Framework",
+    "Library",
+    "API",
+    "SDK",
+    "Middleware",
+    "Router",
+    "HTTP-Client",
+    "Auth-Token",
+    "Rate Limiting",
+    "Inversion of Control",
+    "Endpoint",
+    "Konventionen"
+  ],
+  "questions": [
+    { "text": "Gibt Struktur und Ablauf vor – das System ruft deinen Code auf.", "correct": "Framework" },
+    { "text": "Wiederverwendbarer Baustein, den man gezielt aufruft.", "correct": "Library" },
+    { "text": "Definierte Schnittstelle zum Zugriff auf Funktionen/Daten.", "correct": "API" },
+    { "text": "Sammlung aus Libraries/Tools für eine Plattform.", "correct": "SDK" },
+    { "text": "Baustein in der Request/Response-Kette (z. B. Logging).", "correct": "Middleware" },
+    { "text": "Ordnet URLs auf Controller/Handler zu.", "correct": "Router" },
+    { "text": "Hilft beim Senden von HTTP-Anfragen.", "correct": "HTTP-Client" },
+    { "text": "Wird im Authorization-Header mitgesendet.", "correct": "Auth-Token" },
+    { "text": "Begrenzung der Anfragen pro Zeitfenster.", "correct": "Rate Limiting" },
+    { "text": "Prinzip, bei dem das Framework den Ablauf steuert.", "correct": "Inversion of Control" },
+    { "text": "Konkrete URL/Funktion innerhalb einer API.", "correct": "Endpoint" },
+    { "text": "Regeln, die ein Framework für Struktur vorgibt.", "correct": "Konventionen" }
+  ]
+}

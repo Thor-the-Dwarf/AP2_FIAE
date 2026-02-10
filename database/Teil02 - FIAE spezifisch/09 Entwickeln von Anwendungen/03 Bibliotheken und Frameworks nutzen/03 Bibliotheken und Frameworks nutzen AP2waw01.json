@@ -1,1 +1,127 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Frameworks & Libraries",
+  "description": "Schritt 1: Passenden Begriff wählen · Schritt 2: Begründungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst, dass dein Projekt eine klare Struktur erhält und der Ablauf vom System vorgegeben wird.",
+      "tags": ["Framework", "IoC"],
+      "options": [
+        {
+          "id": "framework",
+          "label": "Framework",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Gibt Projektstruktur und Konventionen vor.", "correct": true },
+            { "id": "w2", "text": "Steuert den Ablauf (Inversion of Control).", "correct": true },
+            { "id": "w3", "text": "Ist nur eine kleine Hilfsfunktion.", "correct": false },
+            { "id": "w4", "text": "Besteht ausschließlich aus Endpoints.", "correct": false }
+          ]
+        },
+        {
+          "id": "library",
+          "label": "Library",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Wird gezielt aufgerufen, gibt aber keine Struktur vor.", "correct": true },
+            { "id": "w2", "text": "Enthält wiederverwendbare Funktionen/Bausteine.", "correct": true },
+            { "id": "w3", "text": "Steuert den Programmlauf von außen.", "correct": false },
+            { "id": "w4", "text": "Definiert ausschließlich HTTP-Endpunkte.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Frameworks geben Struktur vor und steuern den Ablauf (IoC)."
+    },
+    {
+      "id": "c02",
+      "profile": "Du brauchst eine fertige Funktion zum Parsen von JSON oder für HTTP-Requests.",
+      "tags": ["Library", "Baustein"],
+      "options": [
+        {
+          "id": "library",
+          "label": "Library",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Stellt gezielte Funktionen bereit, die man aufruft.", "correct": true },
+            { "id": "w2", "text": "Kein kompletter Ablaufrahmen nötig.", "correct": true },
+            { "id": "w3", "text": "Bestimmt den gesamten Projektlebenszyklus.", "correct": false },
+            { "id": "w4", "text": "Ist immer eine Sammlung von Endpoints.", "correct": false }
+          ]
+        },
+        {
+          "id": "framework",
+          "label": "Framework",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Bietet Struktur und Konventionen.", "correct": true },
+            { "id": "w2", "text": "Kann Libraries einbinden.", "correct": true },
+            { "id": "w3", "text": "Ist primär ein einzelner Funktionsbaustein.", "correct": false },
+            { "id": "w4", "text": "Besteht nur aus einer Funktion.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Für einzelne Funktionen nutzt man Libraries."
+    },
+    {
+      "id": "c03",
+      "profile": "Du willst Daten von einem externen Service abrufen, z. B. Wetterdaten oder Nutzerprofile.",
+      "tags": ["API", "Endpoint"],
+      "options": [
+        {
+          "id": "api",
+          "label": "API",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Bietet definierte Endpoints/Methoden.", "correct": true },
+            { "id": "w2", "text": "Gibt Request/Response-Schemata vor.", "correct": true },
+            { "id": "w3", "text": "Steuert den internen Ablauf deiner App.", "correct": false },
+            { "id": "w4", "text": "Ist immer eine GUI-Komponente.", "correct": false }
+          ]
+        },
+        {
+          "id": "library",
+          "label": "Library",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Kann beim Aufruf helfen (z. B. HTTP-Client).", "correct": true },
+            { "id": "w2", "text": "Stellt aber nicht die externen Daten bereit.", "correct": true },
+            { "id": "w3", "text": "Definiert Endpoints und Authentifizierung vollständig.", "correct": false },
+            { "id": "w4", "text": "Ersetzt die API vollständig.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Daten von externen Services holt man über deren API."
+    },
+    {
+      "id": "c04",
+      "profile": "Du möchtest die Plattform eines Cloud-Anbieters komfortabel nutzen, ohne alles manuell zu implementieren.",
+      "tags": ["SDK", "APIs"],
+      "options": [
+        {
+          "id": "sdk",
+          "label": "SDK",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Bündelt Libraries/Tools für eine Plattform.", "correct": true },
+            { "id": "w2", "text": "Vereinfacht API-Zugriffe durch fertige Clients.", "correct": true },
+            { "id": "w3", "text": "Ersetzt alle Frameworks der Welt.", "correct": false },
+            { "id": "w4", "text": "Ist nur ein einzelner Endpoint.", "correct": false }
+          ]
+        },
+        {
+          "id": "framework",
+          "label": "Framework",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Gibt Struktur und Ablauf vor.", "correct": true },
+            { "id": "w2", "text": "Kann für Web-Apps genutzt werden.", "correct": true },
+            { "id": "w3", "text": "Ist speziell für Cloud-Plattformen gedacht.", "correct": false },
+            { "id": "w4", "text": "Ist ausschließlich eine API-Schnittstelle.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "SDKs bündeln Libraries und Tools, um Plattform-APIs komfortabel zu nutzen."
+    }
+  ]
+}

@@ -1,1 +1,177 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Entwicklungswerkzeuge einsetzen",
+  "topic": "IDE, Debugger, Versionsverwaltung",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "tools-sort",
+      "type": "sort",
+      "title": "Rätsel 1: Werkzeuge zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Werkzeug-Kategorien zu.",
+      "hintDefault": "Tipp: IDE = Editor/Refactoring, Debugger = Breakpoints/Step, VCS = Commit/Branch.",
+      "sortColumns": [
+        { "zone": "ide", "label": "IDE", "hint": "(Editor, Refactoring)" },
+        { "zone": "debug", "label": "Debugger", "hint": "(Breakpoints, Step)" },
+        { "zone": "vcs", "label": "Versionsverwaltung", "hint": "(Commit, Branch)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Code Completion", "correctZone": "ide" },
+        { "id": "s2", "text": "Refactoring", "correctZone": "ide" },
+        { "id": "s3", "text": "Integrierter Terminal", "correctZone": "ide" },
+        { "id": "s4", "text": "Build/Run-Konfiguration", "correctZone": "ide" },
+        { "id": "s5", "text": "Breakpoint", "correctZone": "debug" },
+        { "id": "s6", "text": "Step Over/Into", "correctZone": "debug" },
+        { "id": "s7", "text": "Watch-Variablen", "correctZone": "debug" },
+        { "id": "s8", "text": "Call Stack", "correctZone": "debug" },
+        { "id": "s9", "text": "Commit", "correctZone": "vcs" },
+        { "id": "s10", "text": "Branch", "correctZone": "vcs" },
+        { "id": "s11", "text": "Merge", "correctZone": "vcs" },
+        { "id": "s12", "text": "Pull/Push", "correctZone": "vcs" }
+      ]
+    },
+    {
+      "id": "tools-quiz",
+      "type": "quiz",
+      "title": "Rätsel 2: Kurz-Quiz Werkzeuge",
+      "subtitle": "Teste dein Wissen zu IDE, Debugger und Git.",
+      "hintDefault": "Alle Antworten müssen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Wofür nutzt man einen Breakpoint?",
+          "options": [
+            { "value": "a", "text": "Um Code automatisch zu formatieren" },
+            { "value": "b", "text": "Um die Ausführung an einer Stelle anzuhalten" },
+            { "value": "c", "text": "Um Commits zu signieren" }
+          ],
+          "correct": "b"
+        },
+        {
+          "id": "q2",
+          "text": "2. Was ist der Zweck eines Branches?",
+          "options": [
+            { "value": "a", "text": "Getrennte Entwicklung von Features" },
+            { "value": "b", "text": "Löschen des Repos" },
+            { "value": "c", "text": "Starten des Debuggers" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Wofür ist eine IDE besonders nützlich?",
+          "options": [
+            { "value": "a", "text": "Nur für Versionsverwaltung" },
+            { "value": "b", "text": "Für Editieren, Refactoring, Ausführen" },
+            { "value": "c", "text": "Nur zum Deployen" }
+          ],
+          "correct": "b"
+        },
+        {
+          "id": "q4",
+          "text": "4. Was passiert beim Merge?",
+          "options": [
+            { "value": "a", "text": "Zwei Branches werden zusammengeführt" },
+            { "value": "b", "text": "Ein Commit wird gelöscht" },
+            { "value": "c", "text": "Debugger startet" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "tools-seq",
+      "type": "capital",
+      "title": "Rätsel 3: Typischer Git-Workflow",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Erst holen, dann arbeiten, dann committen und pushen.",
+      "rows": [
+        {
+          "key": "clone",
+          "label": "Repository klonen/holen",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "branch",
+          "label": "Feature-Branch erstellen",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "edit",
+          "label": "Code ändern & testen",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "stage",
+          "label": "Änderungen stagen",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "commit",
+          "label": "Commit erstellen",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "push",
+          "label": "Branch pushen und ggf. Merge-Request öffnen",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

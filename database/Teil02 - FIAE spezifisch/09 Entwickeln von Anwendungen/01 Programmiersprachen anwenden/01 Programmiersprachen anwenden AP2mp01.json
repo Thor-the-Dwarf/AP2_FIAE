@@ -1,1 +1,72 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Programmiersprachen – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere jeweils den passenden Begriff mit der richtigen Kurzbeschreibung und einem typischen Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Programmierbegriff.",
+    "column2": "Wähle die passende Definition.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "klasse",
+      "name": "Klasse",
+      "description": "Bauplan für Objekte mit Eigenschaften (Daten) und Methoden (Funktionen).",
+      "example": "class User { name; login(); }"
+    },
+    {
+      "id": "objekt",
+      "name": "Objekt",
+      "description": "Konkrete Instanz einer Klasse mit eigenem Zustand.",
+      "example": "const u = new User('Mara');"
+    },
+    {
+      "id": "vererbung",
+      "name": "Vererbung",
+      "description": "Mechanismus, mit dem eine Klasse Eigenschaften/Methoden einer anderen übernimmt.",
+      "example": "class Admin extends User { ... }"
+    },
+    {
+      "id": "polymorphie",
+      "name": "Polymorphie",
+      "description": "Gleiches Interface – unterschiedliche Implementierung je nach Typ.",
+      "example": "shape.draw() zeichnet Kreis oder Rechteck je nach Objekt."
+    },
+    {
+      "id": "pure_funktion",
+      "name": "Pure Funktion",
+      "description": "Funktion ohne Seiteneffekte; gleiche Eingabe → gleiche Ausgabe.",
+      "example": "sum(a,b) gibt nur a+b zurück, verändert nichts."
+    },
+    {
+      "id": "immutability",
+      "name": "Immutability",
+      "description": "Daten werden nicht verändert, sondern bei Änderungen neu erzeugt.",
+      "example": "const newList = [...list, item];"
+    },
+    {
+      "id": "higher_order",
+      "name": "Higher-Order Function",
+      "description": "Funktion, die Funktionen annimmt oder zurückgibt.",
+      "example": "array.map(x => x * 2)"
+    },
+    {
+      "id": "rekursion",
+      "name": "Rekursion",
+      "description": "Funktion ruft sich selbst mit verkleinertem Problem auf.",
+      "example": "factorial(n) = n * factorial(n-1)"
+    },
+    {
+      "id": "syntax",
+      "name": "Syntax",
+      "description": "Formale Schreibregeln einer Sprache (Klammern, Schlüsselwörter, Operatoren).",
+      "example": "Fehlende Klammer führt zu Syntaxfehler."
+    }
+  ]
+}

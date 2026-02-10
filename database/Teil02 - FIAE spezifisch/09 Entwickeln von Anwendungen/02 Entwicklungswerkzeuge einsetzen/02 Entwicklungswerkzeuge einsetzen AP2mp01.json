@@ -1,1 +1,72 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Entwicklungswerkzeuge – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und typisches Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle ein Werkzeug/Feature.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "ide",
+      "name": "IDE",
+      "description": "Integrierte Entwicklungsumgebung mit Editor, Build, Debugging und Tools.",
+      "example": "IntelliJ, VS Code, Eclipse"
+    },
+    {
+      "id": "autocomplete",
+      "name": "Code Completion",
+      "description": "Schlägt passende Methoden/Variablen während des Tippens vor.",
+      "example": "Nach „user.“ werden verfügbare Methoden angezeigt."
+    },
+    {
+      "id": "refactoring",
+      "name": "Refactoring",
+      "description": "Strukturierte Code-Verbesserung ohne Funktionsänderung.",
+      "example": "Variable umbenennen in allen Dateien."
+    },
+    {
+      "id": "debugger",
+      "name": "Debugger",
+      "description": "Werkzeug zur Fehlersuche durch Schritt-für-Schritt-Ausführung.",
+      "example": "Debug-Session starten und Variablen prüfen."
+    },
+    {
+      "id": "breakpoint",
+      "name": "Breakpoint",
+      "description": "Haltepunkt, an dem die Programmausführung stoppt.",
+      "example": "Stoppt vor dem Datenbank-Call, um Werte zu prüfen."
+    },
+    {
+      "id": "watch",
+      "name": "Watch",
+      "description": "Beobachtet Variablenwerte während des Debuggens.",
+      "example": "orderId live im Debugger verfolgen."
+    },
+    {
+      "id": "commit",
+      "name": "Commit",
+      "description": "Gespeicherter Snapshot von Änderungen im Versionsverlauf.",
+      "example": "Fix login error als Commit-Nachricht."
+    },
+    {
+      "id": "branch",
+      "name": "Branch",
+      "description": "Abzweig der Codebasis für parallele Entwicklung.",
+      "example": "feature/login-rework"
+    },
+    {
+      "id": "merge",
+      "name": "Merge",
+      "description": "Zusammenführen von Änderungen aus zwei Branches.",
+      "example": "feature-Branch in main mergen."
+    }
+  ]
+}

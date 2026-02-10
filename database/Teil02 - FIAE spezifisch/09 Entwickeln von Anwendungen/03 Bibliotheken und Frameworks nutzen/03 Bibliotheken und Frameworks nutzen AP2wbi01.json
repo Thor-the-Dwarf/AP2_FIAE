@@ -1,1 +1,75 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Frameworks & Libraries",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewählt.",
+  "legalForms": [
+    {
+      "id": "framework",
+      "name": "Framework",
+      "attributes": {
+        "gives_structure": true,
+        "inversion_of_control": true,
+        "is_endpoint": false,
+        "is_reusable_module": false,
+        "bundles_tools": false,
+        "provides_client": false
+      }
+    },
+    {
+      "id": "library",
+      "name": "Library",
+      "attributes": {
+        "gives_structure": false,
+        "inversion_of_control": false,
+        "is_endpoint": false,
+        "is_reusable_module": true,
+        "bundles_tools": false,
+        "provides_client": false
+      }
+    },
+    {
+      "id": "api",
+      "name": "API",
+      "attributes": {
+        "gives_structure": false,
+        "inversion_of_control": false,
+        "is_endpoint": true,
+        "is_reusable_module": false,
+        "bundles_tools": false,
+        "provides_client": false
+      }
+    },
+    {
+      "id": "sdk",
+      "name": "SDK",
+      "attributes": {
+        "gives_structure": false,
+        "inversion_of_control": false,
+        "is_endpoint": false,
+        "is_reusable_module": false,
+        "bundles_tools": true,
+        "provides_client": true
+      }
+    },
+    {
+      "id": "middleware",
+      "name": "Middleware",
+      "attributes": {
+        "gives_structure": false,
+        "inversion_of_control": false,
+        "is_endpoint": false,
+        "is_reusable_module": true,
+        "bundles_tools": false,
+        "provides_client": true
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Gibt es eine feste Struktur und Konventionen vor?", "attributeKey": "gives_structure" },
+    { "id": "q02", "hotkey": "2", "text": "Steuert der Rahmen den Ablauf (Inversion of Control)?", "attributeKey": "inversion_of_control" },
+    { "id": "q03", "hotkey": "3", "text": "Ist es ein konkreter Endpoint/Schnittstellenpunkt?", "attributeKey": "is_endpoint" },
+    { "id": "q04", "hotkey": "4", "text": "Ist es ein wiederverwendbarer Baustein?", "attributeKey": "is_reusable_module" },
+    { "id": "q05", "hotkey": "5", "text": "Bündelt es mehrere Tools/Libraries für eine Plattform?", "attributeKey": "bundles_tools" },
+    { "id": "q06", "hotkey": "6", "text": "Stellt es fertige Clients für Zugriffe bereit?", "attributeKey": "provides_client" }
+  ]
+}

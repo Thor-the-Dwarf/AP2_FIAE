@@ -1,1 +1,69 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Anwendungen entwickeln",
+    "topic": "OOP, Design Patterns, Tools",
+    "estimated_minutes": 15,
+    "sets": [
+        {
+            "left": "Kapselung",
+            "right": "Daten und Methoden zusammenfassen"
+        },
+        {
+            "left": "Vererbung",
+            "right": "Eigenschaften von Basisklasse übernehmen"
+        },
+        {
+            "left": "Polymorphie",
+            "right": "Mehrere Formen eines Objekts"
+        },
+        {
+            "left": "Interface",
+            "right": "Vertrag für Klassen"
+        },
+        {
+            "left": "Exception",
+            "right": "Fehlerbehandlung"
+        },
+        {
+            "left": "Observer",
+            "right": "Benachrichtigung bei Änderungen"
+        },
+        {
+            "left": "Singleton",
+            "right": "Nur eine Instanz einer Klasse"
+        },
+        {
+            "left": "Factory",
+            "right": "Objekte erzeugen"
+        },
+        {
+            "left": "MVC",
+            "right": "Model-View-Controller Architektur"
+        },
+        {
+            "left": "IDE",
+            "right": "Integrierte Entwicklungsumgebung"
+        },
+        {
+            "left": "Debugger",
+            "right": "Werkzeug zur Fehlersuche"
+        },
+        {
+            "left": "Versionsverwaltung",
+            "right": "Code-Versionen verwalten (Git)"
+        },
+        {
+            "left": "Framework",
+            "right": "Grundgerüst für Anwendungen"
+        },
+        {
+            "left": "API",
+            "right": "Programmierschnittstelle"
+        },
+        {
+            "left": "Library",
+            "right": "Sammlung wiederverwendbarer Funktionen"
+        }
+    ]
+}

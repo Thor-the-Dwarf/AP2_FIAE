@@ -1,1 +1,239 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Anwendungen entwickeln",
+    "topic": "OOP, Design Patterns, Tools",
+    "estimated_minutes": 10,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist Kapselung?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Daten und Methoden zusammenfassen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Vererbung"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Polymorphie"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Interface"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist Vererbung?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Eigenschaften übernehmen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Kapselung"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Polymorphie"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Interface"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist Polymorphie?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Mehrere Formen eines Objekts"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Kapselung"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Vererbung"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Interface"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist ein Interface?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Vertrag für Klassen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Kapselung"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Vererbung"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Polymorphie"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist das Observer-Pattern?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Benachrichtigung bei Änderungen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Singleton"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Factory"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur MVC"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist das Singleton-Pattern?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Nur eine Instanz"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Observer"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Factory"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur MVC"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist MVC?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Model-View-Controller"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Observer"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Singleton"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Factory"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist eine IDE?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Integrierte Entwicklungsumgebung"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Debugger"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Compiler"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Editor"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q9",
+            "text": "Was ist ein Debugger?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Werkzeug zur Fehlersuche"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur IDE"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Compiler"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Editor"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q10",
+            "text": "Was ist Git?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Versionsverwaltung"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur IDE"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Debugger"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Compiler"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

@@ -1,1 +1,72 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Frameworks & Libraries – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "framework",
+      "name": "Framework",
+      "description": "Gibt Struktur, Lebenszyklus und Konventionen vor (Inversion of Control).",
+      "example": "Spring Boot oder Angular"
+    },
+    {
+      "id": "library",
+      "name": "Library",
+      "description": "Wiederverwendbarer Baustein, den man gezielt aufruft.",
+      "example": "Lodash oder Jackson"
+    },
+    {
+      "id": "api",
+      "name": "API",
+      "description": "Schnittstelle mit definierten Endpunkten/Methoden für Zugriffe.",
+      "example": "REST-API /users/{id}"
+    },
+    {
+      "id": "sdk",
+      "name": "SDK",
+      "description": "Sammlung aus Libraries/Tools, um eine Plattform bequem zu nutzen.",
+      "example": "AWS SDK für JavaScript"
+    },
+    {
+      "id": "middleware",
+      "name": "Middleware",
+      "description": "Baustein in der Request/Response-Kette (z. B. Logging, Auth).",
+      "example": "Express-Middleware für Authentifizierung"
+    },
+    {
+      "id": "router",
+      "name": "Router",
+      "description": "Komponente, die URLs auf Handler/Controller abbildet.",
+      "example": "Router in React oder Spring MVC"
+    },
+    {
+      "id": "http_client",
+      "name": "HTTP-Client",
+      "description": "Library zum Senden von HTTP-Requests.",
+      "example": "Axios oder Fetch"
+    },
+    {
+      "id": "auth",
+      "name": "Authentifizierung",
+      "description": "Mechanismen zur Identitätsprüfung (Token, OAuth).",
+      "example": "Bearer-Token im Authorization-Header"
+    },
+    {
+      "id": "rate_limit",
+      "name": "Rate Limiting",
+      "description": "Begrenzung der Anfragehäufigkeit pro Zeit.",
+      "example": "100 Requests pro Minute"
+    }
+  ]
+}

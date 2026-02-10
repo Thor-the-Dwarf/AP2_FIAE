@@ -1,1 +1,37 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Programmiersprachen anwenden",
+  "introText": "Klick auf „Start“, um das Quick-Quiz zu Programmiersprachen zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Klasse",
+    "Objekt",
+    "Vererbung",
+    "Polymorphie",
+    "Kapselung",
+    "Pure Funktion",
+    "Immutability",
+    "Higher-Order Function",
+    "Rekursion",
+    "Lambda",
+    "Syntax",
+    "Typdeklaration",
+    "Kontrollstruktur"
+  ],
+  "questions": [
+    { "text": "Bauplan für Objekte mit Eigenschaften und Methoden.", "correct": "Klasse" },
+    { "text": "Konkrete Instanz einer Klasse mit eigenem Zustand.", "correct": "Objekt" },
+    { "text": "Mechanismus, bei dem eine Klasse Eigenschaften einer anderen übernimmt.", "correct": "Vererbung" },
+    { "text": "Gleiches Interface, unterschiedliche Implementierung je nach Typ.", "correct": "Polymorphie" },
+    { "text": "Daten und Methoden werden zusammengekapselt und geschützt.", "correct": "Kapselung" },
+    { "text": "Funktion ohne Seiteneffekte; gleiche Eingabe liefert gleiche Ausgabe.", "correct": "Pure Funktion" },
+    { "text": "Daten werden nicht verändert, sondern neu erzeugt.", "correct": "Immutability" },
+    { "text": "Funktion, die andere Funktionen annimmt oder zurückgibt.", "correct": "Higher-Order Function" },
+    { "text": "Funktion ruft sich selbst auf, um ein Teilproblem zu lösen.", "correct": "Rekursion" },
+    { "text": "Anonyme Kurzfunktion, oft inline geschrieben.", "correct": "Lambda" },
+    { "text": "Formale Schreibregeln einer Sprache (z. B. Klammern, Schlüsselwörter).", "correct": "Syntax" },
+    { "text": "Festlegen von Datentypen wie int, string, boolean.", "correct": "Typdeklaration" },
+    { "text": "if/else oder for-Schleife zählen dazu.", "correct": "Kontrollstruktur" }
+  ]
+}

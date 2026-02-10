@@ -1,1 +1,277 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Anwendungen entwickeln",
+    "topic": "OOP, Design Patterns, Entwicklungswerkzeuge",
+    "estimated_minutes": 25,
+    "sections": [
+        {
+            "id": "app-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Entwicklungskonzepte zuordnen",
+            "subtitle": "Ordne die Konzepte den passenden Kategorien zu.",
+            "hintDefault": "Tipp: OOP = Klassen/Objekte, Patterns = Lösungsmuster, Tools = Werkzeuge.",
+            "sortColumns": [
+                {
+                    "zone": "oop",
+                    "label": "OOP-Konzepte",
+                    "hint": "(Kapselung, Vererbung)"
+                },
+                {
+                    "zone": "patterns",
+                    "label": "Design Patterns",
+                    "hint": "(Observer, Singleton)"
+                },
+                {
+                    "zone": "tools",
+                    "label": "Entwicklungswerkzeuge",
+                    "hint": "(IDE, Debugger)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Kapselung",
+                    "correctZone": "oop"
+                },
+                {
+                    "id": "s2",
+                    "text": "Vererbung",
+                    "correctZone": "oop"
+                },
+                {
+                    "id": "s3",
+                    "text": "Polymorphie",
+                    "correctZone": "oop"
+                },
+                {
+                    "id": "s4",
+                    "text": "Observer",
+                    "correctZone": "patterns"
+                },
+                {
+                    "id": "s5",
+                    "text": "Singleton",
+                    "correctZone": "patterns"
+                },
+                {
+                    "id": "s6",
+                    "text": "Factory",
+                    "correctZone": "patterns"
+                },
+                {
+                    "id": "s7",
+                    "text": "IDE",
+                    "correctZone": "tools"
+                },
+                {
+                    "id": "s8",
+                    "text": "Debugger",
+                    "correctZone": "tools"
+                }
+            ]
+        },
+        {
+            "id": "app-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Anwendungsentwicklung",
+            "subtitle": "Teste dein Wissen zur Anwendungsentwicklung.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist Kapselung?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Daten und Methoden zusammenfassen"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Vererbung"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Polymorphie"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist das Singleton-Pattern?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Nur eine Instanz einer Klasse"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Observer"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Factory"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist MVC?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Model-View-Controller"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Observer"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Singleton"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q4",
+                    "text": "4. Was ist ein Debugger?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Werkzeug zur Fehlersuche"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur IDE"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Compiler"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "app-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Entwicklungsprozess",
+            "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Planung → Entwicklung → Test → Deployment.",
+            "rows": [
+                {
+                    "key": "planung",
+                    "label": "Anforderungen analysieren",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "entwicklung",
+                    "label": "Code schreiben",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "test",
+                    "label": "Testen",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "deployment",
+                    "label": "Bereitstellen",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

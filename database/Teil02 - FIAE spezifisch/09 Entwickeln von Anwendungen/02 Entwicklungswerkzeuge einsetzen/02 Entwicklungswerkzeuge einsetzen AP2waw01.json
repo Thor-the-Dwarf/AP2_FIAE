@@ -1,1 +1,127 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Entwicklungswerkzeuge",
+  "description": "Schritt 1: Passendes Werkzeug wählen · Schritt 2: Begründungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du möchtest Code schreiben, refactoren, testen und direkt ausführen – alles in einer Oberfläche.",
+      "tags": ["IDE", "Produktivität"],
+      "options": [
+        {
+          "id": "ide",
+          "label": "IDE",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Bündelt Editor, Build/Run, Debugging und Tools.", "correct": true },
+            { "id": "w2", "text": "Erlaubt Refactorings und Code-Navigation.", "correct": true },
+            { "id": "w3", "text": "Dient primär dem Zusammenführen von Branches.", "correct": false },
+            { "id": "w4", "text": "Stoppt Programmausführung nur an Breakpoints.", "correct": false }
+          ]
+        },
+        {
+          "id": "vcs",
+          "label": "Versionsverwaltung",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Verwalten von Versionen durch Commits und Branches.", "correct": true },
+            { "id": "w2", "text": "Ermöglicht Rücksprung auf ältere Stände.", "correct": true },
+            { "id": "w3", "text": "Bietet integrierte Code-Completion als Hauptfunktion.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Debugging durch automatische Fehlerkorrektur.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Für die All-in-one Arbeitsoberfläche ist die IDE zuständig."
+    },
+    {
+      "id": "c02",
+      "profile": "Ein Bug tritt auf. Du möchtest die Ausführung Schritt für Schritt verfolgen und Variablenwerte prüfen.",
+      "tags": ["Debugger", "Fehlersuche"],
+      "options": [
+        {
+          "id": "debugger",
+          "label": "Debugger",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Breakpoints halten die Ausführung an definierten Stellen an.", "correct": true },
+            { "id": "w2", "text": "Step Over/Into zeigt den Ablauf Zeile für Zeile.", "correct": true },
+            { "id": "w3", "text": "Verwaltet Commits und Branches.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Code-Reviews vollständig.", "correct": false }
+          ]
+        },
+        {
+          "id": "ide",
+          "label": "IDE",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Kann Debugging enthalten, ist aber nicht das Hauptziel.", "correct": true },
+            { "id": "w2", "text": "Bietet oft Debugger-Integration.", "correct": true },
+            { "id": "w3", "text": "Löst Probleme ausschließlich durch Branching.", "correct": false },
+            { "id": "w4", "text": "Ist nur für Versionsverwaltung gedacht.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Die Fehlersuche mit Breakpoints und Schrittbetrieb ist klassische Debugger-Aufgabe."
+    },
+    {
+      "id": "c03",
+      "profile": "Mehrere Entwickler arbeiten gleichzeitig. Du willst Änderungen nachvollziehbar speichern und zusammenführen.",
+      "tags": ["Git", "Versionsverwaltung"],
+      "options": [
+        {
+          "id": "vcs",
+          "label": "Versionsverwaltung (Git)",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Commits speichern nachvollziehbare Zwischenstände.", "correct": true },
+            { "id": "w2", "text": "Branches erlauben parallele Entwicklung.", "correct": true },
+            { "id": "w3", "text": "Führt automatisch Debugging-Schritte aus.", "correct": false },
+            { "id": "w4", "text": "Ersetzt den Editor vollständig.", "correct": false }
+          ]
+        },
+        {
+          "id": "debugger",
+          "label": "Debugger",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Hilft bei Fehleranalyse zur Laufzeit.", "correct": true },
+            { "id": "w2", "text": "Kann Variablen überwachen.", "correct": true },
+            { "id": "w3", "text": "Verwaltet Versionsstände und Merges.", "correct": false },
+            { "id": "w4", "text": "Dient der Teamkoordination über Commits.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Versionsverwaltung ist das richtige Werkzeug für Collaboration, History und Merges."
+    },
+    {
+      "id": "c04",
+      "profile": "Du willst während des Debuggens sehen, wie sich ein bestimmter Wert verändert.",
+      "tags": ["Watch", "Debugger"],
+      "options": [
+        {
+          "id": "watch",
+          "label": "Watch",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Zeigt Variablenwerte live während der Ausführung.", "correct": true },
+            { "id": "w2", "text": "Hilft, Werteverläufe zu beobachten.", "correct": true },
+            { "id": "w3", "text": "Erstellt Branches im Repository.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Tests durch automatische Korrekturen.", "correct": false }
+          ]
+        },
+        {
+          "id": "commit",
+          "label": "Commit",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Speichert Änderungen im Versionsverlauf.", "correct": true },
+            { "id": "w2", "text": "Dient der Zusammenarbeit im Team.", "correct": true },
+            { "id": "w3", "text": "Beobachtet Variablenwerte während des Debuggens.", "correct": false },
+            { "id": "w4", "text": "Führt den Code Schritt für Schritt aus.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Watch gehört zum Debugger und zeigt Variablenwerte während der Ausführung."
+    }
+  ]
+}

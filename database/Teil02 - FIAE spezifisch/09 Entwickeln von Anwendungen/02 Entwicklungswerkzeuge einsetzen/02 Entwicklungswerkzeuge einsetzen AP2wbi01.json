@@ -1,1 +1,81 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Entwicklungswerkzeuge-Edition",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewählt.",
+  "legalForms": [
+    {
+      "id": "ide",
+      "name": "IDE",
+      "attributes": {
+        "has_editor": true,
+        "has_debugger": true,
+        "manages_versions": false,
+        "uses_breakpoints": false,
+        "has_refactoring": true,
+        "has_branches": false,
+        "tracks_history": false
+      }
+    },
+    {
+      "id": "debugger",
+      "name": "Debugger",
+      "attributes": {
+        "has_editor": false,
+        "has_debugger": true,
+        "manages_versions": false,
+        "uses_breakpoints": true,
+        "has_refactoring": false,
+        "has_branches": false,
+        "tracks_history": false
+      }
+    },
+    {
+      "id": "vcs",
+      "name": "Versionsverwaltung",
+      "attributes": {
+        "has_editor": false,
+        "has_debugger": false,
+        "manages_versions": true,
+        "uses_breakpoints": false,
+        "has_refactoring": false,
+        "has_branches": true,
+        "tracks_history": true
+      }
+    },
+    {
+      "id": "commit",
+      "name": "Commit",
+      "attributes": {
+        "has_editor": false,
+        "has_debugger": false,
+        "manages_versions": true,
+        "uses_breakpoints": false,
+        "has_refactoring": false,
+        "has_branches": false,
+        "tracks_history": true
+      }
+    },
+    {
+      "id": "branch",
+      "name": "Branch",
+      "attributes": {
+        "has_editor": false,
+        "has_debugger": false,
+        "manages_versions": true,
+        "uses_breakpoints": false,
+        "has_refactoring": false,
+        "has_branches": true,
+        "tracks_history": false
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Gibt es einen integrierten Code-Editor?", "attributeKey": "has_editor" },
+    { "id": "q02", "hotkey": "2", "text": "Ist Debugging (Breakpoints/Step) zentral?", "attributeKey": "has_debugger" },
+    { "id": "q03", "hotkey": "3", "text": "Verwaltet es Versionsstände und Historie?", "attributeKey": "manages_versions" },
+    { "id": "q04", "hotkey": "4", "text": "Arbeitet es direkt mit Breakpoints?", "attributeKey": "uses_breakpoints" },
+    { "id": "q05", "hotkey": "5", "text": "Bietet es Refactoring-Funktionen?", "attributeKey": "has_refactoring" },
+    { "id": "q06", "hotkey": "6", "text": "Gibt es Branches zur parallelen Entwicklung?", "attributeKey": "has_branches" },
+    { "id": "q07", "hotkey": "7", "text": "Gibt es eine Historie von Änderungen?", "attributeKey": "tracks_history" }
+  ]
+}
