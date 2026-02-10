@@ -46,6 +46,7 @@
             this.statCorrectEl = null;
             this.checkBtn = null;
             this.resetBtn = null;
+            this.maxPlacements = 0;
         }
 
         /**
@@ -76,6 +77,7 @@
 
             // Cards initialisieren
             this.initCards();
+            this.maxPlacements = this.getMaxPlacements();
         }
 
         /**
@@ -153,6 +155,14 @@
             });
             this.statTotalEl.textContent = this.cards.length;
             this.statCorrectEl.textContent = '0';
+        }
+
+        getMaxPlacements() {
+            if (!Array.isArray(this.cards)) return 0;
+            return this.cards.reduce((sum, card) => {
+                if (Array.isArray(card.correctForms)) return sum + card.correctForms.length;
+                return sum;
+            }, 0);
         }
 
         /**
@@ -323,6 +333,9 @@
             });
 
             this.statCorrectEl.textContent = correctPlacements.toString();
+            if (this.maxPlacements > 0) {
+                this.reportProgress(correctPlacements, this.maxPlacements);
+            }
 
             // Feedback basierend auf Placements
             if (totalPlacements === 0) {
@@ -344,6 +357,7 @@
          * Setzt Board zurück
          */
         resetBoard() {
+            this.clearProgress();
             this.clearCardStates();
 
             // Lösche alle Karten aus den Spalten

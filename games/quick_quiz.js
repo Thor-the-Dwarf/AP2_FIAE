@@ -278,6 +278,10 @@
             this.feedbackEl.textContent = msg;
             this.feedbackEl.className = 'error';
 
+            if (this.questionCount > 0) {
+                this.reportProgress(this.score, this.questionCount);
+            }
+
             setTimeout(() => {
                 this.nextQuestion();
             }, 900);
@@ -323,12 +327,17 @@
 
             this.updateStats();
 
+            if (this.questionCount > 0) {
+                this.reportProgress(this.score, this.questionCount);
+            }
+
             setTimeout(() => {
                 this.nextQuestion();
             }, 800);
         }
 
         restartGame() {
+            this.clearProgress();
             this.score = 0;
             this.streak = 0;
             this.questionCount = 0;

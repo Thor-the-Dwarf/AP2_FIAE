@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Kundenbeziehungen & Compliance",
+    "topic": "DSGVO, Datenschutz, Kundenrechte, Compliance",
+    "estimated_minutes": 15,
+    "centerWord": "Compliance",
+    "associations": [
+        {
+            "word": "DSGVO",
+            "connections": [
+                "Datenschutz",
+                "Personenbezogene Daten",
+                "Einwilligung"
+            ]
+        },
+        {
+            "word": "Datenschutz",
+            "connections": [
+                "DSGVO",
+                "Datenschutzerklärung",
+                "Datenschutzbeauftragter"
+            ]
+        },
+        {
+            "word": "Personenbezogene Daten",
+            "connections": [
+                "DSGVO",
+                "Datenminimierung",
+                "Recht auf Auskunft"
+            ]
+        },
+        {
+            "word": "Einwilligung",
+            "connections": [
+                "DSGVO",
+                "Freiwillig",
+                "Widerrufbar"
+            ]
+        },
+        {
+            "word": "Datenschutzerklärung",
+            "connections": [
+                "Datenschutz",
+                "Transparenz",
+                "Informationspflicht"
+            ]
+        },
+        {
+            "word": "Datenschutzbeauftragter",
+            "connections": [
+                "Datenschutz",
+                "Überwachung",
+                "Beratung"
+            ]
+        },
+        {
+            "word": "Datenminimierung",
+            "connections": [
+                "Personenbezogene Daten",
+                "Zweckbindung",
+                "Notwendigkeit"
+            ]
+        },
+        {
+            "word": "Recht auf Auskunft",
+            "connections": [
+                "Personenbezogene Daten",
+                "Kundenrechte",
+                "Transparenz"
+            ]
+        },
+        {
+            "word": "Kundenrechte",
+            "connections": [
+                "Recht auf Auskunft",
+                "Widerrufsrecht",
+                "Gewährleistung"
+            ]
+        },
+        {
+            "word": "Widerrufsrecht",
+            "connections": [
+                "Kundenrechte",
+                "14 Tage",
+                "Fernabsatzvertrag"
+            ]
+        },
+        {
+            "word": "Gewährleistung",
+            "connections": [
+                "Kundenrechte",
+                "2 Jahre",
+                "Mängelhaftung"
+            ]
+        },
+        {
+            "word": "AGB",
+            "connections": [
+                "Vertragsbedingungen",
+                "Transparenz",
+                "Rechtssicherheit"
+            ]
+        }
+    ]
+}

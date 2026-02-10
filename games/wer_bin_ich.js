@@ -286,6 +286,7 @@
                 this.gameOver = true;
                 this.guessFeedbackEl.textContent = `Richtig! Es war: ${this.secretForm.name}. Starte eine neue Runde.`;
                 this.guessFeedbackEl.className = 'success';
+                this._saveProgressPercent(100, { earned: 1, max: 1 });
 
                 // Reveal in hint
                 this.updateSecretHint(true);
@@ -323,6 +324,7 @@
         }
 
         startNewGame() {
+            this.clearProgress();
             if (this.legalForms.length === 0) {
                 this.answerTextEl.textContent = 'Keine Daten verfügbar.';
                 return;

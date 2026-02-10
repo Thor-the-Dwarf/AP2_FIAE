@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Kundenbeziehungen & Compliance",
+    "topic": "DSGVO, Datenschutz, Kundenrechte, rechtliche Grundlagen",
+    "estimated_minutes": 12,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "Die DSGVO steht für _____ und regelt den Schutz personenbezogener Daten in der EU.",
+            "correctAnswer": "Datenschutz-Grundverordnung",
+            "hint": "Abkürzung für eine EU-Verordnung zum Datenschutz"
+        },
+        {
+            "id": "s2",
+            "text": "Kunden haben das Recht auf _____ über ihre gespeicherten personenbezogenen Daten.",
+            "correctAnswer": "Auskunft",
+            "hint": "Informationsrecht gemäß DSGVO"
+        },
+        {
+            "id": "s3",
+            "text": "Das Prinzip der _____ besagt, dass nur die für den Zweck notwendigen Daten erhoben werden dürfen.",
+            "correctAnswer": "Datenminimierung",
+            "hint": "Grundprinzip der DSGVO – so wenig Daten wie möglich"
+        },
+        {
+            "id": "s4",
+            "text": "Bei Fernabsatzverträgen haben Kunden ein _____-tägiges Widerrufsrecht.",
+            "correctAnswer": "14",
+            "hint": "Zeitraum in Tagen für Online-Käufe"
+        },
+        {
+            "id": "s5",
+            "text": "Die gesetzliche Gewährleistungsfrist für neue Waren beträgt _____ Jahre.",
+            "correctAnswer": "2",
+            "hint": "Zeitraum der Mängelhaftung"
+        },
+        {
+            "id": "s6",
+            "text": "Eine _____ informiert Kunden über Art, Umfang und Zweck der Datenverarbeitung.",
+            "correctAnswer": "Datenschutzerklärung",
+            "hint": "Pflichtdokument auf Webseiten"
+        },
+        {
+            "id": "s7",
+            "text": "_____ sind Informationen, die sich auf eine identifizierte oder identifizierbare Person beziehen.",
+            "correctAnswer": "Personenbezogene Daten",
+            "hint": "Daten, die unter die DSGVO fallen"
+        },
+        {
+            "id": "s8",
+            "text": "Der _____ überwacht die Einhaltung der DSGVO im Unternehmen.",
+            "correctAnswer": "Datenschutzbeauftragte",
+            "hint": "Verantwortliche Person für Datenschutz"
+        },
+        {
+            "id": "s9",
+            "text": "_____ bedeutet die Einhaltung von gesetzlichen Bestimmungen und Richtlinien.",
+            "correctAnswer": "Compliance",
+            "hint": "Regelkonformität im Unternehmen"
+        },
+        {
+            "id": "s10",
+            "text": "Eine DSGVO-Auskunftsanfrage muss innerhalb von _____ Monat beantwortet werden.",
+            "correctAnswer": "1",
+            "hint": "Zeitraum für die Beantwortung von Auskunftsanfragen"
+        },
+        {
+            "id": "s11",
+            "text": "AGB steht für Allgemeine _____ und regeln die Vertragsbedingungen.",
+            "correctAnswer": "Geschäftsbedingungen",
+            "hint": "Vorformulierte Vertragsbedingungen"
+        },
+        {
+            "id": "s12",
+            "text": "Das Recht auf _____ ermöglicht es Kunden, die Löschung ihrer Daten zu fordern.",
+            "correctAnswer": "Löschung",
+            "hint": "DSGVO-Recht zur Entfernung von Daten"
+        }
+    ]
+}

@@ -99,6 +99,7 @@
     const DRIVE_FILES_ENDPOINT = 'https://www.googleapis.com/drive/v3/files';
     const THEME_KEY = 'globalTheme_v1';
     const JSON_SESSION_PREFIX = 'game_payload_';
+    const PROGRESS_KEY = 'pauker_progress_v1';
 
     class GameBase {
         /**
@@ -207,6 +208,46 @@
 
             if (this.themeToggleBtn) {
                 this.themeToggleBtn.textContent = theme === 'light' ? '☀️' : '🌙';
+            }
+        }
+
+        // ================================================================
+        // Fortschritt speichern
+        // ================================================================
+        _saveProgressPercent(percent, meta) {
+            if (!this.fileId) return;
+            const clamped = Math.max(0, Math.min(100, Math.round(percent)));
+            try {
+                const raw = localStorage.getItem(PROGRESS_KEY);
+                const map = raw ? JSON.parse(raw) : {};
+                map[this.fileId] = {
+                    percent: clamped,
+                    updatedAt: Date.now(),
+                    ...((meta && typeof meta === 'object') ? meta : {})
+                };
+                localStorage.setItem(PROGRESS_KEY, JSON.stringify(map));
+            } catch (e) {
+                console.warn('Konnte Fortschritt nicht speichern:', e);
+            }
+        }
+
+        reportProgress(earnedPoints, maxPoints) {
+            if (typeof earnedPoints !== 'number' || typeof maxPoints !== 'number' || maxPoints <= 0) return;
+            const percent = (earnedPoints / maxPoints) * 100;
+            this._saveProgressPercent(percent, { earned: earnedPoints, max: maxPoints });
+        }
+
+        clearProgress() {
+            if (!this.fileId) return;
+            try {
+                const raw = localStorage.getItem(PROGRESS_KEY);
+                if (!raw) return;
+                const map = JSON.parse(raw);
+                if (!map || typeof map !== 'object') return;
+                delete map[this.fileId];
+                localStorage.setItem(PROGRESS_KEY, JSON.stringify(map));
+            } catch (e) {
+                console.warn('Konnte Fortschritt nicht löschen:', e);
             }
         }
 

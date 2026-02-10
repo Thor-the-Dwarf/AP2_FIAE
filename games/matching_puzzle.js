@@ -115,6 +115,7 @@
         updateStats() {
             if (this.foundSetsEl) this.foundSetsEl.textContent = `${this.foundSets}/${this.totalSets}`;
             if (this.attemptsEl) this.attemptsEl.textContent = String(this.attempts);
+            this.reportProgress(this.foundSets, this.totalSets);
         }
 
         /**
@@ -397,6 +398,7 @@
         }
 
         resetGame() {
+            this.clearProgress();
             // Re-init Logic
             // Make sure to shuffle all and rebuild batches
             if (this.sets && this.sets.length > 0) {

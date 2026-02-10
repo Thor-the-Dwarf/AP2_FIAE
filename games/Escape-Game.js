@@ -287,6 +287,7 @@
         updateSolvedStatus() {
             const count = this.solvedSections.size;
             this.statSolvedEl.textContent = `${count} / ${this.totalSections}`;
+            this.reportProgress(count, this.totalSections);
 
             if (count === this.totalSections && !this.gameLocked && this.remainingSeconds > 0) {
                 this.openDoor();
@@ -305,6 +306,7 @@
         }
 
         resetGame() {
+            this.clearProgress();
             if (this.timerId) clearInterval(this.timerId);
             this.remainingSeconds = this.START_SECONDS;
             this.gameLocked = false;

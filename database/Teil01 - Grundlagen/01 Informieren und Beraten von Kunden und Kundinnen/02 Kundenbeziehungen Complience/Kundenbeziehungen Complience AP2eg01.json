@@ -1,1 +1,297 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Kundenbeziehungen & Compliance",
+    "topic": "DSGVO, Datenschutz, Compliance, Kundenbeziehungen, rechtliche Grundlagen",
+    "estimated_minutes": 25,
+    "sections": [
+        {
+            "id": "compliance-sort-grundlagen",
+            "type": "sort",
+            "title": "Rätsel 1: Compliance-Bereiche zuordnen",
+            "subtitle": "Ordne die Begriffe den passenden Compliance-Bereichen zu.",
+            "hintDefault": "Tipp: DSGVO = Datenschutz, Verträge = rechtliche Dokumente, Kundenrechte = Ansprüche.",
+            "sortColumns": [
+                {
+                    "zone": "dsgvo",
+                    "label": "DSGVO & Datenschutz",
+                    "hint": "(Personenbezogene Daten, Rechte)"
+                },
+                {
+                    "zone": "vertraege",
+                    "label": "Verträge & Dokumente",
+                    "hint": "(AGB, Vertragsarten, Pflichten)"
+                },
+                {
+                    "zone": "kundenrechte",
+                    "label": "Kundenrechte",
+                    "hint": "(Widerrufsrecht, Gewährleistung)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Recht auf Auskunft",
+                    "correctZone": "dsgvo"
+                },
+                {
+                    "id": "s2",
+                    "text": "Recht auf Löschung",
+                    "correctZone": "dsgvo"
+                },
+                {
+                    "id": "s3",
+                    "text": "Datenminimierung",
+                    "correctZone": "dsgvo"
+                },
+                {
+                    "id": "s4",
+                    "text": "Einwilligung zur Datenverarbeitung",
+                    "correctZone": "dsgvo"
+                },
+                {
+                    "id": "s5",
+                    "text": "Allgemeine Geschäftsbedingungen (AGB)",
+                    "correctZone": "vertraege"
+                },
+                {
+                    "id": "s6",
+                    "text": "Kaufvertrag",
+                    "correctZone": "vertraege"
+                },
+                {
+                    "id": "s7",
+                    "text": "Dienstleistungsvertrag",
+                    "correctZone": "vertraege"
+                },
+                {
+                    "id": "s8",
+                    "text": "Datenschutzerklärung",
+                    "correctZone": "vertraege"
+                },
+                {
+                    "id": "s9",
+                    "text": "14-tägiges Widerrufsrecht",
+                    "correctZone": "kundenrechte"
+                },
+                {
+                    "id": "s10",
+                    "text": "Gewährleistung (2 Jahre)",
+                    "correctZone": "kundenrechte"
+                },
+                {
+                    "id": "s11",
+                    "text": "Recht auf Nachbesserung",
+                    "correctZone": "kundenrechte"
+                },
+                {
+                    "id": "s12",
+                    "text": "Informationspflicht des Verkäufers",
+                    "correctZone": "kundenrechte"
+                }
+            ]
+        },
+        {
+            "id": "compliance-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Compliance & Datenschutz",
+            "subtitle": "Teste dein Wissen zu DSGVO, Kundenrechten und Compliance.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was bedeutet DSGVO?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Datenschutz-Grundverordnung"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Datenservice-Garantie-Verordnung"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Digitale Sicherheits-Grundverordnung"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Wie lange beträgt die gesetzliche Gewährleistungsfrist für neue Waren?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "6 Monate"
+                        },
+                        {
+                            "value": "b",
+                            "text": "1 Jahr"
+                        },
+                        {
+                            "value": "c",
+                            "text": "2 Jahre"
+                        }
+                    ],
+                    "correct": "c"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Welches Recht haben Kunden bei Fernabsatzverträgen (z.B. Online-Kauf)?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Kein besonderes Recht"
+                        },
+                        {
+                            "value": "b",
+                            "text": "14-tägiges Widerrufsrecht"
+                        },
+                        {
+                            "value": "c",
+                            "text": "30-tägiges Rückgaberecht"
+                        }
+                    ],
+                    "correct": "b"
+                },
+                {
+                    "id": "q4",
+                    "text": "4. Was ist ein Grundprinzip der DSGVO?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Datenmaximierung – so viele Daten wie möglich sammeln"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Datenminimierung – nur notwendige Daten erheben"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Datenverkauf – Daten weitergeben ist erlaubt"
+                        }
+                    ],
+                    "correct": "b"
+                }
+            ]
+        },
+        {
+            "id": "compliance-reihenfolge-dsgvo",
+            "type": "capital",
+            "title": "Rätsel 3: DSGVO-Anfrage bearbeiten – richtige Reihenfolge",
+            "subtitle": "Bringe die Schritte zur Bearbeitung einer DSGVO-Auskunftsanfrage in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Erst Identität prüfen, dann Daten sammeln, dann Auskunft erteilen, dann dokumentieren.",
+            "rows": [
+                {
+                    "key": "identitaet",
+                    "label": "Identität des Anfragenden prüfen",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "daten",
+                    "label": "Alle gespeicherten personenbezogenen Daten zusammenstellen",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "auskunft",
+                    "label": "Auskunft in verständlicher Form erteilen (innerhalb 1 Monat)",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "dokumentation",
+                    "label": "Vorgang dokumentieren und archivieren",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

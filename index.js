@@ -10,6 +10,7 @@
     // --- 1. Global Setup & State ---
     const THEME_KEY = 'globalTheme_v1';
     const STATE_KEY = 'paukerAppState_v1';
+    const PROGRESS_KEY = 'pauker_progress_v1';
 
     // UI References
     const themeToggleApp = document.getElementById('theme-toggle-app');
@@ -34,6 +35,7 @@
     };
     let rootTree = [];
     let rootName = 'Database';
+    let progressCache = loadProgressMap();
 
     // --- 2. Theme Logic ---
     function applyTheme(theme) {
@@ -80,6 +82,7 @@
         initResizer();
         applyDrawerState();
         initLocalApp();
+        initProgressListener();
     }
 
     function loadAppState() {
@@ -167,6 +170,7 @@
 
         treeRootEl.innerHTML = '';
         buildTreeHelper(treeRootEl, rootTree, 0);
+        refreshProgressLabels();
 
         // Initial View
         viewTitleEl.textContent = 'Bereit';
@@ -185,11 +189,69 @@
         }
     }
 
+    function loadProgressMap() {
+        try {
+            const raw = localStorage.getItem(PROGRESS_KEY);
+            if (!raw) return {};
+            const parsed = JSON.parse(raw);
+            return parsed && typeof parsed === 'object' ? parsed : {};
+        } catch (_) {
+            return {};
+        }
+    }
+
+    function getProgressForId(id) {
+        return progressCache[id] || null;
+    }
+
+    function initProgressListener() {
+        window.addEventListener('storage', (e) => {
+            if (e && e.key === PROGRESS_KEY) {
+                progressCache = loadProgressMap();
+                refreshProgressLabels();
+            }
+        });
+    }
+
+    function refreshProgressLabels() {
+        const map = progressCache || {};
+        document.querySelectorAll('.tree-node').forEach(nodeEl => {
+            const kind = nodeEl.dataset.kind || '';
+            const id = nodeEl.dataset.id;
+            const row = nodeEl.querySelector('.tree-row');
+            const label = row ? row.querySelector('.tree-label') : null;
+            if (!row || !label) return;
+
+            if (kind !== 'json') {
+                const existing = row.querySelector('.tree-progress');
+                if (existing) existing.remove();
+                return;
+            }
+
+            const entry = map[id];
+            if (!entry || typeof entry.percent !== 'number') {
+                const existing = row.querySelector('.tree-progress');
+                if (existing) existing.remove();
+                return;
+            }
+
+            let progressEl = row.querySelector('.tree-progress');
+            if (!progressEl) {
+                progressEl = document.createElement('span');
+                progressEl.className = 'tree-progress';
+                row.insertBefore(progressEl, label);
+            }
+            progressEl.textContent = `${entry.percent}%`;
+        });
+    }
+
     function buildTreeHelper(container, nodes, level) {
         nodes.forEach(node => {
             const div = document.createElement('div');
             div.className = 'tree-node';
             div.dataset.id = node.id;
+            div.dataset.kind = node.kind || '';
+            div.dataset.isFolder = node.isFolder ? '1' : '0';
 
             const isCollapsed = !appState.openedIds.includes(node.id);
             if (isCollapsed) div.classList.add('tree-node--collapsed');
@@ -219,6 +281,16 @@
             const isOpen = appState.openedIds.includes(node.id);
             icon.textContent = node.isFolder ? (isOpen ? "📂" : "📁") : (node.kind !== "json" ? "👁" : "🏋");
             row.appendChild(icon);
+
+            if (!node.isFolder && node.kind === 'json') {
+                const progress = getProgressForId(node.id);
+                if (progress && typeof progress.percent === 'number') {
+                    const progressEl = document.createElement('span');
+                    progressEl.className = 'tree-progress';
+                    progressEl.textContent = `${progress.percent}%`;
+                    row.appendChild(progressEl);
+                }
+            }
 
             const label = document.createElement('button');
             label.className = 'tree-label';

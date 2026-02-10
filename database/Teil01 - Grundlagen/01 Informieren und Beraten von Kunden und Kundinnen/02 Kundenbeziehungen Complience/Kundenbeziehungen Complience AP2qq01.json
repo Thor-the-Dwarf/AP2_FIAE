@@ -1,1 +1,239 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Kundenbeziehungen & Compliance",
+    "topic": "DSGVO, Datenschutz, Kundenrechte, rechtliche Grundlagen",
+    "estimated_minutes": 10,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was bedeutet die Abkürzung DSGVO?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Datenschutz-Grundverordnung"
+                },
+                {
+                    "value": "b",
+                    "text": "Datenservice-Garantie-Verordnung"
+                },
+                {
+                    "value": "c",
+                    "text": "Digitale Sicherheits-Grundverordnung"
+                },
+                {
+                    "value": "d",
+                    "text": "Datenschutz-Gesetz-Verordnung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Wie lange beträgt die gesetzliche Gewährleistungsfrist für neue Waren?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "6 Monate"
+                },
+                {
+                    "value": "b",
+                    "text": "1 Jahr"
+                },
+                {
+                    "value": "c",
+                    "text": "2 Jahre"
+                },
+                {
+                    "value": "d",
+                    "text": "3 Jahre"
+                }
+            ],
+            "correct": "c"
+        },
+        {
+            "id": "q3",
+            "text": "Welches Recht haben Kunden bei Fernabsatzverträgen (z.B. Online-Kauf)?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "7-tägiges Widerrufsrecht"
+                },
+                {
+                    "value": "b",
+                    "text": "14-tägiges Widerrufsrecht"
+                },
+                {
+                    "value": "c",
+                    "text": "30-tägiges Widerrufsrecht"
+                },
+                {
+                    "value": "d",
+                    "text": "Kein Widerrufsrecht"
+                }
+            ],
+            "correct": "b"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist ein Grundprinzip der DSGVO?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Datenmaximierung"
+                },
+                {
+                    "value": "b",
+                    "text": "Datenminimierung"
+                },
+                {
+                    "value": "c",
+                    "text": "Datenverkauf"
+                },
+                {
+                    "value": "d",
+                    "text": "Datenvermehrung"
+                }
+            ],
+            "correct": "b"
+        },
+        {
+            "id": "q5",
+            "text": "Welches Recht haben Kunden gemäß DSGVO?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Recht auf Auskunft über gespeicherte Daten"
+                },
+                {
+                    "value": "b",
+                    "text": "Recht auf kostenlose Produkte"
+                },
+                {
+                    "value": "c",
+                    "text": "Recht auf unbegrenzte Rückgabe"
+                },
+                {
+                    "value": "d",
+                    "text": "Recht auf Datenverdopplung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was sind personenbezogene Daten?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Nur Name und Adresse"
+                },
+                {
+                    "value": "b",
+                    "text": "Alle Informationen, die sich auf eine identifizierbare Person beziehen"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Bankdaten"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur E-Mail-Adressen"
+                }
+            ],
+            "correct": "b"
+        },
+        {
+            "id": "q7",
+            "text": "Was bedeutet Compliance?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Einhaltung von gesetzlichen Bestimmungen und Richtlinien"
+                },
+                {
+                    "value": "b",
+                    "text": "Verkauf von Produkten"
+                },
+                {
+                    "value": "c",
+                    "text": "Kundenberatung"
+                },
+                {
+                    "value": "d",
+                    "text": "Marketingstrategie"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Wer überwacht die Einhaltung der DSGVO im Unternehmen?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Der Geschäftsführer"
+                },
+                {
+                    "value": "b",
+                    "text": "Der Datenschutzbeauftragte"
+                },
+                {
+                    "value": "c",
+                    "text": "Der Vertriebsleiter"
+                },
+                {
+                    "value": "d",
+                    "text": "Der Kunde"
+                }
+            ],
+            "correct": "b"
+        },
+        {
+            "id": "q9",
+            "text": "Was ist eine Datenschutzerklärung?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Ein Werbedokument"
+                },
+                {
+                    "value": "b",
+                    "text": "Ein Pflichtdokument, das über die Datenverarbeitung informiert"
+                },
+                {
+                    "value": "c",
+                    "text": "Ein Vertrag"
+                },
+                {
+                    "value": "d",
+                    "text": "Eine Rechnung"
+                }
+            ],
+            "correct": "b"
+        },
+        {
+            "id": "q10",
+            "text": "Innerhalb welcher Frist muss eine DSGVO-Auskunftsanfrage beantwortet werden?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "1 Woche"
+                },
+                {
+                    "value": "b",
+                    "text": "2 Wochen"
+                },
+                {
+                    "value": "c",
+                    "text": "1 Monat"
+                },
+                {
+                    "value": "d",
+                    "text": "3 Monate"
+                }
+            ],
+            "correct": "c"
+        }
+    ]
+}

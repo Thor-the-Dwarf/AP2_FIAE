@@ -53,7 +53,12 @@
                 if (cached) {
                     try {
                         data = JSON.parse(cached);
-                        console.log('Spiel-Daten aus Cache geladen:', filePath);
+                        const hasType = data && typeof data === 'object' && (data.game_type || data.gameType);
+                        if (!hasType) {
+                            data = null;
+                        } else {
+                            console.log('Spiel-Daten aus Cache geladen:', filePath);
+                        }
                     } catch (e) {
                         console.warn('Fehler beim Parsen der Cache-Daten');
                     }

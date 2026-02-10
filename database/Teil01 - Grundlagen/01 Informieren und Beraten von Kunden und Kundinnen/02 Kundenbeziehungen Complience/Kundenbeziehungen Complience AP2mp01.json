@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Kundenbeziehungen & Compliance",
+    "topic": "DSGVO, Datenschutz, Kundenrechte, Compliance-Begriffe",
+    "estimated_minutes": 15,
+    "sets": [
+        {
+            "left": "DSGVO",
+            "right": "Datenschutz-Grundverordnung – EU-weite Regelung zum Schutz personenbezogener Daten"
+        },
+        {
+            "left": "Recht auf Auskunft",
+            "right": "Kunden können jederzeit Auskunft über ihre gespeicherten Daten verlangen"
+        },
+        {
+            "left": "Recht auf Löschung",
+            "right": "Kunden können die Löschung ihrer personenbezogenen Daten fordern"
+        },
+        {
+            "left": "Datenminimierung",
+            "right": "Es dürfen nur die für den Zweck notwendigen Daten erhoben werden"
+        },
+        {
+            "left": "Einwilligung",
+            "right": "Freiwillige, informierte Zustimmung zur Verarbeitung personenbezogener Daten"
+        },
+        {
+            "left": "Widerrufsrecht",
+            "right": "Bei Fernabsatzverträgen können Kunden innerhalb von 14 Tagen ohne Angabe von Gründen widerrufen"
+        },
+        {
+            "left": "Gewährleistung",
+            "right": "Gesetzliche Haftung des Verkäufers für Mängel – 2 Jahre bei Neuwaren"
+        },
+        {
+            "left": "AGB",
+            "right": "Allgemeine Geschäftsbedingungen – vorformulierte Vertragsbedingungen"
+        },
+        {
+            "left": "Datenschutzerklärung",
+            "right": "Pflichtdokument, das über Art, Umfang und Zweck der Datenverarbeitung informiert"
+        },
+        {
+            "left": "Personenbezogene Daten",
+            "right": "Informationen, die sich auf eine identifizierte oder identifizierbare Person beziehen"
+        },
+        {
+            "left": "Compliance",
+            "right": "Einhaltung von gesetzlichen Bestimmungen, Richtlinien und freiwilligen Kodizes"
+        },
+        {
+            "left": "Datenschutzbeauftragter",
+            "right": "Person, die die Einhaltung der DSGVO im Unternehmen überwacht"
+        }
+    ]
+}

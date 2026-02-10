@@ -358,6 +358,9 @@
             this.scoreFormEl.textContent = this.scoreWhat;
             this.scoreReasonEl.textContent = this.scoreWhy;
             this.scoreTotalEl.textContent = this.scoreWhat + this.scoreWhy;
+            const total = this.scoreWhat + this.scoreWhy;
+            const maxTotal = this.cases.length * 2;
+            this.reportProgress(total, maxTotal);
 
             // Feedback (Uses Generic Labels if possible)
             const feedbackLabels = this.configData.uiLabels?.feedback || {
@@ -424,6 +427,7 @@
         }
 
         restart() {
+            this.clearProgress();
             this.scoreWhat = 0;
             this.scoreWhy = 0;
             this.currentIndex = 0;
