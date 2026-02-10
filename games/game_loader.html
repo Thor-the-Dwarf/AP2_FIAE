@@ -38,6 +38,7 @@
         (async function () {
             const params = new URLSearchParams(window.location.search);
             const filePath = params.get('file');
+            const basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/games/'));
 
             if (!filePath) {
                 showError('Keine Datei angegeben.');
@@ -66,8 +67,6 @@
 
                 // 2. Fallback: Datei laden
                 if (!data) {
-                    // Detect base path (works for both local and GitHub Pages)
-                    const basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/games/'));
                     const res = await fetch(basePath + '/' + filePath);
                     if (!res.ok) throw new Error(`Ladefehler: ${res.status}`);
                     data = await res.json();
@@ -110,11 +109,25 @@
                         <p>${msg}</p>
                         <div style="display:flex; gap:0.5rem; justify-content:center; flex-wrap:wrap; margin-top:1rem;">
                             <button onclick="window.location.reload()">Neu laden</button>
-                            <button onclick="window.parent && window.parent.clearDriveCache && window.parent.clearDriveCache()">Cache leeren</button>
-                            <button onclick="window.parent && window.parent.goToOverview && window.parent.goToOverview()">Zurück zur Übersicht</button>
+                            <button onclick="window.__clearCache()">Cache leeren</button>
+                            <button onclick="window.__goOverview()">Zurück zur Übersicht</button>
                         </div>
                     </div>`;
             }
+
+            window.__clearCache = function () {
+                try {
+                    if (window.parent && window.parent.clearDriveCache) return window.parent.clearDriveCache();
+                } catch (_) { }
+                alert('Cache leeren ist nur in der Hauptansicht verfügbar.');
+            };
+
+            window.__goOverview = function () {
+                try {
+                    if (window.parent && window.parent.goToOverview) return window.parent.goToOverview();
+                } catch (_) { }
+                window.location.href = basePath + '/index.html';
+            };
         })();
     </script>
 </body>

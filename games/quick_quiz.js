@@ -254,8 +254,8 @@
                     </div>
                     <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-top:0.75rem;">
                         <button class="btn primary" onclick="window.location.reload()">Neu laden</button>
-                        <button class="btn" onclick="window.parent && window.parent.clearDriveCache && window.parent.clearDriveCache()">Cache leeren</button>
-                        <button class="btn" onclick="window.parent && window.parent.goToOverview && window.parent.goToOverview()">Zurück zur Übersicht</button>
+                        <button class="btn" onclick="(window.parent && window.parent.clearDriveCache && window.parent.clearDriveCache()) || alert('Cache leeren ist nur in der Hauptansicht verfügbar.')">Cache leeren</button>
+                        <button class="btn" onclick="(window.parent && window.parent.goToOverview && window.parent.goToOverview()) || (window.location.href = window.location.href.replace(/\\/games\\/[^/]+$/, '/index.html'))">Zurück zur Übersicht</button>
                     </div>
                 `;
                 this.setExplanation('');
