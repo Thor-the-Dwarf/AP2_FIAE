@@ -26,7 +26,7 @@
                     "text": "Nur Reporting"
                 }
             ],
-            "correct": "a"
+            "correct": "Kontinuierliche Überwachung"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Nur Firewall"
                 }
             ],
-            "correct": "a"
+            "correct": "Monitoring-Tool"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Nur Firewall"
                 }
             ],
-            "correct": "a"
+            "correct": "Redundant Array of Independent Disks"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Nur Wartung"
                 }
             ],
-            "correct": "a"
+            "correct": "Komplette Datensicherung"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Nur Wartung"
                 }
             ],
-            "correct": "a"
+            "correct": "Nur Änderungen seit letztem Backup"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Nur RAID"
                 }
             ],
-            "correct": "a"
+            "correct": "Unterbrechungsfreie Stromversorgung"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Nur Firewall"
                 }
             ],
-            "correct": "a"
+            "correct": "Simple Network Management Protocol"
         },
         {
             "id": "q8",
@@ -187,7 +187,26 @@
                     "text": "Nur Wartung"
                 }
             ],
-            "correct": "a"
+            "correct": "Wiederherstellung nach Katastrophe"
         }
+    ],
+    "answerLabels": [
+        "Kontinuierliche Überwachung",
+        "Nur Backup",
+        "Nur Wartung",
+        "Nur Reporting",
+        "Monitoring-Tool",
+        "Nur Datenbank",
+        "Nur Firewall",
+        "Redundant Array of Independent Disks",
+        "Nur Monitoring",
+        "Komplette Datensicherung",
+        "Nur Änderungen",
+        "Nur Änderungen seit letztem Backup",
+        "Komplette Sicherung",
+        "Unterbrechungsfreie Stromversorgung",
+        "Nur RAID",
+        "Simple Network Management Protocol",
+        "Wiederherstellung nach Katastrophe"
     ]
 }

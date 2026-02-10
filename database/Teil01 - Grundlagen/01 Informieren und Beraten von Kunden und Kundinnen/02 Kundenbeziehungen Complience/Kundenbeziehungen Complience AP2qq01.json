@@ -26,7 +26,7 @@
                     "text": "Datenschutz-Gesetz-Verordnung"
                 }
             ],
-            "correct": "a"
+            "correct": "Datenschutz-Grundverordnung"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "3 Jahre"
                 }
             ],
-            "correct": "c"
+            "correct": "2 Jahre"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Kein Widerrufsrecht"
                 }
             ],
-            "correct": "b"
+            "correct": "14-tägiges Widerrufsrecht"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Datenvermehrung"
                 }
             ],
-            "correct": "b"
+            "correct": "Datenminimierung"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Recht auf Datenverdopplung"
                 }
             ],
-            "correct": "a"
+            "correct": "Recht auf Auskunft über gespeicherte Daten"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Nur E-Mail-Adressen"
                 }
             ],
-            "correct": "b"
+            "correct": "Alle Informationen, die sich auf eine identifizierbare Person beziehen"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Marketingstrategie"
                 }
             ],
-            "correct": "a"
+            "correct": "Einhaltung von gesetzlichen Bestimmungen und Richtlinien"
         },
         {
             "id": "q8",
@@ -187,7 +187,7 @@
                     "text": "Der Kunde"
                 }
             ],
-            "correct": "b"
+            "correct": "Der Datenschutzbeauftragte"
         },
         {
             "id": "q9",
@@ -210,7 +210,7 @@
                     "text": "Eine Rechnung"
                 }
             ],
-            "correct": "b"
+            "correct": "Ein Pflichtdokument, das über die Datenverarbeitung informiert"
         },
         {
             "id": "q10",
@@ -233,7 +233,49 @@
                     "text": "3 Monate"
                 }
             ],
-            "correct": "c"
+            "correct": "1 Monat"
         }
+    ],
+    "answerLabels": [
+        "Datenschutz-Grundverordnung",
+        "Datenservice-Garantie-Verordnung",
+        "Digitale Sicherheits-Grundverordnung",
+        "Datenschutz-Gesetz-Verordnung",
+        "6 Monate",
+        "1 Jahr",
+        "2 Jahre",
+        "3 Jahre",
+        "7-tägiges Widerrufsrecht",
+        "14-tägiges Widerrufsrecht",
+        "30-tägiges Widerrufsrecht",
+        "Kein Widerrufsrecht",
+        "Datenmaximierung",
+        "Datenminimierung",
+        "Datenverkauf",
+        "Datenvermehrung",
+        "Recht auf Auskunft über gespeicherte Daten",
+        "Recht auf kostenlose Produkte",
+        "Recht auf unbegrenzte Rückgabe",
+        "Recht auf Datenverdopplung",
+        "Nur Name und Adresse",
+        "Alle Informationen, die sich auf eine identifizierbare Person beziehen",
+        "Nur Bankdaten",
+        "Nur E-Mail-Adressen",
+        "Einhaltung von gesetzlichen Bestimmungen und Richtlinien",
+        "Verkauf von Produkten",
+        "Kundenberatung",
+        "Marketingstrategie",
+        "Der Geschäftsführer",
+        "Der Datenschutzbeauftragte",
+        "Der Vertriebsleiter",
+        "Der Kunde",
+        "Ein Werbedokument",
+        "Ein Pflichtdokument, das über die Datenverarbeitung informiert",
+        "Ein Vertrag",
+        "Eine Rechnung",
+        "1 Woche",
+        "2 Wochen",
+        "1 Monat",
+        "3 Monate"
     ]
 }

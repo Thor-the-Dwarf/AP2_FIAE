@@ -26,7 +26,7 @@
                     "text": "3 Schichten"
                 }
             ],
-            "correct": "a"
+            "correct": "7 Schichten"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Nur Switching"
                 }
             ],
-            "correct": "a"
+            "correct": "Protokollstapel für Internet"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "64-Bit-Adressierung"
                 }
             ],
-            "correct": "a"
+            "correct": "32-Bit-Adressierung"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Validated Public Network"
                 }
             ],
-            "correct": "a"
+            "correct": "Virtual Private Network"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Storage as a Service"
                 }
             ],
-            "correct": "a"
+            "correct": "Software as a Service"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Protocol as a Service"
                 }
             ],
-            "correct": "a"
+            "correct": "Platform as a Service"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Interface as a Service"
                 }
             ],
-            "correct": "a"
+            "correct": "Infrastructure as a Service"
         },
         {
             "id": "q8",
@@ -187,7 +187,7 @@
                     "text": "Nur Backup"
                 }
             ],
-            "correct": "a"
+            "correct": "Virtualisierungssoftware"
         },
         {
             "id": "q9",
@@ -210,7 +210,7 @@
                     "text": "Reliable Automated Information Distribution"
                 }
             ],
-            "correct": "a"
+            "correct": "Redundant Array of Independent Disks"
         },
         {
             "id": "q10",
@@ -233,7 +233,49 @@
                     "text": "Security Level Assessment"
                 }
             ],
-            "correct": "a"
+            "correct": "Service Level Agreement"
         }
+    ],
+    "answerLabels": [
+        "7 Schichten",
+        "5 Schichten",
+        "4 Schichten",
+        "3 Schichten",
+        "Protokollstapel für Internet",
+        "Nur OSI-Modell",
+        "Nur Routing",
+        "Nur Switching",
+        "32-Bit-Adressierung",
+        "128-Bit-Adressierung",
+        "16-Bit-Adressierung",
+        "64-Bit-Adressierung",
+        "Virtual Private Network",
+        "Virtual Public Network",
+        "Verified Private Network",
+        "Validated Public Network",
+        "Software as a Service",
+        "System as a Service",
+        "Security as a Service",
+        "Storage as a Service",
+        "Platform as a Service",
+        "Product as a Service",
+        "Process as a Service",
+        "Protocol as a Service",
+        "Infrastructure as a Service",
+        "Integration as a Service",
+        "Information as a Service",
+        "Interface as a Service",
+        "Virtualisierungssoftware",
+        "Nur Container",
+        "Nur Cloud",
+        "Nur Backup",
+        "Redundant Array of Independent Disks",
+        "Rapid Access to Internet Data",
+        "Remote Administration Interface Device",
+        "Reliable Automated Information Distribution",
+        "Service Level Agreement",
+        "Software License Agreement",
+        "System Log Analysis",
+        "Security Level Assessment"
     ]
 }

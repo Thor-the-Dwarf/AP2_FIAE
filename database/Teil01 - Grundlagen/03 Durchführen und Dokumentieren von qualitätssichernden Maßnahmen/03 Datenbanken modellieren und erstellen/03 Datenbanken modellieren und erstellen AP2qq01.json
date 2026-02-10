@@ -26,7 +26,7 @@
                     "text": "Graph-Datenbank"
                 }
             ],
-            "correct": "a"
+            "correct": "Datenbank mit Tabellen und Beziehungen"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Programmiersprache"
                 }
             ],
-            "correct": "a"
+            "correct": "Nicht-relationale Datenbanken"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Testing"
                 }
             ],
-            "correct": "a"
+            "correct": "Redundanzen vermeiden"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Software Query Library"
                 }
             ],
-            "correct": "a"
+            "correct": "Structured Query Language"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Ändert Struktur"
                 }
             ],
-            "correct": "a"
+            "correct": "Ruft Daten ab"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Sortiert Daten"
                 }
             ],
-            "correct": "a"
+            "correct": "Verbindet mehrere Tabellen"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "SQL-Funktion"
                 }
             ],
-            "correct": "a"
+            "correct": "Eindeutiger Identifikator"
         },
         {
             "id": "q8",
@@ -187,7 +187,40 @@
                     "text": "Primärschlüssel vorhanden"
                 }
             ],
-            "correct": "a"
+            "correct": "Alle Werte sind atomar"
         }
+    ],
+    "answerLabels": [
+        "Datenbank mit Tabellen und Beziehungen",
+        "Dokumentenorientierte DB",
+        "Key-Value-Store",
+        "Graph-Datenbank",
+        "Nicht-relationale Datenbanken",
+        "Keine Datenbank",
+        "SQL-Erweiterung",
+        "Programmiersprache",
+        "Redundanzen vermeiden",
+        "Datenbank beschleunigen",
+        "Code optimieren",
+        "Testing",
+        "Structured Query Language",
+        "Simple Question Logic",
+        "System Quality Level",
+        "Software Query Library",
+        "Ruft Daten ab",
+        "Löscht Daten",
+        "Erstellt Tabellen",
+        "Ändert Struktur",
+        "Verbindet mehrere Tabellen",
+        "Erstellt Index",
+        "Sortiert Daten",
+        "Eindeutiger Identifikator",
+        "Verweis auf andere Tabelle",
+        "Datentyp",
+        "SQL-Funktion",
+        "Alle Werte sind atomar",
+        "Keine Redundanzen",
+        "Keine transitiven Abhängigkeiten",
+        "Primärschlüssel vorhanden"
     ]
 }

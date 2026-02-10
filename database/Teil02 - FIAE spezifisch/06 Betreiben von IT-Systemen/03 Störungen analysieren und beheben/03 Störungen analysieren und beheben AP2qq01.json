@@ -26,7 +26,7 @@
                     "text": "Nur Wartung"
                 }
             ],
-            "correct": "a"
+            "correct": "Systematische Fehlersuche"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Nur Backup"
                 }
             ],
-            "correct": "a"
+            "correct": "Suche nach Grundursache"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Nur Backup"
                 }
             ],
-            "correct": "a"
+            "correct": "Temporäre Umgehung"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Nur Wartung"
                 }
             ],
-            "correct": "a"
+            "correct": "Software-Update"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Nur Backup"
                 }
             ],
-            "correct": "a"
+            "correct": "Rückgängigmachen"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Nur Wartung"
                 }
             ],
-            "correct": "a"
+            "correct": "Auswertung von Protokollen"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Nur Backup"
                 }
             ],
-            "correct": "a"
+            "correct": "Bekanntes Problem"
         },
         {
             "id": "q8",
@@ -187,7 +187,24 @@
                     "text": "Nur Wartung"
                 }
             ],
-            "correct": "a"
+            "correct": "Nachträgliche Analyse"
         }
+    ],
+    "answerLabels": [
+        "Systematische Fehlersuche",
+        "Nur Monitoring",
+        "Nur Backup",
+        "Nur Wartung",
+        "Suche nach Grundursache",
+        "Nur Symptome",
+        "Temporäre Umgehung",
+        "Dauerhafte Lösung",
+        "Software-Update",
+        "Rückgängigmachen",
+        "Nur Update",
+        "Auswertung von Protokollen",
+        "Bekanntes Problem",
+        "Nur neues Problem",
+        "Nachträgliche Analyse"
     ]
 }

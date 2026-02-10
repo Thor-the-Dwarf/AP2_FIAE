@@ -26,7 +26,7 @@
                     "text": "Ein UML-Diagramm"
                 }
             ],
-            "correct": "a"
+            "correct": "Haltepunkt zum Debuggen von Code"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Test der Benutzeroberfläche"
                 }
             ],
-            "correct": "a"
+            "correct": "Test ohne Kenntnis der internen Struktur"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Akzeptanztest"
                 }
             ],
-            "correct": "c"
+            "correct": "Komponententest"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Unique Model Library"
                 }
             ],
-            "correct": "a"
+            "correct": "Unified Modeling Language"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Benutzeroberfläche"
                 }
             ],
-            "correct": "b"
+            "correct": "Entitäten und ihre Beziehungen in einer Datenbank"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Tests durchführen"
                 }
             ],
-            "correct": "a"
+            "correct": "Redundanzen und Anomalien vermeiden"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Eine SQL-Funktion"
                 }
             ],
-            "correct": "a"
+            "correct": "Eindeutiger Identifikator für jeden Datensatz"
         },
         {
             "id": "q8",
@@ -187,7 +187,7 @@
                     "text": "UML-Modellierung"
                 }
             ],
-            "correct": "a"
+            "correct": "Versionsmanagement von Quellcode"
         },
         {
             "id": "q9",
@@ -210,7 +210,7 @@
                     "text": "Testverfahren"
                 }
             ],
-            "correct": "a"
+            "correct": "Benutzerfreundliche Gestaltung von Software"
         },
         {
             "id": "q10",
@@ -233,7 +233,49 @@
                     "text": "Software Query Library"
                 }
             ],
-            "correct": "a"
+            "correct": "Structured Query Language"
         }
+    ],
+    "answerLabels": [
+        "Haltepunkt zum Debuggen von Code",
+        "Ein Fehler im Code",
+        "Eine Datenbank-Abfrage",
+        "Ein UML-Diagramm",
+        "Test ohne Kenntnis der internen Struktur",
+        "Test mit vollständiger Code-Kenntnis",
+        "Test nur der Datenbank",
+        "Test der Benutzeroberfläche",
+        "Systemtest",
+        "Integrationstest",
+        "Komponententest",
+        "Akzeptanztest",
+        "Unified Modeling Language",
+        "Universal Machine Language",
+        "User Management Logic",
+        "Unique Model Library",
+        "Programmablauf",
+        "Entitäten und ihre Beziehungen in einer Datenbank",
+        "Testfälle",
+        "Benutzeroberfläche",
+        "Redundanzen und Anomalien vermeiden",
+        "Datenbank beschleunigen",
+        "Code optimieren",
+        "Tests durchführen",
+        "Eindeutiger Identifikator für jeden Datensatz",
+        "Verweis auf eine andere Tabelle",
+        "Ein Datentyp",
+        "Eine SQL-Funktion",
+        "Versionsmanagement von Quellcode",
+        "Datenbank-Verwaltung",
+        "Testing",
+        "UML-Modellierung",
+        "Benutzerfreundliche Gestaltung von Software",
+        "Code-Optimierung",
+        "Datenbank-Design",
+        "Testverfahren",
+        "Structured Query Language",
+        "Simple Question Logic",
+        "System Quality Level",
+        "Software Query Library"
     ]
 }

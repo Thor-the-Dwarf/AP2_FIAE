@@ -26,7 +26,7 @@
                     "text": "Datenbank-Test"
                 }
             ],
-            "correct": "a"
+            "correct": "Sicherheitstest durch simulierte Angriffe"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Verschlüsselung"
                 }
             ],
-            "correct": "a"
+            "correct": "Systematische Überprüfung von Sicherheitsmaßnahmen"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Verschlüsselung"
                 }
             ],
-            "correct": "a"
+            "correct": "Kontinuierliche Überwachung"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Integrated Development System"
                 }
             ],
-            "correct": "a"
+            "correct": "Intrusion Detection System"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Integrated Protection Service"
                 }
             ],
-            "correct": "a"
+            "correct": "Intrusion Prevention System"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Service Implementation and Evaluation Method"
                 }
             ],
-            "correct": "a"
+            "correct": "Security Information and Event Management"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Support-Team"
                 }
             ],
-            "correct": "a"
+            "correct": "Angriffsteam bei Sicherheitstests"
         },
         {
             "id": "q8",
@@ -187,7 +187,37 @@
                     "text": "Support-Team"
                 }
             ],
-            "correct": "a"
+            "correct": "Verteidigungsteam bei Sicherheitstests"
         }
+    ],
+    "answerLabels": [
+        "Sicherheitstest durch simulierte Angriffe",
+        "Performance-Test",
+        "Usability-Test",
+        "Datenbank-Test",
+        "Systematische Überprüfung von Sicherheitsmaßnahmen",
+        "Angriffssimulation",
+        "Backup",
+        "Verschlüsselung",
+        "Kontinuierliche Überwachung",
+        "Einmalige Prüfung",
+        "Intrusion Detection System",
+        "Internet Data Service",
+        "Internal Database System",
+        "Integrated Development System",
+        "Intrusion Prevention System",
+        "Internet Protocol Service",
+        "Internal Processing System",
+        "Integrated Protection Service",
+        "Security Information and Event Management",
+        "System Integration and Error Management",
+        "Software Installation and Execution Module",
+        "Service Implementation and Evaluation Method",
+        "Angriffsteam bei Sicherheitstests",
+        "Verteidigungsteam",
+        "Entwicklungsteam",
+        "Support-Team",
+        "Verteidigungsteam bei Sicherheitstests",
+        "Angriffsteam"
     ]
 }

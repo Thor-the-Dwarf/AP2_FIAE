@@ -26,7 +26,7 @@
                     "text": "Eine Funktion"
                 }
             ],
-            "correct": "a"
+            "correct": "Haltepunkt zum Debuggen"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Nur für Datenbanken"
                 }
             ],
-            "correct": "a"
+            "correct": "Test ohne Kenntnis der internen Struktur"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Statischer Test"
                 }
             ],
-            "correct": "a"
+            "correct": "Test mit vollständiger Code-Kenntnis"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Versionierung"
                 }
             ],
-            "correct": "a"
+            "correct": "Statisches Testverfahren (Code-Durchsicht)"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Akzeptanztest"
                 }
             ],
-            "correct": "a"
+            "correct": "Komponententest"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Nur UI"
                 }
             ],
-            "correct": "a"
+            "correct": "Zusammenspiel mehrerer Module"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Nur für Datenbanken"
                 }
             ],
-            "correct": "a"
+            "correct": "Test mit Grenzwerten und extremen Eingaben"
         },
         {
             "id": "q8",
@@ -187,7 +187,7 @@
                     "text": "Datenbank-Verwaltung"
                 }
             ],
-            "correct": "a"
+            "correct": "Versionsmanagement von Quellcode"
         },
         {
             "id": "q9",
@@ -210,7 +210,7 @@
                     "text": "Nur Kosten"
                 }
             ],
-            "correct": "a"
+            "correct": "Statisch ohne, dynamisch mit Code-Ausführung"
         },
         {
             "id": "q10",
@@ -233,7 +233,45 @@
                     "text": "Nur Zahlen"
                 }
             ],
-            "correct": "a"
+            "correct": "Spezielle Eingabedaten zur Software-Überprüfung"
         }
+    ],
+    "answerLabels": [
+        "Haltepunkt zum Debuggen",
+        "Ein Fehler",
+        "Ein Testverfahren",
+        "Eine Funktion",
+        "Test ohne Kenntnis der internen Struktur",
+        "Test mit Code-Kenntnis",
+        "Statischer Test",
+        "Nur für Datenbanken",
+        "Test mit vollständiger Code-Kenntnis",
+        "Test ohne Code-Kenntnis",
+        "Nur für UI",
+        "Statisches Testverfahren (Code-Durchsicht)",
+        "Dynamisches Testverfahren",
+        "Debugging",
+        "Versionierung",
+        "Komponententest",
+        "Integrationstest",
+        "Systemtest",
+        "Akzeptanztest",
+        "Zusammenspiel mehrerer Module",
+        "Einzelne Module",
+        "Gesamtsystem",
+        "Nur UI",
+        "Test mit Grenzwerten und extremen Eingaben",
+        "Test normaler Werte",
+        "Versionsmanagement von Quellcode",
+        "Testing",
+        "Datenbank-Verwaltung",
+        "Statisch ohne, dynamisch mit Code-Ausführung",
+        "Kein Unterschied",
+        "Nur Geschwindigkeit",
+        "Nur Kosten",
+        "Spezielle Eingabedaten zur Software-Überprüfung",
+        "Produktivdaten",
+        "Backup-Daten",
+        "Nur Zahlen"
     ]
 }

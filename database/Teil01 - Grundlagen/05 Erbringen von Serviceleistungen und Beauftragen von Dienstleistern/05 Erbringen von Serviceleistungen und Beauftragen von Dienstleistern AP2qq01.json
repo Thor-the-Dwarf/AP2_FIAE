@@ -26,7 +26,7 @@
                     "text": "Nur Reporting"
                 }
             ],
-            "correct": "a"
+            "correct": "Verwaltung und Behebung von Störungen"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Security Level Assessment"
                 }
             ],
-            "correct": "a"
+            "correct": "Service Level Agreement"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Security Operation Plans"
                 }
             ],
-            "correct": "a"
+            "correct": "Standard Operation Procedures"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Nur Backup"
                 }
             ],
-            "correct": "a"
+            "correct": "System zur Verwaltung von Anfragen"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Nur Status"
                 }
             ],
-            "correct": "a"
+            "correct": "Hierarchische Stufen zur Weiterleitung"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Nur Wartezeit"
                 }
             ],
-            "correct": "a"
+            "correct": "Zeit bis zur ersten Reaktion"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Nur Dokumentation"
                 }
             ],
-            "correct": "a"
+            "correct": "Systematische Fehlersuche"
         },
         {
             "id": "q8",
@@ -187,7 +187,7 @@
                     "text": "Nur Reporting"
                 }
             ],
-            "correct": "a"
+            "correct": "Kontinuierliche Überwachung"
         },
         {
             "id": "q9",
@@ -210,7 +210,7 @@
                     "text": "Nur Ticketsystem"
                 }
             ],
-            "correct": "a"
+            "correct": "Berichterstattung über Serviceleistungen"
         },
         {
             "id": "q10",
@@ -233,7 +233,40 @@
                     "text": "Nur Bearbeitungszeit"
                 }
             ],
-            "correct": "a"
+            "correct": "Prozentsatz der Zeit, in der Service verfügbar ist"
         }
+    ],
+    "answerLabels": [
+        "Verwaltung und Behebung von Störungen",
+        "Nur Ticketsystem",
+        "Nur Monitoring",
+        "Nur Reporting",
+        "Service Level Agreement",
+        "Software License Agreement",
+        "System Log Analysis",
+        "Security Level Assessment",
+        "Standard Operation Procedures",
+        "System Optimization Programs",
+        "Service Output Protocols",
+        "Security Operation Plans",
+        "System zur Verwaltung von Anfragen",
+        "Nur E-Mail-System",
+        "Nur Backup",
+        "Hierarchische Stufen zur Weiterleitung",
+        "Nur Prioritäten",
+        "Nur Kategorien",
+        "Nur Status",
+        "Zeit bis zur ersten Reaktion",
+        "Zeit bis zur Lösung",
+        "Nur Bearbeitungszeit",
+        "Nur Wartezeit",
+        "Systematische Fehlersuche",
+        "Nur Dokumentation",
+        "Kontinuierliche Überwachung",
+        "Einmalige Prüfung",
+        "Berichterstattung über Serviceleistungen",
+        "Prozentsatz der Zeit, in der Service verfügbar ist",
+        "Nur Reaktionszeit",
+        "Nur Lösungszeit"
     ]
 }

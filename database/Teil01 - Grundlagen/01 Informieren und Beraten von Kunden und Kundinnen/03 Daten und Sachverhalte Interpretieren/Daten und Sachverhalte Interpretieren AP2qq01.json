@@ -26,7 +26,7 @@
                     "text": "Geografische Verteilungen"
                 }
             ],
-            "correct": "a"
+            "correct": "Entwicklungen und Trends über einen Zeitraum"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Kundenzufriedenheit in Prozent"
                 }
             ],
-            "correct": "b"
+            "correct": "Verhältnis von Gewinn zu eingesetztem Kapital"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Netzdiagramm"
                 }
             ],
-            "correct": "b"
+            "correct": "Kreisdiagramm"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Lagerbestände zu zählen"
                 }
             ],
-            "correct": "a"
+            "correct": "Produkte oder Kunden nach ihrer Bedeutung zu klassifizieren"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Nur Kundenzufriedenheit"
                 }
             ],
-            "correct": "b"
+            "correct": "Stärken, Schwächen, Chancen und Risiken"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Mitarbeiterbewertung"
                 }
             ],
-            "correct": "a"
+            "correct": "Vergleich mit Best Practices oder Wettbewerbern"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Lagerbestand"
                 }
             ],
-            "correct": "b"
+            "correct": "Anteil der Besucher, die eine gewünschte Aktion ausführen"
         },
         {
             "id": "q8",
@@ -187,7 +187,7 @@
                     "text": "Diagramme erstellen"
                 }
             ],
-            "correct": "b"
+            "correct": "Daten sammeln und erfassen"
         },
         {
             "id": "q9",
@@ -210,7 +210,7 @@
                     "text": "Lagerkapazität"
                 }
             ],
-            "correct": "b"
+            "correct": "Prozentualer Anteil eines Unternehmens am Gesamtmarkt"
         },
         {
             "id": "q10",
@@ -233,7 +233,45 @@
                     "text": "Streudiagramm"
                 }
             ],
-            "correct": "c"
+            "correct": "Balken- oder Säulendiagramm"
         }
+    ],
+    "answerLabels": [
+        "Entwicklungen und Trends über einen Zeitraum",
+        "Anteile an einem Ganzen",
+        "Vergleich von zwei Kategorien",
+        "Geografische Verteilungen",
+        "Gesamtumsatz eines Unternehmens",
+        "Verhältnis von Gewinn zu eingesetztem Kapital",
+        "Anzahl der verkauften Produkte",
+        "Kundenzufriedenheit in Prozent",
+        "Liniendiagramm",
+        "Kreisdiagramm",
+        "Streudiagramm",
+        "Netzdiagramm",
+        "Produkte oder Kunden nach ihrer Bedeutung zu klassifizieren",
+        "Mitarbeiter alphabetisch zu sortieren",
+        "Marketingkampagnen zu bewerten",
+        "Lagerbestände zu zählen",
+        "Nur finanzielle Kennzahlen",
+        "Stärken, Schwächen, Chancen und Risiken",
+        "Nur Marktanteile",
+        "Nur Kundenzufriedenheit",
+        "Vergleich mit Best Practices oder Wettbewerbern",
+        "Erstellung von Diagrammen",
+        "Berechnung von Durchschnittswerten",
+        "Mitarbeiterbewertung",
+        "Gesamtumsatz",
+        "Anteil der Besucher, die eine gewünschte Aktion ausführen",
+        "Anzahl der Mitarbeiter",
+        "Lagerbestand",
+        "Ergebnisse präsentieren",
+        "Daten sammeln und erfassen",
+        "Daten interpretieren",
+        "Diagramme erstellen",
+        "Prozentualer Anteil eines Unternehmens am Gesamtmarkt",
+        "Gewinn pro Produkt",
+        "Lagerkapazität",
+        "Balken- oder Säulendiagramm"
     ]
 }

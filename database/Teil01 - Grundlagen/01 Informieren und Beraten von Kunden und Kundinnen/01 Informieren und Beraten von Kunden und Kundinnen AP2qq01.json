@@ -26,7 +26,7 @@
                     "text": "Den Gesprächspartner unterbrechen"
                 }
             ],
-            "correct": "a"
+            "correct": "Dem Gesprächspartner aufmerksam folgen und Verständnis signalisieren"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "HGB"
                 }
             ],
-            "correct": "b"
+            "correct": "UWG (Gesetz gegen unlauteren Wettbewerb)"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Eine Diagrammart"
                 }
             ],
-            "correct": "b"
+            "correct": "Einheitliches Erscheinungsbild eines Unternehmens"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Ein Gesetz"
                 }
             ],
-            "correct": "a"
+            "correct": "Verwaltung und Pflege von Kundenbeziehungen"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Rechnung schreiben"
                 }
             ],
-            "correct": "b"
+            "correct": "Kundenanfrage entgegennehmen"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Präsentationstechnik"
                 }
             ],
-            "correct": "a"
+            "correct": "Regelkonformität – Einhaltung von Gesetzen und Vorgaben"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Fax"
                 }
             ],
-            "correct": "b"
+            "correct": "Telefonkonferenz oder Chat"
         },
         {
             "id": "q8",
@@ -187,7 +187,7 @@
                     "text": "Allgemeine Gesetze für Betriebe"
                 }
             ],
-            "correct": "a"
+            "correct": "Allgemeine Geschäftsbedingungen"
         },
         {
             "id": "q9",
@@ -210,7 +210,7 @@
                     "text": "Videoschnitt"
                 }
             ],
-            "correct": "b"
+            "correct": "Tabellenkalkulation (z.B. Excel)"
         },
         {
             "id": "q10",
@@ -233,7 +233,48 @@
                     "text": "Nur Videos"
                 }
             ],
-            "correct": "b"
+            "correct": "Kombination aus Text, Bild, Video und Audio"
         }
+    ],
+    "answerLabels": [
+        "Dem Gesprächspartner aufmerksam folgen und Verständnis signalisieren",
+        "Nur schweigen und nicken",
+        "Sofort Lösungen präsentieren",
+        "Den Gesprächspartner unterbrechen",
+        "BGB",
+        "UWG (Gesetz gegen unlauteren Wettbewerb)",
+        "DSGVO",
+        "HGB",
+        "Ein Softwareprogramm",
+        "Einheitliches Erscheinungsbild eines Unternehmens",
+        "Ein Gesetz",
+        "Eine Diagrammart",
+        "Verwaltung und Pflege von Kundenbeziehungen",
+        "Ein Diagrammtyp",
+        "Eine Präsentationstechnik",
+        "Auftrag bestätigen",
+        "Kundenanfrage entgegennehmen",
+        "Angebot erstellen",
+        "Rechnung schreiben",
+        "Regelkonformität – Einhaltung von Gesetzen und Vorgaben",
+        "Kundenberatung",
+        "Verkaufsstrategie",
+        "Präsentationstechnik",
+        "E-Mail",
+        "Telefonkonferenz oder Chat",
+        "Brief",
+        "Fax",
+        "Allgemeine Geschäftsbedingungen",
+        "Automatische Geschäftsberichte",
+        "Angebotene Garantie-Bedingungen",
+        "Allgemeine Gesetze für Betriebe",
+        "Textverarbeitung",
+        "Tabellenkalkulation (z.B. Excel)",
+        "Bildbearbeitung",
+        "Videoschnitt",
+        "Nur Text",
+        "Kombination aus Text, Bild, Video und Audio",
+        "Nur Bilder",
+        "Nur Videos"
     ]
 }

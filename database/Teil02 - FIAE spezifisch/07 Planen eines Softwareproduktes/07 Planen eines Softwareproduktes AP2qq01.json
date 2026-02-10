@@ -26,7 +26,7 @@
                     "text": "Nur Testfälle"
                 }
             ],
-            "correct": "a"
+            "correct": "Anforderungen aus Nutzersicht"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Nur Testfall"
                 }
             ],
-            "correct": "a"
+            "correct": "Anwendungsfall mit Akteur"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Nur Use Case"
                 }
             ],
-            "correct": "a"
+            "correct": "UML-Diagramm für zeitliche Abläufe"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Nur Use Case"
                 }
             ],
-            "correct": "a"
+            "correct": "UML-Diagramm für Klassenstruktur"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Nur Testmodell"
                 }
             ],
-            "correct": "a"
+            "correct": "Sequenzielles Vorgehensmodell"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Nur Testframework"
                 }
             ],
-            "correct": "a"
+            "correct": "Agiles Framework mit Sprints"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Nur UML"
                 }
             ],
-            "correct": "a"
+            "correct": "Agile Methode mit Visualisierung"
         },
         {
             "id": "q8",
@@ -187,7 +187,7 @@
                     "text": "Nur Vorgehensmodell"
                 }
             ],
-            "correct": "a"
+            "correct": "API-Architekturstil"
         },
         {
             "id": "q9",
@@ -210,7 +210,7 @@
                     "text": "Nur Vorgehensmodell"
                 }
             ],
-            "correct": "a"
+            "correct": "Datenformat"
         },
         {
             "id": "q10",
@@ -233,7 +233,39 @@
                     "text": "Nur Testfall"
                 }
             ],
-            "correct": "a"
+            "correct": "Visueller Prototyp"
         }
+    ],
+    "answerLabels": [
+        "Anforderungen aus Nutzersicht",
+        "Nur technische Spezifikation",
+        "Nur UML-Diagramme",
+        "Nur Testfälle",
+        "Anwendungsfall mit Akteur",
+        "Nur User Story",
+        "Nur UML-Diagramm",
+        "Nur Testfall",
+        "UML-Diagramm für zeitliche Abläufe",
+        "Nur Klassendiagramm",
+        "Nur Zustandsdiagramm",
+        "Nur Use Case",
+        "UML-Diagramm für Klassenstruktur",
+        "Nur Sequenzdiagramm",
+        "Sequenzielles Vorgehensmodell",
+        "Nur agiles Modell",
+        "Nur UML",
+        "Nur Testmodell",
+        "Agiles Framework mit Sprints",
+        "Nur Wasserfallmodell",
+        "Nur Testframework",
+        "Agile Methode mit Visualisierung",
+        "Nur Scrum",
+        "API-Architekturstil",
+        "Nur Datenbank",
+        "Nur Vorgehensmodell",
+        "Datenformat",
+        "Nur Programmiersprache",
+        "Visueller Prototyp",
+        "Nur Code"
     ]
 }

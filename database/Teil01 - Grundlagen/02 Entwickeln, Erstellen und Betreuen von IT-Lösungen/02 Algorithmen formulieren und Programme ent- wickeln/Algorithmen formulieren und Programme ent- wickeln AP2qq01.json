@@ -26,7 +26,7 @@
                     "text": "Unique Model Library"
                 }
             ],
-            "correct": "a"
+            "correct": "Unified Modeling Language"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Datenbank-Struktur"
                 }
             ],
-            "correct": "a"
+            "correct": "Anwendungsfälle und Akteure"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Testfälle"
                 }
             ],
-            "correct": "a"
+            "correct": "Klassen, Attribute und Methoden"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Datenbank"
                 }
             ],
-            "correct": "a"
+            "correct": "Programmablauf und Kontrollstrukturen"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Testdaten"
                 }
             ],
-            "correct": "a"
+            "correct": "Algorithmus in vereinfachter Form"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Testing"
                 }
             ],
-            "correct": "a"
+            "correct": "Benutzerfreundliche Gestaltung"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Kostenlose Software"
                 }
             ],
-            "correct": "a"
+            "correct": "Zugänglichkeit für Menschen mit Behinderungen"
         },
         {
             "id": "q8",
@@ -187,7 +187,7 @@
                     "text": "Ein Attribut"
                 }
             ],
-            "correct": "a"
+            "correct": "Person oder System, das mit der Software interagiert"
         },
         {
             "id": "q9",
@@ -210,7 +210,7 @@
                     "text": "Testing"
                 }
             ],
-            "correct": "a"
+            "correct": "Übertragung von Eigenschaften einer Klasse auf eine andere"
         },
         {
             "id": "q10",
@@ -233,7 +233,45 @@
                     "text": "Testverfahren"
                 }
             ],
-            "correct": "a"
+            "correct": "Verzweigungen und Schleifen (if, while, for)"
         }
+    ],
+    "answerLabels": [
+        "Unified Modeling Language",
+        "Universal Machine Language",
+        "User Management Logic",
+        "Unique Model Library",
+        "Anwendungsfälle und Akteure",
+        "Klassen und Methoden",
+        "Programmablauf",
+        "Datenbank-Struktur",
+        "Klassen, Attribute und Methoden",
+        "Anwendungsfälle",
+        "Testfälle",
+        "Programmablauf und Kontrollstrukturen",
+        "Klassen",
+        "Datenbank",
+        "Algorithmus in vereinfachter Form",
+        "Echter Programmcode",
+        "UML-Diagramm",
+        "Testdaten",
+        "Benutzerfreundliche Gestaltung",
+        "Code-Optimierung",
+        "Datenbank-Design",
+        "Testing",
+        "Zugänglichkeit für Menschen mit Behinderungen",
+        "Schnelle Software",
+        "Sichere Software",
+        "Kostenlose Software",
+        "Person oder System, das mit der Software interagiert",
+        "Eine Klasse",
+        "Eine Methode",
+        "Ein Attribut",
+        "Übertragung von Eigenschaften einer Klasse auf eine andere",
+        "Datenübertragung",
+        "Code-Kopie",
+        "Verzweigungen und Schleifen (if, while, for)",
+        "Datentypen",
+        "Testverfahren"
     ]
 }

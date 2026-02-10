@@ -26,7 +26,7 @@
                     "text": "Nur V-Modell"
                 }
             ],
-            "correct": "a"
+            "correct": "Sequenzielles Modell"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Nur Kanban"
                 }
             ],
-            "correct": "a"
+            "correct": "Agiles Framework mit Sprints"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Nur V-Modell"
                 }
             ],
-            "correct": "a"
+            "correct": "Agile Methode mit Board"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Nur Rolle"
                 }
             ],
-            "correct": "a"
+            "correct": "Zeitlich begrenzte Iteration"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Nur Manager"
                 }
             ],
-            "correct": "a"
+            "correct": "Scrum-Rolle für Backlog"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Nur Manager"
                 }
             ],
-            "correct": "a"
+            "correct": "Scrum-Rolle für Prozess"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Nur Retrospektive"
                 }
             ],
-            "correct": "a"
+            "correct": "Tägliches Meeting"
         },
         {
             "id": "q8",
@@ -187,7 +187,35 @@
                     "text": "Nur Retrospektive"
                 }
             ],
-            "correct": "a"
+            "correct": "Präsentation der Ergebnisse"
         }
+    ],
+    "answerLabels": [
+        "Sequenzielles Modell",
+        "Nur agiles Modell",
+        "Nur iterativ",
+        "Nur V-Modell",
+        "Agiles Framework mit Sprints",
+        "Nur Wasserfallmodell",
+        "Nur Kanban",
+        "Agile Methode mit Board",
+        "Nur Scrum",
+        "Nur Wasserfall",
+        "Zeitlich begrenzte Iteration",
+        "Nur Phase",
+        "Nur Meeting",
+        "Nur Rolle",
+        "Scrum-Rolle für Backlog",
+        "Nur Entwickler",
+        "Nur Tester",
+        "Nur Manager",
+        "Scrum-Rolle für Prozess",
+        "Tägliches Meeting",
+        "Nur Sprint Planning",
+        "Nur Review",
+        "Nur Retrospektive",
+        "Präsentation der Ergebnisse",
+        "Nur Planning",
+        "Nur Daily"
     ]
 }

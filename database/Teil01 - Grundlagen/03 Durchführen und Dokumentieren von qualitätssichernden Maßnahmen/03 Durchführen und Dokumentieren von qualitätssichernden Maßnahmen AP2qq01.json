@@ -26,7 +26,7 @@
                     "text": "Product-Development-Cycle-Analysis"
                 }
             ],
-            "correct": "a"
+            "correct": "Plan-Do-Check-Act"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Kosten-Vergleichs-Prozess"
                 }
             ],
-            "correct": "a"
+            "correct": "Kontinuierlicher Verbesserungsprozess"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Planung, Durchführung, Kontrolle"
                 }
             ],
-            "correct": "a"
+            "correct": "Vertraulichkeit, Integrität, Verfügbarkeit"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Backup-Verfahren"
                 }
             ],
-            "correct": "a"
+            "correct": "Systematische Überprüfung von Prozessen"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Test-Verfahren"
                 }
             ],
-            "correct": "a"
+            "correct": "Gegenüberstellung von Zielvorgaben und tatsächlichen Ergebnissen"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Backup erstellen"
                 }
             ],
-            "correct": "a"
+            "correct": "Schutz vor unbefugtem Zugriff"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Backup erstellen"
                 }
             ],
-            "correct": "a"
+            "correct": "Schutz vor unbefugter Veränderung"
         },
         {
             "id": "q8",
@@ -187,7 +187,7 @@
                     "text": "Testverfahren"
                 }
             ],
-            "correct": "a"
+            "correct": "Dokumentation von Testergebnissen"
         },
         {
             "id": "q9",
@@ -210,7 +210,7 @@
                     "text": "Backup-Protokoll"
                 }
             ],
-            "correct": "a"
+            "correct": "Dokumentation der Abnahme und Freigabe"
         },
         {
             "id": "q10",
@@ -233,7 +233,46 @@
                     "text": "Act (Handeln)"
                 }
             ],
-            "correct": "a"
+            "correct": "Plan (Planen)"
         }
+    ],
+    "answerLabels": [
+        "Plan-Do-Check-Act",
+        "Process-Data-Control-Analyze",
+        "Plan-Design-Create-Approve",
+        "Product-Development-Cycle-Analysis",
+        "Kontinuierlicher Verbesserungsprozess",
+        "Kontrolle von Prozessen",
+        "Kundenvertrags-Prüfung",
+        "Kosten-Vergleichs-Prozess",
+        "Vertraulichkeit, Integrität, Verfügbarkeit",
+        "Schnelligkeit, Effizienz, Qualität",
+        "Kosten, Zeit, Ressourcen",
+        "Planung, Durchführung, Kontrolle",
+        "Systematische Überprüfung von Prozessen",
+        "Software-Test",
+        "Datenbank-Abfrage",
+        "Backup-Verfahren",
+        "Gegenüberstellung von Zielvorgaben und tatsächlichen Ergebnissen",
+        "Vergleich zweier Software-Versionen",
+        "Datenbank-Abgleich",
+        "Test-Verfahren",
+        "Schutz vor unbefugtem Zugriff",
+        "Schutz vor Veränderung",
+        "Verfügbarkeit sicherstellen",
+        "Backup erstellen",
+        "Schutz vor unbefugter Veränderung",
+        "Dokumentation von Testergebnissen",
+        "Test-Software",
+        "Testdaten",
+        "Testverfahren",
+        "Dokumentation der Abnahme und Freigabe",
+        "Test-Dokumentation",
+        "Fehler-Dokumentation",
+        "Backup-Protokoll",
+        "Plan (Planen)",
+        "Do (Umsetzen)",
+        "Check (Überprüfen)",
+        "Act (Handeln)"
     ]
 }

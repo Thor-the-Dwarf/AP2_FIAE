@@ -26,7 +26,7 @@
                     "text": "Nur Interface"
                 }
             ],
-            "correct": "a"
+            "correct": "Daten und Methoden zusammenfassen"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Nur Interface"
                 }
             ],
-            "correct": "a"
+            "correct": "Eigenschaften übernehmen"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Nur Interface"
                 }
             ],
-            "correct": "a"
+            "correct": "Mehrere Formen eines Objekts"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Nur Polymorphie"
                 }
             ],
-            "correct": "a"
+            "correct": "Vertrag für Klassen"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Nur MVC"
                 }
             ],
-            "correct": "a"
+            "correct": "Benachrichtigung bei Änderungen"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Nur MVC"
                 }
             ],
-            "correct": "a"
+            "correct": "Nur eine Instanz"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Nur Factory"
                 }
             ],
-            "correct": "a"
+            "correct": "Model-View-Controller"
         },
         {
             "id": "q8",
@@ -187,7 +187,7 @@
                     "text": "Nur Editor"
                 }
             ],
-            "correct": "a"
+            "correct": "Integrierte Entwicklungsumgebung"
         },
         {
             "id": "q9",
@@ -210,7 +210,7 @@
                     "text": "Nur Editor"
                 }
             ],
-            "correct": "a"
+            "correct": "Werkzeug zur Fehlersuche"
         },
         {
             "id": "q10",
@@ -233,7 +233,31 @@
                     "text": "Nur Compiler"
                 }
             ],
-            "correct": "a"
+            "correct": "Versionsverwaltung"
         }
+    ],
+    "answerLabels": [
+        "Daten und Methoden zusammenfassen",
+        "Nur Vererbung",
+        "Nur Polymorphie",
+        "Nur Interface",
+        "Eigenschaften übernehmen",
+        "Nur Kapselung",
+        "Mehrere Formen eines Objekts",
+        "Vertrag für Klassen",
+        "Benachrichtigung bei Änderungen",
+        "Nur Singleton",
+        "Nur Factory",
+        "Nur MVC",
+        "Nur eine Instanz",
+        "Nur Observer",
+        "Model-View-Controller",
+        "Integrierte Entwicklungsumgebung",
+        "Nur Debugger",
+        "Nur Compiler",
+        "Nur Editor",
+        "Werkzeug zur Fehlersuche",
+        "Nur IDE",
+        "Versionsverwaltung"
     ]
 }

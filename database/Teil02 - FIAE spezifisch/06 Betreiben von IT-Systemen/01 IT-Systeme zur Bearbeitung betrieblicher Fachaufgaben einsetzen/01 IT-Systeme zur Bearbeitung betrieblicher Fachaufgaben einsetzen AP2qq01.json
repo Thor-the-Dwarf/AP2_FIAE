@@ -26,7 +26,7 @@
                     "text": "Enterprise Reporting Process"
                 }
             ],
-            "correct": "a"
+            "correct": "Enterprise Resource Planning"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Customer Resource Monitoring"
                 }
             ],
-            "correct": "a"
+            "correct": "Customer Relationship Management"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Nur Datenbank"
                 }
             ],
-            "correct": "a"
+            "correct": "ERP-System"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Nur Datenbank"
                 }
             ],
-            "correct": "a"
+            "correct": "CRM-System"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Nur Personal"
                 }
             ],
-            "correct": "a"
+            "correct": "Waren und Lagerbestände"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Nur Personal"
                 }
             ],
-            "correct": "a"
+            "correct": "Kundendaten und -kontakte"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Nur Personal"
                 }
             ],
-            "correct": "a"
+            "correct": "Verwaltung von Finanzen"
         },
         {
             "id": "q8",
@@ -187,7 +187,31 @@
                     "text": "Nur Finanzen"
                 }
             ],
-            "correct": "a"
+            "correct": "Verwaltung von Mitarbeiterdaten"
         }
+    ],
+    "answerLabels": [
+        "Enterprise Resource Planning",
+        "Electronic Resource Processing",
+        "Extended Reporting Platform",
+        "Enterprise Reporting Process",
+        "Customer Relationship Management",
+        "Client Resource Management",
+        "Corporate Risk Management",
+        "Customer Resource Monitoring",
+        "ERP-System",
+        "Nur CRM",
+        "Nur Office",
+        "Nur Datenbank",
+        "CRM-System",
+        "Nur ERP",
+        "Waren und Lagerbestände",
+        "Nur Kunden",
+        "Nur Finanzen",
+        "Nur Personal",
+        "Kundendaten und -kontakte",
+        "Nur Waren",
+        "Verwaltung von Finanzen",
+        "Verwaltung von Mitarbeiterdaten"
     ]
 }

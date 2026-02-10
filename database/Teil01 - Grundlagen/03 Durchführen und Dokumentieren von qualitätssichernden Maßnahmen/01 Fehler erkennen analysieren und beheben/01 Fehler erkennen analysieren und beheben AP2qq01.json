@@ -26,7 +26,7 @@
                     "text": "Nur Datenbank-Test"
                 }
             ],
-            "correct": "a"
+            "correct": "Test ohne Code-Kenntnis"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Nur Performance-Test"
                 }
             ],
-            "correct": "a"
+            "correct": "Test mit Code-Kenntnis"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Nur Security-Test"
                 }
             ],
-            "correct": "a"
+            "correct": "Test mit teilweiser Code-Kenntnis"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Deployment"
                 }
             ],
-            "correct": "a"
+            "correct": "Versionsmanagement"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Backup erstellen"
                 }
             ],
-            "correct": "a"
+            "correct": "Speichern von Änderungen in der Versionskontrolle"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Datenbank-Tabelle"
                 }
             ],
-            "correct": "a"
+            "correct": "Abzweigung im Versionskontrollsystem"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Security-Test"
                 }
             ],
-            "correct": "a"
+            "correct": "Test zur Sicherstellung, dass alte Funktionen noch funktionieren"
         },
         {
             "id": "q8",
@@ -187,7 +187,37 @@
                     "text": "Performance-Metrik"
                 }
             ],
-            "correct": "a"
+            "correct": "Maß für die Testabdeckung des Quellcodes"
         }
+    ],
+    "answerLabels": [
+        "Test ohne Code-Kenntnis",
+        "Test mit Code-Kenntnis",
+        "Nur UI-Test",
+        "Nur Datenbank-Test",
+        "Nur Performance-Test",
+        "Test mit teilweiser Code-Kenntnis",
+        "Test mit vollständiger Code-Kenntnis",
+        "Nur Security-Test",
+        "Versionsmanagement",
+        "Testing",
+        "Debugging",
+        "Deployment",
+        "Speichern von Änderungen in der Versionskontrolle",
+        "Löschen von Code",
+        "Test durchführen",
+        "Backup erstellen",
+        "Abzweigung im Versionskontrollsystem",
+        "Fehler im Code",
+        "Test-Verfahren",
+        "Datenbank-Tabelle",
+        "Test zur Sicherstellung, dass alte Funktionen noch funktionieren",
+        "Test neuer Funktionen",
+        "Performance-Test",
+        "Security-Test",
+        "Maß für die Testabdeckung des Quellcodes",
+        "Anzahl der Codezeilen",
+        "Fehleranzahl",
+        "Performance-Metrik"
     ]
 }

@@ -26,7 +26,7 @@
                     "text": "Nur Kommentar"
                 }
             ],
-            "correct": "a"
+            "correct": "Algorithmus in natürlicher Sprache"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Nur UML"
                 }
             ],
-            "correct": "a"
+            "correct": "Nassi-Shneiderman-Diagramm"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Nur UML"
                 }
             ],
-            "correct": "a"
+            "correct": "Grafische Darstellung mit Symbolen"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Nur Sprung"
                 }
             ],
-            "correct": "a"
+            "correct": "Schrittweise Abarbeitung"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Nur Sprung"
                 }
             ],
-            "correct": "a"
+            "correct": "Bedingte Ausführung"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Nur Sprung"
                 }
             ],
-            "correct": "a"
+            "correct": "Wiederholte Ausführung"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Nur Operator"
                 }
             ],
-            "correct": "a"
+            "correct": "Speicherplatz für Werte"
         },
         {
             "id": "q8",
@@ -187,7 +187,32 @@
                     "text": "Nur Operator"
                 }
             ],
-            "correct": "a"
+            "correct": "Unveränderlicher Wert"
         }
+    ],
+    "answerLabels": [
+        "Algorithmus in natürlicher Sprache",
+        "Nur echter Code",
+        "Nur Diagramm",
+        "Nur Kommentar",
+        "Nassi-Shneiderman-Diagramm",
+        "Nur Flussdiagramm",
+        "Nur Pseudocode",
+        "Nur UML",
+        "Grafische Darstellung mit Symbolen",
+        "Nur Struktogramm",
+        "Schrittweise Abarbeitung",
+        "Nur Verzweigung",
+        "Nur Schleife",
+        "Nur Sprung",
+        "Bedingte Ausführung",
+        "Nur Sequenz",
+        "Wiederholte Ausführung",
+        "Speicherplatz für Werte",
+        "Nur Konstante",
+        "Nur Funktion",
+        "Nur Operator",
+        "Unveränderlicher Wert",
+        "Nur Variable"
     ]
 }

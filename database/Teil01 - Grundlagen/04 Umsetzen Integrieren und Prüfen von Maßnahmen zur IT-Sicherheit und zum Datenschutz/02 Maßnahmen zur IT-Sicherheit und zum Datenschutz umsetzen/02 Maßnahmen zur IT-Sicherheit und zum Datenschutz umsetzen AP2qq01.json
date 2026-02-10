@@ -26,7 +26,7 @@
                     "text": "Monitoring"
                 }
             ],
-            "correct": "a"
+            "correct": "Umwandlung von Daten in unlesbares Format"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Firewall"
                 }
             ],
-            "correct": "a"
+            "correct": "Überprüfung der Identität"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Datenbank-Standard"
                 }
             ],
-            "correct": "a"
+            "correct": "Datenschutz-Grundverordnung"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Verschlüsselung"
                 }
             ],
-            "correct": "a"
+            "correct": "Netzwerksicherheitssystem"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Backup"
                 }
             ],
-            "correct": "a"
+            "correct": "Zwei-Faktor-Authentifizierung"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Nur organisatorische Maßnahmen"
                 }
             ],
-            "correct": "a"
+            "correct": "Technisch-Organisatorische Maßnahmen"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Backup-System"
                 }
             ],
-            "correct": "a"
+            "correct": "Person, die Datenschutz überwacht"
         },
         {
             "id": "q8",
@@ -187,7 +187,34 @@
                     "text": "Verschlüsselungsmethode"
                 }
             ],
-            "correct": "a"
+            "correct": "Dokumentation aller Datenverarbeitungsvorgänge"
         }
+    ],
+    "answerLabels": [
+        "Umwandlung von Daten in unlesbares Format",
+        "Backup-Verfahren",
+        "Firewall",
+        "Monitoring",
+        "Überprüfung der Identität",
+        "Verschlüsselung",
+        "Backup",
+        "Datenschutz-Grundverordnung",
+        "Daten-Sicherheits-Gesetz",
+        "Digital-Service-Verordnung",
+        "Datenbank-Standard",
+        "Netzwerksicherheitssystem",
+        "Antivirus",
+        "Zwei-Faktor-Authentifizierung",
+        "Technisch-Organisatorische Maßnahmen",
+        "Test-Optimierungs-Methoden",
+        "Nur technische Maßnahmen",
+        "Nur organisatorische Maßnahmen",
+        "Person, die Datenschutz überwacht",
+        "Software",
+        "Backup-System",
+        "Dokumentation aller Datenverarbeitungsvorgänge",
+        "Backup-Liste",
+        "Firewall-Regel",
+        "Verschlüsselungsmethode"
     ]
 }

@@ -26,7 +26,7 @@
                     "text": "Backup-System"
                 }
             ],
-            "correct": "a"
+            "correct": "Schadsoftware, die Daten verschlüsselt und Lösegeld fordert"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Backup-Verfahren"
                 }
             ],
-            "correct": "a"
+            "correct": "Täuschung zur Erlangung sensibler Daten"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Firewall"
                 }
             ],
-            "correct": "a"
+            "correct": "Physischer Schutz (Alarm, Video)"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Firewall"
                 }
             ],
-            "correct": "a"
+            "correct": "Authentifizierung (Passwort, Biometrie)"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Firewall"
                 }
             ],
-            "correct": "a"
+            "correct": "Berechtigungen (Verschlüsselung, Rollen)"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Datenbank-Standard-Gesetz"
                 }
             ],
-            "correct": "a"
+            "correct": "Datenschutz-Grundverordnung"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Datenbank-Test"
                 }
             ],
-            "correct": "a"
+            "correct": "Sicherheitstest durch simulierte Angriffe"
         },
         {
             "id": "q8",
@@ -187,7 +187,7 @@
                     "text": "Nur Firewall"
                 }
             ],
-            "correct": "a"
+            "correct": "Sicherheit von Anfang an einplanen"
         },
         {
             "id": "q9",
@@ -210,7 +210,7 @@
                     "text": "Verschlüsselungsmethode"
                 }
             ],
-            "correct": "a"
+            "correct": "Netzwerksicherheitssystem zur Filterung"
         },
         {
             "id": "q10",
@@ -233,7 +233,37 @@
                     "text": "Backup-Verfahren"
                 }
             ],
-            "correct": "a"
+            "correct": "BSI-Methodik zur IT-Absicherung"
         }
+    ],
+    "answerLabels": [
+        "Schadsoftware, die Daten verschlüsselt und Lösegeld fordert",
+        "Antivirus-Software",
+        "Firewall",
+        "Backup-System",
+        "Täuschung zur Erlangung sensibler Daten",
+        "Firewall-Technik",
+        "Verschlüsselungsmethode",
+        "Backup-Verfahren",
+        "Physischer Schutz (Alarm, Video)",
+        "Passwort-Authentifizierung",
+        "Verschlüsselung",
+        "Authentifizierung (Passwort, Biometrie)",
+        "Physischer Schutz",
+        "Berechtigungen (Verschlüsselung, Rollen)",
+        "Datenschutz-Grundverordnung",
+        "Daten-Sicherheits-Gesetz",
+        "Digital-Service-Verordnung",
+        "Datenbank-Standard-Gesetz",
+        "Sicherheitstest durch simulierte Angriffe",
+        "Performance-Test",
+        "Usability-Test",
+        "Datenbank-Test",
+        "Sicherheit von Anfang an einplanen",
+        "Nachträgliche Sicherheitsmaßnahmen",
+        "Nur Design-Aspekte",
+        "Nur Firewall",
+        "Netzwerksicherheitssystem zur Filterung",
+        "BSI-Methodik zur IT-Absicherung"
     ]
 }

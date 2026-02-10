@@ -26,7 +26,7 @@
                     "text": "Monitoring"
                 }
             ],
-            "correct": "a"
+            "correct": "Identifikation potenzieller Gefahren"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Nur Monitoring"
                 }
             ],
-            "correct": "a"
+            "correct": "Bewertung von Eintrittswahrscheinlichkeit und Schadenshöhe"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Nur Datenverlust"
                 }
             ],
-            "correct": "a"
+            "correct": "Mögliches Ausmaß eines Schadens"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Systemausfall"
                 }
             ],
-            "correct": "a"
+            "correct": "Schädigung der Reputation"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Nur Imageschaden"
                 }
             ],
-            "correct": "a"
+            "correct": "Finanzielle Verluste"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Nur Kosten"
                 }
             ],
-            "correct": "a"
+            "correct": "Darstellung von Risiken nach Wahrscheinlichkeit und Schaden"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Nur finanzielle Risiken"
                 }
             ],
-            "correct": "a"
+            "correct": "Verbleibendes Risiko nach Maßnahmen"
         },
         {
             "id": "q8",
@@ -187,7 +187,39 @@
                     "text": "Risiko übertragen"
                 }
             ],
-            "correct": "a"
+            "correct": "Bewusste Entscheidung, ein Risiko zu tragen"
         }
+    ],
+    "answerLabels": [
+        "Identifikation potenzieller Gefahren",
+        "Backup-Verfahren",
+        "Firewall-Konfiguration",
+        "Monitoring",
+        "Bewertung von Eintrittswahrscheinlichkeit und Schadenshöhe",
+        "Nur Bedrohungen identifizieren",
+        "Nur Maßnahmen umsetzen",
+        "Nur Monitoring",
+        "Mögliches Ausmaß eines Schadens",
+        "Nur finanzielle Kosten",
+        "Nur Imageschaden",
+        "Nur Datenverlust",
+        "Schädigung der Reputation",
+        "Finanzieller Verlust",
+        "Datenverlust",
+        "Systemausfall",
+        "Finanzielle Verluste",
+        "Reputationsschaden",
+        "Darstellung von Risiken nach Wahrscheinlichkeit und Schaden",
+        "Nur Bedrohungen",
+        "Nur Maßnahmen",
+        "Nur Kosten",
+        "Verbleibendes Risiko nach Maßnahmen",
+        "Ursprüngliches Risiko",
+        "Kein Risiko",
+        "Nur finanzielle Risiken",
+        "Bewusste Entscheidung, ein Risiko zu tragen",
+        "Risiko ignorieren",
+        "Risiko vermeiden",
+        "Risiko übertragen"
     ]
 }

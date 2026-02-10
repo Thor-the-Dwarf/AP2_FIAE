@@ -26,7 +26,7 @@
                     "text": "Nur Queue"
                 }
             ],
-            "correct": "a"
+            "correct": "Indexbasierte Datenstruktur"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Nur Queue"
                 }
             ],
-            "correct": "a"
+            "correct": "Verkettete Datenstruktur"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Nur Liste"
                 }
             ],
-            "correct": "a"
+            "correct": "LIFO-Datenstruktur"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Nur Liste"
                 }
             ],
-            "correct": "a"
+            "correct": "FIFO-Datenstruktur"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Nur Stack"
                 }
             ],
-            "correct": "a"
+            "correct": "Schlüssel-Wert-Datenstruktur"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Nur Skriptsprache"
                 }
             ],
-            "correct": "a"
+            "correct": "Interpretierte Hochsprache"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Nur Skriptsprache"
                 }
             ],
-            "correct": "a"
+            "correct": "Objektorientierte Sprache"
         },
         {
             "id": "q8",
@@ -187,7 +187,31 @@
                     "text": "Nur Datenbank"
                 }
             ],
-            "correct": "a"
+            "correct": "Automatisierung für Windows"
         }
+    ],
+    "answerLabels": [
+        "Indexbasierte Datenstruktur",
+        "Nur Liste",
+        "Nur Stack",
+        "Nur Queue",
+        "Verkettete Datenstruktur",
+        "Nur Array",
+        "LIFO-Datenstruktur",
+        "Nur FIFO",
+        "FIFO-Datenstruktur",
+        "Nur LIFO",
+        "Schlüssel-Wert-Datenstruktur",
+        "Interpretierte Hochsprache",
+        "Nur kompiliert",
+        "Nur systemnahe",
+        "Nur Skriptsprache",
+        "Objektorientierte Sprache",
+        "Nur prozedural",
+        "Nur funktional",
+        "Automatisierung für Windows",
+        "Nur Linux",
+        "Nur Programmiersprache",
+        "Nur Datenbank"
     ]
 }

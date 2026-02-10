@@ -26,7 +26,7 @@
                     "text": "Nur Präsentation"
                 }
             ],
-            "correct": "a"
+            "correct": "Dokumentation des Projektverlaufs"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Nur Präsentation"
                 }
             ],
-            "correct": "a"
+            "correct": "Dokumentation für Entwickler"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Nur Code"
                 }
             ],
-            "correct": "a"
+            "correct": "Anleitung für Nutzer"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Nur Code"
                 }
             ],
-            "correct": "a"
+            "correct": "Häufig gestellte Fragen"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Nur Handbuch"
                 }
             ],
-            "correct": "a"
+            "correct": "Darstellung von Ergebnissen"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Nur Handbuch"
                 }
             ],
-            "correct": "a"
+            "correct": "Grafische Darstellung"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Nur Handbuch"
                 }
             ],
-            "correct": "a"
+            "correct": "Narrative Präsentationstechnik"
         },
         {
             "id": "q8",
@@ -187,7 +187,26 @@
                     "text": "Nur Code"
                 }
             ],
-            "correct": "a"
+            "correct": "Kurze, prägnante Präsentation"
         }
+    ],
+    "answerLabels": [
+        "Dokumentation des Projektverlaufs",
+        "Nur Code",
+        "Nur Handbuch",
+        "Nur Präsentation",
+        "Dokumentation für Entwickler",
+        "Nur Benutzerhandbuch",
+        "Nur Projektplan",
+        "Anleitung für Nutzer",
+        "Nur technische Doku",
+        "Häufig gestellte Fragen",
+        "Darstellung von Ergebnissen",
+        "Nur Dokumentation",
+        "Grafische Darstellung",
+        "Nur Text",
+        "Narrative Präsentationstechnik",
+        "Kurze, prägnante Präsentation",
+        "Nur lange Präsentation"
     ]
 }

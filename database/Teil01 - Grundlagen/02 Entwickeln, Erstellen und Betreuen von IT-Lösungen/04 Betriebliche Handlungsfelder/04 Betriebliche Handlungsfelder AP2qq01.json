@@ -26,7 +26,7 @@
                     "text": "Nur Monitoring"
                 }
             ],
-            "correct": "a"
+            "correct": "System aktuell und sicher halten"
         },
         {
             "id": "q2",
@@ -49,7 +49,7 @@
                     "text": "Hardware"
                 }
             ],
-            "correct": "a"
+            "correct": "Zentrale Anlaufstelle für Support-Anfragen"
         },
         {
             "id": "q3",
@@ -72,7 +72,7 @@
                     "text": "Benutzer-Schulung"
                 }
             ],
-            "correct": "a"
+            "correct": "Überwachung der Systemleistung"
         },
         {
             "id": "q4",
@@ -95,7 +95,7 @@
                     "text": "Ticket-System"
                 }
             ],
-            "correct": "a"
+            "correct": "Sicherungskopie von Daten"
         },
         {
             "id": "q5",
@@ -118,7 +118,7 @@
                     "text": "Monitoring"
                 }
             ],
-            "correct": "a"
+            "correct": "Sicherheits- oder Fehlerkorrektur"
         },
         {
             "id": "q6",
@@ -141,7 +141,7 @@
                     "text": "Update"
                 }
             ],
-            "correct": "a"
+            "correct": "Störung oder Problem im IT-Betrieb"
         },
         {
             "id": "q7",
@@ -164,7 +164,7 @@
                     "text": "Security Level Assessment"
                 }
             ],
-            "correct": "a"
+            "correct": "Service Level Agreement – Vereinbarung über Servicequalität"
         },
         {
             "id": "q8",
@@ -187,7 +187,39 @@
                     "text": "Geschwindigkeit"
                 }
             ],
-            "correct": "a"
+            "correct": "Zeitanteil, in dem ein System betriebsbereit ist"
         }
+    ],
+    "answerLabels": [
+        "System aktuell und sicher halten",
+        "Nur Fehler beheben",
+        "Nur Backups",
+        "Nur Monitoring",
+        "Zentrale Anlaufstelle für Support-Anfragen",
+        "Software-Tool",
+        "Datenbank",
+        "Hardware",
+        "Überwachung der Systemleistung",
+        "Backup-Erstellung",
+        "Software-Update",
+        "Benutzer-Schulung",
+        "Sicherungskopie von Daten",
+        "Monitoring-Tool",
+        "Ticket-System",
+        "Sicherheits- oder Fehlerkorrektur",
+        "Vollständige Neuinstallation",
+        "Backup",
+        "Monitoring",
+        "Störung oder Problem im IT-Betrieb",
+        "Geplante Wartung",
+        "Update",
+        "Service Level Agreement – Vereinbarung über Servicequalität",
+        "Software License Agreement",
+        "System Log Analysis",
+        "Security Level Assessment",
+        "Zeitanteil, in dem ein System betriebsbereit ist",
+        "Anzahl der Benutzer",
+        "Speicherplatz",
+        "Geschwindigkeit"
     ]
 }
