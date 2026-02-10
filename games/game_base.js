@@ -428,11 +428,9 @@
             Spiel konnte nicht gestartet werden
           </h2>
           <p style="margin:0 0 0.75rem 0;">${this._escapeHtml(String(message))}</p>
-          <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
-            <button class="btn primary" onclick="window.location.reload()">Neu laden</button>
-            <button class="btn" onclick="(window.parent && window.parent.clearDriveCache && window.parent.clearDriveCache()) || alert('Cache leeren ist nur in der Hauptansicht verfügbar.')">Cache leeren</button>
-            <button class="btn" onclick="(window.parent && window.parent.goToOverview && window.parent.goToOverview()) || (window.location.href = window.location.href.replace(/\\/games\\/[^/]+$/, '/index.html'))">Zurück zur Übersicht</button>
-          </div>
+          <p style="margin:0 0 0.75rem 0;color:#fecaca;">
+            ${window.location.protocol === 'file:' ? 'Hinweis: file:// blockiert lokale Fetches. Öffne über http:// oder starte Chrome mit --allow-file-access-from-files.' : 'Bitte versuche es erneut.'}
+          </p>
         </div>
       `;
         }

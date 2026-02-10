@@ -699,17 +699,16 @@
                         if (!resp.ok) throw new Error("Datei nicht gefunden.");
                         node.data = await resp.json();
                     } catch (e) {
+                        const isFile = window.location.protocol === 'file:';
+                        const help = isFile
+                            ? 'Du hast die Datei per file:// geöffnet. Der Browser blockiert lokale Fetches. Öffne die Seite über http:// oder starte Chrome mit --allow-file-access-from-files.'
+                            : 'Bitte versuche es erneut.';
                         viewBodyEl.innerHTML = `
                             <div style="padding:2rem;">
                                 <h2 style="margin-top:0; color:hsl(var(--error));">Spieldaten konnten nicht geladen werden</h2>
                                 <p style="color:hsl(var(--txt-muted));">
-                                    ${e.message} Bitte versuche es erneut oder gehe zurück zur Übersicht.
+                                    ${e.message} ${help}
                                 </p>
-                                <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-top:1rem;">
-                                    <button class="btn primary" onclick="window.location.reload()">Neu laden</button>
-                                    <button class="btn" onclick="window.clearDriveCache()">Cache leeren</button>
-                                    <button class="btn" onclick="window.goToOverview()">Zurück zur Übersicht</button>
-                                </div>
                             </div>
                         `;
                         return;

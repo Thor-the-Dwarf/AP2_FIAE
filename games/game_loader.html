@@ -103,31 +103,17 @@
             }
 
             function showError(msg) {
+                const isFile = window.location.protocol === 'file:';
+                const help = isFile
+                    ? 'Du hast die Datei per file:// geöffnet. Der Browser blockiert lokale Fetches. Öffne die Seite über http:// oder starte Chrome mit --allow-file-access-from-files.'
+                    : 'Bitte versuche es erneut.';
                 document.getElementById('status').innerHTML = `
                     <div class="error">
                         <h3>Inhalt konnte nicht geladen werden</h3>
                         <p>${msg}</p>
-                        <div style="display:flex; gap:0.5rem; justify-content:center; flex-wrap:wrap; margin-top:1rem;">
-                            <button onclick="window.location.reload()">Neu laden</button>
-                            <button onclick="window.__clearCache()">Cache leeren</button>
-                            <button onclick="window.__goOverview()">Zurück zur Übersicht</button>
-                        </div>
+                        <p>${help}</p>
                     </div>`;
             }
-
-            window.__clearCache = function () {
-                try {
-                    if (window.parent && window.parent.clearDriveCache) return window.parent.clearDriveCache();
-                } catch (_) { }
-                alert('Cache leeren ist nur in der Hauptansicht verfügbar.');
-            };
-
-            window.__goOverview = function () {
-                try {
-                    if (window.parent && window.parent.goToOverview) return window.parent.goToOverview();
-                } catch (_) { }
-                window.location.href = basePath + '/index.html';
-            };
         })();
     </script>
 </body>

@@ -252,10 +252,8 @@
                     <div style="margin-top:0.5rem; color:hsl(var(--txt-muted));">
                         Bitte wähle eine andere Aufgabe oder versuche es erneut.
                     </div>
-                    <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-top:0.75rem;">
-                        <button class="btn primary" onclick="window.location.reload()">Neu laden</button>
-                        <button class="btn" onclick="(window.parent && window.parent.clearDriveCache && window.parent.clearDriveCache()) || alert('Cache leeren ist nur in der Hauptansicht verfügbar.')">Cache leeren</button>
-                        <button class="btn" onclick="(window.parent && window.parent.goToOverview && window.parent.goToOverview()) || (window.location.href = window.location.href.replace(/\\/games\\/[^/]+$/, '/index.html'))">Zurück zur Übersicht</button>
+                    <div style="margin-top:0.75rem; color:hsl(var(--txt-muted));">
+                        ${window.location.protocol === 'file:' ? 'Hinweis: file:// blockiert lokale Fetches. Öffne über http:// oder starte Chrome mit --allow-file-access-from-files.' : ''}
                     </div>
                 `;
                 this.setExplanation('');
