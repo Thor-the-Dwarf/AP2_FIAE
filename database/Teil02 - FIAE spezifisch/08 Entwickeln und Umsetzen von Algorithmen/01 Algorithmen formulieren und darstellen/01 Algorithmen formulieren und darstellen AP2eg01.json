@@ -1,1 +1,209 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Algorithmen formulieren",
+    "topic": "Pseudocode, Struktogramme, Flussdiagramme",
+    "estimated_minutes": 18,
+    "sections": [
+        {
+            "id": "form-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Darstellungsformen zuordnen",
+            "subtitle": "Ordne die Merkmale den passenden Darstellungsformen zu.",
+            "hintDefault": "Tipp: Pseudocode = Text, Struktogramm = Blöcke, Flussdiagramm = Symbole.",
+            "sortColumns": [
+                {
+                    "zone": "pseudocode",
+                    "label": "Pseudocode",
+                    "hint": "(Textbasiert)"
+                },
+                {
+                    "zone": "struktogramm",
+                    "label": "Struktogramm",
+                    "hint": "(Blöcke)"
+                },
+                {
+                    "zone": "flussdiagramm",
+                    "label": "Flussdiagramm",
+                    "hint": "(Symbole)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Natürliche Sprache",
+                    "correctZone": "pseudocode"
+                },
+                {
+                    "id": "s2",
+                    "text": "Textbasiert",
+                    "correctZone": "pseudocode"
+                },
+                {
+                    "id": "s3",
+                    "text": "Nassi-Shneiderman",
+                    "correctZone": "struktogramm"
+                },
+                {
+                    "id": "s4",
+                    "text": "Rechteckige Blöcke",
+                    "correctZone": "struktogramm"
+                },
+                {
+                    "id": "s5",
+                    "text": "Grafische Symbole",
+                    "correctZone": "flussdiagramm"
+                },
+                {
+                    "id": "s6",
+                    "text": "Pfeile und Rauten",
+                    "correctZone": "flussdiagramm"
+                }
+            ]
+        },
+        {
+            "id": "form-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Darstellungsformen",
+            "subtitle": "Teste dein Wissen zu Darstellungsformen.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist Pseudocode?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Algorithmus in natürlicher Sprache"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur echter Code"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Diagramm"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist ein Struktogramm?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Nassi-Shneiderman-Diagramm"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Flussdiagramm"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Pseudocode"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist ein Flussdiagramm?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Grafische Darstellung mit Symbolen"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Pseudocode"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Struktogramm"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "form-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Algorithmus-Schritte",
+            "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Eingabe → Verarbeitung → Ausgabe.",
+            "rows": [
+                {
+                    "key": "eingabe",
+                    "label": "Eingabe lesen",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                },
+                {
+                    "key": "verarbeitung",
+                    "label": "Daten verarbeiten",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                },
+                {
+                    "key": "ausgabe",
+                    "label": "Ergebnis ausgeben",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

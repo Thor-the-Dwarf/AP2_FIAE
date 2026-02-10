@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – IT-Systeme einsetzen",
+    "topic": "ERP, CRM",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "ERP",
+            "right": "Enterprise Resource Planning – Ressourcenplanung"
+        },
+        {
+            "left": "CRM",
+            "right": "Customer Relationship Management – Kundenbeziehungen"
+        },
+        {
+            "left": "SAP",
+            "right": "Führendes ERP-System"
+        },
+        {
+            "left": "Salesforce",
+            "right": "Führendes CRM-System"
+        },
+        {
+            "left": "Warenwirtschaft",
+            "right": "Verwaltung von Waren und Lagerbeständen"
+        },
+        {
+            "left": "Kundenverwaltung",
+            "right": "Verwaltung von Kundendaten und -kontakten"
+        },
+        {
+            "left": "Finanzbuchhaltung",
+            "right": "Verwaltung von Finanzen und Buchhaltung"
+        },
+        {
+            "left": "Personalverwaltung",
+            "right": "Verwaltung von Mitarbeiterdaten"
+        },
+        {
+            "left": "Vertrieb",
+            "right": "Verwaltung von Verkaufsprozessen"
+        },
+        {
+            "left": "Marketing",
+            "right": "Verwaltung von Marketingkampagnen"
+        },
+        {
+            "left": "Produktion",
+            "right": "Verwaltung von Produktionsprozessen"
+        },
+        {
+            "left": "Einkauf",
+            "right": "Verwaltung von Beschaffungsprozessen"
+        }
+    ]
+}

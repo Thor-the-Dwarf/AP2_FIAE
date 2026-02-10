@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Störungen beheben",
+    "topic": "Troubleshooting",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "Troubleshooting",
+            "right": "Systematische Fehlersuche und -behebung"
+        },
+        {
+            "left": "Fehleranalyse",
+            "right": "Untersuchung der Fehlerursache"
+        },
+        {
+            "left": "Root Cause Analysis",
+            "right": "Suche nach der Grundursache"
+        },
+        {
+            "left": "Workaround",
+            "right": "Temporäre Problemumgehung"
+        },
+        {
+            "left": "Patch",
+            "right": "Software-Update zur Fehlerbehebung"
+        },
+        {
+            "left": "Rollback",
+            "right": "Rückgängigmachen einer Änderung"
+        },
+        {
+            "left": "Log-Analyse",
+            "right": "Auswertung von Systemprotokollen"
+        },
+        {
+            "left": "Debugging",
+            "right": "Systematische Fehlersuche im Code"
+        },
+        {
+            "left": "Known Error",
+            "right": "Bekanntes Problem mit Lösung"
+        },
+        {
+            "left": "Incident",
+            "right": "Störung oder Vorfall"
+        },
+        {
+            "left": "Problem",
+            "right": "Wiederkehrende Störung"
+        },
+        {
+            "left": "Post-Mortem",
+            "right": "Nachträgliche Analyse"
+        }
+    ]
+}

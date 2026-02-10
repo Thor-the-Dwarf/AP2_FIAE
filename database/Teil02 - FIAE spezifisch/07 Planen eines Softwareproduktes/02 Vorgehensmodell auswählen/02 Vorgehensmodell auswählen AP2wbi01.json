@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Vorgehensmodelle",
+    "topic": "Wasserfall, Scrum, Kanban",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "Das _____ ist ein sequenzielles Vorgehensmodell.",
+            "correctAnswer": "Wasserfallmodell",
+            "hint": "Sequenziell"
+        },
+        {
+            "id": "s2",
+            "text": "_____ ist ein agiles Framework mit Sprints.",
+            "correctAnswer": "Scrum",
+            "hint": "Agil mit Sprints"
+        },
+        {
+            "id": "s3",
+            "text": "_____ ist eine agile Methode mit Board.",
+            "correctAnswer": "Kanban",
+            "hint": "Agil mit Board"
+        },
+        {
+            "id": "s4",
+            "text": "Das _____ ist ein Vorgehensmodell mit Test-Phasen.",
+            "correctAnswer": "V-Modell",
+            "hint": "Mit Tests"
+        },
+        {
+            "id": "s5",
+            "text": "Ein _____ ist eine zeitlich begrenzte Iteration.",
+            "correctAnswer": "Sprint",
+            "hint": "Iteration"
+        },
+        {
+            "id": "s6",
+            "text": "Der _____ verwaltet das Product Backlog.",
+            "correctAnswer": "Product Owner",
+            "hint": "Backlog-Rolle"
+        },
+        {
+            "id": "s7",
+            "text": "Der _____ unterstützt den Scrum-Prozess.",
+            "correctAnswer": "Scrum Master",
+            "hint": "Prozess-Rolle"
+        },
+        {
+            "id": "s8",
+            "text": "Das _____ ist ein tägliches Meeting.",
+            "correctAnswer": "Daily Scrum",
+            "hint": "Täglich"
+        },
+        {
+            "id": "s9",
+            "text": "Das _____ plant den Sprint.",
+            "correctAnswer": "Sprint Planning",
+            "hint": "Planung"
+        },
+        {
+            "id": "s10",
+            "text": "Das _____ präsentiert die Ergebnisse.",
+            "correctAnswer": "Sprint Review",
+            "hint": "Präsentation"
+        },
+        {
+            "id": "s11",
+            "text": "Die _____ reflektiert den Prozess.",
+            "correctAnswer": "Sprint Retrospektive",
+            "hint": "Reflexion"
+        },
+        {
+            "id": "s12",
+            "text": "Das _____ visualisiert den Workflow.",
+            "correctAnswer": "Kanban Board",
+            "hint": "Visualisierung"
+        }
+    ]
+}

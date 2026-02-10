@@ -1,1 +1,107 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Qualitätssicherung",
+    "topic": "QM-Prozesse, IT-Sicherheit, PDCA, KVP",
+    "estimated_minutes": 15,
+    "centerWord": "Qualitätssicherung",
+    "associations": [
+        {
+            "word": "PDCA-Zyklus",
+            "connections": [
+                "Plan",
+                "Do",
+                "Check",
+                "Act"
+            ]
+        },
+        {
+            "word": "Plan",
+            "connections": [
+                "PDCA-Zyklus",
+                "Planen",
+                "Vorbereiten"
+            ]
+        },
+        {
+            "word": "Do",
+            "connections": [
+                "PDCA-Zyklus",
+                "Umsetzen",
+                "Durchführen"
+            ]
+        },
+        {
+            "word": "Check",
+            "connections": [
+                "PDCA-Zyklus",
+                "Überprüfen",
+                "Kontrollieren"
+            ]
+        },
+        {
+            "word": "Act",
+            "connections": [
+                "PDCA-Zyklus",
+                "Handeln",
+                "Verbessern"
+            ]
+        },
+        {
+            "word": "KVP",
+            "connections": [
+                "Kontinuierlich",
+                "Verbesserung",
+                "Prozess"
+            ]
+        },
+        {
+            "word": "IT-Sicherheit",
+            "connections": [
+                "Vertraulichkeit",
+                "Integrität",
+                "Verfügbarkeit"
+            ]
+        },
+        {
+            "word": "Vertraulichkeit",
+            "connections": [
+                "IT-Sicherheit",
+                "Confidentiality",
+                "Schutz"
+            ]
+        },
+        {
+            "word": "Integrität",
+            "connections": [
+                "IT-Sicherheit",
+                "Integrity",
+                "Unveränderbarkeit"
+            ]
+        },
+        {
+            "word": "Verfügbarkeit",
+            "connections": [
+                "IT-Sicherheit",
+                "Availability",
+                "Erreichbarkeit"
+            ]
+        },
+        {
+            "word": "Audit",
+            "connections": [
+                "Überprüfung",
+                "Qualität",
+                "Prozesse"
+            ]
+        },
+        {
+            "word": "Soll-Ist-Vergleich",
+            "connections": [
+                "Ziel",
+                "Ergebnis",
+                "Abweichung"
+            ]
+        }
+    ]
+}

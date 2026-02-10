@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Serviceleistungen",
+    "topic": "Service Management, SLA, Incident Management",
+    "estimated_minutes": 15,
+    "centerWord": "Service Management",
+    "associations": [
+        {
+            "word": "Incident Management",
+            "connections": [
+                "Störungen",
+                "Tickets",
+                "Eskalation"
+            ]
+        },
+        {
+            "word": "SLA",
+            "connections": [
+                "Vereinbarung",
+                "Reaktionszeit",
+                "Verfügbarkeit"
+            ]
+        },
+        {
+            "word": "SOP",
+            "connections": [
+                "Standards",
+                "Prozesse",
+                "Dokumentation"
+            ]
+        },
+        {
+            "word": "Ticketsystem",
+            "connections": [
+                "Incident Management",
+                "Anfragen",
+                "Tracking"
+            ]
+        },
+        {
+            "word": "Eskalation",
+            "connections": [
+                "Incident Management",
+                "Stufen",
+                "Hierarchie"
+            ]
+        },
+        {
+            "word": "Reaktionszeit",
+            "connections": [
+                "SLA",
+                "Erste Reaktion",
+                "Metrik"
+            ]
+        },
+        {
+            "word": "Verfügbarkeit",
+            "connections": [
+                "SLA",
+                "Uptime",
+                "Prozent"
+            ]
+        },
+        {
+            "word": "Troubleshooting",
+            "connections": [
+                "Fehlersuche",
+                "Analyse",
+                "Lösung"
+            ]
+        },
+        {
+            "word": "Monitoring",
+            "connections": [
+                "Überwachung",
+                "Echtzeit",
+                "Proaktiv"
+            ]
+        },
+        {
+            "word": "Reporting",
+            "connections": [
+                "Berichte",
+                "Metriken",
+                "Analyse"
+            ]
+        },
+        {
+            "word": "Dokumentation",
+            "connections": [
+                "SOP",
+                "Wissen",
+                "Prozesse"
+            ]
+        },
+        {
+            "word": "Kundenbetreuung",
+            "connections": [
+                "Service",
+                "Support",
+                "Kommunikation"
+            ]
+        }
+    ]
+}

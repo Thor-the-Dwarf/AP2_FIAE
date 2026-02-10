@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Bedrohungsszenarien",
+    "topic": "Bedrohungsanalyse, Risikoanalyse, Schadenspotenziale",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "Bedrohungsanalyse",
+            "right": "Identifikation potenzieller Gefahren für IT-Systeme"
+        },
+        {
+            "left": "Risikoanalyse",
+            "right": "Bewertung von Eintrittswahrscheinlichkeit und Schadenshöhe"
+        },
+        {
+            "left": "Schadenspotenzial",
+            "right": "Mögliches Ausmaß eines Schadens"
+        },
+        {
+            "left": "Imageschaden",
+            "right": "Schädigung der Reputation und des Vertrauens"
+        },
+        {
+            "left": "Wirtschaftlicher Schaden",
+            "right": "Finanzielle Verluste (Umsatz, Kosten)"
+        },
+        {
+            "left": "Datenverlust",
+            "right": "Verlust oder Zerstörung von Informationen"
+        },
+        {
+            "left": "Eintrittswahrscheinlichkeit",
+            "right": "Wahrscheinlichkeit, dass eine Bedrohung eintritt"
+        },
+        {
+            "left": "Schadenshöhe",
+            "right": "Ausmaß des Schadens bei Eintritt"
+        },
+        {
+            "left": "Risikomatrix",
+            "right": "Darstellung von Risiken nach Wahrscheinlichkeit und Schaden"
+        },
+        {
+            "left": "Gegenmaßnahme",
+            "right": "Maßnahme zur Reduzierung von Risiken"
+        },
+        {
+            "left": "Restrisiko",
+            "right": "Verbleibendes Risiko nach Umsetzung von Maßnahmen"
+        },
+        {
+            "left": "Risikoakzeptanz",
+            "right": "Bewusste Entscheidung, ein Risiko zu tragen"
+        }
+    ]
+}

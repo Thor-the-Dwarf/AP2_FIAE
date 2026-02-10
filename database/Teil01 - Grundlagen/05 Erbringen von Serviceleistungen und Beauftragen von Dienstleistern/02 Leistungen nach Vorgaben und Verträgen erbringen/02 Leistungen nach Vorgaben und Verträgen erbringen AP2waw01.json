@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Leistungen erbringen",
+    "topic": "SLA, Vertragsmanagement",
+    "estimated_minutes": 12,
+    "centerWord": "SLA",
+    "associations": [
+        {
+            "word": "Reaktionszeit",
+            "connections": [
+                "Zeit",
+                "Erste Reaktion",
+                "Metrik"
+            ]
+        },
+        {
+            "word": "Lösungszeit",
+            "connections": [
+                "Zeit",
+                "Problemlösung",
+                "Metrik"
+            ]
+        },
+        {
+            "word": "Uptime",
+            "connections": [
+                "Verfügbarkeit",
+                "Prozent",
+                "Garantie"
+            ]
+        },
+        {
+            "word": "Downtime",
+            "connections": [
+                "Ausfall",
+                "Prozent",
+                "Vermeiden"
+            ]
+        },
+        {
+            "word": "Vertragsmanagement",
+            "connections": [
+                "Verwaltung",
+                "Vereinbarungen",
+                "Compliance"
+            ]
+        },
+        {
+            "word": "Performance",
+            "connections": [
+                "Leistung",
+                "Metriken",
+                "Qualität"
+            ]
+        },
+        {
+            "word": "Kundenzufriedenheit",
+            "connections": [
+                "Qualität",
+                "Bewertung",
+                "Feedback"
+            ]
+        },
+        {
+            "word": "Verfügbarkeitsgarantie",
+            "connections": [
+                "Uptime",
+                "Zusicherung",
+                "Vertrag"
+            ]
+        },
+        {
+            "word": "Eskalationsklausel",
+            "connections": [
+                "Vertrag",
+                "Probleme",
+                "Regelung"
+            ]
+        },
+        {
+            "word": "Penalty",
+            "connections": [
+                "Strafe",
+                "Verletzung",
+                "Vertrag"
+            ]
+        },
+        {
+            "word": "Service-Katalog",
+            "connections": [
+                "Übersicht",
+                "Dienstleistungen",
+                "Angebot"
+            ]
+        },
+        {
+            "word": "Compliance",
+            "connections": [
+                "Einhaltung",
+                "Vorgaben",
+                "Audit"
+            ]
+        }
+    ]
+}

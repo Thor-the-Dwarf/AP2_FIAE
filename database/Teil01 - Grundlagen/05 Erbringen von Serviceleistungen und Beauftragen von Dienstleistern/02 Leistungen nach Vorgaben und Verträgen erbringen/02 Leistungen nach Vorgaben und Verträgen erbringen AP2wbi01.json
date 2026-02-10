@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Leistungen erbringen",
+    "topic": "SLA, Vertragsmanagement",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "_____ steht für Service Level Agreement.",
+            "correctAnswer": "SLA",
+            "hint": "Dienstgütevereinbarung"
+        },
+        {
+            "id": "s2",
+            "text": "Die _____ ist die Zeit bis zur ersten Reaktion.",
+            "correctAnswer": "Reaktionszeit",
+            "hint": "Response Time"
+        },
+        {
+            "id": "s3",
+            "text": "Die _____ ist die Zeit bis zur Problemlösung.",
+            "correctAnswer": "Lösungszeit",
+            "hint": "Resolution Time"
+        },
+        {
+            "id": "s4",
+            "text": "_____ ist die Verfügbarkeit eines Systems in Prozent.",
+            "correctAnswer": "Uptime",
+            "hint": "Verfügbarkeit"
+        },
+        {
+            "id": "s5",
+            "text": "_____ ist die Ausfallzeit eines Systems.",
+            "correctAnswer": "Downtime",
+            "hint": "Ausfall"
+        },
+        {
+            "id": "s6",
+            "text": "_____ verwaltet Dienstleistungsverträge.",
+            "correctAnswer": "Vertragsmanagement",
+            "hint": "Vertragsverwaltung"
+        },
+        {
+            "id": "s7",
+            "text": "Eine _____ ist eine messbare Leistungskennzahl.",
+            "correctAnswer": "Performance-Metrik",
+            "hint": "Leistungskennzahl"
+        },
+        {
+            "id": "s8",
+            "text": "_____ bewertet die Servicequalität.",
+            "correctAnswer": "Kundenzufriedenheit",
+            "hint": "Qualitätsbewertung"
+        },
+        {
+            "id": "s9",
+            "text": "Eine _____ sichert Mindest-Verfügbarkeit zu.",
+            "correctAnswer": "Verfügbarkeitsgarantie",
+            "hint": "Uptime-Garantie"
+        },
+        {
+            "id": "s10",
+            "text": "Eine _____ regelt Problemeskalation vertraglich.",
+            "correctAnswer": "Eskalationsklausel",
+            "hint": "Vertragsregelung"
+        },
+        {
+            "id": "s11",
+            "text": "Eine _____ ist eine Vertragsstrafe bei SLA-Verletzung.",
+            "correctAnswer": "Penalty",
+            "hint": "Strafe"
+        },
+        {
+            "id": "s12",
+            "text": "Ein _____ listet alle Dienstleistungen auf.",
+            "correctAnswer": "Service-Katalog",
+            "hint": "Dienstleistungsübersicht"
+        }
+    ]
+}

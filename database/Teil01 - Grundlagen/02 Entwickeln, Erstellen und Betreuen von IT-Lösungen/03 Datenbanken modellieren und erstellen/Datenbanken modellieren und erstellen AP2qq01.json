@@ -1,1 +1,239 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Datenbanken",
+    "topic": "ER-Modell, SQL, Normalisierung",
+    "estimated_minutes": 10,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was zeigt ein ER-Modell?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Entitäten und ihre Beziehungen"
+                },
+                {
+                    "value": "b",
+                    "text": "Programmablauf"
+                },
+                {
+                    "value": "c",
+                    "text": "Testfälle"
+                },
+                {
+                    "value": "d",
+                    "text": "UML-Diagramme"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist ein Primärschlüssel?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Eindeutiger Identifikator"
+                },
+                {
+                    "value": "b",
+                    "text": "Verweis auf andere Tabelle"
+                },
+                {
+                    "value": "c",
+                    "text": "Datentyp"
+                },
+                {
+                    "value": "d",
+                    "text": "SQL-Befehl"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist ein Fremdschlüssel?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Verweis auf Primärschlüssel einer anderen Tabelle"
+                },
+                {
+                    "value": "b",
+                    "text": "Eindeutiger Identifikator"
+                },
+                {
+                    "value": "c",
+                    "text": "Datentyp"
+                },
+                {
+                    "value": "d",
+                    "text": "Attribut"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist der Zweck der Normalisierung?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Redundanzen und Anomalien vermeiden"
+                },
+                {
+                    "value": "b",
+                    "text": "Datenbank beschleunigen"
+                },
+                {
+                    "value": "c",
+                    "text": "Code optimieren"
+                },
+                {
+                    "value": "d",
+                    "text": "Testing"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was bedeutet SQL?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Structured Query Language"
+                },
+                {
+                    "value": "b",
+                    "text": "Simple Question Logic"
+                },
+                {
+                    "value": "c",
+                    "text": "System Quality Level"
+                },
+                {
+                    "value": "d",
+                    "text": "Software Query Library"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was macht der SELECT-Befehl?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Ruft Daten aus der Datenbank ab"
+                },
+                {
+                    "value": "b",
+                    "text": "Löscht Daten"
+                },
+                {
+                    "value": "c",
+                    "text": "Erstellt Tabellen"
+                },
+                {
+                    "value": "d",
+                    "text": "Ändert Struktur"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist ein JOIN?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Verbindet mehrere Tabellen"
+                },
+                {
+                    "value": "b",
+                    "text": "Löscht Daten"
+                },
+                {
+                    "value": "c",
+                    "text": "Erstellt Index"
+                },
+                {
+                    "value": "d",
+                    "text": "Sortiert Daten"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist NoSQL?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Nicht-relationale Datenbanken"
+                },
+                {
+                    "value": "b",
+                    "text": "Keine Datenbank"
+                },
+                {
+                    "value": "c",
+                    "text": "SQL-Erweiterung"
+                },
+                {
+                    "value": "d",
+                    "text": "Programmiersprache"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q9",
+            "text": "Was ist eine Kardinalität?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Anzahl der Beziehungen (1:1, 1:n, n:m)"
+                },
+                {
+                    "value": "b",
+                    "text": "Datentyp"
+                },
+                {
+                    "value": "c",
+                    "text": "SQL-Befehl"
+                },
+                {
+                    "value": "d",
+                    "text": "Attribut"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q10",
+            "text": "Was ist die 1. Normalform?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Alle Werte sind atomar"
+                },
+                {
+                    "value": "b",
+                    "text": "Keine Redundanzen"
+                },
+                {
+                    "value": "c",
+                    "text": "Keine transitiven Abhängigkeiten"
+                },
+                {
+                    "value": "d",
+                    "text": "Primärschlüssel vorhanden"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

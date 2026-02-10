@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Algorithmen formulieren",
+    "topic": "Pseudocode, Struktogramme",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "_____ beschreibt Algorithmen in natürlicher Sprache.",
+            "correctAnswer": "Pseudocode",
+            "hint": "Natürliche Sprache"
+        },
+        {
+            "id": "s2",
+            "text": "Ein _____ ist ein Nassi-Shneiderman-Diagramm.",
+            "correctAnswer": "Struktogramm",
+            "hint": "Nassi-Shneiderman"
+        },
+        {
+            "id": "s3",
+            "text": "Ein _____ verwendet grafische Symbole.",
+            "correctAnswer": "Flussdiagramm",
+            "hint": "Symbole"
+        },
+        {
+            "id": "s4",
+            "text": "Ein _____ ist ein UML-Diagramm für Abläufe.",
+            "correctAnswer": "Aktivitätsdiagramm",
+            "hint": "UML"
+        },
+        {
+            "id": "s5",
+            "text": "Eine _____ ist schrittweise Abarbeitung.",
+            "correctAnswer": "Sequenz",
+            "hint": "Schrittweise"
+        },
+        {
+            "id": "s6",
+            "text": "Eine _____ ist bedingte Ausführung.",
+            "correctAnswer": "Verzweigung",
+            "hint": "Bedingung"
+        },
+        {
+            "id": "s7",
+            "text": "Eine _____ ist wiederholte Ausführung.",
+            "correctAnswer": "Schleife",
+            "hint": "Wiederholung"
+        },
+        {
+            "id": "s8",
+            "text": "_____ liest Daten ein.",
+            "correctAnswer": "Eingabe",
+            "hint": "Input"
+        },
+        {
+            "id": "s9",
+            "text": "_____ transformiert Daten.",
+            "correctAnswer": "Verarbeitung",
+            "hint": "Transformation"
+        },
+        {
+            "id": "s10",
+            "text": "_____ zeigt Ergebnisse an.",
+            "correctAnswer": "Ausgabe",
+            "hint": "Output"
+        },
+        {
+            "id": "s11",
+            "text": "Eine _____ speichert veränderliche Werte.",
+            "correctAnswer": "Variable",
+            "hint": "Veränderlich"
+        },
+        {
+            "id": "s12",
+            "text": "Eine _____ ist ein unveränderlicher Wert.",
+            "correctAnswer": "Konstante",
+            "hint": "Unveränderlich"
+        }
+    ]
+}

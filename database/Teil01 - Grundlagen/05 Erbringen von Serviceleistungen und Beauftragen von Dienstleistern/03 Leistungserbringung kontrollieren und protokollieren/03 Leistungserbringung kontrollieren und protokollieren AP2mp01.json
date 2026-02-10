@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Leistung kontrollieren",
+    "topic": "Monitoring, Reporting, Dokumentation",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "Monitoring",
+            "right": "Kontinuierliche Überwachung von Systemen"
+        },
+        {
+            "left": "Reporting",
+            "right": "Berichterstattung über Leistungen"
+        },
+        {
+            "left": "Dokumentation",
+            "right": "Schriftliche Aufzeichnung von Prozessen"
+        },
+        {
+            "left": "Dashboard",
+            "right": "Visuelle Übersicht wichtiger Kennzahlen"
+        },
+        {
+            "left": "Alerting",
+            "right": "Automatische Benachrichtigung bei Problemen"
+        },
+        {
+            "left": "Log-Analyse",
+            "right": "Auswertung von Systemprotokollen"
+        },
+        {
+            "left": "Performance-Report",
+            "right": "Bericht über Systemleistung"
+        },
+        {
+            "left": "SLA-Report",
+            "right": "Bericht über Einhaltung von Service Levels"
+        },
+        {
+            "left": "Prozessdokumentation",
+            "right": "Beschreibung von Arbeitsabläufen"
+        },
+        {
+            "left": "Lösungsdokumentation",
+            "right": "Aufzeichnung von Problemlösungen"
+        },
+        {
+            "left": "Metrik",
+            "right": "Messbare Kennzahl zur Leistungsbewertung"
+        },
+        {
+            "left": "KPI",
+            "right": "Key Performance Indicator – Schlüsselkennzahl"
+        }
+    ]
+}

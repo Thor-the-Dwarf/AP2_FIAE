@@ -1,1 +1,239 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – IT-Systeme betreiben",
+    "topic": "Netzwerk, Cloud, Monitoring",
+    "estimated_minutes": 10,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Wie viele Schichten hat das OSI-Modell?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "7 Schichten"
+                },
+                {
+                    "value": "b",
+                    "text": "5 Schichten"
+                },
+                {
+                    "value": "c",
+                    "text": "4 Schichten"
+                },
+                {
+                    "value": "d",
+                    "text": "3 Schichten"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist TCP/IP?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Protokollstapel für Internet"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur OSI-Modell"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Routing"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Switching"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist IPv4?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "32-Bit-Adressierung"
+                },
+                {
+                    "value": "b",
+                    "text": "128-Bit-Adressierung"
+                },
+                {
+                    "value": "c",
+                    "text": "16-Bit-Adressierung"
+                },
+                {
+                    "value": "d",
+                    "text": "64-Bit-Adressierung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist ein VPN?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Virtual Private Network"
+                },
+                {
+                    "value": "b",
+                    "text": "Virtual Public Network"
+                },
+                {
+                    "value": "c",
+                    "text": "Verified Private Network"
+                },
+                {
+                    "value": "d",
+                    "text": "Validated Public Network"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist SaaS?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Software as a Service"
+                },
+                {
+                    "value": "b",
+                    "text": "System as a Service"
+                },
+                {
+                    "value": "c",
+                    "text": "Security as a Service"
+                },
+                {
+                    "value": "d",
+                    "text": "Storage as a Service"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist PaaS?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Platform as a Service"
+                },
+                {
+                    "value": "b",
+                    "text": "Product as a Service"
+                },
+                {
+                    "value": "c",
+                    "text": "Process as a Service"
+                },
+                {
+                    "value": "d",
+                    "text": "Protocol as a Service"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist IaaS?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Infrastructure as a Service"
+                },
+                {
+                    "value": "b",
+                    "text": "Integration as a Service"
+                },
+                {
+                    "value": "c",
+                    "text": "Information as a Service"
+                },
+                {
+                    "value": "d",
+                    "text": "Interface as a Service"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist ein Hypervisor?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Virtualisierungssoftware"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Container"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Cloud"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Backup"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q9",
+            "text": "Was ist RAID?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Redundant Array of Independent Disks"
+                },
+                {
+                    "value": "b",
+                    "text": "Rapid Access to Internet Data"
+                },
+                {
+                    "value": "c",
+                    "text": "Remote Administration Interface Device"
+                },
+                {
+                    "value": "d",
+                    "text": "Reliable Automated Information Distribution"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q10",
+            "text": "Was ist ein SLA?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Service Level Agreement"
+                },
+                {
+                    "value": "b",
+                    "text": "Software License Agreement"
+                },
+                {
+                    "value": "c",
+                    "text": "System Log Analysis"
+                },
+                {
+                    "value": "d",
+                    "text": "Security Level Assessment"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

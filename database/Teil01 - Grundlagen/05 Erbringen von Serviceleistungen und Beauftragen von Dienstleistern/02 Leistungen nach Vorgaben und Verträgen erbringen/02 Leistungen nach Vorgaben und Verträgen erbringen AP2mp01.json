@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Leistungen erbringen",
+    "topic": "SLA, Vertragsmanagement",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "SLA",
+            "right": "Service Level Agreement – Dienstgütevereinbarung"
+        },
+        {
+            "left": "Reaktionszeit",
+            "right": "Zeit bis zur ersten Reaktion auf Anfrage"
+        },
+        {
+            "left": "Lösungszeit",
+            "right": "Zeit bis zur vollständigen Problemlösung"
+        },
+        {
+            "left": "Uptime",
+            "right": "Verfügbarkeit eines Systems in Prozent"
+        },
+        {
+            "left": "Downtime",
+            "right": "Ausfallzeit eines Systems"
+        },
+        {
+            "left": "Vertragsmanagement",
+            "right": "Verwaltung von Dienstleistungsverträgen"
+        },
+        {
+            "left": "Performance-Metrik",
+            "right": "Messbare Leistungskennzahl"
+        },
+        {
+            "left": "Kundenzufriedenheit",
+            "right": "Bewertung der Servicequalität durch Kunden"
+        },
+        {
+            "left": "Verfügbarkeitsgarantie",
+            "right": "Zugesicherte Mindest-Verfügbarkeit"
+        },
+        {
+            "left": "Eskalationsklausel",
+            "right": "Vertragliche Regelung für Problemeskalation"
+        },
+        {
+            "left": "Penalty",
+            "right": "Vertragsstrafe bei SLA-Verletzung"
+        },
+        {
+            "left": "Service-Katalog",
+            "right": "Übersicht aller angebotenen Dienstleistungen"
+        }
+    ]
+}

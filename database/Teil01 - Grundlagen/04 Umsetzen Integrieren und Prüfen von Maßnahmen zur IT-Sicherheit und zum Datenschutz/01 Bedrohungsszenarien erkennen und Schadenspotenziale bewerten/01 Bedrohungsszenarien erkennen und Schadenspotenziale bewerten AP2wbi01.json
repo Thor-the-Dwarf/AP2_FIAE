@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Bedrohungsszenarien",
+    "topic": "Bedrohungsanalyse, Risikoanalyse, Schadenspotenziale",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "Eine _____ identifiziert potenzielle Gefahren für IT-Systeme.",
+            "correctAnswer": "Bedrohungsanalyse",
+            "hint": "Gefahren-Identifikation"
+        },
+        {
+            "id": "s2",
+            "text": "Eine _____ bewertet Eintrittswahrscheinlichkeit und Schadenshöhe.",
+            "correctAnswer": "Risikoanalyse",
+            "hint": "Risiko-Bewertung"
+        },
+        {
+            "id": "s3",
+            "text": "Das _____ ist das mögliche Ausmaß eines Schadens.",
+            "correctAnswer": "Schadenspotenzial",
+            "hint": "Schadensausmaß"
+        },
+        {
+            "id": "s4",
+            "text": "Ein _____ schädigt die Reputation eines Unternehmens.",
+            "correctAnswer": "Imageschaden",
+            "hint": "Reputationsschaden"
+        },
+        {
+            "id": "s5",
+            "text": "Ein _____ Schaden verursacht finanzielle Verluste.",
+            "correctAnswer": "wirtschaftlicher",
+            "hint": "Finanziell"
+        },
+        {
+            "id": "s6",
+            "text": "_____ ist der Verlust oder die Zerstörung von Informationen.",
+            "correctAnswer": "Datenverlust",
+            "hint": "Informationsverlust"
+        },
+        {
+            "id": "s7",
+            "text": "Die _____ gibt an, wie wahrscheinlich eine Bedrohung eintritt.",
+            "correctAnswer": "Eintrittswahrscheinlichkeit",
+            "hint": "Wahrscheinlichkeit"
+        },
+        {
+            "id": "s8",
+            "text": "Die _____ gibt das Ausmaß des Schadens bei Eintritt an.",
+            "correctAnswer": "Schadenshöhe",
+            "hint": "Schadensausmaß"
+        },
+        {
+            "id": "s9",
+            "text": "Eine _____ stellt Risiken nach Wahrscheinlichkeit und Schaden dar.",
+            "correctAnswer": "Risikomatrix",
+            "hint": "Risiko-Darstellung"
+        },
+        {
+            "id": "s10",
+            "text": "Eine _____ reduziert Risiken.",
+            "correctAnswer": "Gegenmaßnahme",
+            "hint": "Schutzmaßnahme"
+        },
+        {
+            "id": "s11",
+            "text": "Das _____ ist das verbleibende Risiko nach Maßnahmen.",
+            "correctAnswer": "Restrisiko",
+            "hint": "Verbleibendes Risiko"
+        },
+        {
+            "id": "s12",
+            "text": "_____ ist die bewusste Entscheidung, ein Risiko zu tragen.",
+            "correctAnswer": "Risikoakzeptanz",
+            "hint": "Risiko akzeptieren"
+        }
+    ]
+}

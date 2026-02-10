@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Projektergebnisse",
+    "topic": "Dokumentation, Präsentation",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "_____ dokumentiert den Projektverlauf.",
+            "correctAnswer": "Projektdokumentation",
+            "hint": "Projektverlauf"
+        },
+        {
+            "id": "s2",
+            "text": "_____ ist Dokumentation für Entwickler.",
+            "correctAnswer": "Technische Dokumentation",
+            "hint": "Für Entwickler"
+        },
+        {
+            "id": "s3",
+            "text": "_____ ist Dokumentation für Endnutzer.",
+            "correctAnswer": "Nutzerdokumentation",
+            "hint": "Für Nutzer"
+        },
+        {
+            "id": "s4",
+            "text": "_____ beschreibt Schnittstellen.",
+            "correctAnswer": "API-Dokumentation",
+            "hint": "Schnittstellen"
+        },
+        {
+            "id": "s5",
+            "text": "Ein _____ ist eine Anleitung für Nutzer.",
+            "correctAnswer": "Benutzerhandbuch",
+            "hint": "Anleitung"
+        },
+        {
+            "id": "s6",
+            "text": "_____ steht für häufig gestellte Fragen.",
+            "correctAnswer": "FAQ",
+            "hint": "Fragen"
+        },
+        {
+            "id": "s7",
+            "text": "Ein _____ plant das Projekt.",
+            "correctAnswer": "Projektplan",
+            "hint": "Planung"
+        },
+        {
+            "id": "s8",
+            "text": "Ein _____ zeigt den aktuellen Stand.",
+            "correctAnswer": "Statusbericht",
+            "hint": "Aktueller Stand"
+        },
+        {
+            "id": "s9",
+            "text": "Eine _____ stellt Ergebnisse dar.",
+            "correctAnswer": "Präsentation",
+            "hint": "Darstellung"
+        },
+        {
+            "id": "s10",
+            "text": "_____ ist grafische Darstellung.",
+            "correctAnswer": "Visualisierung",
+            "hint": "Grafisch"
+        },
+        {
+            "id": "s11",
+            "text": "_____ ist eine narrative Präsentationstechnik.",
+            "correctAnswer": "Storytelling",
+            "hint": "Narrativ"
+        },
+        {
+            "id": "s12",
+            "text": "Ein _____ ist eine kurze, prägnante Präsentation.",
+            "correctAnswer": "Elevator Pitch",
+            "hint": "Kurz und prägnant"
+        }
+    ]
+}

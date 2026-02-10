@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Algorithmen (QS)",
+    "topic": "Kontrollstrukturen, UML, Softwareergonomie",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "Sequenz",
+            "right": "Lineare Abfolge von Anweisungen nacheinander"
+        },
+        {
+            "left": "Auswahl",
+            "right": "Verzweigung mit Bedingung (if-else, switch)"
+        },
+        {
+            "left": "Wiederholung",
+            "right": "Schleife zur wiederholten Ausführung (while, for)"
+        },
+        {
+            "left": "if-else",
+            "right": "Bedingte Verzweigung mit Alternative"
+        },
+        {
+            "left": "switch-case",
+            "right": "Mehrfachverzweigung basierend auf Wert"
+        },
+        {
+            "left": "while-Schleife",
+            "right": "Kopfgesteuerte Schleife mit Bedingung"
+        },
+        {
+            "left": "for-Schleife",
+            "right": "Zählschleife mit Initialisierung, Bedingung und Inkrement"
+        },
+        {
+            "left": "do-while",
+            "right": "Fußgesteuerte Schleife (mindestens einmal ausgeführt)"
+        },
+        {
+            "left": "Use Case Diagramm",
+            "right": "Zeigt Anwendungsfälle und Akteure"
+        },
+        {
+            "left": "Klassendiagramm",
+            "right": "Zeigt Klassen, Attribute und Methoden"
+        },
+        {
+            "left": "Aktivitätsdiagramm",
+            "right": "Zeigt Programmablauf und Kontrollstrukturen"
+        },
+        {
+            "left": "Softwareergonomie",
+            "right": "Benutzerfreundliche Gestaltung von Software"
+        }
+    ]
+}

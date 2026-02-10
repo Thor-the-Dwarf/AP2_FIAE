@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Algorithmen formulieren",
+    "topic": "Pseudocode, Struktogramme",
+    "estimated_minutes": 12,
+    "centerWord": "Algorithmus-Darstellung",
+    "associations": [
+        {
+            "word": "Pseudocode",
+            "connections": [
+                "Natürlich",
+                "Text",
+                "Verständlich"
+            ]
+        },
+        {
+            "word": "Struktogramm",
+            "connections": [
+                "Nassi-Shneiderman",
+                "Blöcke",
+                "Strukturiert"
+            ]
+        },
+        {
+            "word": "Flussdiagramm",
+            "connections": [
+                "Symbole",
+                "Pfeile",
+                "Grafisch"
+            ]
+        },
+        {
+            "word": "Aktivitätsdiagramm",
+            "connections": [
+                "UML",
+                "Prozess",
+                "Ablauf"
+            ]
+        },
+        {
+            "word": "Sequenz",
+            "connections": [
+                "Schrittweise",
+                "Nacheinander",
+                "Linear"
+            ]
+        },
+        {
+            "word": "Verzweigung",
+            "connections": [
+                "Bedingung",
+                "If-Then-Else",
+                "Entscheidung"
+            ]
+        },
+        {
+            "word": "Schleife",
+            "connections": [
+                "Wiederholung",
+                "Loop",
+                "Iteration"
+            ]
+        },
+        {
+            "word": "Eingabe",
+            "connections": [
+                "Input",
+                "Lesen",
+                "Daten"
+            ]
+        },
+        {
+            "word": "Verarbeitung",
+            "connections": [
+                "Transformation",
+                "Berechnung",
+                "Logik"
+            ]
+        },
+        {
+            "word": "Ausgabe",
+            "connections": [
+                "Output",
+                "Anzeigen",
+                "Ergebnis"
+            ]
+        },
+        {
+            "word": "Variable",
+            "connections": [
+                "Speicher",
+                "Veränderlich",
+                "Wert"
+            ]
+        },
+        {
+            "word": "Konstante",
+            "connections": [
+                "Fest",
+                "Unveränderlich",
+                "Literal"
+            ]
+        }
+    ]
+}

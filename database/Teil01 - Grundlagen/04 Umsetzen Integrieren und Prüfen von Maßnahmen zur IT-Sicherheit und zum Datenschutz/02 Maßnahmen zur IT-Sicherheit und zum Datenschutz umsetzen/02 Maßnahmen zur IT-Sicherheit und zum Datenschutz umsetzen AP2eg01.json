@@ -1,1 +1,219 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Sicherheitsmaßnahmen umsetzen",
+    "topic": "Verschlüsselung, Authentifizierung, Firewall, DSGVO, BDSG",
+    "estimated_minutes": 20,
+    "sections": [
+        {
+            "id": "mass-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Sicherheitsmaßnahmen zuordnen",
+            "subtitle": "Ordne die Maßnahmen den passenden Kategorien zu.",
+            "hintDefault": "Tipp: Technisch = Verschlüsselung/Firewall, Organisatorisch = Richtlinien, Rechtlich = DSGVO/BDSG.",
+            "sortColumns": [
+                {
+                    "zone": "technisch",
+                    "label": "Technische Maßnahmen",
+                    "hint": "(Verschlüsselung, Firewall)"
+                },
+                {
+                    "zone": "organisatorisch",
+                    "label": "Organisatorische Maßnahmen",
+                    "hint": "(Richtlinien, Schulungen)"
+                },
+                {
+                    "zone": "rechtlich",
+                    "label": "Rechtliche Grundlagen",
+                    "hint": "(DSGVO, BDSG)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Verschlüsselung von Daten",
+                    "correctZone": "technisch"
+                },
+                {
+                    "id": "s2",
+                    "text": "Firewall-Konfiguration",
+                    "correctZone": "technisch"
+                },
+                {
+                    "id": "s3",
+                    "text": "Zwei-Faktor-Authentifizierung",
+                    "correctZone": "technisch"
+                },
+                {
+                    "id": "s4",
+                    "text": "Sicherheitsrichtlinien",
+                    "correctZone": "organisatorisch"
+                },
+                {
+                    "id": "s5",
+                    "text": "Mitarbeiterschulungen",
+                    "correctZone": "organisatorisch"
+                },
+                {
+                    "id": "s6",
+                    "text": "Zugriffsberechtigungen",
+                    "correctZone": "organisatorisch"
+                },
+                {
+                    "id": "s7",
+                    "text": "DSGVO-Compliance",
+                    "correctZone": "rechtlich"
+                },
+                {
+                    "id": "s8",
+                    "text": "BDSG-Anforderungen",
+                    "correctZone": "rechtlich"
+                }
+            ]
+        },
+        {
+            "id": "mass-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Maßnahmen",
+            "subtitle": "Teste dein Wissen zu Sicherheitsmaßnahmen.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist Verschlüsselung?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Umwandlung von Daten in unlesbares Format"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Backup-Verfahren"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Firewall"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Wofür steht DSGVO?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Datenschutz-Grundverordnung"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Daten-Sicherheits-Gesetz"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Digital-Service-Verordnung"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist eine Firewall?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Netzwerksicherheitssystem"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Antivirus"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Backup"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "mass-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Maßnahmen-Umsetzung",
+            "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Planung → Umsetzung → Dokumentation.",
+            "rows": [
+                {
+                    "key": "planung",
+                    "label": "Maßnahmen planen",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                },
+                {
+                    "key": "umsetzung",
+                    "label": "Maßnahmen umsetzen",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                },
+                {
+                    "key": "dokumentation",
+                    "label": "Maßnahmen dokumentieren",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

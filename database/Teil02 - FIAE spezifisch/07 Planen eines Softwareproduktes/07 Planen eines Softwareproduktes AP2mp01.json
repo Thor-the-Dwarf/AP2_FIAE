@@ -1,1 +1,69 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Softwareplanung",
+    "topic": "Anforderungsanalyse, UML, Vorgehensmodelle",
+    "estimated_minutes": 15,
+    "sets": [
+        {
+            "left": "User Story",
+            "right": "Anforderung aus Nutzersicht (Als... möchte ich... damit...)"
+        },
+        {
+            "left": "Use Case",
+            "right": "Anwendungsfall mit Akteur und Ziel"
+        },
+        {
+            "left": "Anforderungsanalyse",
+            "right": "Ermittlung und Dokumentation von Anforderungen"
+        },
+        {
+            "left": "Sequenzdiagramm",
+            "right": "UML-Diagramm für zeitliche Abläufe"
+        },
+        {
+            "left": "Klassendiagramm",
+            "right": "UML-Diagramm für Klassenstruktur"
+        },
+        {
+            "left": "Zustandsdiagramm",
+            "right": "UML-Diagramm für Zustandsübergänge"
+        },
+        {
+            "left": "Wasserfallmodell",
+            "right": "Sequenzielles Vorgehensmodell mit Phasen"
+        },
+        {
+            "left": "Scrum",
+            "right": "Agiles Framework mit Sprints"
+        },
+        {
+            "left": "Kanban",
+            "right": "Agile Methode mit Visualisierung"
+        },
+        {
+            "left": "V-Modell",
+            "right": "Vorgehensmodell mit Test-Phasen"
+        },
+        {
+            "left": "REST",
+            "right": "Representational State Transfer – API-Architektur"
+        },
+        {
+            "left": "JSON",
+            "right": "JavaScript Object Notation – Datenformat"
+        },
+        {
+            "left": "XML",
+            "right": "Extensible Markup Language – Datenformat"
+        },
+        {
+            "left": "Mock-up",
+            "right": "Visueller Prototyp einer Benutzeroberfläche"
+        },
+        {
+            "left": "Prototyp",
+            "right": "Funktionsfähiges Modell zur Validierung"
+        }
+    ]
+}

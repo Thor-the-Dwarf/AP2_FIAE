@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Datenbanken (QS)",
+    "topic": "Relational/NoSQL, Normalisierung, SQL",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "Eine _____ Datenbank verwendet Tabellen mit Zeilen und Spalten.",
+            "correctAnswer": "relationale",
+            "hint": "Tabellen-basiert"
+        },
+        {
+            "id": "s2",
+            "text": "_____ sind nicht-relationale Datenbanken.",
+            "correctAnswer": "NoSQL",
+            "hint": "Nicht-relational"
+        },
+        {
+            "id": "s3",
+            "text": "_____ ist der Prozess zur Vermeidung von Redundanzen.",
+            "correctAnswer": "Normalisierung",
+            "hint": "1.-3. Normalform"
+        },
+        {
+            "id": "s4",
+            "text": "Das _____ zeigt Entitäten und ihre Beziehungen.",
+            "correctAnswer": "ER-Modell",
+            "hint": "Entity-Relationship"
+        },
+        {
+            "id": "s5",
+            "text": "_____ steht für Structured Query Language.",
+            "correctAnswer": "SQL",
+            "hint": "Abfragesprache"
+        },
+        {
+            "id": "s6",
+            "text": "Der _____ Befehl ruft Daten aus der Datenbank ab.",
+            "correctAnswer": "SELECT",
+            "hint": "SQL-Abfrage"
+        },
+        {
+            "id": "s7",
+            "text": "Ein _____ verbindet mehrere Tabellen in SQL.",
+            "correctAnswer": "JOIN",
+            "hint": "Tabellen verbinden"
+        },
+        {
+            "id": "s8",
+            "text": "Ein _____ ist ein eindeutiger Identifikator für Datensätze.",
+            "correctAnswer": "Primärschlüssel",
+            "hint": "Primary Key"
+        },
+        {
+            "id": "s9",
+            "text": "Ein _____ verweist auf den Primärschlüssel einer anderen Tabelle.",
+            "correctAnswer": "Fremdschlüssel",
+            "hint": "Foreign Key"
+        },
+        {
+            "id": "s10",
+            "text": "Die _____ besagt, dass alle Werte atomar sein müssen.",
+            "correctAnswer": "1. Normalform",
+            "hint": "Erste NF"
+        },
+        {
+            "id": "s11",
+            "text": "_____ ist eine dokumentenorientierte NoSQL-Datenbank.",
+            "correctAnswer": "MongoDB",
+            "hint": "Dokumente, JSON"
+        },
+        {
+            "id": "s12",
+            "text": "_____ ist ein Key-Value-Store.",
+            "correctAnswer": "Redis",
+            "hint": "NoSQL, Cache"
+        }
+    ]
+}

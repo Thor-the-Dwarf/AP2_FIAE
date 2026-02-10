@@ -1,1 +1,193 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Algorithmen implementieren",
+    "topic": "Programmiersprachen, Datenstrukturen",
+    "estimated_minutes": 8,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist ein Array?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Indexbasierte Datenstruktur"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Liste"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Stack"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Queue"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist eine Liste?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Verkettete Datenstruktur"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Array"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Stack"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Queue"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist ein Stack?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "LIFO-Datenstruktur"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur FIFO"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Array"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Liste"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist eine Queue?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "FIFO-Datenstruktur"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur LIFO"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Array"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Liste"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist eine Hash-Tabelle?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Schlüssel-Wert-Datenstruktur"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Array"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Liste"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Stack"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist Python?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Interpretierte Hochsprache"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur kompiliert"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur systemnahe"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Skriptsprache"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist Java?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Objektorientierte Sprache"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur prozedural"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur funktional"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Skriptsprache"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist PowerShell?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Automatisierung für Windows"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Linux"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Programmiersprache"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Datenbank"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

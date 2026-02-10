@@ -1,1 +1,277 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Algorithmen entwickeln",
+    "topic": "Pseudocode, Struktogramme, Datenstrukturen, O-Notation",
+    "estimated_minutes": 25,
+    "sections": [
+        {
+            "id": "algo-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Algorithmus-Konzepte zuordnen",
+            "subtitle": "Ordne die Konzepte den passenden Kategorien zu.",
+            "hintDefault": "Tipp: Darstellung = Pseudocode/Diagramme, Datenstrukturen = Array/Liste, Komplexität = O-Notation.",
+            "sortColumns": [
+                {
+                    "zone": "darstellung",
+                    "label": "Darstellung",
+                    "hint": "(Pseudocode, Diagramme)"
+                },
+                {
+                    "zone": "datenstrukturen",
+                    "label": "Datenstrukturen",
+                    "hint": "(Array, Liste, Stack)"
+                },
+                {
+                    "zone": "komplexitaet",
+                    "label": "Komplexität",
+                    "hint": "(O-Notation, Laufzeit)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Pseudocode",
+                    "correctZone": "darstellung"
+                },
+                {
+                    "id": "s2",
+                    "text": "Struktogramm",
+                    "correctZone": "darstellung"
+                },
+                {
+                    "id": "s3",
+                    "text": "Flussdiagramm",
+                    "correctZone": "darstellung"
+                },
+                {
+                    "id": "s4",
+                    "text": "Array",
+                    "correctZone": "datenstrukturen"
+                },
+                {
+                    "id": "s5",
+                    "text": "Liste",
+                    "correctZone": "datenstrukturen"
+                },
+                {
+                    "id": "s6",
+                    "text": "Stack",
+                    "correctZone": "datenstrukturen"
+                },
+                {
+                    "id": "s7",
+                    "text": "O(n)",
+                    "correctZone": "komplexitaet"
+                },
+                {
+                    "id": "s8",
+                    "text": "O(log n)",
+                    "correctZone": "komplexitaet"
+                }
+            ]
+        },
+        {
+            "id": "algo-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Algorithmen",
+            "subtitle": "Teste dein Wissen zu Algorithmen.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist Pseudocode?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Algorithmus in natürlicher Sprache"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur echter Code"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Diagramm"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist O(n)?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Lineare Komplexität"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur konstante Komplexität"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur quadratische Komplexität"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist ein Stack?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "LIFO-Datenstruktur"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur FIFO"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Array"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q4",
+                    "text": "4. Was ist Bubble Sort?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Sortieralgorithmus"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Suchalgorithmus"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Datenstruktur"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "algo-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Komplexität sortieren",
+            "subtitle": "Bringe die Komplexitäten von schnell nach langsam.",
+            "hintDefault": "Hinweis: O(1) → O(log n) → O(n) → O(n²).",
+            "rows": [
+                {
+                    "key": "konstant",
+                    "label": "O(1) - Konstant",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "logarithmisch",
+                    "label": "O(log n) - Logarithmisch",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "linear",
+                    "label": "O(n) - Linear",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "quadratisch",
+                    "label": "O(n²) - Quadratisch",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Sicherheitsmaßnahmen",
+    "topic": "Verschlüsselung, Authentifizierung, DSGVO",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "Verschlüsselung",
+            "right": "Umwandlung von Daten in unlesbares Format zum Schutz"
+        },
+        {
+            "left": "Authentifizierung",
+            "right": "Überprüfung der Identität eines Benutzers"
+        },
+        {
+            "left": "Firewall",
+            "right": "Netzwerksicherheitssystem zur Filterung von Datenverkehr"
+        },
+        {
+            "left": "DSGVO",
+            "right": "EU-Datenschutz-Grundverordnung"
+        },
+        {
+            "left": "BDSG",
+            "right": "Bundesdatenschutzgesetz (deutsches Gesetz)"
+        },
+        {
+            "left": "Zwei-Faktor-Authentifizierung",
+            "right": "Authentifizierung mit zwei unabhängigen Faktoren"
+        },
+        {
+            "left": "Sicherheitsrichtlinie",
+            "right": "Organisatorische Vorgabe für Sicherheitsverhalten"
+        },
+        {
+            "left": "Zugriffsberechtigungen",
+            "right": "Festlegung, wer auf welche Ressourcen zugreifen darf"
+        },
+        {
+            "left": "TOM",
+            "right": "Technisch-Organisatorische Maßnahmen"
+        },
+        {
+            "left": "Datenschutzbeauftragter",
+            "right": "Person, die Datenschutz im Unternehmen überwacht"
+        },
+        {
+            "left": "Verarbeitungsverzeichnis",
+            "right": "Dokumentation aller Datenverarbeitungsvorgänge"
+        },
+        {
+            "left": "Datenschutz-Folgenabschätzung",
+            "right": "Bewertung von Risiken für Betroffene"
+        }
+    ]
+}

@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Kundenanforderungen",
+    "topic": "User Stories, Use Cases",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "User Story",
+            "right": "Als [Rolle] möchte ich [Funktion] damit [Nutzen]"
+        },
+        {
+            "left": "Use Case",
+            "right": "Anwendungsfall mit Akteur, Vorbedingung, Ablauf"
+        },
+        {
+            "left": "Funktionale Anforderung",
+            "right": "Was das System tun soll"
+        },
+        {
+            "left": "Nicht-funktionale Anforderung",
+            "right": "Qualitätsanforderung (Performance, Sicherheit)"
+        },
+        {
+            "left": "Randbedingung",
+            "right": "Einschränkung (Budget, Zeit, Technologie)"
+        },
+        {
+            "left": "Anforderungserhebung",
+            "right": "Sammeln von Anforderungen"
+        },
+        {
+            "left": "Anforderungsanalyse",
+            "right": "Untersuchung und Strukturierung"
+        },
+        {
+            "left": "Anforderungsspezifikation",
+            "right": "Dokumentation der Anforderungen"
+        },
+        {
+            "left": "Anforderungsvalidierung",
+            "right": "Prüfung der Anforderungen"
+        },
+        {
+            "left": "Stakeholder",
+            "right": "Interessengruppe am Projekt"
+        },
+        {
+            "left": "Akzeptanzkriterium",
+            "right": "Bedingung für Akzeptanz"
+        },
+        {
+            "left": "Priorisierung",
+            "right": "Festlegung der Wichtigkeit"
+        }
+    ]
+}

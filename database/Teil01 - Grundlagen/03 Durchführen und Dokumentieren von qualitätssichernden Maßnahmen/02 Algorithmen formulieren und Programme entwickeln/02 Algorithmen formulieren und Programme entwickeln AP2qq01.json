@@ -1,1 +1,193 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Algorithmen (QS)",
+    "topic": "Kontrollstrukturen, UML, Softwareergonomie",
+    "estimated_minutes": 8,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist eine Sequenz?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Lineare Abfolge von Anweisungen"
+                },
+                {
+                    "value": "b",
+                    "text": "Verzweigung"
+                },
+                {
+                    "value": "c",
+                    "text": "Schleife"
+                },
+                {
+                    "value": "d",
+                    "text": "Funktion"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist eine Auswahl?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Verzweigung (if-else, switch)"
+                },
+                {
+                    "value": "b",
+                    "text": "Schleife"
+                },
+                {
+                    "value": "c",
+                    "text": "Sequenz"
+                },
+                {
+                    "value": "d",
+                    "text": "Funktion"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist eine Wiederholung?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Schleife (while, for)"
+                },
+                {
+                    "value": "b",
+                    "text": "Verzweigung"
+                },
+                {
+                    "value": "c",
+                    "text": "Sequenz"
+                },
+                {
+                    "value": "d",
+                    "text": "Funktion"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist eine while-Schleife?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Kopfgesteuerte Schleife"
+                },
+                {
+                    "value": "b",
+                    "text": "Fußgesteuerte Schleife"
+                },
+                {
+                    "value": "c",
+                    "text": "Zählschleife"
+                },
+                {
+                    "value": "d",
+                    "text": "Verzweigung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist eine for-Schleife?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Zählschleife"
+                },
+                {
+                    "value": "b",
+                    "text": "Kopfgesteuerte Schleife ohne Zähler"
+                },
+                {
+                    "value": "c",
+                    "text": "Fußgesteuerte Schleife"
+                },
+                {
+                    "value": "d",
+                    "text": "Verzweigung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was zeigt ein Use Case Diagramm?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Anwendungsfälle und Akteure"
+                },
+                {
+                    "value": "b",
+                    "text": "Klassen"
+                },
+                {
+                    "value": "c",
+                    "text": "Programmablauf"
+                },
+                {
+                    "value": "d",
+                    "text": "Datenbank"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was zeigt ein Aktivitätsdiagramm?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Programmablauf und Kontrollstrukturen"
+                },
+                {
+                    "value": "b",
+                    "text": "Klassen"
+                },
+                {
+                    "value": "c",
+                    "text": "Anwendungsfälle"
+                },
+                {
+                    "value": "d",
+                    "text": "Datenbank"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist Softwareergonomie?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Benutzerfreundliche Gestaltung"
+                },
+                {
+                    "value": "b",
+                    "text": "Code-Optimierung"
+                },
+                {
+                    "value": "c",
+                    "text": "Testing"
+                },
+                {
+                    "value": "d",
+                    "text": "Datenbank-Design"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

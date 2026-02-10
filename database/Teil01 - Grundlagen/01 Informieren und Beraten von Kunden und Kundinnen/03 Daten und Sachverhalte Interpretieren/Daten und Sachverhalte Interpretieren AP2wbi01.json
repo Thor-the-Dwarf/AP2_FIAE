@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Daten und Sachverhalte interpretieren",
+    "topic": "Datenanalyse, Kennzahlen, Diagramme, Analysemethoden",
+    "estimated_minutes": 12,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "Ein _____ eignet sich am besten zur Darstellung von Entwicklungen über einen Zeitraum.",
+            "correctAnswer": "Liniendiagramm",
+            "hint": "Diagrammtyp für Trends und zeitliche Verläufe"
+        },
+        {
+            "id": "s2",
+            "text": "ROI steht für Return on _____ und zeigt das Verhältnis von Gewinn zu eingesetztem Kapital.",
+            "correctAnswer": "Investment",
+            "hint": "Englisches Wort für Investition"
+        },
+        {
+            "id": "s3",
+            "text": "Ein _____ zeigt Anteile an einem Ganzen und wird oft in Prozent dargestellt.",
+            "correctAnswer": "Kreisdiagramm",
+            "hint": "Rundes Diagramm für Anteile"
+        },
+        {
+            "id": "s4",
+            "text": "Die _____-Analyse klassifiziert Objekte nach ihrer Bedeutung in die Kategorien A, B und C.",
+            "correctAnswer": "ABC",
+            "hint": "Drei Buchstaben für Klassifizierung"
+        },
+        {
+            "id": "s5",
+            "text": "Eine SWOT-Analyse untersucht Stärken, Schwächen, _____ und Risiken.",
+            "correctAnswer": "Chancen",
+            "hint": "Positive Möglichkeiten in der Zukunft"
+        },
+        {
+            "id": "s6",
+            "text": "_____ ist der Vergleich der eigenen Leistung mit Best Practices oder Wettbewerbern.",
+            "correctAnswer": "Benchmarking",
+            "hint": "Englischer Begriff für Leistungsvergleich"
+        },
+        {
+            "id": "s7",
+            "text": "Die Conversion _____ zeigt den Anteil der Besucher, die eine gewünschte Aktion ausführen.",
+            "correctAnswer": "Rate",
+            "hint": "Englisches Wort für Quote oder Verhältnis"
+        },
+        {
+            "id": "s8",
+            "text": "Der _____ gibt den prozentualen Anteil eines Unternehmens am Gesamtmarkt an.",
+            "correctAnswer": "Marktanteil",
+            "hint": "Kennzahl für Marktposition"
+        },
+        {
+            "id": "s9",
+            "text": "Der erste Schritt einer Datenanalyse ist das _____ und Erfassen von Daten.",
+            "correctAnswer": "Sammeln",
+            "hint": "Zusammentragen von Informationen"
+        },
+        {
+            "id": "s10",
+            "text": "Ein _____ eignet sich am besten zum Vergleich von verschiedenen Kategorien.",
+            "correctAnswer": "Balkendiagramm",
+            "hint": "Horizontales Diagramm für Vergleiche (oder Säulendiagramm)"
+        },
+        {
+            "id": "s11",
+            "text": "Die _____ untersucht Daten über einen Zeitraum zur Erkennung von Entwicklungsrichtungen.",
+            "correctAnswer": "Trendanalyse",
+            "hint": "Analyse von Entwicklungen und Mustern"
+        },
+        {
+            "id": "s12",
+            "text": "Die _____ zeigt den Gewinn im Verhältnis zum Umsatz.",
+            "correctAnswer": "Umsatzrendite",
+            "hint": "Kennzahl für Profitabilität bezogen auf Umsatz"
+        }
+    ]
+}

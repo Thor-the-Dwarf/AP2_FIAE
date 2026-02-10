@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Algorithmen beurteilen",
+    "topic": "Laufzeitanalyse, O-Notation",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "_____ ist konstante Komplexität.",
+            "correctAnswer": "O(1)",
+            "hint": "Konstant"
+        },
+        {
+            "id": "s2",
+            "text": "_____ ist logarithmische Komplexität.",
+            "correctAnswer": "O(log n)",
+            "hint": "Logarithmisch"
+        },
+        {
+            "id": "s3",
+            "text": "_____ ist lineare Komplexität.",
+            "correctAnswer": "O(n)",
+            "hint": "Linear"
+        },
+        {
+            "id": "s4",
+            "text": "_____ ist linearithmische Komplexität.",
+            "correctAnswer": "O(n log n)",
+            "hint": "Linearithmisch"
+        },
+        {
+            "id": "s5",
+            "text": "_____ ist quadratische Komplexität.",
+            "correctAnswer": "O(n²)",
+            "hint": "Quadratisch"
+        },
+        {
+            "id": "s6",
+            "text": "_____ ist exponentielle Komplexität.",
+            "correctAnswer": "O(2^n)",
+            "hint": "Exponentiell"
+        },
+        {
+            "id": "s7",
+            "text": "_____ Suche hat O(n) Komplexität.",
+            "correctAnswer": "Lineare",
+            "hint": "Sequenziell"
+        },
+        {
+            "id": "s8",
+            "text": "_____ Suche hat O(log n) Komplexität.",
+            "correctAnswer": "Binäre",
+            "hint": "Halbierung"
+        },
+        {
+            "id": "s9",
+            "text": "_____ Sort hat O(n²) Komplexität.",
+            "correctAnswer": "Bubble",
+            "hint": "Vertauschen"
+        },
+        {
+            "id": "s10",
+            "text": "_____ Sort wählt das Minimum aus.",
+            "correctAnswer": "Selection",
+            "hint": "Auswahl"
+        },
+        {
+            "id": "s11",
+            "text": "_____ Sort fügt Elemente ein.",
+            "correctAnswer": "Insertion",
+            "hint": "Einfügen"
+        },
+        {
+            "id": "s12",
+            "text": "_____ Sort hat O(n log n) Komplexität.",
+            "correctAnswer": "Merge",
+            "hint": "Teilen und Merge"
+        }
+    ]
+}

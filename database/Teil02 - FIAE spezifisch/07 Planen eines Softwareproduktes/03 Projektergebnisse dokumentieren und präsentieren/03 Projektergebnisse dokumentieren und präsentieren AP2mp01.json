@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Projektergebnisse",
+    "topic": "Dokumentation, Präsentation",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "Projektdokumentation",
+            "right": "Dokumentation des Projektverlaufs"
+        },
+        {
+            "left": "Technische Dokumentation",
+            "right": "Dokumentation für Entwickler"
+        },
+        {
+            "left": "Nutzerdokumentation",
+            "right": "Dokumentation für Endnutzer"
+        },
+        {
+            "left": "API-Dokumentation",
+            "right": "Beschreibung von Schnittstellen"
+        },
+        {
+            "left": "Benutzerhandbuch",
+            "right": "Anleitung für Nutzer"
+        },
+        {
+            "left": "FAQ",
+            "right": "Häufig gestellte Fragen"
+        },
+        {
+            "left": "Projektplan",
+            "right": "Planung des Projekts"
+        },
+        {
+            "left": "Statusbericht",
+            "right": "Aktueller Stand des Projekts"
+        },
+        {
+            "left": "Präsentation",
+            "right": "Darstellung von Ergebnissen"
+        },
+        {
+            "left": "Visualisierung",
+            "right": "Grafische Darstellung"
+        },
+        {
+            "left": "Storytelling",
+            "right": "Narrative Präsentationstechnik"
+        },
+        {
+            "left": "Elevator Pitch",
+            "right": "Kurze, prägnante Präsentation"
+        }
+    ]
+}

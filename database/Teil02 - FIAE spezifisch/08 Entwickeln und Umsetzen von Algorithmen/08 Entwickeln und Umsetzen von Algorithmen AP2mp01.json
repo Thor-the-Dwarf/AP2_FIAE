@@ -1,1 +1,69 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Algorithmen",
+    "topic": "Pseudocode, Datenstrukturen, O-Notation",
+    "estimated_minutes": 15,
+    "sets": [
+        {
+            "left": "Pseudocode",
+            "right": "Algorithmus in natürlicher Sprache"
+        },
+        {
+            "left": "Struktogramm",
+            "right": "Nassi-Shneiderman-Diagramm für Algorithmen"
+        },
+        {
+            "left": "Flussdiagramm",
+            "right": "Grafische Darstellung mit Symbolen"
+        },
+        {
+            "left": "Aktivitätsdiagramm",
+            "right": "UML-Diagramm für Abläufe"
+        },
+        {
+            "left": "Array",
+            "right": "Indexbasierte Datenstruktur"
+        },
+        {
+            "left": "Liste",
+            "right": "Verkettete Datenstruktur"
+        },
+        {
+            "left": "Stack",
+            "right": "LIFO-Datenstruktur (Last In First Out)"
+        },
+        {
+            "left": "Queue",
+            "right": "FIFO-Datenstruktur (First In First Out)"
+        },
+        {
+            "left": "O(1)",
+            "right": "Konstante Komplexität"
+        },
+        {
+            "left": "O(log n)",
+            "right": "Logarithmische Komplexität"
+        },
+        {
+            "left": "O(n)",
+            "right": "Lineare Komplexität"
+        },
+        {
+            "left": "O(n²)",
+            "right": "Quadratische Komplexität"
+        },
+        {
+            "left": "Lineare Suche",
+            "right": "Sequenzielle Suche durch alle Elemente"
+        },
+        {
+            "left": "Binäre Suche",
+            "right": "Suche in sortierten Daten durch Halbierung"
+        },
+        {
+            "left": "Bubble Sort",
+            "right": "Sortieren durch Vertauschen benachbarter Elemente"
+        }
+    ]
+}

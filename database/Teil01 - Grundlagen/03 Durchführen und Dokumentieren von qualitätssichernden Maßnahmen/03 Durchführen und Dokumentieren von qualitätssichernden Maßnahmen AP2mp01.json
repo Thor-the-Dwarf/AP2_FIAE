@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Qualitätssicherung",
+    "topic": "QM-Prozesse, IT-Sicherheit, PDCA, KVP",
+    "estimated_minutes": 15,
+    "sets": [
+        {
+            "left": "PDCA-Zyklus",
+            "right": "Plan-Do-Check-Act – kontinuierlicher Verbesserungszyklus"
+        },
+        {
+            "left": "KVP",
+            "right": "Kontinuierlicher Verbesserungsprozess – ständige Optimierung"
+        },
+        {
+            "left": "Audit",
+            "right": "Systematische Überprüfung von Prozessen und Qualität"
+        },
+        {
+            "left": "Kennzahlen",
+            "right": "Messbare Größen zur Bewertung von Qualität und Leistung"
+        },
+        {
+            "left": "Vertraulichkeit",
+            "right": "Schutz vor unbefugtem Zugriff auf Informationen"
+        },
+        {
+            "left": "Integrität",
+            "right": "Schutz vor unbefugter Veränderung von Daten"
+        },
+        {
+            "left": "Verfügbarkeit",
+            "right": "Sicherstellung des Zugriffs auf Systeme und Daten"
+        },
+        {
+            "left": "Soll-Ist-Vergleich",
+            "right": "Gegenüberstellung von Zielvorgaben und tatsächlichen Ergebnissen"
+        },
+        {
+            "left": "Testprotokoll",
+            "right": "Dokumentation von Testergebnissen und -durchführung"
+        },
+        {
+            "left": "Abnahmeprotokoll",
+            "right": "Dokumentation der Abnahme und Freigabe eines Systems"
+        },
+        {
+            "left": "Qualitätsmangel",
+            "right": "Abweichung von Qualitätsanforderungen"
+        },
+        {
+            "left": "CIA-Triade",
+            "right": "Confidentiality, Integrity, Availability – IT-Sicherheits-Schutzziele"
+        }
+    ]
+}

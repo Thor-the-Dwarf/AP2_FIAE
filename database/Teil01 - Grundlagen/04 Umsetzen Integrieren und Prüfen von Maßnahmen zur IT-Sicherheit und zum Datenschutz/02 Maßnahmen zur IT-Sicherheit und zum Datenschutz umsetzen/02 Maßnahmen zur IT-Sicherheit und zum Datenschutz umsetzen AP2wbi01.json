@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Sicherheitsmaßnahmen",
+    "topic": "Verschlüsselung, Authentifizierung, DSGVO",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "_____ wandelt Daten in ein unlesbares Format um.",
+            "correctAnswer": "Verschlüsselung",
+            "hint": "Datenschutz-Technik"
+        },
+        {
+            "id": "s2",
+            "text": "_____ überprüft die Identität eines Benutzers.",
+            "correctAnswer": "Authentifizierung",
+            "hint": "Identitätsprüfung"
+        },
+        {
+            "id": "s3",
+            "text": "Eine _____ filtert Netzwerkverkehr.",
+            "correctAnswer": "Firewall",
+            "hint": "Netzwerksicherheit"
+        },
+        {
+            "id": "s4",
+            "text": "_____ steht für Datenschutz-Grundverordnung.",
+            "correctAnswer": "DSGVO",
+            "hint": "EU-Verordnung"
+        },
+        {
+            "id": "s5",
+            "text": "_____ steht für Bundesdatenschutzgesetz.",
+            "correctAnswer": "BDSG",
+            "hint": "Deutsches Gesetz"
+        },
+        {
+            "id": "s6",
+            "text": "_____ bedeutet Zwei-Faktor-Authentifizierung.",
+            "correctAnswer": "2FA",
+            "hint": "Zwei Faktoren"
+        },
+        {
+            "id": "s7",
+            "text": "_____ sind Technisch-Organisatorische Maßnahmen.",
+            "correctAnswer": "TOM",
+            "hint": "Abkürzung"
+        },
+        {
+            "id": "s8",
+            "text": "Eine _____ ist eine organisatorische Vorgabe für Sicherheitsverhalten.",
+            "correctAnswer": "Sicherheitsrichtlinie",
+            "hint": "Organisatorisch"
+        },
+        {
+            "id": "s9",
+            "text": "_____ legen fest, wer auf welche Ressourcen zugreifen darf.",
+            "correctAnswer": "Zugriffsberechtigungen",
+            "hint": "Rechte"
+        },
+        {
+            "id": "s10",
+            "text": "Ein _____ überwacht den Datenschutz im Unternehmen.",
+            "correctAnswer": "Datenschutzbeauftragter",
+            "hint": "DSGVO-Rolle"
+        },
+        {
+            "id": "s11",
+            "text": "Ein _____ dokumentiert alle Datenverarbeitungsvorgänge.",
+            "correctAnswer": "Verarbeitungsverzeichnis",
+            "hint": "DSGVO-Dokumentation"
+        },
+        {
+            "id": "s12",
+            "text": "Eine _____ bewertet Risiken für Betroffene.",
+            "correctAnswer": "Datenschutz-Folgenabschätzung",
+            "hint": "DSGVO-Risikobewertung"
+        }
+    ]
+}

@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Datenbanken",
+    "topic": "ER-Modell, SQL, Normalisierung",
+    "estimated_minutes": 15,
+    "sets": [
+        {
+            "left": "ER-Modell",
+            "right": "Entity-Relationship-Modell zur Darstellung von Entitäten und Beziehungen"
+        },
+        {
+            "left": "Entität",
+            "right": "Objekt oder Gegenstand in der Datenbank (z.B. Kunde, Produkt)"
+        },
+        {
+            "left": "Attribut",
+            "right": "Eigenschaft einer Entität (z.B. Name, Preis)"
+        },
+        {
+            "left": "Primärschlüssel",
+            "right": "Eindeutiger Identifikator für jeden Datensatz"
+        },
+        {
+            "left": "Fremdschlüssel",
+            "right": "Verweis auf Primärschlüssel einer anderen Tabelle"
+        },
+        {
+            "left": "Kardinalität",
+            "right": "Anzahl der Beziehungen zwischen Entitäten (1:1, 1:n, n:m)"
+        },
+        {
+            "left": "Normalisierung",
+            "right": "Prozess zur Vermeidung von Redundanzen (1.-3. NF)"
+        },
+        {
+            "left": "1. Normalform",
+            "right": "Alle Werte sind atomar (nicht weiter teilbar)"
+        },
+        {
+            "left": "SQL",
+            "right": "Structured Query Language für Datenbankabfragen"
+        },
+        {
+            "left": "SELECT",
+            "right": "SQL-Befehl zum Abrufen von Daten"
+        },
+        {
+            "left": "JOIN",
+            "right": "SQL-Befehl zum Verbinden mehrerer Tabellen"
+        },
+        {
+            "left": "NoSQL",
+            "right": "Nicht-relationale Datenbanken (z.B. MongoDB, Redis)"
+        }
+    ]
+}

@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – IT-Systeme einsetzen",
+    "topic": "ERP, CRM",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "_____ steht für Enterprise Resource Planning.",
+            "correctAnswer": "ERP",
+            "hint": "Ressourcenplanung"
+        },
+        {
+            "id": "s2",
+            "text": "_____ steht für Customer Relationship Management.",
+            "correctAnswer": "CRM",
+            "hint": "Kundenbeziehungen"
+        },
+        {
+            "id": "s3",
+            "text": "_____ ist ein führendes ERP-System.",
+            "correctAnswer": "SAP",
+            "hint": "ERP-Marktführer"
+        },
+        {
+            "id": "s4",
+            "text": "_____ ist ein führendes CRM-System.",
+            "correctAnswer": "Salesforce",
+            "hint": "CRM-Marktführer"
+        },
+        {
+            "id": "s5",
+            "text": "_____ verwaltet Waren und Lagerbestände.",
+            "correctAnswer": "Warenwirtschaft",
+            "hint": "Lagerverwaltung"
+        },
+        {
+            "id": "s6",
+            "text": "_____ verwaltet Kundendaten und -kontakte.",
+            "correctAnswer": "Kundenverwaltung",
+            "hint": "Kundendaten"
+        },
+        {
+            "id": "s7",
+            "text": "_____ verwaltet Finanzen und Buchhaltung.",
+            "correctAnswer": "Finanzbuchhaltung",
+            "hint": "Finanzen"
+        },
+        {
+            "id": "s8",
+            "text": "_____ verwaltet Mitarbeiterdaten.",
+            "correctAnswer": "Personalverwaltung",
+            "hint": "HR"
+        },
+        {
+            "id": "s9",
+            "text": "_____ verwaltet Verkaufsprozesse.",
+            "correctAnswer": "Vertrieb",
+            "hint": "Verkauf"
+        },
+        {
+            "id": "s10",
+            "text": "_____ verwaltet Marketingkampagnen.",
+            "correctAnswer": "Marketing",
+            "hint": "Kampagnen"
+        },
+        {
+            "id": "s11",
+            "text": "_____ verwaltet Produktionsprozesse.",
+            "correctAnswer": "Produktion",
+            "hint": "Fertigung"
+        },
+        {
+            "id": "s12",
+            "text": "_____ verwaltet Beschaffungsprozesse.",
+            "correctAnswer": "Einkauf",
+            "hint": "Beschaffung"
+        }
+    ]
+}

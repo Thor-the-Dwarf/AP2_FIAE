@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Informieren und Beraten von Kunden",
+    "topic": "Kommunikation, Recht & Compliance, Präsentationstechnik",
+    "estimated_minutes": 15,
+    "sets": [
+        {
+            "left": "Aktives Zuhören",
+            "right": "Dem Gesprächspartner aufmerksam folgen, Verständnis signalisieren und Rückfragen stellen"
+        },
+        {
+            "left": "Telefonkonferenz",
+            "right": "Synchrones Kommunikationsmodell für virtuelle Besprechungen mit mehreren Teilnehmern"
+        },
+        {
+            "left": "Verkaufsgespräch",
+            "right": "Strukturierter Prozess: Anfrage → Bedürfnisanalyse → Angebot → Auftrag"
+        },
+        {
+            "left": "BGB/HGB",
+            "right": "Bürgerliches Gesetzbuch und Handelsgesetzbuch – rechtliche Grundlagen für Verträge"
+        },
+        {
+            "left": "UWG",
+            "right": "Gesetz gegen unlauteren Wettbewerb – schützt vor unlauteren Geschäftspraktiken"
+        },
+        {
+            "left": "AGB",
+            "right": "Allgemeine Geschäftsbedingungen – vorformulierte Vertragsbedingungen"
+        },
+        {
+            "left": "Compliance",
+            "right": "Regelkonformität – Einhaltung gesetzlicher und betrieblicher Vorgaben"
+        },
+        {
+            "left": "CRM",
+            "right": "Customer Relationship Management – systematische Verwaltung von Kundenbeziehungen"
+        },
+        {
+            "left": "Diagramme",
+            "right": "Grafische Darstellungen zur Visualisierung von Daten (Balken, Kreis, Linien)"
+        },
+        {
+            "left": "Tabellenkalkulation",
+            "right": "Software zur Berechnung und Aufbereitung von Daten (z.B. Excel)"
+        },
+        {
+            "left": "Corporate Identity (CI)",
+            "right": "Einheitliches Erscheinungsbild eines Unternehmens (Logo, Farben, Schriften)"
+        },
+        {
+            "left": "Multimediale Inhalte",
+            "right": "Kombination aus Text, Bild, Video und Audio zur ansprechenden Präsentation"
+        }
+    ]
+}

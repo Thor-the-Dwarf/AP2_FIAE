@@ -1,1 +1,292 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – IT-Systeme betreiben",
+    "topic": "Netzwerk, Server, Cloud, Monitoring, Service",
+    "estimated_minutes": 25,
+    "sections": [
+        {
+            "id": "it-sort",
+            "type": "sort",
+            "title": "Rätsel 1: IT-Konzepte zuordnen",
+            "subtitle": "Ordne die Konzepte den passenden Kategorien zu.",
+            "hintDefault": "Tipp: Netzwerk = OSI/TCP/IP, Cloud = SaaS/PaaS/IaaS, Monitoring = Tools/Backup.",
+            "sortColumns": [
+                {
+                    "zone": "netzwerk",
+                    "label": "Netzwerk",
+                    "hint": "(OSI, TCP/IP, Routing)"
+                },
+                {
+                    "zone": "cloud",
+                    "label": "Cloud & Virtualisierung",
+                    "hint": "(SaaS, PaaS, IaaS)"
+                },
+                {
+                    "zone": "monitoring",
+                    "label": "Monitoring & Sicherung",
+                    "hint": "(Tools, Backup, RAID)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "OSI-Modell",
+                    "correctZone": "netzwerk"
+                },
+                {
+                    "id": "s2",
+                    "text": "TCP/IP",
+                    "correctZone": "netzwerk"
+                },
+                {
+                    "id": "s3",
+                    "text": "Routing",
+                    "correctZone": "netzwerk"
+                },
+                {
+                    "id": "s4",
+                    "text": "VPN",
+                    "correctZone": "netzwerk"
+                },
+                {
+                    "id": "s5",
+                    "text": "SaaS",
+                    "correctZone": "cloud"
+                },
+                {
+                    "id": "s6",
+                    "text": "PaaS",
+                    "correctZone": "cloud"
+                },
+                {
+                    "id": "s7",
+                    "text": "IaaS",
+                    "correctZone": "cloud"
+                },
+                {
+                    "id": "s8",
+                    "text": "Hypervisor",
+                    "correctZone": "cloud"
+                },
+                {
+                    "id": "s9",
+                    "text": "Monitoring Tools",
+                    "correctZone": "monitoring"
+                },
+                {
+                    "id": "s10",
+                    "text": "RAID",
+                    "correctZone": "monitoring"
+                },
+                {
+                    "id": "s11",
+                    "text": "Backup-Strategien",
+                    "correctZone": "monitoring"
+                }
+            ]
+        },
+        {
+            "id": "it-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz IT-Systeme",
+            "subtitle": "Teste dein Wissen zu IT-Systemen.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Wie viele Schichten hat das OSI-Modell?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "7 Schichten"
+                        },
+                        {
+                            "value": "b",
+                            "text": "5 Schichten"
+                        },
+                        {
+                            "value": "c",
+                            "text": "4 Schichten"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist SaaS?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Software as a Service"
+                        },
+                        {
+                            "value": "b",
+                            "text": "System as a Service"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Security as a Service"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist ein Hypervisor?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Virtualisierungssoftware"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Container"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Cloud"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q4",
+                    "text": "4. Was ist RAID?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Redundante Festplattenverbund"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Backup"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Monitoring"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "it-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: OSI-Modell Schichten",
+            "subtitle": "Bringe die Schichten in die richtige Reihenfolge (von oben).",
+            "hintDefault": "Hinweis: Anwendung → Darstellung → Sitzung → Transport → Vermittlung → Sicherung → Bitübertragung.",
+            "rows": [
+                {
+                    "key": "anwendung",
+                    "label": "Anwendungsschicht (Application)",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "darstellung",
+                    "label": "Darstellungsschicht (Presentation)",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "sitzung",
+                    "label": "Sitzungsschicht (Session)",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "transport",
+                    "label": "Transportschicht (Transport)",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

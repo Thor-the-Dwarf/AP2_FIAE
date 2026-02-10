@@ -1,1 +1,130 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Algorithmen",
+    "topic": "Pseudocode, Datenstrukturen, O-Notation",
+    "estimated_minutes": 15,
+    "centerWord": "Algorithmen",
+    "associations": [
+        {
+            "word": "Pseudocode",
+            "connections": [
+                "Natürlich",
+                "Sprache",
+                "Verständlich"
+            ]
+        },
+        {
+            "word": "Struktogramm",
+            "connections": [
+                "Nassi-Shneiderman",
+                "Strukturiert",
+                "Grafisch"
+            ]
+        },
+        {
+            "word": "Flussdiagramm",
+            "connections": [
+                "Symbole",
+                "Ablauf",
+                "Visualisierung"
+            ]
+        },
+        {
+            "word": "Aktivitätsdiagramm",
+            "connections": [
+                "UML",
+                "Prozess",
+                "Ablauf"
+            ]
+        },
+        {
+            "word": "Array",
+            "connections": [
+                "Index",
+                "Fest",
+                "Schnell"
+            ]
+        },
+        {
+            "word": "Liste",
+            "connections": [
+                "Verkettet",
+                "Dynamisch",
+                "Flexibel"
+            ]
+        },
+        {
+            "word": "Stack",
+            "connections": [
+                "LIFO",
+                "Push",
+                "Pop"
+            ]
+        },
+        {
+            "word": "Queue",
+            "connections": [
+                "FIFO",
+                "Enqueue",
+                "Dequeue"
+            ]
+        },
+        {
+            "word": "O(1)",
+            "connections": [
+                "Konstant",
+                "Schnell",
+                "Unabhängig"
+            ]
+        },
+        {
+            "word": "O(log n)",
+            "connections": [
+                "Logarithmisch",
+                "Binär",
+                "Effizient"
+            ]
+        },
+        {
+            "word": "O(n)",
+            "connections": [
+                "Linear",
+                "Proportional",
+                "Durchlauf"
+            ]
+        },
+        {
+            "word": "O(n²)",
+            "connections": [
+                "Quadratisch",
+                "Langsam",
+                "Verschachtelt"
+            ]
+        },
+        {
+            "word": "Lineare Suche",
+            "connections": [
+                "Sequenziell",
+                "Einfach",
+                "O(n)"
+            ]
+        },
+        {
+            "word": "Binäre Suche",
+            "connections": [
+                "Halbierung",
+                "Sortiert",
+                "O(log n)"
+            ]
+        },
+        {
+            "word": "Bubble Sort",
+            "connections": [
+                "Vertauschen",
+                "Einfach",
+                "O(n²)"
+            ]
+        }
+    ]
+}

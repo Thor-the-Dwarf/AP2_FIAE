@@ -1,1 +1,253 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Algorithmen beurteilen",
+    "topic": "Laufzeitanalyse, O-Notation, Effizienz",
+    "estimated_minutes": 18,
+    "sections": [
+        {
+            "id": "beur-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Komplexitätsklassen zuordnen",
+            "subtitle": "Ordne die Algorithmen den passenden Komplexitätsklassen zu.",
+            "hintDefault": "Tipp: O(1) = Konstant, O(log n) = Logarithmisch, O(n) = Linear, O(n²) = Quadratisch.",
+            "sortColumns": [
+                {
+                    "zone": "konstant",
+                    "label": "O(1) - Konstant",
+                    "hint": "(Unabhängig von n)"
+                },
+                {
+                    "zone": "logarithmisch",
+                    "label": "O(log n) - Logarithmisch",
+                    "hint": "(Binäre Suche)"
+                },
+                {
+                    "zone": "linear",
+                    "label": "O(n) - Linear",
+                    "hint": "(Lineare Suche)"
+                },
+                {
+                    "zone": "quadratisch",
+                    "label": "O(n²) - Quadratisch",
+                    "hint": "(Bubble Sort)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Array-Zugriff",
+                    "correctZone": "konstant"
+                },
+                {
+                    "id": "s2",
+                    "text": "Hash-Zugriff",
+                    "correctZone": "konstant"
+                },
+                {
+                    "id": "s3",
+                    "text": "Binäre Suche",
+                    "correctZone": "logarithmisch"
+                },
+                {
+                    "id": "s4",
+                    "text": "Lineare Suche",
+                    "correctZone": "linear"
+                },
+                {
+                    "id": "s5",
+                    "text": "Bubble Sort",
+                    "correctZone": "quadratisch"
+                },
+                {
+                    "id": "s6",
+                    "text": "Selection Sort",
+                    "correctZone": "quadratisch"
+                }
+            ]
+        },
+        {
+            "id": "beur-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Komplexität",
+            "subtitle": "Teste dein Wissen zur Komplexität.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist O(1)?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Konstante Komplexität"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur linear"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur quadratisch"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist O(log n)?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Logarithmische Komplexität"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur linear"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur quadratisch"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist O(n)?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Lineare Komplexität"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur konstant"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur quadratisch"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "beur-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Komplexität sortieren",
+            "subtitle": "Bringe die Komplexitäten von schnell nach langsam.",
+            "hintDefault": "Hinweis: O(1) → O(log n) → O(n) → O(n²).",
+            "rows": [
+                {
+                    "key": "konstant",
+                    "label": "O(1) - Konstant",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "logarithmisch",
+                    "label": "O(log n) - Logarithmisch",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "linear",
+                    "label": "O(n) - Linear",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "quadratisch",
+                    "label": "O(n²) - Quadratisch",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

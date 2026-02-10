@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Vorgehensmodelle",
+    "topic": "Wasserfall, Scrum, Kanban",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "Wasserfallmodell",
+            "right": "Sequenzielles Vorgehensmodell mit Phasen"
+        },
+        {
+            "left": "Scrum",
+            "right": "Agiles Framework mit Sprints und Rollen"
+        },
+        {
+            "left": "Kanban",
+            "right": "Agile Methode mit Visualisierung und WIP-Limits"
+        },
+        {
+            "left": "V-Modell",
+            "right": "Vorgehensmodell mit Test-Phasen"
+        },
+        {
+            "left": "Sprint",
+            "right": "Zeitlich begrenzte Iteration in Scrum"
+        },
+        {
+            "left": "Product Owner",
+            "right": "Scrum-Rolle für Product Backlog"
+        },
+        {
+            "left": "Scrum Master",
+            "right": "Scrum-Rolle für Prozessunterstützung"
+        },
+        {
+            "left": "Daily Scrum",
+            "right": "Tägliches Abstimmungsmeeting"
+        },
+        {
+            "left": "Sprint Planning",
+            "right": "Planung des Sprints"
+        },
+        {
+            "left": "Sprint Review",
+            "right": "Präsentation der Ergebnisse"
+        },
+        {
+            "left": "Sprint Retrospektive",
+            "right": "Reflexion des Prozesses"
+        },
+        {
+            "left": "Kanban Board",
+            "right": "Visualisierung des Workflows"
+        }
+    ]
+}

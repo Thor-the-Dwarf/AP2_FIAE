@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – IT-Sicherheit",
+    "topic": "Bedrohungen, TOM, DSGVO, Sicherheitsmaßnahmen",
+    "estimated_minutes": 12,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "_____ ist Schadsoftware, die Daten verschlüsselt und Lösegeld fordert.",
+            "correctAnswer": "Ransomware",
+            "hint": "Erpressungs-Malware"
+        },
+        {
+            "id": "s2",
+            "text": "_____ ist Täuschung zur Erlangung sensibler Daten.",
+            "correctAnswer": "Phishing",
+            "hint": "E-Mail-Betrug"
+        },
+        {
+            "id": "s3",
+            "text": "_____ kontrolliert den physischen Zugang zu Räumen.",
+            "correctAnswer": "Zutrittskontrolle",
+            "hint": "Alarm, Video"
+        },
+        {
+            "id": "s4",
+            "text": "_____ kontrolliert die Authentifizierung von Benutzern.",
+            "correctAnswer": "Zugangskontrolle",
+            "hint": "Passwort, Biometrie"
+        },
+        {
+            "id": "s5",
+            "text": "_____ kontrolliert Berechtigungen auf Daten.",
+            "correctAnswer": "Zugriffskontrolle",
+            "hint": "Verschlüsselung, Rollen"
+        },
+        {
+            "id": "s6",
+            "text": "_____ steht für Datenschutz-Grundverordnung.",
+            "correctAnswer": "DSGVO",
+            "hint": "EU-Verordnung"
+        },
+        {
+            "id": "s7",
+            "text": "_____ steht für Bundesdatenschutzgesetz.",
+            "correctAnswer": "BDSG",
+            "hint": "Deutsches Gesetz"
+        },
+        {
+            "id": "s8",
+            "text": "Ein _____ ist ein Sicherheitstest durch simulierte Angriffe.",
+            "correctAnswer": "Penetrationstest",
+            "hint": "Pentest"
+        },
+        {
+            "id": "s9",
+            "text": "_____ bedeutet Sicherheit von Anfang an einplanen.",
+            "correctAnswer": "Security by Design",
+            "hint": "Präventives Konzept"
+        },
+        {
+            "id": "s10",
+            "text": "_____ ist die BSI-Methodik zur IT-Absicherung.",
+            "correctAnswer": "IT-Grundschutz",
+            "hint": "BSI-Standard"
+        },
+        {
+            "id": "s11",
+            "text": "Eine _____ filtert Netzwerkverkehr.",
+            "correctAnswer": "Firewall",
+            "hint": "Netzwerksicherheit"
+        },
+        {
+            "id": "s12",
+            "text": "_____ ist unbefugtes Kopieren von Daten.",
+            "correctAnswer": "Datendiebstahl",
+            "hint": "Daten-Entwendung"
+        }
+    ]
+}

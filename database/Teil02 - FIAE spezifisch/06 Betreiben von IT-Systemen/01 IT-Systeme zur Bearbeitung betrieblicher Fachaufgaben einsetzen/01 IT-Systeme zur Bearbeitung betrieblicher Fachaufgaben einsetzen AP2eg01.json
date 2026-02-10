@@ -1,1 +1,248 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – IT-Systeme einsetzen",
+    "topic": "Anwendungssysteme, ERP, CRM",
+    "estimated_minutes": 18,
+    "sections": [
+        {
+            "id": "app-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Anwendungssysteme zuordnen",
+            "subtitle": "Ordne die Systeme den passenden Kategorien zu.",
+            "hintDefault": "Tipp: ERP = Ressourcenplanung, CRM = Kundenbeziehungen, Office = Büro.",
+            "sortColumns": [
+                {
+                    "zone": "erp",
+                    "label": "ERP-Systeme",
+                    "hint": "(Ressourcenplanung)"
+                },
+                {
+                    "zone": "crm",
+                    "label": "CRM-Systeme",
+                    "hint": "(Kundenbeziehungen)"
+                },
+                {
+                    "zone": "office",
+                    "label": "Office-Anwendungen",
+                    "hint": "(Bürosoftware)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "SAP",
+                    "correctZone": "erp"
+                },
+                {
+                    "id": "s2",
+                    "text": "Warenwirtschaft",
+                    "correctZone": "erp"
+                },
+                {
+                    "id": "s3",
+                    "text": "Salesforce",
+                    "correctZone": "crm"
+                },
+                {
+                    "id": "s4",
+                    "text": "Kundenverwaltung",
+                    "correctZone": "crm"
+                },
+                {
+                    "id": "s5",
+                    "text": "Textverarbeitung",
+                    "correctZone": "office"
+                },
+                {
+                    "id": "s6",
+                    "text": "Tabellenkalkulation",
+                    "correctZone": "office"
+                }
+            ]
+        },
+        {
+            "id": "app-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Anwendungssysteme",
+            "subtitle": "Teste dein Wissen zu Anwendungssystemen.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist ERP?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Enterprise Resource Planning"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Electronic Resource Processing"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Extended Reporting Platform"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist CRM?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Customer Relationship Management"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Client Resource Management"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Corporate Risk Management"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist SAP?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "ERP-System"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur CRM"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Office"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "app-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: ERP-Einführung",
+            "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Analyse → Auswahl → Implementierung → Schulung.",
+            "rows": [
+                {
+                    "key": "analyse",
+                    "label": "Anforderungen analysieren",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "auswahl",
+                    "label": "System auswählen",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "implementierung",
+                    "label": "System implementieren",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "schulung",
+                    "label": "Mitarbeiter schulen",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

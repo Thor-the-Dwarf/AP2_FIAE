@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – IT-Betrieb",
+    "topic": "Wartung, Support, Betrieb",
+    "estimated_minutes": 12,
+    "centerWord": "IT-Betrieb",
+    "associations": [
+        {
+            "word": "Wartung",
+            "connections": [
+                "Updates",
+                "Patches",
+                "Pflege"
+            ]
+        },
+        {
+            "word": "Support",
+            "connections": [
+                "Helpdesk",
+                "Tickets",
+                "Benutzer"
+            ]
+        },
+        {
+            "word": "Helpdesk",
+            "connections": [
+                "Support",
+                "Anlaufstelle",
+                "Anfragen"
+            ]
+        },
+        {
+            "word": "Ticket-System",
+            "connections": [
+                "Support",
+                "Verwaltung",
+                "Nachverfolgung"
+            ]
+        },
+        {
+            "word": "Monitoring",
+            "connections": [
+                "Überwachung",
+                "Leistung",
+                "Verfügbarkeit"
+            ]
+        },
+        {
+            "word": "Backup",
+            "connections": [
+                "Sicherung",
+                "Wiederherstellung",
+                "Daten"
+            ]
+        },
+        {
+            "word": "Patch",
+            "connections": [
+                "Wartung",
+                "Sicherheit",
+                "Fehlerkorrektur"
+            ]
+        },
+        {
+            "word": "Update",
+            "connections": [
+                "Wartung",
+                "Aktualisierung",
+                "Version"
+            ]
+        },
+        {
+            "word": "Incident",
+            "connections": [
+                "Störung",
+                "Problem",
+                "Management"
+            ]
+        },
+        {
+            "word": "SLA",
+            "connections": [
+                "Service",
+                "Vereinbarung",
+                "Qualität"
+            ]
+        },
+        {
+            "word": "Verfügbarkeit",
+            "connections": [
+                "Monitoring",
+                "Betriebsbereit",
+                "Uptime"
+            ]
+        },
+        {
+            "word": "Dokumentation",
+            "connections": [
+                "Aufzeichnung",
+                "Lösungen",
+                "Wissen"
+            ]
+        }
+    ]
+}

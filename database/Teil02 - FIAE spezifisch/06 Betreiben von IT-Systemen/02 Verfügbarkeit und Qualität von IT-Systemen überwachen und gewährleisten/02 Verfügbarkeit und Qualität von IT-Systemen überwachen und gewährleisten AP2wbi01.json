@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Verfügbarkeit",
+    "topic": "Monitoring, Backup",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "_____ ist die kontinuierliche Überwachung von Systemen.",
+            "correctAnswer": "Monitoring",
+            "hint": "Überwachung"
+        },
+        {
+            "id": "s2",
+            "text": "_____ ist ein Open-Source Monitoring-Tool.",
+            "correctAnswer": "Zabbix",
+            "hint": "Monitoring-Tool"
+        },
+        {
+            "id": "s3",
+            "text": "_____ ist ein weiteres Monitoring-Tool.",
+            "correctAnswer": "Nagios",
+            "hint": "Monitoring-Tool"
+        },
+        {
+            "id": "s4",
+            "text": "_____ steht für Simple Network Management Protocol.",
+            "correctAnswer": "SNMP",
+            "hint": "Netzwerk-Protokoll"
+        },
+        {
+            "id": "s5",
+            "text": "Ein _____ ist eine komplette Datensicherung.",
+            "correctAnswer": "Vollbackup",
+            "hint": "Komplette Sicherung"
+        },
+        {
+            "id": "s6",
+            "text": "Ein _____ Backup sichert nur Änderungen.",
+            "correctAnswer": "inkrementelles",
+            "hint": "Nur Änderungen"
+        },
+        {
+            "id": "s7",
+            "text": "Ein _____ Backup sichert Änderungen seit Vollbackup.",
+            "correctAnswer": "differenzielles",
+            "hint": "Seit Vollbackup"
+        },
+        {
+            "id": "s8",
+            "text": "_____ steht für Redundant Array of Independent Disks.",
+            "correctAnswer": "RAID",
+            "hint": "Festplattenverbund"
+        },
+        {
+            "id": "s9",
+            "text": "_____ steht für Unterbrechungsfreie Stromversorgung.",
+            "correctAnswer": "USV",
+            "hint": "Stromversorgung"
+        },
+        {
+            "id": "s10",
+            "text": "_____ ist die Wiederherstellung nach Katastrophe.",
+            "correctAnswer": "Disaster Recovery",
+            "hint": "Notfallwiederherstellung"
+        },
+        {
+            "id": "s11",
+            "text": "_____ umfasst Updates und Patches.",
+            "correctAnswer": "Wartung",
+            "hint": "Pflege"
+        },
+        {
+            "id": "s12",
+            "text": "_____ steht für Self-Monitoring Analysis and Reporting Technology.",
+            "correctAnswer": "S.M.A.R.T.",
+            "hint": "Festplatten-Überwachung"
+        }
+    ]
+}

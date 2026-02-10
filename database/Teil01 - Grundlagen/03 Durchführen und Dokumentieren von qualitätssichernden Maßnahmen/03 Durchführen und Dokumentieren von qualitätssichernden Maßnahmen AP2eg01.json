@@ -1,1 +1,292 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Qualitätssichernde Maßnahmen",
+    "topic": "Qualitätssicherung, PDCA-Zyklus, KVP, IT-Sicherheit",
+    "estimated_minutes": 25,
+    "sections": [
+        {
+            "id": "qm-sort-bereiche",
+            "type": "sort",
+            "title": "Rätsel 1: QM-Bereiche zuordnen",
+            "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+            "hintDefault": "Tipp: Qualitätssicherung = Prozesse/Audits, IT-Sicherheit = Schutzziele, QM-Prozess = PDCA/KVP.",
+            "sortColumns": [
+                {
+                    "zone": "qs",
+                    "label": "Qualitätssicherung",
+                    "hint": "(Audits, Kennzahlen, Mängel)"
+                },
+                {
+                    "zone": "sicherheit",
+                    "label": "IT-Sicherheit",
+                    "hint": "(Schutzziele: CIA)"
+                },
+                {
+                    "zone": "prozess",
+                    "label": "QM-Prozess",
+                    "hint": "(PDCA, KVP, Soll-Ist)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Qualitätsmängel dokumentieren",
+                    "correctZone": "qs"
+                },
+                {
+                    "id": "s2",
+                    "text": "Audits durchführen",
+                    "correctZone": "qs"
+                },
+                {
+                    "id": "s3",
+                    "text": "Kennzahlen erheben",
+                    "correctZone": "qs"
+                },
+                {
+                    "id": "s4",
+                    "text": "Vertraulichkeit (Confidentiality)",
+                    "correctZone": "sicherheit"
+                },
+                {
+                    "id": "s5",
+                    "text": "Integrität (Integrity)",
+                    "correctZone": "sicherheit"
+                },
+                {
+                    "id": "s6",
+                    "text": "Verfügbarkeit (Availability)",
+                    "correctZone": "sicherheit"
+                },
+                {
+                    "id": "s7",
+                    "text": "PDCA-Zyklus",
+                    "correctZone": "prozess"
+                },
+                {
+                    "id": "s8",
+                    "text": "KVP (Kontinuierlicher Verbesserungsprozess)",
+                    "correctZone": "prozess"
+                },
+                {
+                    "id": "s9",
+                    "text": "Soll-Ist-Vergleich",
+                    "correctZone": "prozess"
+                },
+                {
+                    "id": "s10",
+                    "text": "Testprotokolle",
+                    "correctZone": "prozess"
+                },
+                {
+                    "id": "s11",
+                    "text": "Abnahmeprotokoll",
+                    "correctZone": "prozess"
+                }
+            ]
+        },
+        {
+            "id": "qm-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Qualitätssicherung",
+            "subtitle": "Teste dein Wissen zu QM und IT-Sicherheit.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was bedeutet PDCA?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Plan-Do-Check-Act"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Process-Data-Control-Analyze"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Plan-Design-Create-Approve"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist KVP?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Kontinuierlicher Verbesserungsprozess"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Kontrolle von Prozessen"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Kundenvertrags-Prüfung"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Welche Schutzziele gibt es in der IT-Sicherheit?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Vertraulichkeit, Integrität, Verfügbarkeit"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Schnelligkeit, Effizienz, Qualität"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Kosten, Zeit, Ressourcen"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q4",
+                    "text": "4. Was ist ein Audit?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Systematische Überprüfung von Prozessen"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Software-Test"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Datenbank-Abfrage"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "qm-reihenfolge-pdca",
+            "type": "capital",
+            "title": "Rätsel 3: PDCA-Zyklus – richtige Reihenfolge",
+            "subtitle": "Bringe die PDCA-Phasen in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Plan → Do → Check → Act.",
+            "rows": [
+                {
+                    "key": "plan",
+                    "label": "Plan (Planen)",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "do",
+                    "label": "Do (Umsetzen)",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "check",
+                    "label": "Check (Überprüfen)",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "act",
+                    "label": "Act (Handeln/Verbessern)",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

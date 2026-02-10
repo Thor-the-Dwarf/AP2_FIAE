@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Fehler erkennen (QS)",
+    "topic": "Debugging, Testverfahren, Versionsmanagement",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "Beim _____ Test wird ohne Kenntnis der internen Code-Struktur getestet.",
+            "correctAnswer": "Black Box",
+            "hint": "Ohne Code-Einsicht"
+        },
+        {
+            "id": "s2",
+            "text": "Beim _____ Test wird mit vollständiger Code-Kenntnis getestet.",
+            "correctAnswer": "White Box",
+            "hint": "Mit Code-Einsicht"
+        },
+        {
+            "id": "s3",
+            "text": "Beim _____ Test wird mit teilweiser Code-Kenntnis getestet.",
+            "correctAnswer": "Greybox",
+            "hint": "Teilweise Code-Einsicht"
+        },
+        {
+            "id": "s4",
+            "text": "_____ ist das systematische Suchen und Beheben von Fehlern.",
+            "correctAnswer": "Debugging",
+            "hint": "Fehlersuche"
+        },
+        {
+            "id": "s5",
+            "text": "_____ ist ein verteiltes Versionskontrollsystem.",
+            "correctAnswer": "Git",
+            "hint": "Versionskontrolle"
+        },
+        {
+            "id": "s6",
+            "text": "Ein _____ speichert Änderungen in der Versionskontrolle.",
+            "correctAnswer": "Commit",
+            "hint": "Änderungen speichern"
+        },
+        {
+            "id": "s7",
+            "text": "Ein _____ ist eine Abzweigung im Versionskontrollsystem.",
+            "correctAnswer": "Branch",
+            "hint": "Abzweigung"
+        },
+        {
+            "id": "s8",
+            "text": "_____ bedeutet das Zusammenführen von Branches.",
+            "correctAnswer": "Merge",
+            "hint": "Zusammenführen"
+        },
+        {
+            "id": "s9",
+            "text": "Ein _____ testet, ob alte Funktionen noch funktionieren.",
+            "correctAnswer": "Regressiontest",
+            "hint": "Test alter Funktionen"
+        },
+        {
+            "id": "s10",
+            "text": "_____ ist ein Maß für die Testabdeckung des Quellcodes.",
+            "correctAnswer": "Code-Coverage",
+            "hint": "Testabdeckung"
+        },
+        {
+            "id": "s11",
+            "text": "Eine _____ ist eine Gruppe von Eingabewerten mit gleichem Verhalten.",
+            "correctAnswer": "Äquivalenzklasse",
+            "hint": "Eingabewerte-Gruppe"
+        },
+        {
+            "id": "s12",
+            "text": "_____ ist ein zentrales Versionskontrollsystem.",
+            "correctAnswer": "SVN",
+            "hint": "Subversion"
+        }
+    ]
+}

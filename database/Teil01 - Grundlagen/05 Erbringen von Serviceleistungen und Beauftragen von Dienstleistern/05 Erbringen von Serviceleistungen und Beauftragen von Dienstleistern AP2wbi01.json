@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Serviceleistungen",
+    "topic": "Service Management, SLA, Incident Management",
+    "estimated_minutes": 12,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "_____ ist die Verwaltung und Behebung von Störungen.",
+            "correctAnswer": "Incident Management",
+            "hint": "Störungsmanagement"
+        },
+        {
+            "id": "s2",
+            "text": "_____ steht für Service Level Agreement.",
+            "correctAnswer": "SLA",
+            "hint": "Dienstgütevereinbarung"
+        },
+        {
+            "id": "s3",
+            "text": "_____ steht für Standard Operation Procedures.",
+            "correctAnswer": "SOP",
+            "hint": "Standardprozesse"
+        },
+        {
+            "id": "s4",
+            "text": "Ein _____ verwaltet Anfragen und Störungen.",
+            "correctAnswer": "Ticketsystem",
+            "hint": "Ticket-Verwaltung"
+        },
+        {
+            "id": "s5",
+            "text": "_____ sind hierarchische Stufen zur Weiterleitung von Problemen.",
+            "correctAnswer": "Eskalationsstufen",
+            "hint": "Hierarchie"
+        },
+        {
+            "id": "s6",
+            "text": "Die _____ ist die Zeit bis zur ersten Reaktion auf ein Ticket.",
+            "correctAnswer": "Reaktionszeit",
+            "hint": "Response Time"
+        },
+        {
+            "id": "s7",
+            "text": "Die _____ ist die Zeit bis zur vollständigen Behebung.",
+            "correctAnswer": "Lösungszeit",
+            "hint": "Resolution Time"
+        },
+        {
+            "id": "s8",
+            "text": "_____ ist der Prozentsatz der Zeit, in der ein Service verfügbar ist.",
+            "correctAnswer": "Verfügbarkeit",
+            "hint": "Uptime"
+        },
+        {
+            "id": "s9",
+            "text": "_____ ist die systematische Fehlersuche und -behebung.",
+            "correctAnswer": "Troubleshooting",
+            "hint": "Fehlersuche"
+        },
+        {
+            "id": "s10",
+            "text": "_____ ist die kontinuierliche Überwachung von Systemen.",
+            "correctAnswer": "Monitoring",
+            "hint": "Überwachung"
+        },
+        {
+            "id": "s11",
+            "text": "_____ ist die Berichterstattung über Serviceleistungen.",
+            "correctAnswer": "Reporting",
+            "hint": "Berichte"
+        },
+        {
+            "id": "s12",
+            "text": "_____ ist die schriftliche Aufzeichnung von Prozessen.",
+            "correctAnswer": "Dokumentation",
+            "hint": "Aufzeichnung"
+        }
+    ]
+}

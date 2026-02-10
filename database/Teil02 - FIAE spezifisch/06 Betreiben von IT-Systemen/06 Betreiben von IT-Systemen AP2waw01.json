@@ -1,1 +1,130 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – IT-Systeme betreiben",
+    "topic": "Netzwerk, Cloud, Monitoring",
+    "estimated_minutes": 15,
+    "centerWord": "IT-Systeme",
+    "associations": [
+        {
+            "word": "OSI-Modell",
+            "connections": [
+                "7 Schichten",
+                "Referenzmodell",
+                "Netzwerk"
+            ]
+        },
+        {
+            "word": "TCP/IP",
+            "connections": [
+                "Protokollstapel",
+                "Internet",
+                "Transport"
+            ]
+        },
+        {
+            "word": "Routing",
+            "connections": [
+                "Netzwerke",
+                "Weiterleitung",
+                "Router"
+            ]
+        },
+        {
+            "word": "VPN",
+            "connections": [
+                "Verschlüsselt",
+                "Sicher",
+                "Remote"
+            ]
+        },
+        {
+            "word": "VLAN",
+            "connections": [
+                "Segmentierung",
+                "Logisch",
+                "Netzwerk"
+            ]
+        },
+        {
+            "word": "SaaS",
+            "connections": [
+                "Cloud",
+                "Software",
+                "Anwendung"
+            ]
+        },
+        {
+            "word": "PaaS",
+            "connections": [
+                "Cloud",
+                "Plattform",
+                "Entwicklung"
+            ]
+        },
+        {
+            "word": "IaaS",
+            "connections": [
+                "Cloud",
+                "Infrastruktur",
+                "Server"
+            ]
+        },
+        {
+            "word": "Hypervisor",
+            "connections": [
+                "Virtualisierung",
+                "VM",
+                "Host"
+            ]
+        },
+        {
+            "word": "Container",
+            "connections": [
+                "Docker",
+                "Leichtgewichtig",
+                "Isolation"
+            ]
+        },
+        {
+            "word": "RAID",
+            "connections": [
+                "Redundanz",
+                "Festplatten",
+                "Ausfallsicherheit"
+            ]
+        },
+        {
+            "word": "Backup",
+            "connections": [
+                "Sicherung",
+                "Wiederherstellung",
+                "Daten"
+            ]
+        },
+        {
+            "word": "Monitoring",
+            "connections": [
+                "Überwachung",
+                "Tools",
+                "Proaktiv"
+            ]
+        },
+        {
+            "word": "SLA",
+            "connections": [
+                "Vereinbarung",
+                "Service Level",
+                "Garantie"
+            ]
+        },
+        {
+            "word": "Incident",
+            "connections": [
+                "Störung",
+                "Ticket",
+                "Management"
+            ]
+        }
+    ]
+}

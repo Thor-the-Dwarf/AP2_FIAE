@@ -1,1 +1,248 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Störungen beheben",
+    "topic": "Fehleranalyse, Troubleshooting, Incident Management",
+    "estimated_minutes": 18,
+    "sections": [
+        {
+            "id": "trouble-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Troubleshooting-Methoden zuordnen",
+            "subtitle": "Ordne die Methoden den passenden Kategorien zu.",
+            "hintDefault": "Tipp: Analyse = Ursache finden, Behebung = Problem lösen, Prävention = Vermeiden.",
+            "sortColumns": [
+                {
+                    "zone": "analyse",
+                    "label": "Fehleranalyse",
+                    "hint": "(Ursache finden)"
+                },
+                {
+                    "zone": "behebung",
+                    "label": "Fehlerbehebung",
+                    "hint": "(Problem lösen)"
+                },
+                {
+                    "zone": "praevention",
+                    "label": "Prävention",
+                    "hint": "(Vermeiden)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Root Cause Analysis",
+                    "correctZone": "analyse"
+                },
+                {
+                    "id": "s2",
+                    "text": "Log-Analyse",
+                    "correctZone": "analyse"
+                },
+                {
+                    "id": "s3",
+                    "text": "Workaround implementieren",
+                    "correctZone": "behebung"
+                },
+                {
+                    "id": "s4",
+                    "text": "Patch installieren",
+                    "correctZone": "behebung"
+                },
+                {
+                    "id": "s5",
+                    "text": "Monitoring einrichten",
+                    "correctZone": "praevention"
+                },
+                {
+                    "id": "s6",
+                    "text": "Dokumentation erstellen",
+                    "correctZone": "praevention"
+                }
+            ]
+        },
+        {
+            "id": "trouble-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Troubleshooting",
+            "subtitle": "Teste dein Wissen zu Störungsbehebung.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist Troubleshooting?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Systematische Fehlersuche"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Monitoring"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Reporting"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist Root Cause Analysis?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Suche nach Grundursache"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Symptome beheben"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Monitoring"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist ein Workaround?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Temporäre Problemumgehung"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Dauerhafte Lösung"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Monitoring"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "trouble-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Troubleshooting-Prozess",
+            "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Problem → Analyse → Lösung → Dokumentation.",
+            "rows": [
+                {
+                    "key": "problem",
+                    "label": "Problem identifizieren",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "analyse",
+                    "label": "Ursache analysieren",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "loesung",
+                    "label": "Lösung implementieren",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "doku",
+                    "label": "Lösung dokumentieren",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

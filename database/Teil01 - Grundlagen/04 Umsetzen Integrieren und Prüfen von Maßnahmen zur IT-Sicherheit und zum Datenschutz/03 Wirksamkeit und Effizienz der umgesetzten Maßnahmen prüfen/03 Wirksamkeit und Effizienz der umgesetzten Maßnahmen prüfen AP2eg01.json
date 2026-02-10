@@ -1,1 +1,263 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Wirksamkeit prüfen",
+    "topic": "Penetrationstests, Sicherheitsaudits, Monitoring",
+    "estimated_minutes": 20,
+    "sections": [
+        {
+            "id": "test-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Prüfmethoden zuordnen",
+            "subtitle": "Ordne die Methoden den passenden Kategorien zu.",
+            "hintDefault": "Tipp: Pentest = Angriffssimulation, Audit = Überprüfung, Monitoring = Überwachung.",
+            "sortColumns": [
+                {
+                    "zone": "pentest",
+                    "label": "Penetrationstest",
+                    "hint": "(Angriffssimulation)"
+                },
+                {
+                    "zone": "audit",
+                    "label": "Sicherheitsaudit",
+                    "hint": "(Überprüfung)"
+                },
+                {
+                    "zone": "monitoring",
+                    "label": "Monitoring",
+                    "hint": "(Überwachung)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Simulierte Hackerangriffe",
+                    "correctZone": "pentest"
+                },
+                {
+                    "id": "s2",
+                    "text": "Schwachstellenscans",
+                    "correctZone": "pentest"
+                },
+                {
+                    "id": "s3",
+                    "text": "Exploitation von Sicherheitslücken",
+                    "correctZone": "pentest"
+                },
+                {
+                    "id": "s4",
+                    "text": "Überprüfung von Richtlinien",
+                    "correctZone": "audit"
+                },
+                {
+                    "id": "s5",
+                    "text": "Compliance-Prüfung",
+                    "correctZone": "audit"
+                },
+                {
+                    "id": "s6",
+                    "text": "Dokumentenprüfung",
+                    "correctZone": "audit"
+                },
+                {
+                    "id": "s7",
+                    "text": "Log-Analyse",
+                    "correctZone": "monitoring"
+                },
+                {
+                    "id": "s8",
+                    "text": "Echtzeit-Überwachung",
+                    "correctZone": "monitoring"
+                },
+                {
+                    "id": "s9",
+                    "text": "Intrusion Detection System (IDS)",
+                    "correctZone": "monitoring"
+                }
+            ]
+        },
+        {
+            "id": "test-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Prüfung",
+            "subtitle": "Teste dein Wissen zu Sicherheitsprüfungen.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist ein Penetrationstest?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Sicherheitstest durch simulierte Angriffe"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Performance-Test"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Usability-Test"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist ein Sicherheitsaudit?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Systematische Überprüfung von Sicherheitsmaßnahmen"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Angriffssimulation"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Backup"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist Monitoring?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Kontinuierliche Überwachung von Systemen"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Einmalige Prüfung"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Backup"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "test-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Pentest-Phasen",
+            "subtitle": "Bringe die Phasen in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Reconnaissance → Scanning → Exploitation → Reporting.",
+            "rows": [
+                {
+                    "key": "recon",
+                    "label": "Reconnaissance (Informationsbeschaffung)",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "scan",
+                    "label": "Scanning (Schwachstellensuche)",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "exploit",
+                    "label": "Exploitation (Ausnutzung)",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "report",
+                    "label": "Reporting (Berichterstattung)",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,1 +1,248 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Kundenanforderungen",
+    "topic": "Anforderungsanalyse, User Stories, Use Cases",
+    "estimated_minutes": 18,
+    "sections": [
+        {
+            "id": "anf-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Anforderungstypen zuordnen",
+            "subtitle": "Ordne die Anforderungen den passenden Kategorien zu.",
+            "hintDefault": "Tipp: Funktional = Was, Nicht-funktional = Wie gut, Randbedingungen = Einschränkungen.",
+            "sortColumns": [
+                {
+                    "zone": "funktional",
+                    "label": "Funktionale Anforderungen",
+                    "hint": "(Was das System tun soll)"
+                },
+                {
+                    "zone": "nichtfunktional",
+                    "label": "Nicht-funktionale Anforderungen",
+                    "hint": "(Qualität)"
+                },
+                {
+                    "zone": "randbedingungen",
+                    "label": "Randbedingungen",
+                    "hint": "(Einschränkungen)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Benutzer kann sich anmelden",
+                    "correctZone": "funktional"
+                },
+                {
+                    "id": "s2",
+                    "text": "Daten speichern",
+                    "correctZone": "funktional"
+                },
+                {
+                    "id": "s3",
+                    "text": "Antwortzeit < 2 Sekunden",
+                    "correctZone": "nichtfunktional"
+                },
+                {
+                    "id": "s4",
+                    "text": "Verfügbarkeit 99,9%",
+                    "correctZone": "nichtfunktional"
+                },
+                {
+                    "id": "s5",
+                    "text": "Budget: 50.000 €",
+                    "correctZone": "randbedingungen"
+                },
+                {
+                    "id": "s6",
+                    "text": "Zeitrahmen: 6 Monate",
+                    "correctZone": "randbedingungen"
+                }
+            ]
+        },
+        {
+            "id": "anf-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Anforderungen",
+            "subtitle": "Teste dein Wissen zu Anforderungen.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist eine User Story?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Anforderung aus Nutzersicht"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur technische Spezifikation"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Testfall"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist ein Use Case?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Anwendungsfall mit Akteur"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur User Story"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Testfall"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was sind funktionale Anforderungen?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Was das System tun soll"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Qualität"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Einschränkungen"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "anf-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Anforderungsanalyse-Prozess",
+            "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Erheben → Analysieren → Spezifizieren → Validieren.",
+            "rows": [
+                {
+                    "key": "erheben",
+                    "label": "Anforderungen erheben",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "analysieren",
+                    "label": "Anforderungen analysieren",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "spezifizieren",
+                    "label": "Anforderungen spezifizieren",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "validieren",
+                    "label": "Anforderungen validieren",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

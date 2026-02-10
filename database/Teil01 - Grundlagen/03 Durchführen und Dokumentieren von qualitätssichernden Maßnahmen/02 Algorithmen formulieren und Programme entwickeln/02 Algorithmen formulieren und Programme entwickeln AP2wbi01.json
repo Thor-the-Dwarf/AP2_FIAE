@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Algorithmen (QS)",
+    "topic": "Kontrollstrukturen, UML, Softwareergonomie",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "Eine _____ ist eine lineare Abfolge von Anweisungen.",
+            "correctAnswer": "Sequenz",
+            "hint": "Nacheinander"
+        },
+        {
+            "id": "s2",
+            "text": "Eine _____ ist eine Verzweigung mit Bedingung.",
+            "correctAnswer": "Auswahl",
+            "hint": "if-else, switch"
+        },
+        {
+            "id": "s3",
+            "text": "Eine _____ ist eine Schleife zur wiederholten Ausführung.",
+            "correctAnswer": "Wiederholung",
+            "hint": "while, for"
+        },
+        {
+            "id": "s4",
+            "text": "_____ ist eine bedingte Verzweigung mit Alternative.",
+            "correctAnswer": "if-else",
+            "hint": "Bedingung mit Alternative"
+        },
+        {
+            "id": "s5",
+            "text": "_____ ist eine Mehrfachverzweigung basierend auf einem Wert.",
+            "correctAnswer": "switch-case",
+            "hint": "Mehrfachverzweigung"
+        },
+        {
+            "id": "s6",
+            "text": "Eine _____ ist eine kopfgesteuerte Schleife.",
+            "correctAnswer": "while-Schleife",
+            "hint": "Bedingung am Anfang"
+        },
+        {
+            "id": "s7",
+            "text": "Eine _____ ist eine Zählschleife.",
+            "correctAnswer": "for-Schleife",
+            "hint": "Mit Zähler"
+        },
+        {
+            "id": "s8",
+            "text": "Eine _____ ist eine fußgesteuerte Schleife.",
+            "correctAnswer": "do-while",
+            "hint": "Bedingung am Ende"
+        },
+        {
+            "id": "s9",
+            "text": "Ein _____ zeigt Anwendungsfälle und Akteure.",
+            "correctAnswer": "Use Case Diagramm",
+            "hint": "UML-Diagrammtyp"
+        },
+        {
+            "id": "s10",
+            "text": "Ein _____ zeigt Programmablauf und Kontrollstrukturen.",
+            "correctAnswer": "Aktivitätsdiagramm",
+            "hint": "UML-Diagrammtyp"
+        },
+        {
+            "id": "s11",
+            "text": "_____ bedeutet benutzerfreundliche Gestaltung von Software.",
+            "correctAnswer": "Softwareergonomie",
+            "hint": "Usability"
+        },
+        {
+            "id": "s12",
+            "text": "_____ steht für Unified Modeling Language.",
+            "correctAnswer": "UML",
+            "hint": "Abkürzung"
+        }
+    ]
+}

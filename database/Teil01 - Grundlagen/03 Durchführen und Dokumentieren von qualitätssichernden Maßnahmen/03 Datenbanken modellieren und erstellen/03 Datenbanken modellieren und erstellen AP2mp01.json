@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Datenbanken (QS)",
+    "topic": "Relational/NoSQL, Normalisierung, SQL",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "Relationale Datenbank",
+            "right": "Datenbank mit Tabellen, Zeilen und Spalten"
+        },
+        {
+            "left": "NoSQL",
+            "right": "Nicht-relationale Datenbanken (MongoDB, Redis)"
+        },
+        {
+            "left": "Normalisierung",
+            "right": "Prozess zur Vermeidung von Redundanzen (1.-3. NF)"
+        },
+        {
+            "left": "ER-Modell",
+            "right": "Entity-Relationship-Modell zur Datenmodellierung"
+        },
+        {
+            "left": "SQL",
+            "right": "Structured Query Language für Datenbankabfragen"
+        },
+        {
+            "left": "SELECT",
+            "right": "SQL-Befehl zum Abrufen von Daten"
+        },
+        {
+            "left": "JOIN",
+            "right": "SQL-Befehl zum Verbinden von Tabellen"
+        },
+        {
+            "left": "Primärschlüssel",
+            "right": "Eindeutiger Identifikator für Datensätze"
+        },
+        {
+            "left": "Fremdschlüssel",
+            "right": "Verweis auf Primärschlüssel einer anderen Tabelle"
+        },
+        {
+            "left": "1. Normalform",
+            "right": "Alle Werte sind atomar (nicht weiter teilbar)"
+        },
+        {
+            "left": "MongoDB",
+            "right": "Dokumentenorientierte NoSQL-Datenbank"
+        },
+        {
+            "left": "Redis",
+            "right": "Key-Value-Store NoSQL-Datenbank"
+        }
+    ]
+}

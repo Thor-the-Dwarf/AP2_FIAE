@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Algorithmen (QS)",
+    "topic": "Kontrollstrukturen, UML, Softwareergonomie",
+    "estimated_minutes": 12,
+    "centerWord": "Kontrollstrukturen",
+    "associations": [
+        {
+            "word": "Sequenz",
+            "connections": [
+                "Linear",
+                "Nacheinander",
+                "Abfolge"
+            ]
+        },
+        {
+            "word": "Auswahl",
+            "connections": [
+                "Verzweigung",
+                "if-else",
+                "switch"
+            ]
+        },
+        {
+            "word": "Wiederholung",
+            "connections": [
+                "Schleife",
+                "while",
+                "for"
+            ]
+        },
+        {
+            "word": "if-else",
+            "connections": [
+                "Auswahl",
+                "Bedingung",
+                "Alternative"
+            ]
+        },
+        {
+            "word": "switch-case",
+            "connections": [
+                "Auswahl",
+                "Mehrfachverzweigung",
+                "Wert"
+            ]
+        },
+        {
+            "word": "while",
+            "connections": [
+                "Wiederholung",
+                "Kopfgesteuert",
+                "Bedingung"
+            ]
+        },
+        {
+            "word": "for",
+            "connections": [
+                "Wiederholung",
+                "Zählschleife",
+                "Inkrement"
+            ]
+        },
+        {
+            "word": "do-while",
+            "connections": [
+                "Wiederholung",
+                "Fußgesteuert",
+                "Mindestens einmal"
+            ]
+        },
+        {
+            "word": "UML",
+            "connections": [
+                "Use Case",
+                "Klassendiagramm",
+                "Aktivitätsdiagramm"
+            ]
+        },
+        {
+            "word": "Use Case",
+            "connections": [
+                "UML",
+                "Anwendungsfälle",
+                "Akteure"
+            ]
+        },
+        {
+            "word": "Aktivitätsdiagramm",
+            "connections": [
+                "UML",
+                "Ablauf",
+                "Kontrollstrukturen"
+            ]
+        },
+        {
+            "word": "Softwareergonomie",
+            "connections": [
+                "Benutzerfreundlich",
+                "Usability",
+                "Design"
+            ]
+        }
+    ]
+}

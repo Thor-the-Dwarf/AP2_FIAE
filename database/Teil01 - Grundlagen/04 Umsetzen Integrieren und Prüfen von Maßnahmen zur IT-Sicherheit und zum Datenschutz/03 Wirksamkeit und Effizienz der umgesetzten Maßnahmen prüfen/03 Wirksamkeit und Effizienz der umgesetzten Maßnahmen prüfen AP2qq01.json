@@ -1,1 +1,193 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Wirksamkeit prüfen",
+    "topic": "Penetrationstests, Audits, Monitoring",
+    "estimated_minutes": 8,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist ein Penetrationstest?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Sicherheitstest durch simulierte Angriffe"
+                },
+                {
+                    "value": "b",
+                    "text": "Performance-Test"
+                },
+                {
+                    "value": "c",
+                    "text": "Usability-Test"
+                },
+                {
+                    "value": "d",
+                    "text": "Datenbank-Test"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist ein Sicherheitsaudit?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Systematische Überprüfung von Sicherheitsmaßnahmen"
+                },
+                {
+                    "value": "b",
+                    "text": "Angriffssimulation"
+                },
+                {
+                    "value": "c",
+                    "text": "Backup"
+                },
+                {
+                    "value": "d",
+                    "text": "Verschlüsselung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist Monitoring?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Kontinuierliche Überwachung"
+                },
+                {
+                    "value": "b",
+                    "text": "Einmalige Prüfung"
+                },
+                {
+                    "value": "c",
+                    "text": "Backup"
+                },
+                {
+                    "value": "d",
+                    "text": "Verschlüsselung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist ein IDS?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Intrusion Detection System"
+                },
+                {
+                    "value": "b",
+                    "text": "Internet Data Service"
+                },
+                {
+                    "value": "c",
+                    "text": "Internal Database System"
+                },
+                {
+                    "value": "d",
+                    "text": "Integrated Development System"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist ein IPS?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Intrusion Prevention System"
+                },
+                {
+                    "value": "b",
+                    "text": "Internet Protocol Service"
+                },
+                {
+                    "value": "c",
+                    "text": "Internal Processing System"
+                },
+                {
+                    "value": "d",
+                    "text": "Integrated Protection Service"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist SIEM?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Security Information and Event Management"
+                },
+                {
+                    "value": "b",
+                    "text": "System Integration and Error Management"
+                },
+                {
+                    "value": "c",
+                    "text": "Software Installation and Execution Module"
+                },
+                {
+                    "value": "d",
+                    "text": "Service Implementation and Evaluation Method"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist ein Red Team?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Angriffsteam bei Sicherheitstests"
+                },
+                {
+                    "value": "b",
+                    "text": "Verteidigungsteam"
+                },
+                {
+                    "value": "c",
+                    "text": "Entwicklungsteam"
+                },
+                {
+                    "value": "d",
+                    "text": "Support-Team"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist ein Blue Team?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Verteidigungsteam bei Sicherheitstests"
+                },
+                {
+                    "value": "b",
+                    "text": "Angriffsteam"
+                },
+                {
+                    "value": "c",
+                    "text": "Entwicklungsteam"
+                },
+                {
+                    "value": "d",
+                    "text": "Support-Team"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

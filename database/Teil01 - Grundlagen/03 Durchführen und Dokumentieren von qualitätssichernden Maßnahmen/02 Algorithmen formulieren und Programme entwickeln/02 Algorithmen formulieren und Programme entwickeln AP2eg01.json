@@ -1,1 +1,219 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Algorithmen (QS)",
+    "topic": "Kontrollstrukturen, UML, Softwareergonomie",
+    "estimated_minutes": 20,
+    "sections": [
+        {
+            "id": "algo-sort-kontroll",
+            "type": "sort",
+            "title": "Rätsel 1: Kontrollstrukturen zuordnen",
+            "subtitle": "Ordne die Elemente den passenden Kontrollstrukturen zu.",
+            "hintDefault": "Tipp: Sequenz = nacheinander, Auswahl = Verzweigung, Wiederholung = Schleife.",
+            "sortColumns": [
+                {
+                    "zone": "sequenz",
+                    "label": "Sequenz",
+                    "hint": "(nacheinander)"
+                },
+                {
+                    "zone": "auswahl",
+                    "label": "Auswahl",
+                    "hint": "(Verzweigung)"
+                },
+                {
+                    "zone": "wiederholung",
+                    "label": "Wiederholung",
+                    "hint": "(Schleife)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Anweisungen nacheinander ausführen",
+                    "correctZone": "sequenz"
+                },
+                {
+                    "id": "s2",
+                    "text": "Lineare Abfolge",
+                    "correctZone": "sequenz"
+                },
+                {
+                    "id": "s3",
+                    "text": "if-else",
+                    "correctZone": "auswahl"
+                },
+                {
+                    "id": "s4",
+                    "text": "switch-case",
+                    "correctZone": "auswahl"
+                },
+                {
+                    "id": "s5",
+                    "text": "Bedingung prüfen",
+                    "correctZone": "auswahl"
+                },
+                {
+                    "id": "s6",
+                    "text": "while-Schleife",
+                    "correctZone": "wiederholung"
+                },
+                {
+                    "id": "s7",
+                    "text": "for-Schleife",
+                    "correctZone": "wiederholung"
+                },
+                {
+                    "id": "s8",
+                    "text": "do-while-Schleife",
+                    "correctZone": "wiederholung"
+                }
+            ]
+        },
+        {
+            "id": "algo-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Algorithmen",
+            "subtitle": "Teste dein Wissen zu Kontrollstrukturen und UML.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist eine Sequenz?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Lineare Abfolge von Anweisungen"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Verzweigung"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Schleife"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist eine Auswahl?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Verzweigung (if-else, switch)"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Schleife"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Sequenz"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was zeigt ein Use Case Diagramm?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Anwendungsfälle und Akteure"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Klassen"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Datenbank"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "algo-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Entwicklungsprozess",
+            "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Anforderungen → Entwurf → Implementierung.",
+            "rows": [
+                {
+                    "key": "anforderung",
+                    "label": "Anforderungen (Use Case)",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                },
+                {
+                    "key": "entwurf",
+                    "label": "Entwurf (Klassendiagramm)",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                },
+                {
+                    "key": "implementierung",
+                    "label": "Implementierung (Aktivitätsdiagramm)",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

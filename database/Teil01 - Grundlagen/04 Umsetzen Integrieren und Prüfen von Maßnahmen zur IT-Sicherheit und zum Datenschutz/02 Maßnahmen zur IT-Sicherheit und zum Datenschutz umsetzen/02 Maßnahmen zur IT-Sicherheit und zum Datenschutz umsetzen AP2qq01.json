@@ -1,1 +1,193 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Sicherheitsmaßnahmen",
+    "topic": "Verschlüsselung, Authentifizierung, DSGVO",
+    "estimated_minutes": 8,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist Verschlüsselung?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Umwandlung von Daten in unlesbares Format"
+                },
+                {
+                    "value": "b",
+                    "text": "Backup-Verfahren"
+                },
+                {
+                    "value": "c",
+                    "text": "Firewall"
+                },
+                {
+                    "value": "d",
+                    "text": "Monitoring"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist Authentifizierung?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Überprüfung der Identität"
+                },
+                {
+                    "value": "b",
+                    "text": "Verschlüsselung"
+                },
+                {
+                    "value": "c",
+                    "text": "Backup"
+                },
+                {
+                    "value": "d",
+                    "text": "Firewall"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Wofür steht DSGVO?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Datenschutz-Grundverordnung"
+                },
+                {
+                    "value": "b",
+                    "text": "Daten-Sicherheits-Gesetz"
+                },
+                {
+                    "value": "c",
+                    "text": "Digital-Service-Verordnung"
+                },
+                {
+                    "value": "d",
+                    "text": "Datenbank-Standard"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist eine Firewall?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Netzwerksicherheitssystem"
+                },
+                {
+                    "value": "b",
+                    "text": "Antivirus"
+                },
+                {
+                    "value": "c",
+                    "text": "Backup"
+                },
+                {
+                    "value": "d",
+                    "text": "Verschlüsselung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist 2FA?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Zwei-Faktor-Authentifizierung"
+                },
+                {
+                    "value": "b",
+                    "text": "Verschlüsselung"
+                },
+                {
+                    "value": "c",
+                    "text": "Firewall"
+                },
+                {
+                    "value": "d",
+                    "text": "Backup"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was sind TOM?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Technisch-Organisatorische Maßnahmen"
+                },
+                {
+                    "value": "b",
+                    "text": "Test-Optimierungs-Methoden"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur technische Maßnahmen"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur organisatorische Maßnahmen"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist ein Datenschutzbeauftragter?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Person, die Datenschutz überwacht"
+                },
+                {
+                    "value": "b",
+                    "text": "Software"
+                },
+                {
+                    "value": "c",
+                    "text": "Firewall"
+                },
+                {
+                    "value": "d",
+                    "text": "Backup-System"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist ein Verarbeitungsverzeichnis?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Dokumentation aller Datenverarbeitungsvorgänge"
+                },
+                {
+                    "value": "b",
+                    "text": "Backup-Liste"
+                },
+                {
+                    "value": "c",
+                    "text": "Firewall-Regel"
+                },
+                {
+                    "value": "d",
+                    "text": "Verschlüsselungsmethode"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

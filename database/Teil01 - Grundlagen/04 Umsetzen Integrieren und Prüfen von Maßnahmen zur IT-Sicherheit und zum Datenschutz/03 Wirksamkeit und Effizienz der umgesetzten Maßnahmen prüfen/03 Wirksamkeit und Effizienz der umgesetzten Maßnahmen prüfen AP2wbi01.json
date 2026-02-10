@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Wirksamkeit prüfen",
+    "topic": "Penetrationstests, Audits, Monitoring",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "Ein _____ ist ein Sicherheitstest durch simulierte Angriffe.",
+            "correctAnswer": "Penetrationstest",
+            "hint": "Pentest"
+        },
+        {
+            "id": "s2",
+            "text": "Ein _____ ist eine systematische Überprüfung von Sicherheitsmaßnahmen.",
+            "correctAnswer": "Sicherheitsaudit",
+            "hint": "Audit"
+        },
+        {
+            "id": "s3",
+            "text": "_____ ist die kontinuierliche Überwachung von Systemen.",
+            "correctAnswer": "Monitoring",
+            "hint": "Überwachung"
+        },
+        {
+            "id": "s4",
+            "text": "Ein _____ sucht automatisiert nach Sicherheitslücken.",
+            "correctAnswer": "Schwachstellenscan",
+            "hint": "Vulnerability Scan"
+        },
+        {
+            "id": "s5",
+            "text": "_____ ist die Auswertung von Systemprotokollen.",
+            "correctAnswer": "Log-Analyse",
+            "hint": "Protokoll-Auswertung"
+        },
+        {
+            "id": "s6",
+            "text": "_____ steht für Intrusion Detection System.",
+            "correctAnswer": "IDS",
+            "hint": "Angriffserkennung"
+        },
+        {
+            "id": "s7",
+            "text": "_____ steht für Intrusion Prevention System.",
+            "correctAnswer": "IPS",
+            "hint": "Angriffsabwehr"
+        },
+        {
+            "id": "s8",
+            "text": "_____ steht für Security Information and Event Management.",
+            "correctAnswer": "SIEM",
+            "hint": "Event Management"
+        },
+        {
+            "id": "s9",
+            "text": "Eine _____ überprüft die Einhaltung von Vorgaben.",
+            "correctAnswer": "Compliance-Prüfung",
+            "hint": "Vorgaben-Prüfung"
+        },
+        {
+            "id": "s10",
+            "text": "Ein _____ bewertet Schwachstellen.",
+            "correctAnswer": "Vulnerability Assessment",
+            "hint": "Schwachstellen-Bewertung"
+        },
+        {
+            "id": "s11",
+            "text": "Das _____ ist das Angriffsteam bei Sicherheitstests.",
+            "correctAnswer": "Red Team",
+            "hint": "Offensive"
+        },
+        {
+            "id": "s12",
+            "text": "Das _____ ist das Verteidigungsteam bei Sicherheitstests.",
+            "correctAnswer": "Blue Team",
+            "hint": "Defensive"
+        }
+    ]
+}

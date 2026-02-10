@@ -1,1 +1,193 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Bedrohungsszenarien",
+    "topic": "Bedrohungsanalyse, Risikoanalyse, Schadenspotenziale",
+    "estimated_minutes": 8,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist eine Bedrohungsanalyse?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Identifikation potenzieller Gefahren"
+                },
+                {
+                    "value": "b",
+                    "text": "Backup-Verfahren"
+                },
+                {
+                    "value": "c",
+                    "text": "Firewall-Konfiguration"
+                },
+                {
+                    "value": "d",
+                    "text": "Monitoring"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist eine Risikoanalyse?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Bewertung von Eintrittswahrscheinlichkeit und Schadenshöhe"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Bedrohungen identifizieren"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Maßnahmen umsetzen"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Monitoring"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist ein Schadenspotenzial?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Mögliches Ausmaß eines Schadens"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur finanzielle Kosten"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Imageschaden"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Datenverlust"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist ein Imageschaden?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Schädigung der Reputation"
+                },
+                {
+                    "value": "b",
+                    "text": "Finanzieller Verlust"
+                },
+                {
+                    "value": "c",
+                    "text": "Datenverlust"
+                },
+                {
+                    "value": "d",
+                    "text": "Systemausfall"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist ein wirtschaftlicher Schaden?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Finanzielle Verluste"
+                },
+                {
+                    "value": "b",
+                    "text": "Reputationsschaden"
+                },
+                {
+                    "value": "c",
+                    "text": "Datenverlust"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Imageschaden"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist eine Risikomatrix?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Darstellung von Risiken nach Wahrscheinlichkeit und Schaden"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Bedrohungen"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Maßnahmen"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Kosten"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist ein Restrisiko?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Verbleibendes Risiko nach Maßnahmen"
+                },
+                {
+                    "value": "b",
+                    "text": "Ursprüngliches Risiko"
+                },
+                {
+                    "value": "c",
+                    "text": "Kein Risiko"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur finanzielle Risiken"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist Risikoakzeptanz?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Bewusste Entscheidung, ein Risiko zu tragen"
+                },
+                {
+                    "value": "b",
+                    "text": "Risiko ignorieren"
+                },
+                {
+                    "value": "c",
+                    "text": "Risiko vermeiden"
+                },
+                {
+                    "value": "d",
+                    "text": "Risiko übertragen"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

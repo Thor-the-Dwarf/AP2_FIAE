@@ -1,1 +1,277 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Softwareprodukt planen",
+    "topic": "Anforderungsanalyse, UML, Vorgehensmodelle",
+    "estimated_minutes": 25,
+    "sections": [
+        {
+            "id": "plan-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Planungskonzepte zuordnen",
+            "subtitle": "Ordne die Konzepte den passenden Kategorien zu.",
+            "hintDefault": "Tipp: Analyse = Anforderungen, UML = Diagramme, Vorgehensmodelle = Prozesse.",
+            "sortColumns": [
+                {
+                    "zone": "analyse",
+                    "label": "Anforderungsanalyse",
+                    "hint": "(User Stories, Use Cases)"
+                },
+                {
+                    "zone": "uml",
+                    "label": "UML-Diagramme",
+                    "hint": "(Sequenz, Klasse, Zustand)"
+                },
+                {
+                    "zone": "modelle",
+                    "label": "Vorgehensmodelle",
+                    "hint": "(Wasserfall, Scrum, V-Modell)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "User Stories",
+                    "correctZone": "analyse"
+                },
+                {
+                    "id": "s2",
+                    "text": "Use Cases",
+                    "correctZone": "analyse"
+                },
+                {
+                    "id": "s3",
+                    "text": "Sequenzdiagramm",
+                    "correctZone": "uml"
+                },
+                {
+                    "id": "s4",
+                    "text": "Klassendiagramm",
+                    "correctZone": "uml"
+                },
+                {
+                    "id": "s5",
+                    "text": "Zustandsdiagramm",
+                    "correctZone": "uml"
+                },
+                {
+                    "id": "s6",
+                    "text": "Wasserfallmodell",
+                    "correctZone": "modelle"
+                },
+                {
+                    "id": "s7",
+                    "text": "Scrum",
+                    "correctZone": "modelle"
+                },
+                {
+                    "id": "s8",
+                    "text": "V-Modell",
+                    "correctZone": "modelle"
+                }
+            ]
+        },
+        {
+            "id": "plan-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Softwareplanung",
+            "subtitle": "Teste dein Wissen zur Softwareplanung.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was sind User Stories?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Anforderungen aus Nutzersicht"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur technische Spezifikation"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur UML-Diagramme"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist Scrum?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Agiles Vorgehensmodell"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Wasserfallmodell"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur UML"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist ein Klassendiagramm?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "UML-Diagramm für Klassenstruktur"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Sequenzdiagramm"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Use Case"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q4",
+                    "text": "4. Was ist REST?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Architekturstil für APIs"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Datenbank"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur UML"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "plan-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Wasserfallmodell-Phasen",
+            "subtitle": "Bringe die Phasen in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Anforderungen → Entwurf → Implementierung → Test → Wartung.",
+            "rows": [
+                {
+                    "key": "anforderungen",
+                    "label": "Anforderungsanalyse",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "entwurf",
+                    "label": "Systementwurf",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "implementierung",
+                    "label": "Implementierung",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "test",
+                    "label": "Test und Integration",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

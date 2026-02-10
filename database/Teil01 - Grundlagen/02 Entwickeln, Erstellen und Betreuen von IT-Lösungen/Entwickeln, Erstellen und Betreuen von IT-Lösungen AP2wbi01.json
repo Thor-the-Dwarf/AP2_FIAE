@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – IT-Lösungen entwickeln",
+    "topic": "Fehleranalyse, Softwareentwicklung, Datenbanken",
+    "estimated_minutes": 12,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "_____ sind Haltepunkte im Code, die beim Debuggen verwendet werden.",
+            "correctAnswer": "Breakpoints",
+            "hint": "Debugging-Werkzeug"
+        },
+        {
+            "id": "s2",
+            "text": "Beim _____ Test wird die Software ohne Kenntnis der internen Struktur getestet.",
+            "correctAnswer": "Black Box",
+            "hint": "Testverfahren ohne Code-Einsicht"
+        },
+        {
+            "id": "s3",
+            "text": "Der _____ testet einzelne Module isoliert.",
+            "correctAnswer": "Komponententest",
+            "hint": "Erste Teststufe"
+        },
+        {
+            "id": "s4",
+            "text": "_____ steht für Unified Modeling Language und dient zur Software-Modellierung.",
+            "correctAnswer": "UML",
+            "hint": "Abkürzung für Modellierungssprache"
+        },
+        {
+            "id": "s5",
+            "text": "Ein _____ zeigt Abläufe und Kontrollstrukturen in UML.",
+            "correctAnswer": "Aktivitätsdiagramm",
+            "hint": "UML-Diagrammtyp für Prozesse"
+        },
+        {
+            "id": "s6",
+            "text": "_____ wie Git dienen zur Versionierung von Quellcode.",
+            "correctAnswer": "Versionsmanagement",
+            "hint": "Code-Versionierung"
+        },
+        {
+            "id": "s7",
+            "text": "Das _____ zeigt Entitäten und ihre Beziehungen in einer Datenbank.",
+            "correctAnswer": "ER-Modell",
+            "hint": "Entity-Relationship-Modell"
+        },
+        {
+            "id": "s8",
+            "text": "_____ ist der Prozess zur Vermeidung von Redundanzen in Datenbanken.",
+            "correctAnswer": "Normalisierung",
+            "hint": "1.-3. Normalform"
+        },
+        {
+            "id": "s9",
+            "text": "Ein _____ ist ein eindeutiger Identifikator für jeden Datensatz in einer Tabelle.",
+            "correctAnswer": "Primärschlüssel",
+            "hint": "Primary Key"
+        },
+        {
+            "id": "s10",
+            "text": "Ein _____ verweist auf den Primärschlüssel einer anderen Tabelle.",
+            "correctAnswer": "Fremdschlüssel",
+            "hint": "Foreign Key"
+        },
+        {
+            "id": "s11",
+            "text": "_____ steht für Structured Query Language und wird für Datenbankabfragen verwendet.",
+            "correctAnswer": "SQL",
+            "hint": "Abkürzung für Datenbanksprache"
+        },
+        {
+            "id": "s12",
+            "text": "_____ bedeutet benutzerfreundliche Gestaltung von Software.",
+            "correctAnswer": "Software-Ergonomie",
+            "hint": "Usability-Aspekt"
+        }
+    ]
+}

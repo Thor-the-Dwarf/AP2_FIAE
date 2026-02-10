@@ -1,1 +1,209 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Vorgehensmodell",
+    "topic": "Wasserfall, Scrum, Kanban, V-Modell",
+    "estimated_minutes": 18,
+    "sections": [
+        {
+            "id": "vm-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Vorgehensmodelle zuordnen",
+            "subtitle": "Ordne die Merkmale den passenden Modellen zu.",
+            "hintDefault": "Tipp: Wasserfall = Sequenziell, Scrum = Sprints, Kanban = Board.",
+            "sortColumns": [
+                {
+                    "zone": "wasserfall",
+                    "label": "Wasserfallmodell",
+                    "hint": "(Sequenziell)"
+                },
+                {
+                    "zone": "agil",
+                    "label": "Agile Methoden",
+                    "hint": "(Iterativ)"
+                },
+                {
+                    "zone": "vmodell",
+                    "label": "V-Modell",
+                    "hint": "(Mit Tests)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Sequenzielle Phasen",
+                    "correctZone": "wasserfall"
+                },
+                {
+                    "id": "s2",
+                    "text": "Keine Rücksprünge",
+                    "correctZone": "wasserfall"
+                },
+                {
+                    "id": "s3",
+                    "text": "Sprints",
+                    "correctZone": "agil"
+                },
+                {
+                    "id": "s4",
+                    "text": "Iterativ",
+                    "correctZone": "agil"
+                },
+                {
+                    "id": "s5",
+                    "text": "Test-Phasen",
+                    "correctZone": "vmodell"
+                },
+                {
+                    "id": "s6",
+                    "text": "Qualitätssicherung",
+                    "correctZone": "vmodell"
+                }
+            ]
+        },
+        {
+            "id": "vm-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Vorgehensmodelle",
+            "subtitle": "Teste dein Wissen zu Vorgehensmodellen.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist das Wasserfallmodell?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Sequenzielles Modell"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur agiles Modell"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur iterativ"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist Scrum?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Agiles Framework mit Sprints"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Wasserfallmodell"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur V-Modell"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist Kanban?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Agile Methode mit Board"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Scrum"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Wasserfall"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "vm-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Scrum-Prozess",
+            "subtitle": "Bringe die Scrum-Ereignisse in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Planning → Daily → Review → Retrospektive.",
+            "rows": [
+                {
+                    "key": "planning",
+                    "label": "Sprint Planning",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                },
+                {
+                    "key": "daily",
+                    "label": "Daily Scrum",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                },
+                {
+                    "key": "review",
+                    "label": "Sprint Review",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

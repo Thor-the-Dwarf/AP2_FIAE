@@ -1,1 +1,239 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – IT-Lösungen entwickeln",
+    "topic": "Fehleranalyse, Softwareentwicklung, Datenbanken",
+    "estimated_minutes": 10,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist ein Breakpoint?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Haltepunkt zum Debuggen von Code"
+                },
+                {
+                    "value": "b",
+                    "text": "Ein Fehler im Code"
+                },
+                {
+                    "value": "c",
+                    "text": "Eine Datenbank-Abfrage"
+                },
+                {
+                    "value": "d",
+                    "text": "Ein UML-Diagramm"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist ein Black Box Test?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Test ohne Kenntnis der internen Struktur"
+                },
+                {
+                    "value": "b",
+                    "text": "Test mit vollständiger Code-Kenntnis"
+                },
+                {
+                    "value": "c",
+                    "text": "Test nur der Datenbank"
+                },
+                {
+                    "value": "d",
+                    "text": "Test der Benutzeroberfläche"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Welche Teststufe kommt zuerst?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Systemtest"
+                },
+                {
+                    "value": "b",
+                    "text": "Integrationstest"
+                },
+                {
+                    "value": "c",
+                    "text": "Komponententest"
+                },
+                {
+                    "value": "d",
+                    "text": "Akzeptanztest"
+                }
+            ],
+            "correct": "c"
+        },
+        {
+            "id": "q4",
+            "text": "Wofür steht UML?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Unified Modeling Language"
+                },
+                {
+                    "value": "b",
+                    "text": "Universal Machine Language"
+                },
+                {
+                    "value": "c",
+                    "text": "User Management Logic"
+                },
+                {
+                    "value": "d",
+                    "text": "Unique Model Library"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was zeigt ein ER-Modell?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Programmablauf"
+                },
+                {
+                    "value": "b",
+                    "text": "Entitäten und ihre Beziehungen in einer Datenbank"
+                },
+                {
+                    "value": "c",
+                    "text": "Testfälle"
+                },
+                {
+                    "value": "d",
+                    "text": "Benutzeroberfläche"
+                }
+            ],
+            "correct": "b"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist der Zweck der Normalisierung?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Redundanzen und Anomalien vermeiden"
+                },
+                {
+                    "value": "b",
+                    "text": "Datenbank beschleunigen"
+                },
+                {
+                    "value": "c",
+                    "text": "Code optimieren"
+                },
+                {
+                    "value": "d",
+                    "text": "Tests durchführen"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist ein Primärschlüssel?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Eindeutiger Identifikator für jeden Datensatz"
+                },
+                {
+                    "value": "b",
+                    "text": "Verweis auf eine andere Tabelle"
+                },
+                {
+                    "value": "c",
+                    "text": "Ein Datentyp"
+                },
+                {
+                    "value": "d",
+                    "text": "Eine SQL-Funktion"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Wofür wird Git verwendet?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Versionsmanagement von Quellcode"
+                },
+                {
+                    "value": "b",
+                    "text": "Datenbank-Verwaltung"
+                },
+                {
+                    "value": "c",
+                    "text": "Testing"
+                },
+                {
+                    "value": "d",
+                    "text": "UML-Modellierung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q9",
+            "text": "Was ist Software-Ergonomie?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Benutzerfreundliche Gestaltung von Software"
+                },
+                {
+                    "value": "b",
+                    "text": "Code-Optimierung"
+                },
+                {
+                    "value": "c",
+                    "text": "Datenbank-Design"
+                },
+                {
+                    "value": "d",
+                    "text": "Testverfahren"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q10",
+            "text": "Was bedeutet SQL?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Structured Query Language"
+                },
+                {
+                    "value": "b",
+                    "text": "Simple Question Logic"
+                },
+                {
+                    "value": "c",
+                    "text": "System Quality Level"
+                },
+                {
+                    "value": "d",
+                    "text": "Software Query Library"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

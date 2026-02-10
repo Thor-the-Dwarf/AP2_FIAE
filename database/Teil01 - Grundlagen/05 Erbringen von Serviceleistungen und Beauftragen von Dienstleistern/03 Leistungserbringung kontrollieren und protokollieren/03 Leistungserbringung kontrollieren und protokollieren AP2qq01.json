@@ -1,1 +1,193 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Leistung kontrollieren",
+    "topic": "Monitoring, Reporting, Dokumentation",
+    "estimated_minutes": 8,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist Monitoring?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Kontinuierliche Überwachung"
+                },
+                {
+                    "value": "b",
+                    "text": "Einmalige Prüfung"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Backup"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Reporting"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist Reporting?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Berichterstattung"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Monitoring"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Dokumentation"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Backup"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist Dokumentation?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Schriftliche Aufzeichnung"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Monitoring"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Reporting"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Backup"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist ein Dashboard?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Visuelle Übersicht wichtiger Kennzahlen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Monitoring"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Reporting"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Dokumentation"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist Alerting?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Automatische Benachrichtigung"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Monitoring"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Reporting"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Dokumentation"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist ein KPI?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Key Performance Indicator"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Metrik"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Dashboard"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Report"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist Log-Analyse?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Auswertung von Systemprotokollen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Monitoring"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Reporting"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Dokumentation"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist ein Performance-Report?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Bericht über Systemleistung"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Monitoring"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Dokumentation"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Dashboard"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

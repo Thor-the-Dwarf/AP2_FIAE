@@ -1,1 +1,193 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Algorithmen formulieren",
+    "topic": "Pseudocode, Struktogramme",
+    "estimated_minutes": 8,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist Pseudocode?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Algorithmus in natürlicher Sprache"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur echter Code"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Diagramm"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Kommentar"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist ein Struktogramm?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Nassi-Shneiderman-Diagramm"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Flussdiagramm"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Pseudocode"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur UML"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist ein Flussdiagramm?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Grafische Darstellung mit Symbolen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Pseudocode"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Struktogramm"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur UML"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist eine Sequenz?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Schrittweise Abarbeitung"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Verzweigung"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Schleife"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Sprung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist eine Verzweigung?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Bedingte Ausführung"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Sequenz"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Schleife"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Sprung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist eine Schleife?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Wiederholte Ausführung"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Sequenz"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Verzweigung"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Sprung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist eine Variable?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Speicherplatz für Werte"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Konstante"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Funktion"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Operator"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist eine Konstante?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Unveränderlicher Wert"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Variable"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Funktion"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Operator"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

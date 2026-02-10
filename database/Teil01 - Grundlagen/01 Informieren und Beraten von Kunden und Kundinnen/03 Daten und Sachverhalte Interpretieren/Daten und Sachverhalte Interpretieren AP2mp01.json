@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Daten und Sachverhalte interpretieren",
+    "topic": "Datenanalyse, Kennzahlen, Diagramme, Analysemethoden",
+    "estimated_minutes": 15,
+    "sets": [
+        {
+            "left": "ROI (Return on Investment)",
+            "right": "Kennzahl, die das Verhältnis von Gewinn zu eingesetztem Kapital zeigt"
+        },
+        {
+            "left": "Liniendiagramm",
+            "right": "Visualisierung zur Darstellung von Entwicklungen und Trends über einen Zeitraum"
+        },
+        {
+            "left": "Kreisdiagramm",
+            "right": "Diagramm zur Darstellung von Anteilen an einem Ganzen (100%)"
+        },
+        {
+            "left": "ABC-Analyse",
+            "right": "Methode zur Klassifizierung von Objekten nach ihrer Bedeutung (A = sehr wichtig, C = weniger wichtig)"
+        },
+        {
+            "left": "SWOT-Analyse",
+            "right": "Analysemethode zur Bewertung von Stärken, Schwächen, Chancen und Risiken"
+        },
+        {
+            "left": "Trendanalyse",
+            "right": "Untersuchung von Daten über einen Zeitraum zur Erkennung von Entwicklungsrichtungen"
+        },
+        {
+            "left": "Benchmarking",
+            "right": "Vergleich der eigenen Leistung mit Best Practices oder Wettbewerbern"
+        },
+        {
+            "left": "Conversion Rate",
+            "right": "Kennzahl, die den Anteil der Besucher angibt, die eine gewünschte Aktion ausführen"
+        },
+        {
+            "left": "Marktanteil",
+            "right": "Prozentualer Anteil eines Unternehmens am Gesamtmarkt"
+        },
+        {
+            "left": "Balkendiagramm",
+            "right": "Horizontale Darstellung zum Vergleich von Kategorien oder Werten"
+        },
+        {
+            "left": "Säulendiagramm",
+            "right": "Vertikale Darstellung zum Vergleich von Kategorien oder Werten"
+        },
+        {
+            "left": "Umsatzrendite",
+            "right": "Kennzahl, die den Gewinn im Verhältnis zum Umsatz angibt"
+        }
+    ]
+}

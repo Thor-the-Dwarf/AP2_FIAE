@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Algorithmen beurteilen",
+    "topic": "Laufzeitanalyse, O-Notation",
+    "estimated_minutes": 12,
+    "centerWord": "Komplexitätsanalyse",
+    "associations": [
+        {
+            "word": "O(1)",
+            "connections": [
+                "Konstant",
+                "Schnell",
+                "Unabhängig"
+            ]
+        },
+        {
+            "word": "O(log n)",
+            "connections": [
+                "Logarithmisch",
+                "Binär",
+                "Effizient"
+            ]
+        },
+        {
+            "word": "O(n)",
+            "connections": [
+                "Linear",
+                "Proportional",
+                "Durchlauf"
+            ]
+        },
+        {
+            "word": "O(n log n)",
+            "connections": [
+                "Linearithmisch",
+                "Merge Sort",
+                "Effizient"
+            ]
+        },
+        {
+            "word": "O(n²)",
+            "connections": [
+                "Quadratisch",
+                "Langsam",
+                "Verschachtelt"
+            ]
+        },
+        {
+            "word": "O(2^n)",
+            "connections": [
+                "Exponentiell",
+                "Sehr langsam",
+                "Rekursiv"
+            ]
+        },
+        {
+            "word": "Lineare Suche",
+            "connections": [
+                "Sequenziell",
+                "Einfach",
+                "O(n)"
+            ]
+        },
+        {
+            "word": "Binäre Suche",
+            "connections": [
+                "Halbierung",
+                "Sortiert",
+                "O(log n)"
+            ]
+        },
+        {
+            "word": "Bubble Sort",
+            "connections": [
+                "Vertauschen",
+                "Einfach",
+                "O(n²)"
+            ]
+        },
+        {
+            "word": "Selection Sort",
+            "connections": [
+                "Auswahl",
+                "Minimum",
+                "O(n²)"
+            ]
+        },
+        {
+            "word": "Insertion Sort",
+            "connections": [
+                "Einfügen",
+                "Sortiert",
+                "O(n²)"
+            ]
+        },
+        {
+            "word": "Merge Sort",
+            "connections": [
+                "Teilen",
+                "Merge",
+                "O(n log n)"
+            ]
+        }
+    ]
+}

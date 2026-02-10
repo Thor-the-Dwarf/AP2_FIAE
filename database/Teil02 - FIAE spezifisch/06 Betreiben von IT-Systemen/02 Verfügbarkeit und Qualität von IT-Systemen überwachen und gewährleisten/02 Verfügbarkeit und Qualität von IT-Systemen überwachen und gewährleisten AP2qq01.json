@@ -1,1 +1,193 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Verfügbarkeit",
+    "topic": "Monitoring, Backup",
+    "estimated_minutes": 8,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist Monitoring?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Kontinuierliche Überwachung"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Backup"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Wartung"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Reporting"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist Zabbix?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Monitoring-Tool"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Backup"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Datenbank"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Firewall"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist RAID?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Redundant Array of Independent Disks"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Backup"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Monitoring"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Firewall"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist ein Vollbackup?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Komplette Datensicherung"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Änderungen"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Monitoring"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Wartung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist inkrementelles Backup?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Nur Änderungen seit letztem Backup"
+                },
+                {
+                    "value": "b",
+                    "text": "Komplette Sicherung"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Monitoring"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Wartung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist USV?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Unterbrechungsfreie Stromversorgung"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Backup"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Monitoring"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur RAID"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist SNMP?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Simple Network Management Protocol"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Backup"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur RAID"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Firewall"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist Disaster Recovery?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Wiederherstellung nach Katastrophe"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Backup"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Monitoring"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Wartung"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

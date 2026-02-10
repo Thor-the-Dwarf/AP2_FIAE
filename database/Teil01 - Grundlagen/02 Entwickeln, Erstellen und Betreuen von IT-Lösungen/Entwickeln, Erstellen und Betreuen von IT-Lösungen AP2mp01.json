@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – IT-Lösungen entwickeln",
+    "topic": "Fehleranalyse, Softwareentwicklung, Datenbanken",
+    "estimated_minutes": 15,
+    "sets": [
+        {
+            "left": "Debugging",
+            "right": "Systematisches Suchen und Beheben von Fehlern im Code mit Breakpoints"
+        },
+        {
+            "left": "Black Box Test",
+            "right": "Testverfahren ohne Kenntnis der internen Programmstruktur"
+        },
+        {
+            "left": "White Box Test",
+            "right": "Testverfahren mit vollständiger Kenntnis der internen Code-Struktur"
+        },
+        {
+            "left": "Komponententest",
+            "right": "Test einzelner Module oder Funktionen isoliert"
+        },
+        {
+            "left": "Integrationstest",
+            "right": "Test des Zusammenspiels mehrerer Module"
+        },
+        {
+            "left": "UML",
+            "right": "Unified Modeling Language – Standardsprache zur Modellierung von Software"
+        },
+        {
+            "left": "Aktivitätsdiagramm",
+            "right": "UML-Diagramm zur Darstellung von Abläufen und Kontrollstrukturen"
+        },
+        {
+            "left": "ER-Modell",
+            "right": "Entity-Relationship-Modell zur Darstellung von Datenbank-Entitäten und Beziehungen"
+        },
+        {
+            "left": "Normalisierung",
+            "right": "Prozess zur Vermeidung von Redundanzen und Anomalien in Datenbanken (1.-3. NF)"
+        },
+        {
+            "left": "Primärschlüssel",
+            "right": "Eindeutiger Identifikator für jeden Datensatz in einer Tabelle"
+        },
+        {
+            "left": "Fremdschlüssel",
+            "right": "Verweis auf den Primärschlüssel einer anderen Tabelle (referenzielle Integrität)"
+        },
+        {
+            "left": "SQL",
+            "right": "Structured Query Language – Sprache für Datenbankabfragen und -manipulation"
+        }
+    ]
+}

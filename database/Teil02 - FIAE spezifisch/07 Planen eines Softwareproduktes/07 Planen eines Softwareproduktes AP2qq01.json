@@ -1,1 +1,239 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Softwareplanung",
+    "topic": "Anforderungsanalyse, UML, Vorgehensmodelle",
+    "estimated_minutes": 10,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was sind User Stories?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Anforderungen aus Nutzersicht"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur technische Spezifikation"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur UML-Diagramme"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Testfälle"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist ein Use Case?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Anwendungsfall mit Akteur"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur User Story"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur UML-Diagramm"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Testfall"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist ein Sequenzdiagramm?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "UML-Diagramm für zeitliche Abläufe"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Klassendiagramm"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Zustandsdiagramm"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Use Case"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist ein Klassendiagramm?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "UML-Diagramm für Klassenstruktur"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Sequenzdiagramm"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Zustandsdiagramm"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Use Case"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist das Wasserfallmodell?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Sequenzielles Vorgehensmodell"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur agiles Modell"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur UML"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Testmodell"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist Scrum?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Agiles Framework mit Sprints"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Wasserfallmodell"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur UML"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Testframework"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist Kanban?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Agile Methode mit Visualisierung"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Scrum"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Wasserfallmodell"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur UML"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist REST?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "API-Architekturstil"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Datenbank"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur UML"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Vorgehensmodell"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q9",
+            "text": "Was ist JSON?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Datenformat"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Programmiersprache"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur UML"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Vorgehensmodell"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q10",
+            "text": "Was ist ein Mock-up?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Visueller Prototyp"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Code"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur UML"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Testfall"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

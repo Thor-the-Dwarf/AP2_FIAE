@@ -1,1 +1,282 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Serviceleistungen",
+    "topic": "Service Management, SLA, Incident Management, SOP",
+    "estimated_minutes": 25,
+    "sections": [
+        {
+            "id": "service-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Service-Konzepte zuordnen",
+            "subtitle": "Ordne die Begriffe den passenden Kategorien zu.",
+            "hintDefault": "Tipp: Incident = Störung, SLA = Vereinbarung, SOP = Prozess.",
+            "sortColumns": [
+                {
+                    "zone": "incident",
+                    "label": "Incident Management",
+                    "hint": "(Störungsbehandlung)"
+                },
+                {
+                    "zone": "sla",
+                    "label": "SLA",
+                    "hint": "(Vereinbarungen)"
+                },
+                {
+                    "zone": "sop",
+                    "label": "SOP",
+                    "hint": "(Standardprozesse)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Ticketsystem",
+                    "correctZone": "incident"
+                },
+                {
+                    "id": "s2",
+                    "text": "Eskalationsstufen",
+                    "correctZone": "incident"
+                },
+                {
+                    "id": "s3",
+                    "text": "Störungsbehebung",
+                    "correctZone": "incident"
+                },
+                {
+                    "id": "s4",
+                    "text": "Service Level Agreement",
+                    "correctZone": "sla"
+                },
+                {
+                    "id": "s5",
+                    "text": "Reaktionszeit",
+                    "correctZone": "sla"
+                },
+                {
+                    "id": "s6",
+                    "text": "Verfügbarkeit garantieren",
+                    "correctZone": "sla"
+                },
+                {
+                    "id": "s7",
+                    "text": "Standard Operation Procedures",
+                    "correctZone": "sop"
+                },
+                {
+                    "id": "s8",
+                    "text": "Standardisierte Abläufe",
+                    "correctZone": "sop"
+                },
+                {
+                    "id": "s9",
+                    "text": "Prozessdokumentation",
+                    "correctZone": "sop"
+                }
+            ]
+        },
+        {
+            "id": "service-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Service Management",
+            "subtitle": "Teste dein Wissen zu Serviceleistungen.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist Incident Management?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Verwaltung und Behebung von Störungen"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Ticketsystem"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Monitoring"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist ein SLA?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Service Level Agreement – Dienstgütevereinbarung"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Software License Agreement"
+                        },
+                        {
+                            "value": "c",
+                            "text": "System Log Analysis"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was sind SOPs?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Standard Operation Procedures – Standardprozesse"
+                        },
+                        {
+                            "value": "b",
+                            "text": "System Optimization Programs"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Service Output Protocols"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q4",
+                    "text": "4. Was ist ein Ticketsystem?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "System zur Verwaltung von Anfragen und Störungen"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur E-Mail-System"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Monitoring"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "service-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Incident-Prozess",
+            "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Erfassen → Klassifizieren → Bearbeiten → Lösen.",
+            "rows": [
+                {
+                    "key": "erfassen",
+                    "label": "Incident erfassen (Ticket erstellen)",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "klassifizieren",
+                    "label": "Incident klassifizieren (Priorität festlegen)",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "bearbeiten",
+                    "label": "Incident bearbeiten (Analyse & Lösung)",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "abschliessen",
+                    "label": "Incident abschließen (Dokumentation)",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,1 +1,253 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Leistungen erbringen",
+    "topic": "SLA, Vertragsmanagement",
+    "estimated_minutes": 18,
+    "sections": [
+        {
+            "id": "sla-sort",
+            "type": "sort",
+            "title": "Rätsel 1: SLA-Kennzahlen zuordnen",
+            "subtitle": "Ordne die Kennzahlen den passenden Kategorien zu.",
+            "hintDefault": "Tipp: Zeit = Reaktion/Lösung, Verfügbarkeit = Uptime, Qualität = Performance.",
+            "sortColumns": [
+                {
+                    "zone": "zeit",
+                    "label": "Zeitkennzahlen",
+                    "hint": "(Reaktion, Lösung)"
+                },
+                {
+                    "zone": "verfuegbarkeit",
+                    "label": "Verfügbarkeit",
+                    "hint": "(Uptime)"
+                },
+                {
+                    "zone": "qualitaet",
+                    "label": "Qualität",
+                    "hint": "(Performance)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Reaktionszeit",
+                    "correctZone": "zeit"
+                },
+                {
+                    "id": "s2",
+                    "text": "Lösungszeit",
+                    "correctZone": "zeit"
+                },
+                {
+                    "id": "s3",
+                    "text": "Bearbeitungszeit",
+                    "correctZone": "zeit"
+                },
+                {
+                    "id": "s4",
+                    "text": "Uptime 99,9%",
+                    "correctZone": "verfuegbarkeit"
+                },
+                {
+                    "id": "s5",
+                    "text": "Verfügbarkeitsgarantie",
+                    "correctZone": "verfuegbarkeit"
+                },
+                {
+                    "id": "s6",
+                    "text": "Performance-Metriken",
+                    "correctZone": "qualitaet"
+                },
+                {
+                    "id": "s7",
+                    "text": "Kundenzufriedenheit",
+                    "correctZone": "qualitaet"
+                }
+            ]
+        },
+        {
+            "id": "sla-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz SLA",
+            "subtitle": "Teste dein Wissen zu SLAs.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist ein SLA?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Service Level Agreement"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Software License Agreement"
+                        },
+                        {
+                            "value": "c",
+                            "text": "System Log Analysis"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist Reaktionszeit?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Zeit bis zur ersten Reaktion"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Zeit bis zur Lösung"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Bearbeitungszeit"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist Uptime?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Verfügbarkeit eines Systems"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Reaktionszeit"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Lösungszeit"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "sla-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: SLA-Prozess",
+            "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Definieren → Vereinbaren → Erbringen → Überwachen.",
+            "rows": [
+                {
+                    "key": "definieren",
+                    "label": "SLA definieren",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "vereinbaren",
+                    "label": "SLA vereinbaren",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "erbringen",
+                    "label": "Leistung erbringen",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "ueberwachen",
+                    "label": "SLA überwachen",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,1 +1,239 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Fehleranalyse",
+    "topic": "Debugging, Testverfahren, Versionsmanagement",
+    "estimated_minutes": 10,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist ein Breakpoint?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Haltepunkt zum Debuggen"
+                },
+                {
+                    "value": "b",
+                    "text": "Ein Fehler"
+                },
+                {
+                    "value": "c",
+                    "text": "Ein Testverfahren"
+                },
+                {
+                    "value": "d",
+                    "text": "Eine Funktion"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist ein Black Box Test?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Test ohne Kenntnis der internen Struktur"
+                },
+                {
+                    "value": "b",
+                    "text": "Test mit Code-Kenntnis"
+                },
+                {
+                    "value": "c",
+                    "text": "Statischer Test"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur für Datenbanken"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist ein White Box Test?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Test mit vollständiger Code-Kenntnis"
+                },
+                {
+                    "value": "b",
+                    "text": "Test ohne Code-Kenntnis"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur für UI"
+                },
+                {
+                    "value": "d",
+                    "text": "Statischer Test"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist ein Review?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Statisches Testverfahren (Code-Durchsicht)"
+                },
+                {
+                    "value": "b",
+                    "text": "Dynamisches Testverfahren"
+                },
+                {
+                    "value": "c",
+                    "text": "Debugging"
+                },
+                {
+                    "value": "d",
+                    "text": "Versionierung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Welche Teststufe kommt zuerst?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Komponententest"
+                },
+                {
+                    "value": "b",
+                    "text": "Integrationstest"
+                },
+                {
+                    "value": "c",
+                    "text": "Systemtest"
+                },
+                {
+                    "value": "d",
+                    "text": "Akzeptanztest"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was testet der Integrationstest?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Zusammenspiel mehrerer Module"
+                },
+                {
+                    "value": "b",
+                    "text": "Einzelne Module"
+                },
+                {
+                    "value": "c",
+                    "text": "Gesamtsystem"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur UI"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist ein Extremwertetest?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Test mit Grenzwerten und extremen Eingaben"
+                },
+                {
+                    "value": "b",
+                    "text": "Test normaler Werte"
+                },
+                {
+                    "value": "c",
+                    "text": "Statischer Test"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur für Datenbanken"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Wofür wird Git verwendet?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Versionsmanagement von Quellcode"
+                },
+                {
+                    "value": "b",
+                    "text": "Testing"
+                },
+                {
+                    "value": "c",
+                    "text": "Debugging"
+                },
+                {
+                    "value": "d",
+                    "text": "Datenbank-Verwaltung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q9",
+            "text": "Was ist der Unterschied zwischen statischen und dynamischen Tests?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Statisch ohne, dynamisch mit Code-Ausführung"
+                },
+                {
+                    "value": "b",
+                    "text": "Kein Unterschied"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Geschwindigkeit"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Kosten"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q10",
+            "text": "Was sind Testdaten?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Spezielle Eingabedaten zur Software-Überprüfung"
+                },
+                {
+                    "value": "b",
+                    "text": "Produktivdaten"
+                },
+                {
+                    "value": "c",
+                    "text": "Backup-Daten"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Zahlen"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

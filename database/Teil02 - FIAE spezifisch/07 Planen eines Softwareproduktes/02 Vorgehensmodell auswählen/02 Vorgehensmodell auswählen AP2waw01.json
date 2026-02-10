@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Vorgehensmodelle",
+    "topic": "Wasserfall, Scrum, Kanban",
+    "estimated_minutes": 12,
+    "centerWord": "Vorgehensmodelle",
+    "associations": [
+        {
+            "word": "Wasserfallmodell",
+            "connections": [
+                "Sequenziell",
+                "Phasen",
+                "Klassisch"
+            ]
+        },
+        {
+            "word": "Scrum",
+            "connections": [
+                "Agil",
+                "Sprints",
+                "Rollen"
+            ]
+        },
+        {
+            "word": "Kanban",
+            "connections": [
+                "Agil",
+                "Board",
+                "WIP-Limits"
+            ]
+        },
+        {
+            "word": "V-Modell",
+            "connections": [
+                "Test",
+                "Qualität",
+                "Phasen"
+            ]
+        },
+        {
+            "word": "Sprint",
+            "connections": [
+                "Iteration",
+                "Zeitbox",
+                "Scrum"
+            ]
+        },
+        {
+            "word": "Product Owner",
+            "connections": [
+                "Rolle",
+                "Backlog",
+                "Scrum"
+            ]
+        },
+        {
+            "word": "Scrum Master",
+            "connections": [
+                "Rolle",
+                "Prozess",
+                "Scrum"
+            ]
+        },
+        {
+            "word": "Daily Scrum",
+            "connections": [
+                "Meeting",
+                "Täglich",
+                "Abstimmung"
+            ]
+        },
+        {
+            "word": "Sprint Planning",
+            "connections": [
+                "Meeting",
+                "Planung",
+                "Scrum"
+            ]
+        },
+        {
+            "word": "Sprint Review",
+            "connections": [
+                "Meeting",
+                "Präsentation",
+                "Scrum"
+            ]
+        },
+        {
+            "word": "Retrospektive",
+            "connections": [
+                "Meeting",
+                "Reflexion",
+                "Scrum"
+            ]
+        },
+        {
+            "word": "Kanban Board",
+            "connections": [
+                "Visualisierung",
+                "Workflow",
+                "Kanban"
+            ]
+        }
+    ]
+}

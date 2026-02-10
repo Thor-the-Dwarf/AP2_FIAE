@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Bedrohungsszenarien",
+    "topic": "Bedrohungsanalyse, Risikoanalyse, Schadenspotenziale",
+    "estimated_minutes": 12,
+    "centerWord": "Risikoanalyse",
+    "associations": [
+        {
+            "word": "Bedrohungsanalyse",
+            "connections": [
+                "Identifikation",
+                "Gefahren",
+                "Potenzial"
+            ]
+        },
+        {
+            "word": "Eintrittswahrscheinlichkeit",
+            "connections": [
+                "Bewertung",
+                "Prozent",
+                "Häufigkeit"
+            ]
+        },
+        {
+            "word": "Schadenshöhe",
+            "connections": [
+                "Bewertung",
+                "Ausmaß",
+                "Kosten"
+            ]
+        },
+        {
+            "word": "Risikomatrix",
+            "connections": [
+                "Darstellung",
+                "Wahrscheinlichkeit",
+                "Schaden"
+            ]
+        },
+        {
+            "word": "Imageschaden",
+            "connections": [
+                "Schadenspotenzial",
+                "Reputation",
+                "Vertrauen"
+            ]
+        },
+        {
+            "word": "Wirtschaftlicher Schaden",
+            "connections": [
+                "Schadenspotenzial",
+                "Umsatz",
+                "Kosten"
+            ]
+        },
+        {
+            "word": "Datenverlust",
+            "connections": [
+                "Schadenspotenzial",
+                "Information",
+                "Verfügbarkeit"
+            ]
+        },
+        {
+            "word": "Gegenmaßnahme",
+            "connections": [
+                "Reduzierung",
+                "Prävention",
+                "Schutz"
+            ]
+        },
+        {
+            "word": "Restrisiko",
+            "connections": [
+                "Verbleibend",
+                "Nach Maßnahmen",
+                "Akzeptanz"
+            ]
+        },
+        {
+            "word": "Risikoakzeptanz",
+            "connections": [
+                "Entscheidung",
+                "Bewusst",
+                "Tragen"
+            ]
+        },
+        {
+            "word": "Risikotransfer",
+            "connections": [
+                "Versicherung",
+                "Übertragung",
+                "Dritte"
+            ]
+        },
+        {
+            "word": "Risikovermeidung",
+            "connections": [
+                "Eliminierung",
+                "Verzicht",
+                "Prävention"
+            ]
+        }
+    ]
+}

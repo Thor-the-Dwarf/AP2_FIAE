@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Anfragen bearbeiten",
+    "topic": "Ticketsysteme, Anforderungsanalyse",
+    "estimated_minutes": 12,
+    "centerWord": "Anfragen",
+    "associations": [
+        {
+            "word": "Ticketsystem",
+            "connections": [
+                "Verwaltung",
+                "Tracking",
+                "Dokumentation"
+            ]
+        },
+        {
+            "word": "Anforderungsanalyse",
+            "connections": [
+                "Bedürfnisse",
+                "Ermittlung",
+                "Spezifikation"
+            ]
+        },
+        {
+            "word": "Kundenbetreuung",
+            "connections": [
+                "Support",
+                "Beratung",
+                "Service"
+            ]
+        },
+        {
+            "word": "Priorität",
+            "connections": [
+                "Kritisch",
+                "Hoch",
+                "Normal"
+            ]
+        },
+        {
+            "word": "Status",
+            "connections": [
+                "Offen",
+                "In Bearbeitung",
+                "Gelöst"
+            ]
+        },
+        {
+            "word": "Kategorie",
+            "connections": [
+                "Thema",
+                "Einordnung",
+                "Typ"
+            ]
+        },
+        {
+            "word": "Eskalation",
+            "connections": [
+                "Weiterleitung",
+                "Hierarchie",
+                "Stufen"
+            ]
+        },
+        {
+            "word": "First Level",
+            "connections": [
+                "Erste Anlaufstelle",
+                "Grundsupport",
+                "Triage"
+            ]
+        },
+        {
+            "word": "Second Level",
+            "connections": [
+                "Spezialisiert",
+                "Komplex",
+                "Experten"
+            ]
+        },
+        {
+            "word": "Ticket-ID",
+            "connections": [
+                "Eindeutig",
+                "Identifikation",
+                "Nummer"
+            ]
+        },
+        {
+            "word": "Zuordnung",
+            "connections": [
+                "Bearbeiter",
+                "Zuweisung",
+                "Verantwortung"
+            ]
+        },
+        {
+            "word": "Lösungsdokumentation",
+            "connections": [
+                "Aufzeichnung",
+                "Wissen",
+                "Historie"
+            ]
+        }
+    ]
+}

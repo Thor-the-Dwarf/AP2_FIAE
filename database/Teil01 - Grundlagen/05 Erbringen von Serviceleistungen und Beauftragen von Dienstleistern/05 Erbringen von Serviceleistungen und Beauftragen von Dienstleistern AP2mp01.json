@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Serviceleistungen",
+    "topic": "Service Management, SLA, Incident Management",
+    "estimated_minutes": 15,
+    "sets": [
+        {
+            "left": "Incident Management",
+            "right": "Verwaltung und Behebung von Störungen"
+        },
+        {
+            "left": "SLA",
+            "right": "Service Level Agreement – Dienstgütevereinbarung"
+        },
+        {
+            "left": "SOP",
+            "right": "Standard Operation Procedures – Standardprozesse"
+        },
+        {
+            "left": "Ticketsystem",
+            "right": "System zur Verwaltung von Anfragen und Störungen"
+        },
+        {
+            "left": "Eskalationsstufen",
+            "right": "Hierarchische Stufen zur Weiterleitung von Problemen"
+        },
+        {
+            "left": "Reaktionszeit",
+            "right": "Zeit bis zur ersten Reaktion auf ein Ticket"
+        },
+        {
+            "left": "Lösungszeit",
+            "right": "Zeit bis zur vollständigen Behebung eines Problems"
+        },
+        {
+            "left": "Verfügbarkeit",
+            "right": "Prozentsatz der Zeit, in der ein Service verfügbar ist"
+        },
+        {
+            "left": "Troubleshooting",
+            "right": "Systematische Fehlersuche und -behebung"
+        },
+        {
+            "left": "Monitoring",
+            "right": "Kontinuierliche Überwachung von Systemen"
+        },
+        {
+            "left": "Reporting",
+            "right": "Berichterstattung über Serviceleistungen"
+        },
+        {
+            "left": "Dokumentation",
+            "right": "Schriftliche Aufzeichnung von Prozessen und Lösungen"
+        }
+    ]
+}

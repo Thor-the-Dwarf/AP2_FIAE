@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – IT-Sicherheit",
+    "topic": "Bedrohungen, TOM, DSGVO, Sicherheitsmaßnahmen",
+    "estimated_minutes": 15,
+    "sets": [
+        {
+            "left": "Ransomware",
+            "right": "Schadsoftware, die Daten verschlüsselt und Lösegeld fordert"
+        },
+        {
+            "left": "Phishing",
+            "right": "Täuschung zur Erlangung sensibler Daten (z.B. per E-Mail)"
+        },
+        {
+            "left": "Datendiebstahl",
+            "right": "Unbefugtes Kopieren oder Entwenden von Daten"
+        },
+        {
+            "left": "Zutrittskontrolle",
+            "right": "Physischer Schutz (Alarm, Video, Türschloss)"
+        },
+        {
+            "left": "Zugangskontrolle",
+            "right": "Authentifizierung (Passwort, Biometrie, 2FA)"
+        },
+        {
+            "left": "Zugriffskontrolle",
+            "right": "Berechtigungen (Verschlüsselung, Rollenkonzepte)"
+        },
+        {
+            "left": "DSGVO",
+            "right": "Datenschutz-Grundverordnung (EU-Verordnung)"
+        },
+        {
+            "left": "BDSG",
+            "right": "Bundesdatenschutzgesetz (deutsches Gesetz)"
+        },
+        {
+            "left": "Penetrationstest",
+            "right": "Sicherheitstest durch simulierte Angriffe"
+        },
+        {
+            "left": "Security by Design",
+            "right": "Sicherheit von Anfang an in Entwicklung einplanen"
+        },
+        {
+            "left": "IT-Grundschutz",
+            "right": "BSI-Methodik zur Absicherung von IT-Systemen"
+        },
+        {
+            "left": "Firewall",
+            "right": "Netzwerksicherheitssystem zur Filterung von Datenverkehr"
+        }
+    ]
+}

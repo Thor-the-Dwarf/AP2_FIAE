@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Algorithmen formulieren",
+    "topic": "Pseudocode, Struktogramme",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "Pseudocode",
+            "right": "Algorithmus in natürlicher Sprache"
+        },
+        {
+            "left": "Struktogramm",
+            "right": "Nassi-Shneiderman-Diagramm"
+        },
+        {
+            "left": "Flussdiagramm",
+            "right": "Grafische Darstellung mit Symbolen"
+        },
+        {
+            "left": "Aktivitätsdiagramm",
+            "right": "UML-Diagramm für Abläufe"
+        },
+        {
+            "left": "Sequenz",
+            "right": "Schrittweise Abarbeitung"
+        },
+        {
+            "left": "Verzweigung",
+            "right": "Bedingte Ausführung (if-then-else)"
+        },
+        {
+            "left": "Schleife",
+            "right": "Wiederholte Ausführung"
+        },
+        {
+            "left": "Eingabe",
+            "right": "Daten einlesen"
+        },
+        {
+            "left": "Verarbeitung",
+            "right": "Daten transformieren"
+        },
+        {
+            "left": "Ausgabe",
+            "right": "Ergebnis anzeigen"
+        },
+        {
+            "left": "Variable",
+            "right": "Speicherplatz für Werte"
+        },
+        {
+            "left": "Konstante",
+            "right": "Unveränderlicher Wert"
+        }
+    ]
+}

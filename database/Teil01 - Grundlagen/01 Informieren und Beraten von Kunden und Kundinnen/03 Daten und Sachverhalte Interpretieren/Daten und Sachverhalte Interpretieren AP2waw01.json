@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Daten und Sachverhalte interpretieren",
+    "topic": "Datenanalyse, Kennzahlen, Diagramme, Analysemethoden",
+    "estimated_minutes": 15,
+    "centerWord": "Datenanalyse",
+    "associations": [
+        {
+            "word": "Kennzahlen",
+            "connections": [
+                "ROI",
+                "Conversion Rate",
+                "Marktanteil"
+            ]
+        },
+        {
+            "word": "ROI",
+            "connections": [
+                "Kennzahlen",
+                "Rentabilität",
+                "Gewinn"
+            ]
+        },
+        {
+            "word": "Conversion Rate",
+            "connections": [
+                "Kennzahlen",
+                "Erfolgsquote",
+                "Online-Marketing"
+            ]
+        },
+        {
+            "word": "Marktanteil",
+            "connections": [
+                "Kennzahlen",
+                "Wettbewerb",
+                "Marktposition"
+            ]
+        },
+        {
+            "word": "Diagramme",
+            "connections": [
+                "Liniendiagramm",
+                "Kreisdiagramm",
+                "Balkendiagramm"
+            ]
+        },
+        {
+            "word": "Liniendiagramm",
+            "connections": [
+                "Diagramme",
+                "Trends",
+                "Zeitverlauf"
+            ]
+        },
+        {
+            "word": "Kreisdiagramm",
+            "connections": [
+                "Diagramme",
+                "Anteile",
+                "Prozent"
+            ]
+        },
+        {
+            "word": "Balkendiagramm",
+            "connections": [
+                "Diagramme",
+                "Vergleich",
+                "Kategorien"
+            ]
+        },
+        {
+            "word": "Analysemethoden",
+            "connections": [
+                "ABC-Analyse",
+                "SWOT-Analyse",
+                "Trendanalyse"
+            ]
+        },
+        {
+            "word": "ABC-Analyse",
+            "connections": [
+                "Analysemethoden",
+                "Klassifizierung",
+                "Prioritäten"
+            ]
+        },
+        {
+            "word": "SWOT-Analyse",
+            "connections": [
+                "Analysemethoden",
+                "Strategieentwicklung",
+                "Chancen und Risiken"
+            ]
+        },
+        {
+            "word": "Trendanalyse",
+            "connections": [
+                "Analysemethoden",
+                "Prognose",
+                "Entwicklung"
+            ]
+        }
+    ]
+}

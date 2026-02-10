@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Fehleranalyse",
+    "topic": "Debugging, Testverfahren, Versionsmanagement",
+    "estimated_minutes": 12,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "_____ sind Haltepunkte im Code zum Debuggen.",
+            "correctAnswer": "Breakpoints",
+            "hint": "Debugging-Werkzeug"
+        },
+        {
+            "id": "s2",
+            "text": "Beim _____ Test wird ohne Kenntnis der internen Struktur getestet.",
+            "correctAnswer": "Black Box",
+            "hint": "Ohne Code-Einsicht"
+        },
+        {
+            "id": "s3",
+            "text": "Beim _____ Test wird mit vollständiger Code-Kenntnis getestet.",
+            "correctAnswer": "White Box",
+            "hint": "Mit Code-Einsicht"
+        },
+        {
+            "id": "s4",
+            "text": "Ein _____ ist ein statisches Testverfahren durch Code-Durchsicht.",
+            "correctAnswer": "Review",
+            "hint": "Statische Prüfung"
+        },
+        {
+            "id": "s5",
+            "text": "Der _____ testet einzelne Module isoliert.",
+            "correctAnswer": "Komponententest",
+            "hint": "Erste Teststufe"
+        },
+        {
+            "id": "s6",
+            "text": "Der _____ testet das Zusammenspiel mehrerer Module.",
+            "correctAnswer": "Integrationstest",
+            "hint": "Zweite Teststufe"
+        },
+        {
+            "id": "s7",
+            "text": "Der _____ testet das gesamte System als Ganzes.",
+            "correctAnswer": "Systemtest",
+            "hint": "Dritte Teststufe"
+        },
+        {
+            "id": "s8",
+            "text": "Ein _____ testet mit Grenzwerten und extremen Eingaben.",
+            "correctAnswer": "Extremwertetest",
+            "hint": "Test mit Grenzwerten"
+        },
+        {
+            "id": "s9",
+            "text": "_____ dienen zur Verwaltung verschiedener Versionen des Quellcodes.",
+            "correctAnswer": "Versionsmanagement",
+            "hint": "Git, SVN"
+        },
+        {
+            "id": "s10",
+            "text": "_____ sind spezielle Eingabedaten zur Überprüfung der Software.",
+            "correctAnswer": "Testdaten",
+            "hint": "Test-Eingaben"
+        },
+        {
+            "id": "s11",
+            "text": "_____ ist der Prozess des systematischen Suchens und Behebens von Fehlern.",
+            "correctAnswer": "Debugging",
+            "hint": "Fehlersuche"
+        },
+        {
+            "id": "s12",
+            "text": "_____ Tests werden ohne Ausführung des Codes durchgeführt.",
+            "correctAnswer": "Statische",
+            "hint": "Ohne Ausführung"
+        }
+    ]
+}

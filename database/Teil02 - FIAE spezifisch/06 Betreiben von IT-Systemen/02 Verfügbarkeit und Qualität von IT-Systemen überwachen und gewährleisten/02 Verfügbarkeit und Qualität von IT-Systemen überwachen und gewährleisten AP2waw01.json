@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Verfügbarkeit",
+    "topic": "Monitoring, Backup",
+    "estimated_minutes": 12,
+    "centerWord": "Verfügbarkeit",
+    "associations": [
+        {
+            "word": "Monitoring",
+            "connections": [
+                "Überwachung",
+                "Proaktiv",
+                "Tools"
+            ]
+        },
+        {
+            "word": "Zabbix",
+            "connections": [
+                "Monitoring",
+                "Open-Source",
+                "Enterprise"
+            ]
+        },
+        {
+            "word": "Nagios",
+            "connections": [
+                "Monitoring",
+                "Open-Source",
+                "Alerting"
+            ]
+        },
+        {
+            "word": "Prometheus",
+            "connections": [
+                "Monitoring",
+                "Metriken",
+                "Zeitreihen"
+            ]
+        },
+        {
+            "word": "SNMP",
+            "connections": [
+                "Netzwerk",
+                "Management",
+                "Protokoll"
+            ]
+        },
+        {
+            "word": "Vollbackup",
+            "connections": [
+                "Backup",
+                "Komplett",
+                "Basis"
+            ]
+        },
+        {
+            "word": "Inkrementell",
+            "connections": [
+                "Backup",
+                "Änderungen",
+                "Effizient"
+            ]
+        },
+        {
+            "word": "Differenziell",
+            "connections": [
+                "Backup",
+                "Seit Vollbackup",
+                "Mittelweg"
+            ]
+        },
+        {
+            "word": "RAID",
+            "connections": [
+                "Redundanz",
+                "Festplatten",
+                "Ausfallsicherheit"
+            ]
+        },
+        {
+            "word": "USV",
+            "connections": [
+                "Strom",
+                "Unterbrechungsfrei",
+                "Sicherheit"
+            ]
+        },
+        {
+            "word": "Disaster Recovery",
+            "connections": [
+                "Wiederherstellung",
+                "Notfall",
+                "Plan"
+            ]
+        },
+        {
+            "word": "Wartung",
+            "connections": [
+                "Pflege",
+                "Updates",
+                "Prävention"
+            ]
+        }
+    ]
+}

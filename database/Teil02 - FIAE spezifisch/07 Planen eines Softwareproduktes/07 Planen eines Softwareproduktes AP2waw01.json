@@ -1,1 +1,130 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Softwareplanung",
+    "topic": "Anforderungsanalyse, UML, Vorgehensmodelle",
+    "estimated_minutes": 15,
+    "centerWord": "Softwareplanung",
+    "associations": [
+        {
+            "word": "User Story",
+            "connections": [
+                "Nutzer",
+                "Anforderung",
+                "Agil"
+            ]
+        },
+        {
+            "word": "Use Case",
+            "connections": [
+                "Anwendungsfall",
+                "Akteur",
+                "Ziel"
+            ]
+        },
+        {
+            "word": "Anforderungsanalyse",
+            "connections": [
+                "Ermittlung",
+                "Dokumentation",
+                "Validierung"
+            ]
+        },
+        {
+            "word": "Sequenzdiagramm",
+            "connections": [
+                "UML",
+                "Zeitlich",
+                "Interaktion"
+            ]
+        },
+        {
+            "word": "Klassendiagramm",
+            "connections": [
+                "UML",
+                "Struktur",
+                "Beziehungen"
+            ]
+        },
+        {
+            "word": "Zustandsdiagramm",
+            "connections": [
+                "UML",
+                "Zustände",
+                "Übergänge"
+            ]
+        },
+        {
+            "word": "Wasserfallmodell",
+            "connections": [
+                "Sequenziell",
+                "Phasen",
+                "Klassisch"
+            ]
+        },
+        {
+            "word": "Scrum",
+            "connections": [
+                "Agil",
+                "Sprints",
+                "Iterativ"
+            ]
+        },
+        {
+            "word": "Kanban",
+            "connections": [
+                "Agil",
+                "Board",
+                "Visualisierung"
+            ]
+        },
+        {
+            "word": "V-Modell",
+            "connections": [
+                "Test",
+                "Phasen",
+                "Qualität"
+            ]
+        },
+        {
+            "word": "REST",
+            "connections": [
+                "API",
+                "HTTP",
+                "Ressourcen"
+            ]
+        },
+        {
+            "word": "JSON",
+            "connections": [
+                "Datenformat",
+                "Leichtgewichtig",
+                "JavaScript"
+            ]
+        },
+        {
+            "word": "XML",
+            "connections": [
+                "Datenformat",
+                "Strukturiert",
+                "Tags"
+            ]
+        },
+        {
+            "word": "Mock-up",
+            "connections": [
+                "Prototyp",
+                "Visuell",
+                "UI"
+            ]
+        },
+        {
+            "word": "Prototyp",
+            "connections": [
+                "Modell",
+                "Validierung",
+                "Früh"
+            ]
+        }
+    ]
+}

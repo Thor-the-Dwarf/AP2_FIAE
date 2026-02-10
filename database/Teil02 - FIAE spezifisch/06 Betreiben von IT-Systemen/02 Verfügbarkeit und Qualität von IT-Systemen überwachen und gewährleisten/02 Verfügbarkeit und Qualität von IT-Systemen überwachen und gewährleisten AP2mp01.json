@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Verfügbarkeit",
+    "topic": "Monitoring, Backup",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "Monitoring",
+            "right": "Kontinuierliche Überwachung von Systemen"
+        },
+        {
+            "left": "Zabbix",
+            "right": "Open-Source Monitoring-Tool"
+        },
+        {
+            "left": "Nagios",
+            "right": "Open-Source Monitoring-Tool"
+        },
+        {
+            "left": "Prometheus",
+            "right": "Monitoring und Alerting-System"
+        },
+        {
+            "left": "SNMP",
+            "right": "Simple Network Management Protocol"
+        },
+        {
+            "left": "S.M.A.R.T.",
+            "right": "Self-Monitoring Analysis and Reporting Technology"
+        },
+        {
+            "left": "Vollbackup",
+            "right": "Komplette Datensicherung"
+        },
+        {
+            "left": "Inkrementelles Backup",
+            "right": "Nur Änderungen seit letztem Backup"
+        },
+        {
+            "left": "Differenzielles Backup",
+            "right": "Änderungen seit letztem Vollbackup"
+        },
+        {
+            "left": "RAID",
+            "right": "Redundant Array of Independent Disks"
+        },
+        {
+            "left": "USV",
+            "right": "Unterbrechungsfreie Stromversorgung"
+        },
+        {
+            "left": "Disaster Recovery",
+            "right": "Wiederherstellung nach Katastrophe"
+        }
+    ]
+}

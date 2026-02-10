@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Störungen beheben",
+    "topic": "Fehleranalyse, Troubleshooting",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "Troubleshooting",
+            "right": "Systematische Fehlersuche und -behebung"
+        },
+        {
+            "left": "Fehleranalyse",
+            "right": "Untersuchung der Fehlerursache"
+        },
+        {
+            "left": "Incident Management",
+            "right": "Verwaltung und Behebung von Störungen"
+        },
+        {
+            "left": "Root Cause Analysis",
+            "right": "Suche nach der Grundursache eines Problems"
+        },
+        {
+            "left": "Workaround",
+            "right": "Temporäre Problemumgehung"
+        },
+        {
+            "left": "Patch",
+            "right": "Software-Update zur Fehlerbehebung"
+        },
+        {
+            "left": "Rollback",
+            "right": "Rückgängigmachen einer Änderung"
+        },
+        {
+            "left": "Eskalation",
+            "right": "Weiterleitung an höhere Instanz"
+        },
+        {
+            "left": "Known Error",
+            "right": "Bekanntes Problem mit dokumentierter Lösung"
+        },
+        {
+            "left": "Problem Management",
+            "right": "Verwaltung wiederkehrender Störungen"
+        },
+        {
+            "left": "Change Management",
+            "right": "Verwaltung von Systemänderungen"
+        },
+        {
+            "left": "Post-Mortem",
+            "right": "Nachträgliche Analyse eines Vorfalls"
+        }
+    ]
+}

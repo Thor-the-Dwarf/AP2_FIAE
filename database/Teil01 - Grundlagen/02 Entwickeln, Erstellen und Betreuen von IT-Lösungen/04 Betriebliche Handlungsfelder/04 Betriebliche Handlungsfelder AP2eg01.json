@@ -1,1 +1,263 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – IT-Lösungen betreuen",
+    "topic": "Wartung, Support, Betrieb von IT-Systemen",
+    "estimated_minutes": 20,
+    "sections": [
+        {
+            "id": "support-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Support-Bereiche zuordnen",
+            "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+            "hintDefault": "Tipp: Wartung = Pflege, Support = Hilfe, Betrieb = Laufender Betrieb.",
+            "sortColumns": [
+                {
+                    "zone": "wartung",
+                    "label": "Wartung",
+                    "hint": "(Updates, Patches, Pflege)"
+                },
+                {
+                    "zone": "support",
+                    "label": "Support",
+                    "hint": "(Helpdesk, Tickets, Benutzer)"
+                },
+                {
+                    "zone": "betrieb",
+                    "label": "Betrieb",
+                    "hint": "(Monitoring, Verfügbarkeit, Backup)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Software-Updates installieren",
+                    "correctZone": "wartung"
+                },
+                {
+                    "id": "s2",
+                    "text": "Sicherheitspatches einspielen",
+                    "correctZone": "wartung"
+                },
+                {
+                    "id": "s3",
+                    "text": "System-Wartung durchführen",
+                    "correctZone": "wartung"
+                },
+                {
+                    "id": "s4",
+                    "text": "Helpdesk-Anfragen bearbeiten",
+                    "correctZone": "support"
+                },
+                {
+                    "id": "s5",
+                    "text": "Benutzer schulen",
+                    "correctZone": "support"
+                },
+                {
+                    "id": "s6",
+                    "text": "Ticket-System verwalten",
+                    "correctZone": "support"
+                },
+                {
+                    "id": "s7",
+                    "text": "System-Monitoring",
+                    "correctZone": "betrieb"
+                },
+                {
+                    "id": "s8",
+                    "text": "Backup erstellen",
+                    "correctZone": "betrieb"
+                },
+                {
+                    "id": "s9",
+                    "text": "Verfügbarkeit sicherstellen",
+                    "correctZone": "betrieb"
+                }
+            ]
+        },
+        {
+            "id": "support-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz IT-Betrieb",
+            "subtitle": "Teste dein Wissen zu Wartung und Support.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist der Zweck von Wartung?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "System aktuell und sicher halten"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Fehler beheben"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Backups"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist ein Helpdesk?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Zentrale Anlaufstelle für Support-Anfragen"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Software-Tool"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Datenbank"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist System-Monitoring?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Überwachung der Systemleistung"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Backup-Erstellung"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Software-Update"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "support-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Incident-Management – richtige Reihenfolge",
+            "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Melden → Analysieren → Beheben → Dokumentieren.",
+            "rows": [
+                {
+                    "key": "melden",
+                    "label": "Störung melden (Ticket erstellen)",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "analysieren",
+                    "label": "Problem analysieren",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "beheben",
+                    "label": "Störung beheben",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "dokumentieren",
+                    "label": "Lösung dokumentieren (Ticket schließen)",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

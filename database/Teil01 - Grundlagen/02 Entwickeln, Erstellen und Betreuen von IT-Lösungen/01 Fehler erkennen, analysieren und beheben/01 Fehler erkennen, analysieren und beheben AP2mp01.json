@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Fehleranalyse",
+    "topic": "Debugging, Testverfahren, Versionsmanagement",
+    "estimated_minutes": 15,
+    "sets": [
+        {
+            "left": "Debugging",
+            "right": "Systematisches Suchen und Beheben von Fehlern mit Breakpoints"
+        },
+        {
+            "left": "Breakpoint",
+            "right": "Haltepunkt im Code zum Unterbrechen der Programmausführung"
+        },
+        {
+            "left": "Black Box Test",
+            "right": "Testverfahren ohne Kenntnis der internen Code-Struktur"
+        },
+        {
+            "left": "White Box Test",
+            "right": "Testverfahren mit vollständiger Kenntnis der Code-Struktur"
+        },
+        {
+            "left": "Review",
+            "right": "Statisches Testverfahren durch Code-Durchsicht"
+        },
+        {
+            "left": "Extremwertetest",
+            "right": "Test mit Grenzwerten und extremen Eingaben"
+        },
+        {
+            "left": "Komponententest",
+            "right": "Test einzelner Module oder Funktionen isoliert"
+        },
+        {
+            "left": "Integrationstest",
+            "right": "Test des Zusammenspiels mehrerer Module"
+        },
+        {
+            "left": "Systemtest",
+            "right": "Test des gesamten Systems als Ganzes"
+        },
+        {
+            "left": "Testdaten",
+            "right": "Spezielle Eingabedaten zur Überprüfung der Software"
+        },
+        {
+            "left": "Versionsmanagement",
+            "right": "Verwaltung verschiedener Versionen des Quellcodes (z.B. Git)"
+        },
+        {
+            "left": "Statischer Test",
+            "right": "Testverfahren ohne Ausführung des Codes (z.B. Review)"
+        }
+    ]
+}

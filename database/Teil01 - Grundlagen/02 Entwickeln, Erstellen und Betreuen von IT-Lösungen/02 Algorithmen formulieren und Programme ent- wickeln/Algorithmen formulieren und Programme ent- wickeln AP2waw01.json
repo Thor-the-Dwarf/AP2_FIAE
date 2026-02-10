@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Algorithmen",
+    "topic": "UML, Aktivitätsdiagramme, Software-Ergonomie",
+    "estimated_minutes": 15,
+    "centerWord": "Algorithmen",
+    "associations": [
+        {
+            "word": "UML",
+            "connections": [
+                "Use Case",
+                "Klassendiagramm",
+                "Aktivitätsdiagramm"
+            ]
+        },
+        {
+            "word": "Use Case",
+            "connections": [
+                "UML",
+                "Akteure",
+                "Anwendungsfälle"
+            ]
+        },
+        {
+            "word": "Klassendiagramm",
+            "connections": [
+                "UML",
+                "Klassen",
+                "Attribute"
+            ]
+        },
+        {
+            "word": "Aktivitätsdiagramm",
+            "connections": [
+                "UML",
+                "Ablauf",
+                "Kontrollstrukturen"
+            ]
+        },
+        {
+            "word": "Pseudocode",
+            "connections": [
+                "Algorithmus",
+                "Vereinfacht",
+                "Sprachunabhängig"
+            ]
+        },
+        {
+            "word": "Kontrollstrukturen",
+            "connections": [
+                "if",
+                "while",
+                "for"
+            ]
+        },
+        {
+            "word": "Software-Ergonomie",
+            "connections": [
+                "Benutzerfreundlich",
+                "Usability",
+                "Barrierefreiheit"
+            ]
+        },
+        {
+            "word": "Barrierefreiheit",
+            "connections": [
+                "Software-Ergonomie",
+                "Zugänglich",
+                "Inklusiv"
+            ]
+        },
+        {
+            "word": "Akteur",
+            "connections": [
+                "Use Case",
+                "Interaktion",
+                "Rolle"
+            ]
+        },
+        {
+            "word": "Vererbung",
+            "connections": [
+                "Klassendiagramm",
+                "Eigenschaften",
+                "Hierarchie"
+            ]
+        },
+        {
+            "word": "Assoziation",
+            "connections": [
+                "Klassendiagramm",
+                "Beziehung",
+                "Verbindung"
+            ]
+        },
+        {
+            "word": "Attribut",
+            "connections": [
+                "Klassendiagramm",
+                "Eigenschaft",
+                "Merkmal"
+            ]
+        }
+    ]
+}

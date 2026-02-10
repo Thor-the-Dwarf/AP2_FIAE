@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Fehler erkennen (QS)",
+    "topic": "Debugging, Testverfahren, Versionsmanagement",
+    "estimated_minutes": 12,
+    "centerWord": "Testing",
+    "associations": [
+        {
+            "word": "Black Box",
+            "connections": [
+                "Ohne Code-Kenntnis",
+                "Funktional",
+                "Akzeptanztest"
+            ]
+        },
+        {
+            "word": "White Box",
+            "connections": [
+                "Mit Code-Kenntnis",
+                "Strukturell",
+                "Code-Coverage"
+            ]
+        },
+        {
+            "word": "Greybox",
+            "connections": [
+                "Teilweise Code-Kenntnis",
+                "Integrationstest",
+                "Hybrid"
+            ]
+        },
+        {
+            "word": "Debugging",
+            "connections": [
+                "Fehlersuche",
+                "Breakpoints",
+                "Analyse"
+            ]
+        },
+        {
+            "word": "Git",
+            "connections": [
+                "Versionsmanagement",
+                "Commit",
+                "Branch"
+            ]
+        },
+        {
+            "word": "Commit",
+            "connections": [
+                "Git",
+                "Speichern",
+                "Änderungen"
+            ]
+        },
+        {
+            "word": "Branch",
+            "connections": [
+                "Git",
+                "Abzweigung",
+                "Merge"
+            ]
+        },
+        {
+            "word": "Merge",
+            "connections": [
+                "Branch",
+                "Zusammenführen",
+                "Konflikt"
+            ]
+        },
+        {
+            "word": "Regressiontest",
+            "connections": [
+                "Alte Funktionen",
+                "Sicherstellung",
+                "Automatisiert"
+            ]
+        },
+        {
+            "word": "Code-Coverage",
+            "connections": [
+                "White Box",
+                "Testabdeckung",
+                "Metrik"
+            ]
+        },
+        {
+            "word": "Äquivalenzklasse",
+            "connections": [
+                "Black Box",
+                "Eingabewerte",
+                "Gruppierung"
+            ]
+        },
+        {
+            "word": "SVN",
+            "connections": [
+                "Versionsmanagement",
+                "Zentral",
+                "Subversion"
+            ]
+        }
+    ]
+}

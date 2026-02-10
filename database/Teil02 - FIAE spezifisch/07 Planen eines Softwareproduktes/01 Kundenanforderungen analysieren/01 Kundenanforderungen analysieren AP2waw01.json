@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Kundenanforderungen",
+    "topic": "User Stories, Use Cases",
+    "estimated_minutes": 12,
+    "centerWord": "Anforderungsanalyse",
+    "associations": [
+        {
+            "word": "User Story",
+            "connections": [
+                "Nutzer",
+                "Rolle",
+                "Funktion"
+            ]
+        },
+        {
+            "word": "Use Case",
+            "connections": [
+                "Anwendungsfall",
+                "Akteur",
+                "Ablauf"
+            ]
+        },
+        {
+            "word": "Funktional",
+            "connections": [
+                "Funktion",
+                "Was",
+                "Verhalten"
+            ]
+        },
+        {
+            "word": "Nicht-funktional",
+            "connections": [
+                "Qualität",
+                "Performance",
+                "Sicherheit"
+            ]
+        },
+        {
+            "word": "Randbedingung",
+            "connections": [
+                "Einschränkung",
+                "Budget",
+                "Zeit"
+            ]
+        },
+        {
+            "word": "Erhebung",
+            "connections": [
+                "Sammeln",
+                "Interview",
+                "Workshop"
+            ]
+        },
+        {
+            "word": "Analyse",
+            "connections": [
+                "Untersuchung",
+                "Strukturierung",
+                "Bewertung"
+            ]
+        },
+        {
+            "word": "Spezifikation",
+            "connections": [
+                "Dokumentation",
+                "Detail",
+                "Präzise"
+            ]
+        },
+        {
+            "word": "Validierung",
+            "connections": [
+                "Prüfung",
+                "Bestätigung",
+                "Korrektheit"
+            ]
+        },
+        {
+            "word": "Stakeholder",
+            "connections": [
+                "Interessengruppe",
+                "Beteiligt",
+                "Einfluss"
+            ]
+        },
+        {
+            "word": "Akzeptanzkriterium",
+            "connections": [
+                "Bedingung",
+                "Erfüllung",
+                "Abnahme"
+            ]
+        },
+        {
+            "word": "Priorisierung",
+            "connections": [
+                "Wichtigkeit",
+                "Reihenfolge",
+                "Wert"
+            ]
+        }
+    ]
+}

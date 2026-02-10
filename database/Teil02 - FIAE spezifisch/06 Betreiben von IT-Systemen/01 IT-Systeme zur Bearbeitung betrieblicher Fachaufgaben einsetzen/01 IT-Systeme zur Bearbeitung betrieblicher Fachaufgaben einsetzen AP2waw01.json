@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – IT-Systeme einsetzen",
+    "topic": "ERP, CRM",
+    "estimated_minutes": 12,
+    "centerWord": "Anwendungssysteme",
+    "associations": [
+        {
+            "word": "ERP",
+            "connections": [
+                "Ressourcenplanung",
+                "Integration",
+                "Prozesse"
+            ]
+        },
+        {
+            "word": "CRM",
+            "connections": [
+                "Kundenbeziehungen",
+                "Vertrieb",
+                "Marketing"
+            ]
+        },
+        {
+            "word": "SAP",
+            "connections": [
+                "ERP",
+                "Marktführer",
+                "Enterprise"
+            ]
+        },
+        {
+            "word": "Salesforce",
+            "connections": [
+                "CRM",
+                "Cloud",
+                "SaaS"
+            ]
+        },
+        {
+            "word": "Warenwirtschaft",
+            "connections": [
+                "ERP",
+                "Lager",
+                "Bestand"
+            ]
+        },
+        {
+            "word": "Kundenverwaltung",
+            "connections": [
+                "CRM",
+                "Kontakte",
+                "Daten"
+            ]
+        },
+        {
+            "word": "Finanzbuchhaltung",
+            "connections": [
+                "ERP",
+                "Finanzen",
+                "Buchhaltung"
+            ]
+        },
+        {
+            "word": "Personalverwaltung",
+            "connections": [
+                "ERP",
+                "Mitarbeiter",
+                "HR"
+            ]
+        },
+        {
+            "word": "Vertrieb",
+            "connections": [
+                "CRM",
+                "Verkauf",
+                "Umsatz"
+            ]
+        },
+        {
+            "word": "Marketing",
+            "connections": [
+                "CRM",
+                "Kampagnen",
+                "Leads"
+            ]
+        },
+        {
+            "word": "Produktion",
+            "connections": [
+                "ERP",
+                "Fertigung",
+                "Planung"
+            ]
+        },
+        {
+            "word": "Einkauf",
+            "connections": [
+                "ERP",
+                "Beschaffung",
+                "Lieferanten"
+            ]
+        }
+    ]
+}

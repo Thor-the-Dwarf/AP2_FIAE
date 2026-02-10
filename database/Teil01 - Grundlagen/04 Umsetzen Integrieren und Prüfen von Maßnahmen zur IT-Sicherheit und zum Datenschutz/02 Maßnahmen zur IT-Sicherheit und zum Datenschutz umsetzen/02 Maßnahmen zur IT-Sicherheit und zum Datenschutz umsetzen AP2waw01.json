@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Sicherheitsmaßnahmen",
+    "topic": "Verschlüsselung, Authentifizierung, DSGVO",
+    "estimated_minutes": 12,
+    "centerWord": "Sicherheitsmaßnahmen",
+    "associations": [
+        {
+            "word": "Verschlüsselung",
+            "connections": [
+                "Schutz",
+                "Unleserlich",
+                "Chiffre"
+            ]
+        },
+        {
+            "word": "Authentifizierung",
+            "connections": [
+                "Identität",
+                "Passwort",
+                "2FA"
+            ]
+        },
+        {
+            "word": "Firewall",
+            "connections": [
+                "Netzwerk",
+                "Filterung",
+                "Schutz"
+            ]
+        },
+        {
+            "word": "DSGVO",
+            "connections": [
+                "Datenschutz",
+                "EU",
+                "Verordnung"
+            ]
+        },
+        {
+            "word": "BDSG",
+            "connections": [
+                "Datenschutz",
+                "Deutschland",
+                "Gesetz"
+            ]
+        },
+        {
+            "word": "TOM",
+            "connections": [
+                "Technisch",
+                "Organisatorisch",
+                "Maßnahmen"
+            ]
+        },
+        {
+            "word": "2FA",
+            "connections": [
+                "Authentifizierung",
+                "Zwei Faktoren",
+                "Sicherheit"
+            ]
+        },
+        {
+            "word": "Sicherheitsrichtlinie",
+            "connections": [
+                "Organisatorisch",
+                "Vorgabe",
+                "Verhalten"
+            ]
+        },
+        {
+            "word": "Zugriffsberechtigungen",
+            "connections": [
+                "Kontrolle",
+                "Rechte",
+                "Ressourcen"
+            ]
+        },
+        {
+            "word": "Datenschutzbeauftragter",
+            "connections": [
+                "DSGVO",
+                "Überwachung",
+                "Compliance"
+            ]
+        },
+        {
+            "word": "Verarbeitungsverzeichnis",
+            "connections": [
+                "DSGVO",
+                "Dokumentation",
+                "Prozesse"
+            ]
+        },
+        {
+            "word": "Datenschutz-Folgenabschätzung",
+            "connections": [
+                "DSGVO",
+                "Risikobewertung",
+                "Betroffene"
+            ]
+        }
+    ]
+}

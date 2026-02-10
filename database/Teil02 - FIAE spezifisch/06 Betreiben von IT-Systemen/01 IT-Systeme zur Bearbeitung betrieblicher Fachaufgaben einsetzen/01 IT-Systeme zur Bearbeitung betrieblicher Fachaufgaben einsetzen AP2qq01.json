@@ -1,1 +1,193 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – IT-Systeme einsetzen",
+    "topic": "ERP, CRM",
+    "estimated_minutes": 8,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist ERP?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Enterprise Resource Planning"
+                },
+                {
+                    "value": "b",
+                    "text": "Electronic Resource Processing"
+                },
+                {
+                    "value": "c",
+                    "text": "Extended Reporting Platform"
+                },
+                {
+                    "value": "d",
+                    "text": "Enterprise Reporting Process"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist CRM?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Customer Relationship Management"
+                },
+                {
+                    "value": "b",
+                    "text": "Client Resource Management"
+                },
+                {
+                    "value": "c",
+                    "text": "Corporate Risk Management"
+                },
+                {
+                    "value": "d",
+                    "text": "Customer Resource Monitoring"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist SAP?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "ERP-System"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur CRM"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Office"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Datenbank"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist Salesforce?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "CRM-System"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur ERP"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Office"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Datenbank"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was verwaltet Warenwirtschaft?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Waren und Lagerbestände"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Kunden"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Finanzen"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Personal"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was verwaltet Kundenverwaltung?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Kundendaten und -kontakte"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Waren"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Finanzen"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Personal"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist Finanzbuchhaltung?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Verwaltung von Finanzen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Kunden"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Waren"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Personal"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist Personalverwaltung?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Verwaltung von Mitarbeiterdaten"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Kunden"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Waren"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Finanzen"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

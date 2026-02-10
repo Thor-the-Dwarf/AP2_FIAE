@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Algorithmen implementieren",
+    "topic": "Programmiersprachen, Datenstrukturen",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "Array",
+            "right": "Indexbasierte Datenstruktur mit fester Größe"
+        },
+        {
+            "left": "Liste",
+            "right": "Verkettete Datenstruktur mit dynamischer Größe"
+        },
+        {
+            "left": "Stack",
+            "right": "LIFO-Datenstruktur (Last In First Out)"
+        },
+        {
+            "left": "Queue",
+            "right": "FIFO-Datenstruktur (First In First Out)"
+        },
+        {
+            "left": "Hash-Tabelle",
+            "right": "Schlüssel-Wert-Datenstruktur"
+        },
+        {
+            "left": "Baum",
+            "right": "Hierarchische Datenstruktur"
+        },
+        {
+            "left": "Graph",
+            "right": "Netzwerk-Datenstruktur mit Knoten und Kanten"
+        },
+        {
+            "left": "Python",
+            "right": "Interpretierte Hochsprache"
+        },
+        {
+            "left": "Java",
+            "right": "Objektorientierte Programmiersprache"
+        },
+        {
+            "left": "C",
+            "right": "Systemnahe Programmiersprache"
+        },
+        {
+            "left": "JavaScript",
+            "right": "Skriptsprache für Web"
+        },
+        {
+            "left": "PowerShell",
+            "right": "Automatisierung für Windows"
+        }
+    ]
+}

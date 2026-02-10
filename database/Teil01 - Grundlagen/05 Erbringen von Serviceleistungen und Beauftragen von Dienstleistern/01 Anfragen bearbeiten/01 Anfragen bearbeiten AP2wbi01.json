@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Anfragen bearbeiten",
+    "topic": "Ticketsysteme, Anforderungsanalyse",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "Ein _____ verwaltet Anfragen und Störungen.",
+            "correctAnswer": "Ticketsystem",
+            "hint": "Ticket-Verwaltung"
+        },
+        {
+            "id": "s2",
+            "text": "Die _____ ermittelt die Kundenbedürfnisse.",
+            "correctAnswer": "Anforderungsanalyse",
+            "hint": "Bedürfnisermittlung"
+        },
+        {
+            "id": "s3",
+            "text": "_____ ist die Unterstützung und Beratung von Kunden.",
+            "correctAnswer": "Kundenbetreuung",
+            "hint": "Support"
+        },
+        {
+            "id": "s4",
+            "text": "Die _____ gibt die Dringlichkeit einer Anfrage an.",
+            "correctAnswer": "Priorität",
+            "hint": "Kritisch, Hoch, Normal"
+        },
+        {
+            "id": "s5",
+            "text": "Der _____ zeigt den Bearbeitungsstand eines Tickets.",
+            "correctAnswer": "Status",
+            "hint": "Offen, In Bearbeitung, Gelöst"
+        },
+        {
+            "id": "s6",
+            "text": "Die _____ ordnet eine Anfrage thematisch ein.",
+            "correctAnswer": "Kategorie",
+            "hint": "Thematische Einordnung"
+        },
+        {
+            "id": "s7",
+            "text": "Eine _____ leitet ein Ticket an eine höhere Instanz weiter.",
+            "correctAnswer": "Eskalation",
+            "hint": "Weiterleitung"
+        },
+        {
+            "id": "s8",
+            "text": "Der _____ ist die erste Anlaufstelle für Anfragen.",
+            "correctAnswer": "First Level Support",
+            "hint": "Erste Anlaufstelle"
+        },
+        {
+            "id": "s9",
+            "text": "Der _____ bearbeitet komplexe Anfragen.",
+            "correctAnswer": "Second Level Support",
+            "hint": "Spezialisiert"
+        },
+        {
+            "id": "s10",
+            "text": "Die _____ ist die eindeutige Identifikationsnummer eines Tickets.",
+            "correctAnswer": "Ticket-ID",
+            "hint": "Eindeutige Nummer"
+        },
+        {
+            "id": "s11",
+            "text": "Die _____ weist ein Ticket einem Bearbeiter zu.",
+            "correctAnswer": "Zuordnung",
+            "hint": "Zuweisung"
+        },
+        {
+            "id": "s12",
+            "text": "Die _____ zeichnet die Problemlösung auf.",
+            "correctAnswer": "Lösungsdokumentation",
+            "hint": "Aufzeichnung"
+        }
+    ]
+}

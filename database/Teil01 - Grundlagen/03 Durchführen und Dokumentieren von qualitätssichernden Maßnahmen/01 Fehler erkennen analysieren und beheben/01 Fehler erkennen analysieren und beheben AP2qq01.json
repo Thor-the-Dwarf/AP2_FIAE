@@ -1,1 +1,193 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Fehler erkennen (QS)",
+    "topic": "Debugging, Testverfahren, Versionsmanagement",
+    "estimated_minutes": 8,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist ein Black Box Test?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Test ohne Code-Kenntnis"
+                },
+                {
+                    "value": "b",
+                    "text": "Test mit Code-Kenntnis"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur UI-Test"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Datenbank-Test"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist ein White Box Test?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Test mit Code-Kenntnis"
+                },
+                {
+                    "value": "b",
+                    "text": "Test ohne Code-Kenntnis"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur UI-Test"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Performance-Test"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist ein Greybox Test?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Test mit teilweiser Code-Kenntnis"
+                },
+                {
+                    "value": "b",
+                    "text": "Test ohne Code-Kenntnis"
+                },
+                {
+                    "value": "c",
+                    "text": "Test mit vollständiger Code-Kenntnis"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Security-Test"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Wofür wird Git verwendet?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Versionsmanagement"
+                },
+                {
+                    "value": "b",
+                    "text": "Testing"
+                },
+                {
+                    "value": "c",
+                    "text": "Debugging"
+                },
+                {
+                    "value": "d",
+                    "text": "Deployment"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist ein Commit?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Speichern von Änderungen in der Versionskontrolle"
+                },
+                {
+                    "value": "b",
+                    "text": "Löschen von Code"
+                },
+                {
+                    "value": "c",
+                    "text": "Test durchführen"
+                },
+                {
+                    "value": "d",
+                    "text": "Backup erstellen"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist ein Branch?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Abzweigung im Versionskontrollsystem"
+                },
+                {
+                    "value": "b",
+                    "text": "Fehler im Code"
+                },
+                {
+                    "value": "c",
+                    "text": "Test-Verfahren"
+                },
+                {
+                    "value": "d",
+                    "text": "Datenbank-Tabelle"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist ein Regressiontest?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Test zur Sicherstellung, dass alte Funktionen noch funktionieren"
+                },
+                {
+                    "value": "b",
+                    "text": "Test neuer Funktionen"
+                },
+                {
+                    "value": "c",
+                    "text": "Performance-Test"
+                },
+                {
+                    "value": "d",
+                    "text": "Security-Test"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist Code-Coverage?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Maß für die Testabdeckung des Quellcodes"
+                },
+                {
+                    "value": "b",
+                    "text": "Anzahl der Codezeilen"
+                },
+                {
+                    "value": "c",
+                    "text": "Fehleranzahl"
+                },
+                {
+                    "value": "d",
+                    "text": "Performance-Metrik"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

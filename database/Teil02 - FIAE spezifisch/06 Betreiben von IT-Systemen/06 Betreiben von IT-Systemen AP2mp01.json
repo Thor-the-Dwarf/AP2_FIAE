@@ -1,1 +1,73 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – IT-Systeme betreiben",
+    "topic": "Netzwerk, Cloud, Monitoring",
+    "estimated_minutes": 15,
+    "sets": [
+        {
+            "left": "OSI-Modell",
+            "right": "7-Schichten-Referenzmodell für Netzwerkkommunikation"
+        },
+        {
+            "left": "TCP/IP",
+            "right": "Protokollstapel für Internetkommunikation"
+        },
+        {
+            "left": "IPv4",
+            "right": "32-Bit-Adressierung (z.B. 192.168.1.1)"
+        },
+        {
+            "left": "IPv6",
+            "right": "128-Bit-Adressierung (z.B. 2001:db8::1)"
+        },
+        {
+            "left": "Routing",
+            "right": "Weiterleitung von Datenpaketen zwischen Netzwerken"
+        },
+        {
+            "left": "Switching",
+            "right": "Weiterleitung von Frames innerhalb eines Netzwerks"
+        },
+        {
+            "left": "VPN",
+            "right": "Virtual Private Network – verschlüsselte Verbindung"
+        },
+        {
+            "left": "VLAN",
+            "right": "Virtual LAN – logische Netzwerksegmentierung"
+        },
+        {
+            "left": "SaaS",
+            "right": "Software as a Service – Anwendungen aus der Cloud"
+        },
+        {
+            "left": "PaaS",
+            "right": "Platform as a Service – Entwicklungsplattform aus der Cloud"
+        },
+        {
+            "left": "IaaS",
+            "right": "Infrastructure as a Service – Infrastruktur aus der Cloud"
+        },
+        {
+            "left": "Hypervisor",
+            "right": "Virtualisierungssoftware für virtuelle Maschinen"
+        },
+        {
+            "left": "Container",
+            "right": "Leichtgewichtige Virtualisierung (z.B. Docker)"
+        },
+        {
+            "left": "RAID",
+            "right": "Redundant Array of Independent Disks"
+        },
+        {
+            "left": "Backup",
+            "right": "Datensicherung zur Wiederherstellung"
+        },
+        {
+            "left": "SLA",
+            "right": "Service Level Agreement – Dienstgütevereinbarung"
+        }
+    ]
+}

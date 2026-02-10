@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Algorithmen implementieren",
+    "topic": "Programmiersprachen, Datenstrukturen",
+    "estimated_minutes": 12,
+    "centerWord": "Implementierung",
+    "associations": [
+        {
+            "word": "Array",
+            "connections": [
+                "Index",
+                "Fest",
+                "Schnell"
+            ]
+        },
+        {
+            "word": "Liste",
+            "connections": [
+                "Verkettet",
+                "Dynamisch",
+                "Flexibel"
+            ]
+        },
+        {
+            "word": "Stack",
+            "connections": [
+                "LIFO",
+                "Push",
+                "Pop"
+            ]
+        },
+        {
+            "word": "Queue",
+            "connections": [
+                "FIFO",
+                "Enqueue",
+                "Dequeue"
+            ]
+        },
+        {
+            "word": "Hash-Tabelle",
+            "connections": [
+                "Schlüssel",
+                "Wert",
+                "Schnell"
+            ]
+        },
+        {
+            "word": "Baum",
+            "connections": [
+                "Hierarchie",
+                "Wurzel",
+                "Blätter"
+            ]
+        },
+        {
+            "word": "Graph",
+            "connections": [
+                "Knoten",
+                "Kanten",
+                "Netzwerk"
+            ]
+        },
+        {
+            "word": "Python",
+            "connections": [
+                "Interpretiert",
+                "Einfach",
+                "Vielseitig"
+            ]
+        },
+        {
+            "word": "Java",
+            "connections": [
+                "OOP",
+                "Plattformunabhängig",
+                "Typsicher"
+            ]
+        },
+        {
+            "word": "C",
+            "connections": [
+                "Systemnah",
+                "Schnell",
+                "Pointer"
+            ]
+        },
+        {
+            "word": "JavaScript",
+            "connections": [
+                "Web",
+                "Asynchron",
+                "Dynamisch"
+            ]
+        },
+        {
+            "word": "PowerShell",
+            "connections": [
+                "Automatisierung",
+                "Windows",
+                "Scripting"
+            ]
+        }
+    ]
+}

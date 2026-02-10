@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – IT-Lösungen entwickeln",
+    "topic": "Fehleranalyse, Softwareentwicklung, Datenbanken",
+    "estimated_minutes": 15,
+    "centerWord": "IT-Entwicklung",
+    "associations": [
+        {
+            "word": "Fehleranalyse",
+            "connections": [
+                "Debugging",
+                "Testing",
+                "Breakpoint"
+            ]
+        },
+        {
+            "word": "Debugging",
+            "connections": [
+                "Fehleranalyse",
+                "Breakpoint",
+                "Code"
+            ]
+        },
+        {
+            "word": "Testing",
+            "connections": [
+                "Fehleranalyse",
+                "Black Box",
+                "White Box"
+            ]
+        },
+        {
+            "word": "Black Box",
+            "connections": [
+                "Testing",
+                "Ohne Code-Kenntnis",
+                "Funktional"
+            ]
+        },
+        {
+            "word": "Komponententest",
+            "connections": [
+                "Testing",
+                "Einzelne Module",
+                "Unit Test"
+            ]
+        },
+        {
+            "word": "UML",
+            "connections": [
+                "Modellierung",
+                "Diagramme",
+                "Klassendiagramm"
+            ]
+        },
+        {
+            "word": "Aktivitätsdiagramm",
+            "connections": [
+                "UML",
+                "Ablauf",
+                "Kontrollstrukturen"
+            ]
+        },
+        {
+            "word": "Versionsmanagement",
+            "connections": [
+                "Git",
+                "Quellcode",
+                "Versionierung"
+            ]
+        },
+        {
+            "word": "Datenbank",
+            "connections": [
+                "ER-Modell",
+                "SQL",
+                "Normalisierung"
+            ]
+        },
+        {
+            "word": "ER-Modell",
+            "connections": [
+                "Datenbank",
+                "Entitäten",
+                "Beziehungen"
+            ]
+        },
+        {
+            "word": "Normalisierung",
+            "connections": [
+                "Datenbank",
+                "Redundanzen",
+                "1.-3. NF"
+            ]
+        },
+        {
+            "word": "SQL",
+            "connections": [
+                "Datenbank",
+                "Abfragen",
+                "Manipulation"
+            ]
+        }
+    ]
+}

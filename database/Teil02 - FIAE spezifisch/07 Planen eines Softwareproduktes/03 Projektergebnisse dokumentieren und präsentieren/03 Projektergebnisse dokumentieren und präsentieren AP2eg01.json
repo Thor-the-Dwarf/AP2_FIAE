@@ -1,1 +1,248 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Projektergebnisse",
+    "topic": "Projektdokumentation, Präsentationstechniken",
+    "estimated_minutes": 18,
+    "sections": [
+        {
+            "id": "proj-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Dokumentationsarten zuordnen",
+            "subtitle": "Ordne die Dokumente den passenden Kategorien zu.",
+            "hintDefault": "Tipp: Technisch = Code/Architektur, Nutzer = Handbuch, Projekt = Management.",
+            "sortColumns": [
+                {
+                    "zone": "technisch",
+                    "label": "Technische Dokumentation",
+                    "hint": "(Code, Architektur)"
+                },
+                {
+                    "zone": "nutzer",
+                    "label": "Nutzerdokumentation",
+                    "hint": "(Handbuch, Anleitung)"
+                },
+                {
+                    "zone": "projekt",
+                    "label": "Projektdokumentation",
+                    "hint": "(Management, Planung)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "API-Dokumentation",
+                    "correctZone": "technisch"
+                },
+                {
+                    "id": "s2",
+                    "text": "Architektur-Diagramm",
+                    "correctZone": "technisch"
+                },
+                {
+                    "id": "s3",
+                    "text": "Benutzerhandbuch",
+                    "correctZone": "nutzer"
+                },
+                {
+                    "id": "s4",
+                    "text": "FAQ",
+                    "correctZone": "nutzer"
+                },
+                {
+                    "id": "s5",
+                    "text": "Projektplan",
+                    "correctZone": "projekt"
+                },
+                {
+                    "id": "s6",
+                    "text": "Statusbericht",
+                    "correctZone": "projekt"
+                }
+            ]
+        },
+        {
+            "id": "proj-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Projektergebnisse",
+            "subtitle": "Teste dein Wissen zu Projektergebnissen.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist Projektdokumentation?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Dokumentation des Projektverlaufs"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Code"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Handbuch"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist eine Präsentation?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Darstellung von Ergebnissen"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Dokumentation"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Code"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist ein Benutzerhandbuch?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Anleitung für Nutzer"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur technische Doku"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Projektplan"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "proj-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Präsentationsaufbau",
+            "subtitle": "Bringe die Präsentationsteile in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Einleitung → Hauptteil → Zusammenfassung → Diskussion.",
+            "rows": [
+                {
+                    "key": "einleitung",
+                    "label": "Einleitung",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "hauptteil",
+                    "label": "Hauptteil",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "zusammenfassung",
+                    "label": "Zusammenfassung",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "diskussion",
+                    "label": "Diskussion/Fragen",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

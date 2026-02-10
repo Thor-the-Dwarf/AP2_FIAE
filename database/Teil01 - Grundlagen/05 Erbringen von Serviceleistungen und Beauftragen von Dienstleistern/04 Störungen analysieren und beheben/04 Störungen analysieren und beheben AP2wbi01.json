@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Störungen beheben",
+    "topic": "Fehleranalyse, Troubleshooting",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "_____ ist die systematische Fehlersuche und -behebung.",
+            "correctAnswer": "Troubleshooting",
+            "hint": "Fehlersuche"
+        },
+        {
+            "id": "s2",
+            "text": "_____ untersucht die Fehlerursache.",
+            "correctAnswer": "Fehleranalyse",
+            "hint": "Ursachenuntersuchung"
+        },
+        {
+            "id": "s3",
+            "text": "_____ verwaltet und behebt Störungen.",
+            "correctAnswer": "Incident Management",
+            "hint": "Störungsmanagement"
+        },
+        {
+            "id": "s4",
+            "text": "_____ sucht nach der Grundursache eines Problems.",
+            "correctAnswer": "Root Cause Analysis",
+            "hint": "Grundursachenanalyse"
+        },
+        {
+            "id": "s5",
+            "text": "Ein _____ ist eine temporäre Problemumgehung.",
+            "correctAnswer": "Workaround",
+            "hint": "Umgehung"
+        },
+        {
+            "id": "s6",
+            "text": "Ein _____ ist ein Software-Update zur Fehlerbehebung.",
+            "correctAnswer": "Patch",
+            "hint": "Update"
+        },
+        {
+            "id": "s7",
+            "text": "Ein _____ macht eine Änderung rückgängig.",
+            "correctAnswer": "Rollback",
+            "hint": "Rückgängigmachen"
+        },
+        {
+            "id": "s8",
+            "text": "Eine _____ leitet ein Problem an höhere Instanz weiter.",
+            "correctAnswer": "Eskalation",
+            "hint": "Weiterleitung"
+        },
+        {
+            "id": "s9",
+            "text": "Ein _____ ist ein bekanntes Problem mit Lösung.",
+            "correctAnswer": "Known Error",
+            "hint": "Bekannter Fehler"
+        },
+        {
+            "id": "s10",
+            "text": "_____ verwaltet wiederkehrende Störungen.",
+            "correctAnswer": "Problem Management",
+            "hint": "Problemverwaltung"
+        },
+        {
+            "id": "s11",
+            "text": "_____ verwaltet Systemänderungen.",
+            "correctAnswer": "Change Management",
+            "hint": "Änderungsmanagement"
+        },
+        {
+            "id": "s12",
+            "text": "Ein _____ ist eine nachträgliche Analyse eines Vorfalls.",
+            "correctAnswer": "Post-Mortem",
+            "hint": "Nachanalyse"
+        }
+    ]
+}

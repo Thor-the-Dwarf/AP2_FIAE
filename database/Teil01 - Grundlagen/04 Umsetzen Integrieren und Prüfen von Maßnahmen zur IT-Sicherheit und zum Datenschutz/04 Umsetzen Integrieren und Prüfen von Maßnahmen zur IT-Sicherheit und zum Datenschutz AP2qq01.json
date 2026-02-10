@@ -1,1 +1,239 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – IT-Sicherheit",
+    "topic": "Bedrohungen, TOM, DSGVO, Sicherheitsmaßnahmen",
+    "estimated_minutes": 10,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist Ransomware?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Schadsoftware, die Daten verschlüsselt und Lösegeld fordert"
+                },
+                {
+                    "value": "b",
+                    "text": "Antivirus-Software"
+                },
+                {
+                    "value": "c",
+                    "text": "Firewall"
+                },
+                {
+                    "value": "d",
+                    "text": "Backup-System"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist Phishing?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Täuschung zur Erlangung sensibler Daten"
+                },
+                {
+                    "value": "b",
+                    "text": "Firewall-Technik"
+                },
+                {
+                    "value": "c",
+                    "text": "Verschlüsselungsmethode"
+                },
+                {
+                    "value": "d",
+                    "text": "Backup-Verfahren"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist Zutrittskontrolle?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Physischer Schutz (Alarm, Video)"
+                },
+                {
+                    "value": "b",
+                    "text": "Passwort-Authentifizierung"
+                },
+                {
+                    "value": "c",
+                    "text": "Verschlüsselung"
+                },
+                {
+                    "value": "d",
+                    "text": "Firewall"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist Zugangskontrolle?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Authentifizierung (Passwort, Biometrie)"
+                },
+                {
+                    "value": "b",
+                    "text": "Physischer Schutz"
+                },
+                {
+                    "value": "c",
+                    "text": "Verschlüsselung"
+                },
+                {
+                    "value": "d",
+                    "text": "Firewall"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist Zugriffskontrolle?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Berechtigungen (Verschlüsselung, Rollen)"
+                },
+                {
+                    "value": "b",
+                    "text": "Physischer Schutz"
+                },
+                {
+                    "value": "c",
+                    "text": "Passwort-Authentifizierung"
+                },
+                {
+                    "value": "d",
+                    "text": "Firewall"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Wofür steht DSGVO?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Datenschutz-Grundverordnung"
+                },
+                {
+                    "value": "b",
+                    "text": "Daten-Sicherheits-Gesetz"
+                },
+                {
+                    "value": "c",
+                    "text": "Digital-Service-Verordnung"
+                },
+                {
+                    "value": "d",
+                    "text": "Datenbank-Standard-Gesetz"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist ein Penetrationstest?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Sicherheitstest durch simulierte Angriffe"
+                },
+                {
+                    "value": "b",
+                    "text": "Performance-Test"
+                },
+                {
+                    "value": "c",
+                    "text": "Usability-Test"
+                },
+                {
+                    "value": "d",
+                    "text": "Datenbank-Test"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was bedeutet Security by Design?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Sicherheit von Anfang an einplanen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nachträgliche Sicherheitsmaßnahmen"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Design-Aspekte"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Firewall"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q9",
+            "text": "Was ist eine Firewall?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Netzwerksicherheitssystem zur Filterung"
+                },
+                {
+                    "value": "b",
+                    "text": "Antivirus-Software"
+                },
+                {
+                    "value": "c",
+                    "text": "Backup-System"
+                },
+                {
+                    "value": "d",
+                    "text": "Verschlüsselungsmethode"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q10",
+            "text": "Was ist IT-Grundschutz?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "BSI-Methodik zur IT-Absicherung"
+                },
+                {
+                    "value": "b",
+                    "text": "Antivirus-Software"
+                },
+                {
+                    "value": "c",
+                    "text": "Firewall"
+                },
+                {
+                    "value": "d",
+                    "text": "Backup-Verfahren"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

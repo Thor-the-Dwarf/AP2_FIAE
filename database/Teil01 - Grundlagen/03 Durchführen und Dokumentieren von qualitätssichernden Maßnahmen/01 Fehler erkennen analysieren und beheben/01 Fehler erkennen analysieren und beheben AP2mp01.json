@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Fehler erkennen (QS)",
+    "topic": "Debugging, Testverfahren, Versionsmanagement",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "Black Box Test",
+            "right": "Testverfahren ohne Kenntnis der internen Code-Struktur"
+        },
+        {
+            "left": "White Box Test",
+            "right": "Testverfahren mit vollständiger Kenntnis der Code-Struktur"
+        },
+        {
+            "left": "Greybox Test",
+            "right": "Testverfahren mit teilweiser Kenntnis der Code-Struktur"
+        },
+        {
+            "left": "Debugging",
+            "right": "Systematisches Suchen und Beheben von Fehlern"
+        },
+        {
+            "left": "Git",
+            "right": "Verteiltes Versionskontrollsystem für Quellcode"
+        },
+        {
+            "left": "SVN",
+            "right": "Zentrales Versionskontrollsystem (Subversion)"
+        },
+        {
+            "left": "Commit",
+            "right": "Speichern von Änderungen in der Versionskontrolle"
+        },
+        {
+            "left": "Branch",
+            "right": "Abzweigung im Versionskontrollsystem"
+        },
+        {
+            "left": "Merge",
+            "right": "Zusammenführen von Branches"
+        },
+        {
+            "left": "Äquivalenzklasse",
+            "right": "Gruppe von Eingabewerten mit gleichem Verhalten"
+        },
+        {
+            "left": "Regressiontest",
+            "right": "Test zur Sicherstellung, dass alte Funktionen noch funktionieren"
+        },
+        {
+            "left": "Code-Coverage",
+            "right": "Maß für die Testabdeckung des Quellcodes"
+        }
+    ]
+}

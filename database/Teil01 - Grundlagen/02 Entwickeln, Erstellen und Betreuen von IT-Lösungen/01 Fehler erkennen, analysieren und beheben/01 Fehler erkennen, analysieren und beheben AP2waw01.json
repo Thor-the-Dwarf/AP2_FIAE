@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Fehleranalyse",
+    "topic": "Debugging, Testverfahren, Versionsmanagement",
+    "estimated_minutes": 15,
+    "centerWord": "Fehleranalyse",
+    "associations": [
+        {
+            "word": "Debugging",
+            "connections": [
+                "Breakpoint",
+                "Code",
+                "Fehlersuche"
+            ]
+        },
+        {
+            "word": "Breakpoint",
+            "connections": [
+                "Debugging",
+                "Haltepunkt",
+                "Analyse"
+            ]
+        },
+        {
+            "word": "Testing",
+            "connections": [
+                "Black Box",
+                "White Box",
+                "Testebenen"
+            ]
+        },
+        {
+            "word": "Black Box",
+            "connections": [
+                "Testing",
+                "Ohne Code-Kenntnis",
+                "Funktional"
+            ]
+        },
+        {
+            "word": "White Box",
+            "connections": [
+                "Testing",
+                "Mit Code-Kenntnis",
+                "Strukturell"
+            ]
+        },
+        {
+            "word": "Review",
+            "connections": [
+                "Statisch",
+                "Code-Durchsicht",
+                "Qualität"
+            ]
+        },
+        {
+            "word": "Komponententest",
+            "connections": [
+                "Testebenen",
+                "Unit Test",
+                "Einzelne Module"
+            ]
+        },
+        {
+            "word": "Integrationstest",
+            "connections": [
+                "Testebenen",
+                "Zusammenspiel",
+                "Module"
+            ]
+        },
+        {
+            "word": "Systemtest",
+            "connections": [
+                "Testebenen",
+                "Gesamtsystem",
+                "End-to-End"
+            ]
+        },
+        {
+            "word": "Extremwertetest",
+            "connections": [
+                "Testing",
+                "Grenzwerte",
+                "Robustheit"
+            ]
+        },
+        {
+            "word": "Versionsmanagement",
+            "connections": [
+                "Git",
+                "Quellcode",
+                "Versionierung"
+            ]
+        },
+        {
+            "word": "Testdaten",
+            "connections": [
+                "Testing",
+                "Eingaben",
+                "Überprüfung"
+            ]
+        }
+    ]
+}

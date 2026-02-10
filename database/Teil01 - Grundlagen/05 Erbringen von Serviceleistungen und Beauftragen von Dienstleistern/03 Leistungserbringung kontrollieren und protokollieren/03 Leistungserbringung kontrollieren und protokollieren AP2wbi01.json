@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Leistung kontrollieren",
+    "topic": "Monitoring, Reporting, Dokumentation",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "_____ ist die kontinuierliche Überwachung von Systemen.",
+            "correctAnswer": "Monitoring",
+            "hint": "Überwachung"
+        },
+        {
+            "id": "s2",
+            "text": "_____ ist die Berichterstattung über Leistungen.",
+            "correctAnswer": "Reporting",
+            "hint": "Berichte"
+        },
+        {
+            "id": "s3",
+            "text": "_____ ist die schriftliche Aufzeichnung von Prozessen.",
+            "correctAnswer": "Dokumentation",
+            "hint": "Aufzeichnung"
+        },
+        {
+            "id": "s4",
+            "text": "Ein _____ zeigt wichtige Kennzahlen visuell an.",
+            "correctAnswer": "Dashboard",
+            "hint": "Visuelle Übersicht"
+        },
+        {
+            "id": "s5",
+            "text": "_____ benachrichtigt automatisch bei Problemen.",
+            "correctAnswer": "Alerting",
+            "hint": "Benachrichtigung"
+        },
+        {
+            "id": "s6",
+            "text": "_____ wertet Systemprotokolle aus.",
+            "correctAnswer": "Log-Analyse",
+            "hint": "Protokoll-Auswertung"
+        },
+        {
+            "id": "s7",
+            "text": "Ein _____ berichtet über Systemleistung.",
+            "correctAnswer": "Performance-Report",
+            "hint": "Leistungsbericht"
+        },
+        {
+            "id": "s8",
+            "text": "Ein _____ berichtet über Service Level Einhaltung.",
+            "correctAnswer": "SLA-Report",
+            "hint": "SLA-Bericht"
+        },
+        {
+            "id": "s9",
+            "text": "Eine _____ beschreibt Arbeitsabläufe.",
+            "correctAnswer": "Prozessdokumentation",
+            "hint": "Ablaufbeschreibung"
+        },
+        {
+            "id": "s10",
+            "text": "Eine _____ zeichnet Problemlösungen auf.",
+            "correctAnswer": "Lösungsdokumentation",
+            "hint": "Lösungsaufzeichnung"
+        },
+        {
+            "id": "s11",
+            "text": "Eine _____ ist eine messbare Kennzahl.",
+            "correctAnswer": "Metrik",
+            "hint": "Kennzahl"
+        },
+        {
+            "id": "s12",
+            "text": "_____ steht für Key Performance Indicator.",
+            "correctAnswer": "KPI",
+            "hint": "Schlüsselkennzahl"
+        }
+    ]
+}

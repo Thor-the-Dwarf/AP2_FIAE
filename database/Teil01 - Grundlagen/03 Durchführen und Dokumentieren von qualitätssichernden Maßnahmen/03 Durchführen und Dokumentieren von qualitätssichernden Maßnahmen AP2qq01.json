@@ -1,1 +1,239 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Qualitätssicherung",
+    "topic": "QM-Prozesse, IT-Sicherheit, PDCA, KVP",
+    "estimated_minutes": 10,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was bedeutet PDCA?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Plan-Do-Check-Act"
+                },
+                {
+                    "value": "b",
+                    "text": "Process-Data-Control-Analyze"
+                },
+                {
+                    "value": "c",
+                    "text": "Plan-Design-Create-Approve"
+                },
+                {
+                    "value": "d",
+                    "text": "Product-Development-Cycle-Analysis"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist KVP?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Kontinuierlicher Verbesserungsprozess"
+                },
+                {
+                    "value": "b",
+                    "text": "Kontrolle von Prozessen"
+                },
+                {
+                    "value": "c",
+                    "text": "Kundenvertrags-Prüfung"
+                },
+                {
+                    "value": "d",
+                    "text": "Kosten-Vergleichs-Prozess"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Welche Schutzziele gibt es in der IT-Sicherheit (CIA-Triade)?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Vertraulichkeit, Integrität, Verfügbarkeit"
+                },
+                {
+                    "value": "b",
+                    "text": "Schnelligkeit, Effizienz, Qualität"
+                },
+                {
+                    "value": "c",
+                    "text": "Kosten, Zeit, Ressourcen"
+                },
+                {
+                    "value": "d",
+                    "text": "Planung, Durchführung, Kontrolle"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist ein Audit?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Systematische Überprüfung von Prozessen"
+                },
+                {
+                    "value": "b",
+                    "text": "Software-Test"
+                },
+                {
+                    "value": "c",
+                    "text": "Datenbank-Abfrage"
+                },
+                {
+                    "value": "d",
+                    "text": "Backup-Verfahren"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist ein Soll-Ist-Vergleich?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Gegenüberstellung von Zielvorgaben und tatsächlichen Ergebnissen"
+                },
+                {
+                    "value": "b",
+                    "text": "Vergleich zweier Software-Versionen"
+                },
+                {
+                    "value": "c",
+                    "text": "Datenbank-Abgleich"
+                },
+                {
+                    "value": "d",
+                    "text": "Test-Verfahren"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was bedeutet Vertraulichkeit?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Schutz vor unbefugtem Zugriff"
+                },
+                {
+                    "value": "b",
+                    "text": "Schutz vor Veränderung"
+                },
+                {
+                    "value": "c",
+                    "text": "Verfügbarkeit sicherstellen"
+                },
+                {
+                    "value": "d",
+                    "text": "Backup erstellen"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was bedeutet Integrität?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Schutz vor unbefugter Veränderung"
+                },
+                {
+                    "value": "b",
+                    "text": "Schutz vor unbefugtem Zugriff"
+                },
+                {
+                    "value": "c",
+                    "text": "Verfügbarkeit sicherstellen"
+                },
+                {
+                    "value": "d",
+                    "text": "Backup erstellen"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist ein Testprotokoll?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Dokumentation von Testergebnissen"
+                },
+                {
+                    "value": "b",
+                    "text": "Test-Software"
+                },
+                {
+                    "value": "c",
+                    "text": "Testdaten"
+                },
+                {
+                    "value": "d",
+                    "text": "Testverfahren"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q9",
+            "text": "Was ist ein Abnahmeprotokoll?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Dokumentation der Abnahme und Freigabe"
+                },
+                {
+                    "value": "b",
+                    "text": "Test-Dokumentation"
+                },
+                {
+                    "value": "c",
+                    "text": "Fehler-Dokumentation"
+                },
+                {
+                    "value": "d",
+                    "text": "Backup-Protokoll"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q10",
+            "text": "Was ist die erste Phase im PDCA-Zyklus?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Plan (Planen)"
+                },
+                {
+                    "value": "b",
+                    "text": "Do (Umsetzen)"
+                },
+                {
+                    "value": "c",
+                    "text": "Check (Überprüfen)"
+                },
+                {
+                    "value": "d",
+                    "text": "Act (Handeln)"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

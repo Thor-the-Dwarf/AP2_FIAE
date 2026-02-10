@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Datenbanken",
+    "topic": "ER-Modell, SQL, Normalisierung",
+    "estimated_minutes": 15,
+    "centerWord": "Datenbank",
+    "associations": [
+        {
+            "word": "ER-Modell",
+            "connections": [
+                "Entitäten",
+                "Beziehungen",
+                "Attribute"
+            ]
+        },
+        {
+            "word": "Entität",
+            "connections": [
+                "ER-Modell",
+                "Objekt",
+                "Tabelle"
+            ]
+        },
+        {
+            "word": "Primärschlüssel",
+            "connections": [
+                "Eindeutig",
+                "Identifikator",
+                "Key"
+            ]
+        },
+        {
+            "word": "Fremdschlüssel",
+            "connections": [
+                "Verweis",
+                "Beziehung",
+                "Referenz"
+            ]
+        },
+        {
+            "word": "Kardinalität",
+            "connections": [
+                "1:1",
+                "1:n",
+                "n:m"
+            ]
+        },
+        {
+            "word": "Normalisierung",
+            "connections": [
+                "1. NF",
+                "2. NF",
+                "3. NF"
+            ]
+        },
+        {
+            "word": "1. NF",
+            "connections": [
+                "Normalisierung",
+                "Atomar",
+                "Grundlage"
+            ]
+        },
+        {
+            "word": "SQL",
+            "connections": [
+                "SELECT",
+                "JOIN",
+                "WHERE"
+            ]
+        },
+        {
+            "word": "SELECT",
+            "connections": [
+                "SQL",
+                "Abfrage",
+                "Daten abrufen"
+            ]
+        },
+        {
+            "word": "JOIN",
+            "connections": [
+                "SQL",
+                "Tabellen verbinden",
+                "Inner/Left/Right"
+            ]
+        },
+        {
+            "word": "NoSQL",
+            "connections": [
+                "Nicht-relational",
+                "MongoDB",
+                "Flexibel"
+            ]
+        },
+        {
+            "word": "Aggregat-Funktionen",
+            "connections": [
+                "SQL",
+                "SUM",
+                "COUNT"
+            ]
+        }
+    ]
+}

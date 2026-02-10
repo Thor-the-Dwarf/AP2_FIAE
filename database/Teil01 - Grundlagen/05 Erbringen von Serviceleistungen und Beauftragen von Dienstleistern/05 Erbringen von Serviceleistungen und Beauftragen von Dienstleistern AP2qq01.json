@@ -1,1 +1,239 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Serviceleistungen",
+    "topic": "Service Management, SLA, Incident Management",
+    "estimated_minutes": 10,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist Incident Management?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Verwaltung und Behebung von Störungen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Ticketsystem"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Monitoring"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Reporting"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist ein SLA?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Service Level Agreement"
+                },
+                {
+                    "value": "b",
+                    "text": "Software License Agreement"
+                },
+                {
+                    "value": "c",
+                    "text": "System Log Analysis"
+                },
+                {
+                    "value": "d",
+                    "text": "Security Level Assessment"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was sind SOPs?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Standard Operation Procedures"
+                },
+                {
+                    "value": "b",
+                    "text": "System Optimization Programs"
+                },
+                {
+                    "value": "c",
+                    "text": "Service Output Protocols"
+                },
+                {
+                    "value": "d",
+                    "text": "Security Operation Plans"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist ein Ticketsystem?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "System zur Verwaltung von Anfragen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur E-Mail-System"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Monitoring"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Backup"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was sind Eskalationsstufen?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Hierarchische Stufen zur Weiterleitung"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Prioritäten"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Kategorien"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Status"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist Reaktionszeit?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Zeit bis zur ersten Reaktion"
+                },
+                {
+                    "value": "b",
+                    "text": "Zeit bis zur Lösung"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Bearbeitungszeit"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Wartezeit"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist Troubleshooting?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Systematische Fehlersuche"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Monitoring"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Reporting"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Dokumentation"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist Monitoring?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Kontinuierliche Überwachung"
+                },
+                {
+                    "value": "b",
+                    "text": "Einmalige Prüfung"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Backup"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Reporting"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q9",
+            "text": "Was ist Reporting?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Berichterstattung über Serviceleistungen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Monitoring"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Dokumentation"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Ticketsystem"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q10",
+            "text": "Was ist Verfügbarkeit?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Prozentsatz der Zeit, in der Service verfügbar ist"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Reaktionszeit"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Lösungszeit"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Bearbeitungszeit"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

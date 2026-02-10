@@ -1,1 +1,224 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Bedrohungsszenarien",
+    "topic": "Bedrohungsanalyse, Risikoanalyse, Schadenspotenziale",
+    "estimated_minutes": 20,
+    "sections": [
+        {
+            "id": "threat-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Schadenspotenziale zuordnen",
+            "subtitle": "Ordne die Schäden den passenden Kategorien zu.",
+            "hintDefault": "Tipp: Imageschaden = Ruf, Wirtschaftlich = Geld, Datenverlust = Information.",
+            "sortColumns": [
+                {
+                    "zone": "image",
+                    "label": "Imageschaden",
+                    "hint": "(Reputation, Vertrauen)"
+                },
+                {
+                    "zone": "wirtschaft",
+                    "label": "Wirtschaftlicher Schaden",
+                    "hint": "(Geld, Umsatz)"
+                },
+                {
+                    "zone": "daten",
+                    "label": "Datenverlust",
+                    "hint": "(Information, Verfügbarkeit)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Vertrauensverlust bei Kunden",
+                    "correctZone": "image"
+                },
+                {
+                    "id": "s2",
+                    "text": "Negative Presse",
+                    "correctZone": "image"
+                },
+                {
+                    "id": "s3",
+                    "text": "Reputationsschaden",
+                    "correctZone": "image"
+                },
+                {
+                    "id": "s4",
+                    "text": "Umsatzeinbußen",
+                    "correctZone": "wirtschaft"
+                },
+                {
+                    "id": "s5",
+                    "text": "Produktionsausfall",
+                    "correctZone": "wirtschaft"
+                },
+                {
+                    "id": "s6",
+                    "text": "Lösegeld-Zahlung",
+                    "correctZone": "wirtschaft"
+                },
+                {
+                    "id": "s7",
+                    "text": "Verlust von Kundendaten",
+                    "correctZone": "daten"
+                },
+                {
+                    "id": "s8",
+                    "text": "Zerstörung von Backups",
+                    "correctZone": "daten"
+                },
+                {
+                    "id": "s9",
+                    "text": "Verschlüsselung durch Ransomware",
+                    "correctZone": "daten"
+                }
+            ]
+        },
+        {
+            "id": "threat-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Bedrohungen",
+            "subtitle": "Teste dein Wissen zu Bedrohungsszenarien.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist eine Bedrohungsanalyse?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Identifikation potenzieller Gefahren"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Backup-Verfahren"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Firewall-Konfiguration"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist eine Risikoanalyse?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Bewertung von Eintrittswahrscheinlichkeit und Schadenshöhe"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Bedrohungen identifizieren"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Maßnahmen umsetzen"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist ein Schadenspotenzial?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Mögliches Ausmaß eines Schadens"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur finanzielle Kosten"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Imageschaden"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "threat-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Risikoanalyse – Schritte",
+            "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Bedrohungen → Bewerten → Maßnahmen.",
+            "rows": [
+                {
+                    "key": "identifizieren",
+                    "label": "Bedrohungen identifizieren",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                },
+                {
+                    "key": "bewerten",
+                    "label": "Risiken bewerten (Wahrscheinlichkeit × Schaden)",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                },
+                {
+                    "key": "massnahmen",
+                    "label": "Gegenmaßnahmen ableiten",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

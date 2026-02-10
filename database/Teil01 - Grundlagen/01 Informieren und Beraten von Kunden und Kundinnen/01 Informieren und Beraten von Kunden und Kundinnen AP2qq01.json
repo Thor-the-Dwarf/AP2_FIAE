@@ -1,1 +1,239 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Informieren und Beraten von Kunden",
+    "topic": "Kommunikation, Recht & Compliance, Präsentationstechnik",
+    "estimated_minutes": 10,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was bedeutet 'aktives Zuhören'?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Dem Gesprächspartner aufmerksam folgen und Verständnis signalisieren"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur schweigen und nicken"
+                },
+                {
+                    "value": "c",
+                    "text": "Sofort Lösungen präsentieren"
+                },
+                {
+                    "value": "d",
+                    "text": "Den Gesprächspartner unterbrechen"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Welches Gesetz schützt vor unlauterem Wettbewerb?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "BGB"
+                },
+                {
+                    "value": "b",
+                    "text": "UWG (Gesetz gegen unlauteren Wettbewerb)"
+                },
+                {
+                    "value": "c",
+                    "text": "DSGVO"
+                },
+                {
+                    "value": "d",
+                    "text": "HGB"
+                }
+            ],
+            "correct": "b"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist Corporate Identity (CI)?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Ein Softwareprogramm"
+                },
+                {
+                    "value": "b",
+                    "text": "Einheitliches Erscheinungsbild eines Unternehmens"
+                },
+                {
+                    "value": "c",
+                    "text": "Ein Gesetz"
+                },
+                {
+                    "value": "d",
+                    "text": "Eine Diagrammart"
+                }
+            ],
+            "correct": "b"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist CRM (Customer Relationship Management)?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Verwaltung und Pflege von Kundenbeziehungen"
+                },
+                {
+                    "value": "b",
+                    "text": "Ein Diagrammtyp"
+                },
+                {
+                    "value": "c",
+                    "text": "Eine Präsentationstechnik"
+                },
+                {
+                    "value": "d",
+                    "text": "Ein Gesetz"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist der erste Schritt in einem Verkaufsgespräch?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Auftrag bestätigen"
+                },
+                {
+                    "value": "b",
+                    "text": "Kundenanfrage entgegennehmen"
+                },
+                {
+                    "value": "c",
+                    "text": "Angebot erstellen"
+                },
+                {
+                    "value": "d",
+                    "text": "Rechnung schreiben"
+                }
+            ],
+            "correct": "b"
+        },
+        {
+            "id": "q6",
+            "text": "Was bedeutet Compliance?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Regelkonformität – Einhaltung von Gesetzen und Vorgaben"
+                },
+                {
+                    "value": "b",
+                    "text": "Kundenberatung"
+                },
+                {
+                    "value": "c",
+                    "text": "Verkaufsstrategie"
+                },
+                {
+                    "value": "d",
+                    "text": "Präsentationstechnik"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Welches Kommunikationsmodell eignet sich für synchrone virtuelle Besprechungen?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "E-Mail"
+                },
+                {
+                    "value": "b",
+                    "text": "Telefonkonferenz oder Chat"
+                },
+                {
+                    "value": "c",
+                    "text": "Brief"
+                },
+                {
+                    "value": "d",
+                    "text": "Fax"
+                }
+            ],
+            "correct": "b"
+        },
+        {
+            "id": "q8",
+            "text": "Was sind AGB?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Allgemeine Geschäftsbedingungen"
+                },
+                {
+                    "value": "b",
+                    "text": "Automatische Geschäftsberichte"
+                },
+                {
+                    "value": "c",
+                    "text": "Angebotene Garantie-Bedingungen"
+                },
+                {
+                    "value": "d",
+                    "text": "Allgemeine Gesetze für Betriebe"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q9",
+            "text": "Welches Tool wird zur Berechnung und Aufbereitung von Daten verwendet?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Textverarbeitung"
+                },
+                {
+                    "value": "b",
+                    "text": "Tabellenkalkulation (z.B. Excel)"
+                },
+                {
+                    "value": "c",
+                    "text": "Bildbearbeitung"
+                },
+                {
+                    "value": "d",
+                    "text": "Videoschnitt"
+                }
+            ],
+            "correct": "b"
+        },
+        {
+            "id": "q10",
+            "text": "Was gehört zu multimedialen Inhalten?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Nur Text"
+                },
+                {
+                    "value": "b",
+                    "text": "Kombination aus Text, Bild, Video und Audio"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Bilder"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Videos"
+                }
+            ],
+            "correct": "b"
+        }
+    ]
+}

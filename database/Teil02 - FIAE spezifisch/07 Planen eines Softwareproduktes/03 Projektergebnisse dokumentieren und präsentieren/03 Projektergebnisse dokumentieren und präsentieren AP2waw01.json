@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Projektergebnisse",
+    "topic": "Dokumentation, Präsentation",
+    "estimated_minutes": 12,
+    "centerWord": "Projektergebnisse",
+    "associations": [
+        {
+            "word": "Projektdokumentation",
+            "connections": [
+                "Verlauf",
+                "Management",
+                "Planung"
+            ]
+        },
+        {
+            "word": "Technische Dokumentation",
+            "connections": [
+                "Entwickler",
+                "Code",
+                "Architektur"
+            ]
+        },
+        {
+            "word": "Nutzerdokumentation",
+            "connections": [
+                "Endnutzer",
+                "Handbuch",
+                "Anleitung"
+            ]
+        },
+        {
+            "word": "API-Dokumentation",
+            "connections": [
+                "Schnittstellen",
+                "Entwickler",
+                "Integration"
+            ]
+        },
+        {
+            "word": "Benutzerhandbuch",
+            "connections": [
+                "Anleitung",
+                "Nutzer",
+                "Hilfe"
+            ]
+        },
+        {
+            "word": "FAQ",
+            "connections": [
+                "Fragen",
+                "Antworten",
+                "Hilfe"
+            ]
+        },
+        {
+            "word": "Projektplan",
+            "connections": [
+                "Planung",
+                "Zeitplan",
+                "Ressourcen"
+            ]
+        },
+        {
+            "word": "Statusbericht",
+            "connections": [
+                "Aktuell",
+                "Fortschritt",
+                "Information"
+            ]
+        },
+        {
+            "word": "Präsentation",
+            "connections": [
+                "Darstellung",
+                "Ergebnisse",
+                "Kommunikation"
+            ]
+        },
+        {
+            "word": "Visualisierung",
+            "connections": [
+                "Grafisch",
+                "Diagramme",
+                "Verständlich"
+            ]
+        },
+        {
+            "word": "Storytelling",
+            "connections": [
+                "Narrativ",
+                "Geschichte",
+                "Engagement"
+            ]
+        },
+        {
+            "word": "Elevator Pitch",
+            "connections": [
+                "Kurz",
+                "Prägnant",
+                "Überzeugend"
+            ]
+        }
+    ]
+}

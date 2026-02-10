@@ -1,1 +1,344 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Daten und Sachverhalte interpretieren",
+    "topic": "Datenanalyse, Kennzahlen, Diagramme, Statistiken, Interpretation",
+    "estimated_minutes": 25,
+    "sections": [
+        {
+            "id": "daten-sort-grundlagen",
+            "type": "sort",
+            "title": "Rätsel 1: Datentypen und Darstellungsformen zuordnen",
+            "subtitle": "Ordne die Begriffe den passenden Kategorien zu.",
+            "hintDefault": "Tipp: Kennzahlen = Metriken, Diagramme = Visualisierungen, Methoden = Analysetechniken.",
+            "sortColumns": [
+                {
+                    "zone": "kennzahlen",
+                    "label": "Kennzahlen & Metriken",
+                    "hint": "(KPIs, Werte, Verhältnisse)"
+                },
+                {
+                    "zone": "diagramme",
+                    "label": "Diagrammtypen",
+                    "hint": "(Visualisierungen, Grafiken)"
+                },
+                {
+                    "zone": "methoden",
+                    "label": "Analysemethoden",
+                    "hint": "(Techniken, Verfahren)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "ROI (Return on Investment)",
+                    "correctZone": "kennzahlen"
+                },
+                {
+                    "id": "s2",
+                    "text": "Umsatzrendite",
+                    "correctZone": "kennzahlen"
+                },
+                {
+                    "id": "s3",
+                    "text": "Marktanteil",
+                    "correctZone": "kennzahlen"
+                },
+                {
+                    "id": "s4",
+                    "text": "Conversion Rate",
+                    "correctZone": "kennzahlen"
+                },
+                {
+                    "id": "s5",
+                    "text": "Balkendiagramm",
+                    "correctZone": "diagramme"
+                },
+                {
+                    "id": "s6",
+                    "text": "Kreisdiagramm",
+                    "correctZone": "diagramme"
+                },
+                {
+                    "id": "s7",
+                    "text": "Liniendiagramm",
+                    "correctZone": "diagramme"
+                },
+                {
+                    "id": "s8",
+                    "text": "Säulendiagramm",
+                    "correctZone": "diagramme"
+                },
+                {
+                    "id": "s9",
+                    "text": "Trendanalyse",
+                    "correctZone": "methoden"
+                },
+                {
+                    "id": "s10",
+                    "text": "ABC-Analyse",
+                    "correctZone": "methoden"
+                },
+                {
+                    "id": "s11",
+                    "text": "SWOT-Analyse",
+                    "correctZone": "methoden"
+                },
+                {
+                    "id": "s12",
+                    "text": "Benchmarking",
+                    "correctZone": "methoden"
+                }
+            ]
+        },
+        {
+            "id": "daten-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Dateninterpretation",
+            "subtitle": "Teste dein Wissen zu Datenanalyse und Interpretation.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was zeigt ein Liniendiagramm am besten?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Entwicklungen und Trends über einen Zeitraum"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Anteile an einem Ganzen"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Vergleich von Kategorien"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was bedeutet ROI (Return on Investment)?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Gesamtumsatz eines Unternehmens"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Verhältnis von Gewinn zu eingesetztem Kapital"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Anzahl der Kunden"
+                        }
+                    ],
+                    "correct": "b"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Welches Diagramm eignet sich am besten zur Darstellung von Anteilen?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Liniendiagramm"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Kreisdiagramm"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Streudiagramm"
+                        }
+                    ],
+                    "correct": "b"
+                },
+                {
+                    "id": "q4",
+                    "text": "4. Was ist das Ziel einer ABC-Analyse?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Produkte nach ihrer Bedeutung zu klassifizieren"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Mitarbeiter zu bewerten"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Marketingkampagnen zu planen"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "daten-reihenfolge-analyse",
+            "type": "capital",
+            "title": "Rätsel 3: Datenanalyseprozess – richtige Reihenfolge",
+            "subtitle": "Bringe die Schritte einer Datenanalyse in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Erst Daten sammeln, dann aufbereiten, dann analysieren, dann interpretieren, dann präsentieren.",
+            "rows": [
+                {
+                    "key": "sammeln",
+                    "label": "Daten sammeln und erfassen",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        },
+                        {
+                            "value": "5",
+                            "text": "5"
+                        }
+                    ]
+                },
+                {
+                    "key": "aufbereiten",
+                    "label": "Daten aufbereiten und bereinigen",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        },
+                        {
+                            "value": "5",
+                            "text": "5"
+                        }
+                    ]
+                },
+                {
+                    "key": "analysieren",
+                    "label": "Daten analysieren (Kennzahlen berechnen, Muster erkennen)",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        },
+                        {
+                            "value": "5",
+                            "text": "5"
+                        }
+                    ]
+                },
+                {
+                    "key": "interpretieren",
+                    "label": "Ergebnisse interpretieren und Schlussfolgerungen ziehen",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        },
+                        {
+                            "value": "5",
+                            "text": "5"
+                        }
+                    ]
+                },
+                {
+                    "key": "praesentieren",
+                    "label": "Ergebnisse visualisieren und präsentieren",
+                    "correct": "5",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        },
+                        {
+                            "value": "5",
+                            "text": "5"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

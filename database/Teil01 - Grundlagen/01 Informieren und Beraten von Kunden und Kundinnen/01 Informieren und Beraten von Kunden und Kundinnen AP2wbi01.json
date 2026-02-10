@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Informieren und Beraten von Kunden",
+    "topic": "Kommunikation, Recht & Compliance, Präsentationstechnik",
+    "estimated_minutes": 12,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "_____ bedeutet, dem Gesprächspartner aufmerksam zu folgen und Verständnis zu signalisieren.",
+            "correctAnswer": "Aktives Zuhören",
+            "hint": "Kommunikationstechnik zur Verständnissicherung"
+        },
+        {
+            "id": "s2",
+            "text": "Eine _____ ist ein synchrones Kommunikationsmodell für virtuelle Besprechungen.",
+            "correctAnswer": "Telefonkonferenz",
+            "hint": "Virtuelles Meeting per Telefon"
+        },
+        {
+            "id": "s3",
+            "text": "Ein Verkaufsgespräch folgt dem Ablauf: Anfrage → Bedürfnisanalyse → _____ → Auftrag.",
+            "correctAnswer": "Angebot",
+            "hint": "Schritt zwischen Analyse und Auftrag"
+        },
+        {
+            "id": "s4",
+            "text": "Das _____ schützt vor unlauteren Geschäftspraktiken im Wettbewerb.",
+            "correctAnswer": "UWG",
+            "hint": "Abkürzung: Gesetz gegen unlauteren Wettbewerb"
+        },
+        {
+            "id": "s5",
+            "text": "_____ sind vorformulierte Vertragsbedingungen eines Unternehmens.",
+            "correctAnswer": "AGB",
+            "hint": "Abkürzung: Allgemeine Geschäftsbedingungen"
+        },
+        {
+            "id": "s6",
+            "text": "_____ bedeutet die Einhaltung gesetzlicher und betrieblicher Vorgaben (Regelkonformität).",
+            "correctAnswer": "Compliance",
+            "hint": "Englischer Begriff für Regelkonformität"
+        },
+        {
+            "id": "s7",
+            "text": "CRM steht für Customer _____ Management und bezeichnet die systematische Verwaltung von Kundenbeziehungen.",
+            "correctAnswer": "Relationship",
+            "hint": "Englisches Wort für Beziehung"
+        },
+        {
+            "id": "s8",
+            "text": "_____ ist das einheitliche Erscheinungsbild eines Unternehmens (Logo, Farben, Schriften).",
+            "correctAnswer": "Corporate Identity",
+            "hint": "CI – Unternehmensidentität"
+        },
+        {
+            "id": "s9",
+            "text": "_____ sind grafische Darstellungen zur Visualisierung von Daten (z.B. Balken, Kreis, Linien).",
+            "correctAnswer": "Diagramme",
+            "hint": "Grafische Darstellungsformen"
+        },
+        {
+            "id": "s10",
+            "text": "Eine _____ ist eine Software zur Berechnung und Aufbereitung von Daten.",
+            "correctAnswer": "Tabellenkalkulation",
+            "hint": "Software wie Excel"
+        },
+        {
+            "id": "s11",
+            "text": "_____ Inhalte kombinieren Text, Bild, Video und Audio.",
+            "correctAnswer": "Multimediale",
+            "hint": "Mehrere Medienformen kombiniert"
+        },
+        {
+            "id": "s12",
+            "text": "BGB und _____ sind die rechtlichen Grundlagen für Verträge im Handelsrecht.",
+            "correctAnswer": "HGB",
+            "hint": "Abkürzung: Handelsgesetzbuch"
+        }
+    ]
+}

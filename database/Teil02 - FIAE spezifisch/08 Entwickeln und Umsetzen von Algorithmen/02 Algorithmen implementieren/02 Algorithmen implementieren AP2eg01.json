@@ -1,1 +1,248 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Algorithmen implementieren",
+    "topic": "Programmiersprachen, Datenstrukturen, Komplexität",
+    "estimated_minutes": 18,
+    "sections": [
+        {
+            "id": "impl-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Datenstrukturen zuordnen",
+            "subtitle": "Ordne die Eigenschaften den passenden Datenstrukturen zu.",
+            "hintDefault": "Tipp: Array = Index, Liste = Verkettet, Stack = LIFO.",
+            "sortColumns": [
+                {
+                    "zone": "array",
+                    "label": "Array",
+                    "hint": "(Indexbasiert)"
+                },
+                {
+                    "zone": "liste",
+                    "label": "Liste",
+                    "hint": "(Verkettet)"
+                },
+                {
+                    "zone": "stack",
+                    "label": "Stack/Queue",
+                    "hint": "(LIFO/FIFO)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Feste Größe",
+                    "correctZone": "array"
+                },
+                {
+                    "id": "s2",
+                    "text": "Schneller Zugriff",
+                    "correctZone": "array"
+                },
+                {
+                    "id": "s3",
+                    "text": "Dynamische Größe",
+                    "correctZone": "liste"
+                },
+                {
+                    "id": "s4",
+                    "text": "Verkettung",
+                    "correctZone": "liste"
+                },
+                {
+                    "id": "s5",
+                    "text": "LIFO-Prinzip",
+                    "correctZone": "stack"
+                },
+                {
+                    "id": "s6",
+                    "text": "Push/Pop",
+                    "correctZone": "stack"
+                }
+            ]
+        },
+        {
+            "id": "impl-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Implementierung",
+            "subtitle": "Teste dein Wissen zur Implementierung.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist ein Array?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Indexbasierte Datenstruktur"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Liste"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Stack"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist ein Stack?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "LIFO-Datenstruktur"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur FIFO"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Array"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist eine Queue?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "FIFO-Datenstruktur"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur LIFO"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Array"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "impl-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Implementierungsschritte",
+            "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Planung → Implementierung → Test → Optimierung.",
+            "rows": [
+                {
+                    "key": "planung",
+                    "label": "Algorithmus planen",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "implementierung",
+                    "label": "Code schreiben",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "test",
+                    "label": "Testen",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "optimierung",
+                    "label": "Optimieren",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

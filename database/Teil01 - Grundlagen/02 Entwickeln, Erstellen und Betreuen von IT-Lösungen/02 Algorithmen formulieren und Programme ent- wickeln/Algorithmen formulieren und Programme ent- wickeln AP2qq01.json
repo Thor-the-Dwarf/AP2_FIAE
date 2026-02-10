@@ -1,1 +1,239 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Algorithmen",
+    "topic": "UML, Aktivitätsdiagramme, Software-Ergonomie",
+    "estimated_minutes": 10,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Wofür steht UML?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Unified Modeling Language"
+                },
+                {
+                    "value": "b",
+                    "text": "Universal Machine Language"
+                },
+                {
+                    "value": "c",
+                    "text": "User Management Logic"
+                },
+                {
+                    "value": "d",
+                    "text": "Unique Model Library"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was zeigt ein Use Case Diagramm?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Anwendungsfälle und Akteure"
+                },
+                {
+                    "value": "b",
+                    "text": "Klassen und Methoden"
+                },
+                {
+                    "value": "c",
+                    "text": "Programmablauf"
+                },
+                {
+                    "value": "d",
+                    "text": "Datenbank-Struktur"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was zeigt ein Klassendiagramm?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Klassen, Attribute und Methoden"
+                },
+                {
+                    "value": "b",
+                    "text": "Anwendungsfälle"
+                },
+                {
+                    "value": "c",
+                    "text": "Programmablauf"
+                },
+                {
+                    "value": "d",
+                    "text": "Testfälle"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was zeigt ein Aktivitätsdiagramm?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Programmablauf und Kontrollstrukturen"
+                },
+                {
+                    "value": "b",
+                    "text": "Klassen"
+                },
+                {
+                    "value": "c",
+                    "text": "Anwendungsfälle"
+                },
+                {
+                    "value": "d",
+                    "text": "Datenbank"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist Pseudocode?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Algorithmus in vereinfachter Form"
+                },
+                {
+                    "value": "b",
+                    "text": "Echter Programmcode"
+                },
+                {
+                    "value": "c",
+                    "text": "UML-Diagramm"
+                },
+                {
+                    "value": "d",
+                    "text": "Testdaten"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist Software-Ergonomie?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Benutzerfreundliche Gestaltung"
+                },
+                {
+                    "value": "b",
+                    "text": "Code-Optimierung"
+                },
+                {
+                    "value": "c",
+                    "text": "Datenbank-Design"
+                },
+                {
+                    "value": "d",
+                    "text": "Testing"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was bedeutet Barrierefreiheit?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Zugänglichkeit für Menschen mit Behinderungen"
+                },
+                {
+                    "value": "b",
+                    "text": "Schnelle Software"
+                },
+                {
+                    "value": "c",
+                    "text": "Sichere Software"
+                },
+                {
+                    "value": "d",
+                    "text": "Kostenlose Software"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist ein Akteur im Use Case Diagramm?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Person oder System, das mit der Software interagiert"
+                },
+                {
+                    "value": "b",
+                    "text": "Eine Klasse"
+                },
+                {
+                    "value": "c",
+                    "text": "Eine Methode"
+                },
+                {
+                    "value": "d",
+                    "text": "Ein Attribut"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q9",
+            "text": "Was ist Vererbung?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Übertragung von Eigenschaften einer Klasse auf eine andere"
+                },
+                {
+                    "value": "b",
+                    "text": "Datenübertragung"
+                },
+                {
+                    "value": "c",
+                    "text": "Code-Kopie"
+                },
+                {
+                    "value": "d",
+                    "text": "Testing"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q10",
+            "text": "Was sind Kontrollstrukturen?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Verzweigungen und Schleifen (if, while, for)"
+                },
+                {
+                    "value": "b",
+                    "text": "Klassen"
+                },
+                {
+                    "value": "c",
+                    "text": "Datentypen"
+                },
+                {
+                    "value": "d",
+                    "text": "Testverfahren"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

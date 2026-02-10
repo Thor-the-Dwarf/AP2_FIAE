@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – IT-Betrieb",
+    "topic": "Wartung, Support, Betrieb",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "Wartung",
+            "right": "Regelmäßige Pflege und Aktualisierung von IT-Systemen"
+        },
+        {
+            "left": "Support",
+            "right": "Hilfestellung für Benutzer bei Problemen und Fragen"
+        },
+        {
+            "left": "Helpdesk",
+            "right": "Zentrale Anlaufstelle für Support-Anfragen"
+        },
+        {
+            "left": "Ticket-System",
+            "right": "System zur Verwaltung und Nachverfolgung von Support-Anfragen"
+        },
+        {
+            "left": "Monitoring",
+            "right": "Überwachung der Systemleistung und Verfügbarkeit"
+        },
+        {
+            "left": "Backup",
+            "right": "Sicherungskopie von Daten zur Wiederherstellung"
+        },
+        {
+            "left": "Patch",
+            "right": "Sicherheits- oder Fehlerkorrektur für Software"
+        },
+        {
+            "left": "Update",
+            "right": "Aktualisierung von Software auf neuere Version"
+        },
+        {
+            "left": "Incident",
+            "right": "Störung oder Problem im IT-Betrieb"
+        },
+        {
+            "left": "SLA",
+            "right": "Service Level Agreement – Vereinbarung über Servicequalität"
+        },
+        {
+            "left": "Verfügbarkeit",
+            "right": "Zeitanteil, in dem ein System betriebsbereit ist"
+        },
+        {
+            "left": "Dokumentation",
+            "right": "Aufzeichnung von Lösungen und Prozessen"
+        }
+    ]
+}

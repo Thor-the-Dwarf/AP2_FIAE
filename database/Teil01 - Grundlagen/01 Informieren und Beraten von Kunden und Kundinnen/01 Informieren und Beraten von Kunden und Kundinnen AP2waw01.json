@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Informieren und Beraten von Kunden",
+    "topic": "Kommunikation, Recht & Compliance, Präsentationstechnik",
+    "estimated_minutes": 15,
+    "centerWord": "Kundenberatung",
+    "associations": [
+        {
+            "word": "Kommunikation",
+            "connections": [
+                "Aktives Zuhören",
+                "Telefonkonferenz",
+                "Verkaufsgespräch"
+            ]
+        },
+        {
+            "word": "Aktives Zuhören",
+            "connections": [
+                "Kommunikation",
+                "Verständnis",
+                "Rückfragen"
+            ]
+        },
+        {
+            "word": "Telefonkonferenz",
+            "connections": [
+                "Kommunikation",
+                "Virtuell",
+                "Synchron"
+            ]
+        },
+        {
+            "word": "Verkaufsgespräch",
+            "connections": [
+                "Kommunikation",
+                "Anfrage",
+                "Angebot"
+            ]
+        },
+        {
+            "word": "Recht & Compliance",
+            "connections": [
+                "BGB/HGB",
+                "UWG",
+                "AGB"
+            ]
+        },
+        {
+            "word": "BGB/HGB",
+            "connections": [
+                "Recht & Compliance",
+                "Vertragsrecht",
+                "Handelsrecht"
+            ]
+        },
+        {
+            "word": "UWG",
+            "connections": [
+                "Recht & Compliance",
+                "Wettbewerb",
+                "Unlautere Praktiken"
+            ]
+        },
+        {
+            "word": "AGB",
+            "connections": [
+                "Recht & Compliance",
+                "Vertragsbedingungen",
+                "Geschäftsbedingungen"
+            ]
+        },
+        {
+            "word": "CRM",
+            "connections": [
+                "Kundenbeziehungen",
+                "Management",
+                "Pflege"
+            ]
+        },
+        {
+            "word": "Präsentation",
+            "connections": [
+                "Visualisierung",
+                "Diagramme",
+                "Corporate Identity"
+            ]
+        },
+        {
+            "word": "Visualisierung",
+            "connections": [
+                "Präsentation",
+                "Grafisch",
+                "Multimedial"
+            ]
+        },
+        {
+            "word": "Corporate Identity",
+            "connections": [
+                "Präsentation",
+                "Erscheinungsbild",
+                "Einheitlich"
+            ]
+        }
+    ]
+}

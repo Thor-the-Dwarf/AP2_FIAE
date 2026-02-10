@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – IT-Sicherheit",
+    "topic": "Bedrohungen, TOM, DSGVO, Sicherheitsmaßnahmen",
+    "estimated_minutes": 15,
+    "centerWord": "IT-Sicherheit",
+    "associations": [
+        {
+            "word": "Bedrohungen",
+            "connections": [
+                "Ransomware",
+                "Phishing",
+                "Datendiebstahl"
+            ]
+        },
+        {
+            "word": "Ransomware",
+            "connections": [
+                "Bedrohungen",
+                "Verschlüsselung",
+                "Lösegeld"
+            ]
+        },
+        {
+            "word": "Phishing",
+            "connections": [
+                "Bedrohungen",
+                "Täuschung",
+                "E-Mail"
+            ]
+        },
+        {
+            "word": "TOM",
+            "connections": [
+                "Zutritt",
+                "Zugang",
+                "Zugriff"
+            ]
+        },
+        {
+            "word": "Zutritt",
+            "connections": [
+                "TOM",
+                "Physisch",
+                "Alarm"
+            ]
+        },
+        {
+            "word": "Zugang",
+            "connections": [
+                "TOM",
+                "Authentifizierung",
+                "Passwort"
+            ]
+        },
+        {
+            "word": "Zugriff",
+            "connections": [
+                "TOM",
+                "Berechtigungen",
+                "Verschlüsselung"
+            ]
+        },
+        {
+            "word": "DSGVO",
+            "connections": [
+                "Datenschutz",
+                "EU",
+                "Verordnung"
+            ]
+        },
+        {
+            "word": "Penetrationstest",
+            "connections": [
+                "Prüfung",
+                "Simulation",
+                "Angriff"
+            ]
+        },
+        {
+            "word": "Security by Design",
+            "connections": [
+                "Entwicklung",
+                "Prävention",
+                "Konzept"
+            ]
+        },
+        {
+            "word": "Firewall",
+            "connections": [
+                "Netzwerk",
+                "Filterung",
+                "Schutz"
+            ]
+        },
+        {
+            "word": "IT-Grundschutz",
+            "connections": [
+                "BSI",
+                "Methodik",
+                "Standard"
+            ]
+        }
+    ]
+}

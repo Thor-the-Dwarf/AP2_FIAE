@@ -1,1 +1,193 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Projektergebnisse",
+    "topic": "Dokumentation, Präsentation",
+    "estimated_minutes": 8,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist Projektdokumentation?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Dokumentation des Projektverlaufs"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Code"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Handbuch"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Präsentation"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist technische Dokumentation?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Dokumentation für Entwickler"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Benutzerhandbuch"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Projektplan"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Präsentation"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist ein Benutzerhandbuch?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Anleitung für Nutzer"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur technische Doku"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Projektplan"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Code"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist FAQ?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Häufig gestellte Fragen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Handbuch"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Projektplan"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Code"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist eine Präsentation?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Darstellung von Ergebnissen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Dokumentation"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Code"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Handbuch"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist Visualisierung?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Grafische Darstellung"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Text"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Code"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Handbuch"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist Storytelling?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Narrative Präsentationstechnik"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Dokumentation"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Code"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Handbuch"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist ein Elevator Pitch?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Kurze, prägnante Präsentation"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur lange Präsentation"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Dokumentation"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Code"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

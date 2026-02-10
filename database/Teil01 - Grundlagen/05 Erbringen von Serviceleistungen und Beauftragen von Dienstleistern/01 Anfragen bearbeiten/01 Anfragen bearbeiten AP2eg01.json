@@ -1,1 +1,258 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Anfragen bearbeiten",
+    "topic": "Ticketsysteme, Anforderungsanalyse, Kundenbetreuung",
+    "estimated_minutes": 20,
+    "sections": [
+        {
+            "id": "anfrage-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Ticket-Prioritäten zuordnen",
+            "subtitle": "Ordne die Anfragen den passenden Prioritäten zu.",
+            "hintDefault": "Tipp: Kritisch = Systemausfall, Hoch = wichtige Funktion, Normal = Standard.",
+            "sortColumns": [
+                {
+                    "zone": "kritisch",
+                    "label": "Kritisch",
+                    "hint": "(Systemausfall)"
+                },
+                {
+                    "zone": "hoch",
+                    "label": "Hoch",
+                    "hint": "(wichtige Funktion)"
+                },
+                {
+                    "zone": "normal",
+                    "label": "Normal",
+                    "hint": "(Standardanfrage)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Kompletter Systemausfall",
+                    "correctZone": "kritisch"
+                },
+                {
+                    "id": "s2",
+                    "text": "Produktionsserver nicht erreichbar",
+                    "correctZone": "kritisch"
+                },
+                {
+                    "id": "s3",
+                    "text": "Datenbank offline",
+                    "correctZone": "kritisch"
+                },
+                {
+                    "id": "s4",
+                    "text": "E-Mail-System funktioniert nicht",
+                    "correctZone": "hoch"
+                },
+                {
+                    "id": "s5",
+                    "text": "Wichtige Funktion fehlerhaft",
+                    "correctZone": "hoch"
+                },
+                {
+                    "id": "s6",
+                    "text": "Passwort zurücksetzen",
+                    "correctZone": "normal"
+                },
+                {
+                    "id": "s7",
+                    "text": "Softwareinstallation",
+                    "correctZone": "normal"
+                },
+                {
+                    "id": "s8",
+                    "text": "Allgemeine Frage",
+                    "correctZone": "normal"
+                }
+            ]
+        },
+        {
+            "id": "anfrage-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Anfragen",
+            "subtitle": "Teste dein Wissen zu Anfragebearbeitung.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist ein Ticketsystem?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "System zur Verwaltung von Anfragen"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur E-Mail"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Telefon"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist Anforderungsanalyse?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Ermittlung der Kundenbedürfnisse"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Ticketerstellung"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Dokumentation"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist Kundenbetreuung?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Unterstützung und Beratung von Kunden"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Ticketsystem"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Monitoring"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "anfrage-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Ticket-Bearbeitung",
+            "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Erfassen → Analysieren → Bearbeiten → Abschließen.",
+            "rows": [
+                {
+                    "key": "erfassen",
+                    "label": "Anfrage erfassen",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "analysieren",
+                    "label": "Anforderungen analysieren",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "bearbeiten",
+                    "label": "Anfrage bearbeiten",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "abschliessen",
+                    "label": "Anfrage abschließen",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Wirksamkeit prüfen",
+    "topic": "Penetrationstests, Audits, Monitoring",
+    "estimated_minutes": 12,
+    "centerWord": "Sicherheitsprüfung",
+    "associations": [
+        {
+            "word": "Penetrationstest",
+            "connections": [
+                "Angriff",
+                "Simulation",
+                "Schwachstellen"
+            ]
+        },
+        {
+            "word": "Sicherheitsaudit",
+            "connections": [
+                "Überprüfung",
+                "Compliance",
+                "Richtlinien"
+            ]
+        },
+        {
+            "word": "Monitoring",
+            "connections": [
+                "Überwachung",
+                "Echtzeit",
+                "Logs"
+            ]
+        },
+        {
+            "word": "IDS",
+            "connections": [
+                "Erkennung",
+                "Intrusion",
+                "Alarm"
+            ]
+        },
+        {
+            "word": "IPS",
+            "connections": [
+                "Prävention",
+                "Intrusion",
+                "Blockierung"
+            ]
+        },
+        {
+            "word": "SIEM",
+            "connections": [
+                "Management",
+                "Events",
+                "Korrelation"
+            ]
+        },
+        {
+            "word": "Schwachstellenscan",
+            "connections": [
+                "Automatisiert",
+                "Vulnerabilities",
+                "Analyse"
+            ]
+        },
+        {
+            "word": "Log-Analyse",
+            "connections": [
+                "Protokolle",
+                "Auswertung",
+                "Forensik"
+            ]
+        },
+        {
+            "word": "Red Team",
+            "connections": [
+                "Angriff",
+                "Offensive",
+                "Test"
+            ]
+        },
+        {
+            "word": "Blue Team",
+            "connections": [
+                "Verteidigung",
+                "Defensive",
+                "Schutz"
+            ]
+        },
+        {
+            "word": "Compliance-Prüfung",
+            "connections": [
+                "Vorgaben",
+                "Einhaltung",
+                "Standards"
+            ]
+        },
+        {
+            "word": "Vulnerability Assessment",
+            "connections": [
+                "Bewertung",
+                "Risiko",
+                "Schwachstellen"
+            ]
+        }
+    ]
+}

@@ -1,1 +1,93 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Softwareplanung",
+    "topic": "Anforderungsanalyse, UML, Vorgehensmodelle",
+    "estimated_minutes": 12,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "Eine _____ beschreibt Anforderungen aus Nutzersicht.",
+            "correctAnswer": "User Story",
+            "hint": "Nutzeranforderung"
+        },
+        {
+            "id": "s2",
+            "text": "Ein _____ beschreibt einen Anwendungsfall mit Akteur.",
+            "correctAnswer": "Use Case",
+            "hint": "Anwendungsfall"
+        },
+        {
+            "id": "s3",
+            "text": "Die _____ ermittelt und dokumentiert Anforderungen.",
+            "correctAnswer": "Anforderungsanalyse",
+            "hint": "Anforderungsermittlung"
+        },
+        {
+            "id": "s4",
+            "text": "Ein _____ zeigt zeitliche Abläufe in UML.",
+            "correctAnswer": "Sequenzdiagramm",
+            "hint": "Zeitlicher Ablauf"
+        },
+        {
+            "id": "s5",
+            "text": "Ein _____ zeigt Klassenstruktur in UML.",
+            "correctAnswer": "Klassendiagramm",
+            "hint": "Klassenstruktur"
+        },
+        {
+            "id": "s6",
+            "text": "Ein _____ zeigt Zustandsübergänge in UML.",
+            "correctAnswer": "Zustandsdiagramm",
+            "hint": "Zustände"
+        },
+        {
+            "id": "s7",
+            "text": "Das _____ ist ein sequenzielles Vorgehensmodell.",
+            "correctAnswer": "Wasserfallmodell",
+            "hint": "Sequenziell"
+        },
+        {
+            "id": "s8",
+            "text": "_____ ist ein agiles Framework mit Sprints.",
+            "correctAnswer": "Scrum",
+            "hint": "Agil mit Sprints"
+        },
+        {
+            "id": "s9",
+            "text": "_____ ist eine agile Methode mit Visualisierung.",
+            "correctAnswer": "Kanban",
+            "hint": "Agil mit Board"
+        },
+        {
+            "id": "s10",
+            "text": "Das _____ ist ein Vorgehensmodell mit Test-Phasen.",
+            "correctAnswer": "V-Modell",
+            "hint": "Mit Tests"
+        },
+        {
+            "id": "s11",
+            "text": "_____ ist ein Architekturstil für APIs.",
+            "correctAnswer": "REST",
+            "hint": "API-Architektur"
+        },
+        {
+            "id": "s12",
+            "text": "_____ ist ein leichtgewichtiges Datenformat.",
+            "correctAnswer": "JSON",
+            "hint": "Datenformat"
+        },
+        {
+            "id": "s13",
+            "text": "_____ ist ein strukturiertes Datenformat mit Tags.",
+            "correctAnswer": "XML",
+            "hint": "Mit Tags"
+        },
+        {
+            "id": "s14",
+            "text": "Ein _____ ist ein visueller Prototyp.",
+            "correctAnswer": "Mock-up",
+            "hint": "Visueller Prototyp"
+        }
+    ]
+}

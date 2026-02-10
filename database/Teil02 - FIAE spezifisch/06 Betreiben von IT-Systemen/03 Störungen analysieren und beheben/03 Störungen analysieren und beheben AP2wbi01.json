@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Störungen beheben",
+    "topic": "Troubleshooting",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "_____ ist die systematische Fehlersuche.",
+            "correctAnswer": "Troubleshooting",
+            "hint": "Fehlersuche"
+        },
+        {
+            "id": "s2",
+            "text": "_____ untersucht die Fehlerursache.",
+            "correctAnswer": "Fehleranalyse",
+            "hint": "Ursachenuntersuchung"
+        },
+        {
+            "id": "s3",
+            "text": "_____ sucht nach der Grundursache.",
+            "correctAnswer": "Root Cause Analysis",
+            "hint": "Grundursache"
+        },
+        {
+            "id": "s4",
+            "text": "Ein _____ ist eine temporäre Umgehung.",
+            "correctAnswer": "Workaround",
+            "hint": "Umgehung"
+        },
+        {
+            "id": "s5",
+            "text": "Ein _____ ist ein Software-Update.",
+            "correctAnswer": "Patch",
+            "hint": "Update"
+        },
+        {
+            "id": "s6",
+            "text": "Ein _____ macht Änderungen rückgängig.",
+            "correctAnswer": "Rollback",
+            "hint": "Rückgängig"
+        },
+        {
+            "id": "s7",
+            "text": "_____ wertet Systemprotokolle aus.",
+            "correctAnswer": "Log-Analyse",
+            "hint": "Protokoll-Auswertung"
+        },
+        {
+            "id": "s8",
+            "text": "_____ ist die Fehlersuche im Code.",
+            "correctAnswer": "Debugging",
+            "hint": "Code-Fehlersuche"
+        },
+        {
+            "id": "s9",
+            "text": "Ein _____ ist ein bekanntes Problem.",
+            "correctAnswer": "Known Error",
+            "hint": "Bekannter Fehler"
+        },
+        {
+            "id": "s10",
+            "text": "Ein _____ ist eine Störung oder Vorfall.",
+            "correctAnswer": "Incident",
+            "hint": "Störung"
+        },
+        {
+            "id": "s11",
+            "text": "Ein _____ ist eine wiederkehrende Störung.",
+            "correctAnswer": "Problem",
+            "hint": "Wiederkehrend"
+        },
+        {
+            "id": "s12",
+            "text": "Ein _____ ist eine nachträgliche Analyse.",
+            "correctAnswer": "Post-Mortem",
+            "hint": "Nachanalyse"
+        }
+    ]
+}

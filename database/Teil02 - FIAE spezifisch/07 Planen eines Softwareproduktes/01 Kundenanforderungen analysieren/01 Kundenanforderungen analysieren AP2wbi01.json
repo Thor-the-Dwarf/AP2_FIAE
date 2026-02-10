@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Kundenanforderungen",
+    "topic": "User Stories, Use Cases",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "Eine _____ beschreibt Anforderungen aus Nutzersicht.",
+            "correctAnswer": "User Story",
+            "hint": "Nutzeranforderung"
+        },
+        {
+            "id": "s2",
+            "text": "Ein _____ beschreibt einen Anwendungsfall.",
+            "correctAnswer": "Use Case",
+            "hint": "Anwendungsfall"
+        },
+        {
+            "id": "s3",
+            "text": "_____ Anforderungen beschreiben, was das System tun soll.",
+            "correctAnswer": "Funktionale",
+            "hint": "Was-Anforderungen"
+        },
+        {
+            "id": "s4",
+            "text": "_____ Anforderungen beschreiben Qualitätsmerkmale.",
+            "correctAnswer": "Nicht-funktionale",
+            "hint": "Qualität"
+        },
+        {
+            "id": "s5",
+            "text": "_____ sind Einschränkungen wie Budget oder Zeit.",
+            "correctAnswer": "Randbedingungen",
+            "hint": "Einschränkungen"
+        },
+        {
+            "id": "s6",
+            "text": "_____ sammelt Anforderungen.",
+            "correctAnswer": "Anforderungserhebung",
+            "hint": "Sammeln"
+        },
+        {
+            "id": "s7",
+            "text": "_____ untersucht und strukturiert Anforderungen.",
+            "correctAnswer": "Anforderungsanalyse",
+            "hint": "Untersuchung"
+        },
+        {
+            "id": "s8",
+            "text": "_____ dokumentiert Anforderungen.",
+            "correctAnswer": "Anforderungsspezifikation",
+            "hint": "Dokumentation"
+        },
+        {
+            "id": "s9",
+            "text": "_____ prüft Anforderungen.",
+            "correctAnswer": "Anforderungsvalidierung",
+            "hint": "Prüfung"
+        },
+        {
+            "id": "s10",
+            "text": "Ein _____ ist eine Interessengruppe am Projekt.",
+            "correctAnswer": "Stakeholder",
+            "hint": "Interessengruppe"
+        },
+        {
+            "id": "s11",
+            "text": "Ein _____ ist eine Bedingung für Akzeptanz.",
+            "correctAnswer": "Akzeptanzkriterium",
+            "hint": "Akzeptanzbedingung"
+        },
+        {
+            "id": "s12",
+            "text": "_____ legt die Wichtigkeit fest.",
+            "correctAnswer": "Priorisierung",
+            "hint": "Wichtigkeit"
+        }
+    ]
+}

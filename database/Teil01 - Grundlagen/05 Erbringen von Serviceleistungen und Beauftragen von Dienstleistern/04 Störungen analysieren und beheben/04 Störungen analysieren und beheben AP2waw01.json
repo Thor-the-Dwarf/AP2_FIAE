@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Störungen beheben",
+    "topic": "Fehleranalyse, Troubleshooting",
+    "estimated_minutes": 12,
+    "centerWord": "Troubleshooting",
+    "associations": [
+        {
+            "word": "Fehleranalyse",
+            "connections": [
+                "Ursache",
+                "Untersuchung",
+                "Diagnose"
+            ]
+        },
+        {
+            "word": "Root Cause",
+            "connections": [
+                "Grundursache",
+                "Tiefenanalyse",
+                "Ursprung"
+            ]
+        },
+        {
+            "word": "Workaround",
+            "connections": [
+                "Temporär",
+                "Umgehung",
+                "Schnell"
+            ]
+        },
+        {
+            "word": "Patch",
+            "connections": [
+                "Update",
+                "Behebung",
+                "Software"
+            ]
+        },
+        {
+            "word": "Rollback",
+            "connections": [
+                "Rückgängig",
+                "Wiederherstellung",
+                "Sicherheit"
+            ]
+        },
+        {
+            "word": "Eskalation",
+            "connections": [
+                "Weiterleitung",
+                "Hierarchie",
+                "Komplex"
+            ]
+        },
+        {
+            "word": "Known Error",
+            "connections": [
+                "Bekannt",
+                "Dokumentiert",
+                "Lösung"
+            ]
+        },
+        {
+            "word": "Problem Management",
+            "connections": [
+                "Wiederkehrend",
+                "Verwaltung",
+                "Prozess"
+            ]
+        },
+        {
+            "word": "Change Management",
+            "connections": [
+                "Änderungen",
+                "Kontrolle",
+                "Prozess"
+            ]
+        },
+        {
+            "word": "Post-Mortem",
+            "connections": [
+                "Analyse",
+                "Nachträglich",
+                "Lernen"
+            ]
+        },
+        {
+            "word": "Incident",
+            "connections": [
+                "Störung",
+                "Vorfall",
+                "Ticket"
+            ]
+        },
+        {
+            "word": "Resolution",
+            "connections": [
+                "Lösung",
+                "Behebung",
+                "Abschluss"
+            ]
+        }
+    ]
+}

@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Datenbanken (QS)",
+    "topic": "Relational/NoSQL, Normalisierung, SQL",
+    "estimated_minutes": 12,
+    "centerWord": "Datenbanken",
+    "associations": [
+        {
+            "word": "Relational",
+            "connections": [
+                "Tabellen",
+                "SQL",
+                "Normalisierung"
+            ]
+        },
+        {
+            "word": "NoSQL",
+            "connections": [
+                "MongoDB",
+                "Redis",
+                "Flexibel"
+            ]
+        },
+        {
+            "word": "SQL",
+            "connections": [
+                "SELECT",
+                "JOIN",
+                "WHERE"
+            ]
+        },
+        {
+            "word": "SELECT",
+            "connections": [
+                "SQL",
+                "Abfrage",
+                "Daten abrufen"
+            ]
+        },
+        {
+            "word": "JOIN",
+            "connections": [
+                "SQL",
+                "Tabellen verbinden",
+                "Beziehungen"
+            ]
+        },
+        {
+            "word": "Normalisierung",
+            "connections": [
+                "1. NF",
+                "2. NF",
+                "3. NF"
+            ]
+        },
+        {
+            "word": "1. NF",
+            "connections": [
+                "Normalisierung",
+                "Atomar",
+                "Grundlage"
+            ]
+        },
+        {
+            "word": "ER-Modell",
+            "connections": [
+                "Entitäten",
+                "Beziehungen",
+                "Modellierung"
+            ]
+        },
+        {
+            "word": "Primärschlüssel",
+            "connections": [
+                "Eindeutig",
+                "Identifikator",
+                "Key"
+            ]
+        },
+        {
+            "word": "Fremdschlüssel",
+            "connections": [
+                "Verweis",
+                "Beziehung",
+                "Referenz"
+            ]
+        },
+        {
+            "word": "MongoDB",
+            "connections": [
+                "NoSQL",
+                "Dokumente",
+                "JSON"
+            ]
+        },
+        {
+            "word": "Redis",
+            "connections": [
+                "NoSQL",
+                "Key-Value",
+                "Cache"
+            ]
+        }
+    ]
+}

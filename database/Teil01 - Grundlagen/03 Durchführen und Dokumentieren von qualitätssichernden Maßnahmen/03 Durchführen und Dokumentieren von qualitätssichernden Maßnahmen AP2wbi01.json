@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Qualitätssicherung",
+    "topic": "QM-Prozesse, IT-Sicherheit, PDCA, KVP",
+    "estimated_minutes": 12,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "_____ steht für Plan-Do-Check-Act.",
+            "correctAnswer": "PDCA",
+            "hint": "Abkürzung für Verbesserungszyklus"
+        },
+        {
+            "id": "s2",
+            "text": "_____ bedeutet Kontinuierlicher Verbesserungsprozess.",
+            "correctAnswer": "KVP",
+            "hint": "Abkürzung"
+        },
+        {
+            "id": "s3",
+            "text": "Ein _____ ist eine systematische Überprüfung von Prozessen.",
+            "correctAnswer": "Audit",
+            "hint": "Qualitätsprüfung"
+        },
+        {
+            "id": "s4",
+            "text": "_____ sind messbare Größen zur Bewertung von Qualität.",
+            "correctAnswer": "Kennzahlen",
+            "hint": "Metriken"
+        },
+        {
+            "id": "s5",
+            "text": "_____ bedeutet Schutz vor unbefugtem Zugriff.",
+            "correctAnswer": "Vertraulichkeit",
+            "hint": "Confidentiality"
+        },
+        {
+            "id": "s6",
+            "text": "_____ bedeutet Schutz vor unbefugter Veränderung.",
+            "correctAnswer": "Integrität",
+            "hint": "Integrity"
+        },
+        {
+            "id": "s7",
+            "text": "_____ bedeutet Sicherstellung des Zugriffs auf Systeme.",
+            "correctAnswer": "Verfügbarkeit",
+            "hint": "Availability"
+        },
+        {
+            "id": "s8",
+            "text": "Ein _____ vergleicht Zielvorgaben mit tatsächlichen Ergebnissen.",
+            "correctAnswer": "Soll-Ist-Vergleich",
+            "hint": "Ziel vs. Realität"
+        },
+        {
+            "id": "s9",
+            "text": "Ein _____ dokumentiert Testergebnisse.",
+            "correctAnswer": "Testprotokoll",
+            "hint": "Test-Dokumentation"
+        },
+        {
+            "id": "s10",
+            "text": "Ein _____ dokumentiert die Abnahme eines Systems.",
+            "correctAnswer": "Abnahmeprotokoll",
+            "hint": "Freigabe-Dokumentation"
+        },
+        {
+            "id": "s11",
+            "text": "Die _____ steht für Confidentiality, Integrity, Availability.",
+            "correctAnswer": "CIA-Triade",
+            "hint": "IT-Sicherheits-Schutzziele"
+        },
+        {
+            "id": "s12",
+            "text": "Ein _____ ist eine Abweichung von Qualitätsanforderungen.",
+            "correctAnswer": "Qualitätsmangel",
+            "hint": "Fehler/Mangel"
+        }
+    ]
+}

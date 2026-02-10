@@ -1,1 +1,193 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Kundenanforderungen",
+    "topic": "User Stories, Use Cases",
+    "estimated_minutes": 8,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist eine User Story?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Anforderung aus Nutzersicht"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur technische Spezifikation"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Testfall"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Dokumentation"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist ein Use Case?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Anwendungsfall mit Akteur"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur User Story"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Testfall"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Dokumentation"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was sind funktionale Anforderungen?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Was das System tun soll"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Qualität"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Einschränkungen"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Budget"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was sind nicht-funktionale Anforderungen?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Qualitätsanforderungen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Funktionen"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Budget"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Zeit"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist Anforderungserhebung?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Sammeln von Anforderungen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Analyse"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Dokumentation"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Validierung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist ein Stakeholder?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Interessengruppe am Projekt"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Entwickler"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Kunde"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Manager"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist ein Akzeptanzkriterium?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Bedingung für Akzeptanz"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Testfall"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Dokumentation"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Budget"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist Priorisierung?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Festlegung der Wichtigkeit"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Dokumentation"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Analyse"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Validierung"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

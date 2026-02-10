@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Anfragen bearbeiten",
+    "topic": "Ticketsysteme, Anforderungsanalyse",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "Ticketsystem",
+            "right": "System zur Verwaltung von Anfragen und Störungen"
+        },
+        {
+            "left": "Anforderungsanalyse",
+            "right": "Ermittlung der Kundenbedürfnisse"
+        },
+        {
+            "left": "Kundenbetreuung",
+            "right": "Unterstützung und Beratung von Kunden"
+        },
+        {
+            "left": "Priorität",
+            "right": "Dringlichkeit einer Anfrage (Kritisch, Hoch, Normal)"
+        },
+        {
+            "left": "Kategorie",
+            "right": "Thematische Einordnung einer Anfrage"
+        },
+        {
+            "left": "Status",
+            "right": "Bearbeitungsstand eines Tickets (Offen, In Bearbeitung, Gelöst)"
+        },
+        {
+            "left": "Zuordnung",
+            "right": "Zuweisung eines Tickets an einen Bearbeiter"
+        },
+        {
+            "left": "Eskalation",
+            "right": "Weiterleitung an höhere Instanz"
+        },
+        {
+            "left": "First Level Support",
+            "right": "Erste Anlaufstelle für Kundenanfragen"
+        },
+        {
+            "left": "Second Level Support",
+            "right": "Spezialisierte Bearbeitung komplexer Anfragen"
+        },
+        {
+            "left": "Ticket-ID",
+            "right": "Eindeutige Identifikationsnummer eines Tickets"
+        },
+        {
+            "left": "Lösungsdokumentation",
+            "right": "Aufzeichnung der Problemlösung"
+        }
+    ]
+}

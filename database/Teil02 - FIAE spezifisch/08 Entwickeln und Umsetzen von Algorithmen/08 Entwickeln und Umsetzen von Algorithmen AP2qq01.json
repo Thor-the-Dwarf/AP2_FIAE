@@ -1,1 +1,239 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Algorithmen",
+    "topic": "Pseudocode, Datenstrukturen, O-Notation",
+    "estimated_minutes": 10,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist Pseudocode?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Algorithmus in natürlicher Sprache"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur echter Code"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Diagramm"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Kommentar"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist ein Struktogramm?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Nassi-Shneiderman-Diagramm"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Flussdiagramm"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Pseudocode"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur UML"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist ein Array?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Indexbasierte Datenstruktur"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Liste"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Stack"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Queue"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist ein Stack?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "LIFO-Datenstruktur"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur FIFO"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Array"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Liste"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist O(1)?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Konstante Komplexität"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur linear"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur logarithmisch"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur quadratisch"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist O(n)?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Lineare Komplexität"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur konstant"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur logarithmisch"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur quadratisch"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist lineare Suche?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Sequenzielle Suche"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur binäre Suche"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Sortierung"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Hash"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist binäre Suche?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Suche durch Halbierung"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur lineare Suche"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Sortierung"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Hash"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q9",
+            "text": "Was ist Bubble Sort?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Sortieren durch Vertauschen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Suche"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Datenstruktur"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Hash"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q10",
+            "text": "Was ist O(log n)?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Logarithmische Komplexität"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur konstant"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur linear"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur quadratisch"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

@@ -1,1 +1,297 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Informieren und Beraten von Kunden",
+    "topic": "Kommunikation, Recht & Compliance, Präsentationstechnik",
+    "estimated_minutes": 25,
+    "sections": [
+        {
+            "id": "info-sort-bereiche",
+            "type": "sort",
+            "title": "Rätsel 1: Themenbereiche zuordnen",
+            "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+            "hintDefault": "Tipp: Kommunikation = Gespräche/Modelle, Recht = Gesetze/Compliance, Präsentation = Visualisierung/Tools.",
+            "sortColumns": [
+                {
+                    "zone": "kommunikation",
+                    "label": "Kommunikation",
+                    "hint": "(Zuhören, Modelle, Verkauf)"
+                },
+                {
+                    "zone": "recht",
+                    "label": "Recht & Compliance",
+                    "hint": "(Gesetze, Regelkonformität)"
+                },
+                {
+                    "zone": "praesentation",
+                    "label": "Präsentation & Visualisierung",
+                    "hint": "(Diagramme, Tools, CI)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Aktives Zuhören",
+                    "correctZone": "kommunikation"
+                },
+                {
+                    "id": "s2",
+                    "text": "Telefonkonferenz",
+                    "correctZone": "kommunikation"
+                },
+                {
+                    "id": "s3",
+                    "text": "Verkaufsgespräch (Anfrage, Angebot, Auftrag)",
+                    "correctZone": "kommunikation"
+                },
+                {
+                    "id": "s4",
+                    "text": "Kundenbedürfnisse analysieren",
+                    "correctZone": "kommunikation"
+                },
+                {
+                    "id": "s5",
+                    "text": "BGB/HGB",
+                    "correctZone": "recht"
+                },
+                {
+                    "id": "s6",
+                    "text": "Gesetz gegen unlauteren Wettbewerb (UWG)",
+                    "correctZone": "recht"
+                },
+                {
+                    "id": "s7",
+                    "text": "AGB-Gesetz",
+                    "correctZone": "recht"
+                },
+                {
+                    "id": "s8",
+                    "text": "Customer Relationship Management (CRM)",
+                    "correctZone": "recht"
+                },
+                {
+                    "id": "s9",
+                    "text": "Diagramme erstellen",
+                    "correctZone": "praesentation"
+                },
+                {
+                    "id": "s10",
+                    "text": "Tabellenkalkulation",
+                    "correctZone": "praesentation"
+                },
+                {
+                    "id": "s11",
+                    "text": "Corporate Identity (CI)",
+                    "correctZone": "praesentation"
+                },
+                {
+                    "id": "s12",
+                    "text": "Multimediale Inhalte erstellen",
+                    "correctZone": "praesentation"
+                }
+            ]
+        },
+        {
+            "id": "info-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Kundenberatung",
+            "subtitle": "Teste dein Wissen zu Kommunikation, Recht und Präsentation.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was bedeutet 'aktives Zuhören'?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Dem Gesprächspartner aufmerksam folgen und Verständnis signalisieren"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur schweigen"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Sofort unterbrechen"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Welches Gesetz schützt vor unlauterem Wettbewerb?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "BGB"
+                        },
+                        {
+                            "value": "b",
+                            "text": "UWG (Gesetz gegen unlauteren Wettbewerb)"
+                        },
+                        {
+                            "value": "c",
+                            "text": "DSGVO"
+                        }
+                    ],
+                    "correct": "b"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist Corporate Identity (CI)?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Ein Softwareprogramm"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Einheitliches Erscheinungsbild eines Unternehmens"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Ein Gesetz"
+                        }
+                    ],
+                    "correct": "b"
+                },
+                {
+                    "id": "q4",
+                    "text": "4. Was ist CRM (Customer Relationship Management)?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Verwaltung und Pflege von Kundenbeziehungen"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Ein Diagrammtyp"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Eine Präsentationstechnik"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "info-reihenfolge-verkauf",
+            "type": "capital",
+            "title": "Rätsel 3: Verkaufsgespräch – richtige Reihenfolge",
+            "subtitle": "Bringe die Schritte eines Verkaufsgesprächs in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Anfrage → Bedürfnisse → Angebot → Auftrag.",
+            "rows": [
+                {
+                    "key": "anfrage",
+                    "label": "Kundenanfrage entgegennehmen",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "beduerfnisse",
+                    "label": "Kundenbedürfnisse analysieren (aktives Zuhören)",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "angebot",
+                    "label": "Angebot erstellen und präsentieren",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "auftrag",
+                    "label": "Auftrag bestätigen und dokumentieren",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

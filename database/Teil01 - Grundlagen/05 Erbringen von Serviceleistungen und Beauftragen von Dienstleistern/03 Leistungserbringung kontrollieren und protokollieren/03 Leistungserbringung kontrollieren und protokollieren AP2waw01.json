@@ -1,1 +1,106 @@
-{}
+{
+    "game_type": "word_association_web",
+    "schema_version": "1.0",
+    "title": "Assoziationsnetz – Leistung kontrollieren",
+    "topic": "Monitoring, Reporting, Dokumentation",
+    "estimated_minutes": 12,
+    "centerWord": "Monitoring",
+    "associations": [
+        {
+            "word": "Dashboard",
+            "connections": [
+                "Visualisierung",
+                "Kennzahlen",
+                "Übersicht"
+            ]
+        },
+        {
+            "word": "Alerting",
+            "connections": [
+                "Benachrichtigung",
+                "Automatisch",
+                "Probleme"
+            ]
+        },
+        {
+            "word": "Reporting",
+            "connections": [
+                "Berichte",
+                "Analyse",
+                "Dokumentation"
+            ]
+        },
+        {
+            "word": "Log-Analyse",
+            "connections": [
+                "Protokolle",
+                "Auswertung",
+                "Forensik"
+            ]
+        },
+        {
+            "word": "Performance-Report",
+            "connections": [
+                "Reporting",
+                "Leistung",
+                "Metriken"
+            ]
+        },
+        {
+            "word": "SLA-Report",
+            "connections": [
+                "Reporting",
+                "Service Level",
+                "Compliance"
+            ]
+        },
+        {
+            "word": "Dokumentation",
+            "connections": [
+                "Aufzeichnung",
+                "Wissen",
+                "Prozesse"
+            ]
+        },
+        {
+            "word": "Prozessdokumentation",
+            "connections": [
+                "Dokumentation",
+                "Abläufe",
+                "Standards"
+            ]
+        },
+        {
+            "word": "Lösungsdokumentation",
+            "connections": [
+                "Dokumentation",
+                "Probleme",
+                "Wissen"
+            ]
+        },
+        {
+            "word": "Metrik",
+            "connections": [
+                "Kennzahl",
+                "Messung",
+                "Bewertung"
+            ]
+        },
+        {
+            "word": "KPI",
+            "connections": [
+                "Metrik",
+                "Schlüsselkennzahl",
+                "Performance"
+            ]
+        },
+        {
+            "word": "Echtzeit",
+            "connections": [
+                "Live",
+                "Aktuell",
+                "Dashboard"
+            ]
+        }
+    ]
+}

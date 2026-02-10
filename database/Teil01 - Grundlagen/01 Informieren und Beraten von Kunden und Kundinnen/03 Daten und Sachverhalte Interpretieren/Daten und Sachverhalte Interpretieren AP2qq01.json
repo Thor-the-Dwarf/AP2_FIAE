@@ -1,1 +1,239 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Daten und Sachverhalte interpretieren",
+    "topic": "Datenanalyse, Kennzahlen, Diagramme, Statistiken",
+    "estimated_minutes": 10,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was zeigt ein Liniendiagramm am besten?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Entwicklungen und Trends über einen Zeitraum"
+                },
+                {
+                    "value": "b",
+                    "text": "Anteile an einem Ganzen"
+                },
+                {
+                    "value": "c",
+                    "text": "Vergleich von zwei Kategorien"
+                },
+                {
+                    "value": "d",
+                    "text": "Geografische Verteilungen"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was bedeutet ROI (Return on Investment)?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Gesamtumsatz eines Unternehmens"
+                },
+                {
+                    "value": "b",
+                    "text": "Verhältnis von Gewinn zu eingesetztem Kapital"
+                },
+                {
+                    "value": "c",
+                    "text": "Anzahl der verkauften Produkte"
+                },
+                {
+                    "value": "d",
+                    "text": "Kundenzufriedenheit in Prozent"
+                }
+            ],
+            "correct": "b"
+        },
+        {
+            "id": "q3",
+            "text": "Welches Diagramm eignet sich am besten zur Darstellung von Anteilen?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Liniendiagramm"
+                },
+                {
+                    "value": "b",
+                    "text": "Kreisdiagramm"
+                },
+                {
+                    "value": "c",
+                    "text": "Streudiagramm"
+                },
+                {
+                    "value": "d",
+                    "text": "Netzdiagramm"
+                }
+            ],
+            "correct": "b"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist das Ziel einer ABC-Analyse?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Produkte oder Kunden nach ihrer Bedeutung zu klassifizieren"
+                },
+                {
+                    "value": "b",
+                    "text": "Mitarbeiter alphabetisch zu sortieren"
+                },
+                {
+                    "value": "c",
+                    "text": "Marketingkampagnen zu bewerten"
+                },
+                {
+                    "value": "d",
+                    "text": "Lagerbestände zu zählen"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was untersucht eine SWOT-Analyse?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Nur finanzielle Kennzahlen"
+                },
+                {
+                    "value": "b",
+                    "text": "Stärken, Schwächen, Chancen und Risiken"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Marktanteile"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Kundenzufriedenheit"
+                }
+            ],
+            "correct": "b"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist Benchmarking?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Vergleich mit Best Practices oder Wettbewerbern"
+                },
+                {
+                    "value": "b",
+                    "text": "Erstellung von Diagrammen"
+                },
+                {
+                    "value": "c",
+                    "text": "Berechnung von Durchschnittswerten"
+                },
+                {
+                    "value": "d",
+                    "text": "Mitarbeiterbewertung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was zeigt die Conversion Rate?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Gesamtumsatz"
+                },
+                {
+                    "value": "b",
+                    "text": "Anteil der Besucher, die eine gewünschte Aktion ausführen"
+                },
+                {
+                    "value": "c",
+                    "text": "Anzahl der Mitarbeiter"
+                },
+                {
+                    "value": "d",
+                    "text": "Lagerbestand"
+                }
+            ],
+            "correct": "b"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist der erste Schritt einer Datenanalyse?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Ergebnisse präsentieren"
+                },
+                {
+                    "value": "b",
+                    "text": "Daten sammeln und erfassen"
+                },
+                {
+                    "value": "c",
+                    "text": "Daten interpretieren"
+                },
+                {
+                    "value": "d",
+                    "text": "Diagramme erstellen"
+                }
+            ],
+            "correct": "b"
+        },
+        {
+            "id": "q9",
+            "text": "Was bedeutet Marktanteil?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Anzahl der Mitarbeiter"
+                },
+                {
+                    "value": "b",
+                    "text": "Prozentualer Anteil eines Unternehmens am Gesamtmarkt"
+                },
+                {
+                    "value": "c",
+                    "text": "Gewinn pro Produkt"
+                },
+                {
+                    "value": "d",
+                    "text": "Lagerkapazität"
+                }
+            ],
+            "correct": "b"
+        },
+        {
+            "id": "q10",
+            "text": "Welches Diagramm eignet sich am besten zum Vergleich von Kategorien?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Kreisdiagramm"
+                },
+                {
+                    "value": "b",
+                    "text": "Liniendiagramm"
+                },
+                {
+                    "value": "c",
+                    "text": "Balken- oder Säulendiagramm"
+                },
+                {
+                    "value": "d",
+                    "text": "Streudiagramm"
+                }
+            ],
+            "correct": "c"
+        }
+    ]
+}

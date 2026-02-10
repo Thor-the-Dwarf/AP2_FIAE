@@ -1,1 +1,193 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – Leistungen erbringen",
+    "topic": "SLA, Vertragsmanagement",
+    "estimated_minutes": 8,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist ein SLA?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Service Level Agreement"
+                },
+                {
+                    "value": "b",
+                    "text": "Software License Agreement"
+                },
+                {
+                    "value": "c",
+                    "text": "System Log Analysis"
+                },
+                {
+                    "value": "d",
+                    "text": "Security Level Assessment"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist Reaktionszeit?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Zeit bis zur ersten Reaktion"
+                },
+                {
+                    "value": "b",
+                    "text": "Zeit bis zur Lösung"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Bearbeitungszeit"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Wartezeit"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist Uptime?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Verfügbarkeit eines Systems"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Reaktionszeit"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Lösungszeit"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Downtime"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist Downtime?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Ausfallzeit eines Systems"
+                },
+                {
+                    "value": "b",
+                    "text": "Verfügbarkeit"
+                },
+                {
+                    "value": "c",
+                    "text": "Reaktionszeit"
+                },
+                {
+                    "value": "d",
+                    "text": "Lösungszeit"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist Vertragsmanagement?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Verwaltung von Dienstleistungsverträgen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur SLA"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Monitoring"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Reporting"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist eine Penalty?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Vertragsstrafe bei SLA-Verletzung"
+                },
+                {
+                    "value": "b",
+                    "text": "Bonus"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Metrik"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Garantie"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist ein Service-Katalog?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Übersicht aller Dienstleistungen"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur SLA"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Vertrag"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Monitoring"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was ist eine Verfügbarkeitsgarantie?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Zugesicherte Mindest-Verfügbarkeit"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Uptime"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Downtime"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Reaktionszeit"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

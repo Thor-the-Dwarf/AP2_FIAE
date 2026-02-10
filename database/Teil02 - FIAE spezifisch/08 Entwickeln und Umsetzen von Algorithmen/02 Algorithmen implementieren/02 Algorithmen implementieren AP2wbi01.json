@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Algorithmen implementieren",
+    "topic": "Programmiersprachen, Datenstrukturen",
+    "estimated_minutes": 10,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "Ein _____ ist eine indexbasierte Datenstruktur.",
+            "correctAnswer": "Array",
+            "hint": "Index"
+        },
+        {
+            "id": "s2",
+            "text": "Eine _____ ist eine verkettete Datenstruktur.",
+            "correctAnswer": "Liste",
+            "hint": "Verkettet"
+        },
+        {
+            "id": "s3",
+            "text": "Ein _____ ist eine LIFO-Datenstruktur.",
+            "correctAnswer": "Stack",
+            "hint": "LIFO"
+        },
+        {
+            "id": "s4",
+            "text": "Eine _____ ist eine FIFO-Datenstruktur.",
+            "correctAnswer": "Queue",
+            "hint": "FIFO"
+        },
+        {
+            "id": "s5",
+            "text": "Eine _____ speichert Schlüssel-Wert-Paare.",
+            "correctAnswer": "Hash-Tabelle",
+            "hint": "Schlüssel-Wert"
+        },
+        {
+            "id": "s6",
+            "text": "Ein _____ ist eine hierarchische Datenstruktur.",
+            "correctAnswer": "Baum",
+            "hint": "Hierarchie"
+        },
+        {
+            "id": "s7",
+            "text": "Ein _____ besteht aus Knoten und Kanten.",
+            "correctAnswer": "Graph",
+            "hint": "Knoten und Kanten"
+        },
+        {
+            "id": "s8",
+            "text": "_____ ist eine interpretierte Hochsprache.",
+            "correctAnswer": "Python",
+            "hint": "Interpretiert"
+        },
+        {
+            "id": "s9",
+            "text": "_____ ist eine objektorientierte Sprache.",
+            "correctAnswer": "Java",
+            "hint": "OOP"
+        },
+        {
+            "id": "s10",
+            "text": "_____ ist eine systemnahe Programmiersprache.",
+            "correctAnswer": "C",
+            "hint": "Systemnah"
+        },
+        {
+            "id": "s11",
+            "text": "_____ ist eine Skriptsprache für Web.",
+            "correctAnswer": "JavaScript",
+            "hint": "Web"
+        },
+        {
+            "id": "s12",
+            "text": "_____ ist für Windows-Automatisierung.",
+            "correctAnswer": "PowerShell",
+            "hint": "Windows"
+        }
+    ]
+}

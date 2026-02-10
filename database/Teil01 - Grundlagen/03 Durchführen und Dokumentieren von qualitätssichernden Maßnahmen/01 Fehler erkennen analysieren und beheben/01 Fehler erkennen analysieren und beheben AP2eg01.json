@@ -1,1 +1,258 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Fehler erkennen (QS)",
+    "topic": "Debugging, Software-Testverfahren, Versionsmanagement",
+    "estimated_minutes": 20,
+    "sections": [
+        {
+            "id": "test-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Testverfahren zuordnen",
+            "subtitle": "Ordne die Testverfahren den passenden Kategorien zu.",
+            "hintDefault": "Tipp: Black Box = ohne Code-Kenntnis, White Box = mit Code-Kenntnis, Greybox = teilweise.",
+            "sortColumns": [
+                {
+                    "zone": "blackbox",
+                    "label": "Black Box",
+                    "hint": "(ohne Code-Kenntnis)"
+                },
+                {
+                    "zone": "whitebox",
+                    "label": "White Box",
+                    "hint": "(mit Code-Kenntnis)"
+                },
+                {
+                    "zone": "greybox",
+                    "label": "Greybox",
+                    "hint": "(teilweise Code-Kenntnis)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Funktionaler Test",
+                    "correctZone": "blackbox"
+                },
+                {
+                    "id": "s2",
+                    "text": "Akzeptanztest",
+                    "correctZone": "blackbox"
+                },
+                {
+                    "id": "s3",
+                    "text": "Äquivalenzklassentest",
+                    "correctZone": "blackbox"
+                },
+                {
+                    "id": "s4",
+                    "text": "Code-Coverage-Test",
+                    "correctZone": "whitebox"
+                },
+                {
+                    "id": "s5",
+                    "text": "Pfadüberdeckung",
+                    "correctZone": "whitebox"
+                },
+                {
+                    "id": "s6",
+                    "text": "Anweisungsüberdeckung",
+                    "correctZone": "whitebox"
+                },
+                {
+                    "id": "s7",
+                    "text": "Integrationstest",
+                    "correctZone": "greybox"
+                },
+                {
+                    "id": "s8",
+                    "text": "Regressiontest",
+                    "correctZone": "greybox"
+                }
+            ]
+        },
+        {
+            "id": "test-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Testing",
+            "subtitle": "Teste dein Wissen zu Testverfahren.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist ein Black Box Test?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Test ohne Code-Kenntnis"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Test mit Code-Kenntnis"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur UI-Test"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist ein White Box Test?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Test mit Code-Kenntnis"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Test ohne Code-Kenntnis"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Datenbank-Test"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Wofür wird Git verwendet?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Versionsmanagement"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Testing"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Debugging"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "test-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Versionskontrolle – Workflow",
+            "subtitle": "Bringe die Git-Schritte in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Ändern → Stagen → Committen → Pushen.",
+            "rows": [
+                {
+                    "key": "aendern",
+                    "label": "Code ändern",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "stage",
+                    "label": "git add (Stagen)",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "commit",
+                    "label": "git commit (Committen)",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "push",
+                    "label": "git push (Pushen)",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

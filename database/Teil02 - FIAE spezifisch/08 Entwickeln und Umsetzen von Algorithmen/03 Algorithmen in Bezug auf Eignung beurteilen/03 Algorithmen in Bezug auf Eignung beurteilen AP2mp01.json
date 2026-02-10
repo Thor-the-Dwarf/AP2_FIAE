@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Algorithmen beurteilen",
+    "topic": "Laufzeitanalyse, O-Notation",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "O(1)",
+            "right": "Konstante Komplexität - unabhängig von Eingabegröße"
+        },
+        {
+            "left": "O(log n)",
+            "right": "Logarithmische Komplexität - Halbierung"
+        },
+        {
+            "left": "O(n)",
+            "right": "Lineare Komplexität - proportional zur Eingabegröße"
+        },
+        {
+            "left": "O(n log n)",
+            "right": "Linearithmische Komplexität - effiziente Sortierung"
+        },
+        {
+            "left": "O(n²)",
+            "right": "Quadratische Komplexität - verschachtelte Schleifen"
+        },
+        {
+            "left": "O(2^n)",
+            "right": "Exponentielle Komplexität - sehr langsam"
+        },
+        {
+            "left": "Lineare Suche",
+            "right": "O(n) - Sequenzielle Suche"
+        },
+        {
+            "left": "Binäre Suche",
+            "right": "O(log n) - Suche durch Halbierung"
+        },
+        {
+            "left": "Bubble Sort",
+            "right": "O(n²) - Sortieren durch Vertauschen"
+        },
+        {
+            "left": "Selection Sort",
+            "right": "O(n²) - Sortieren durch Auswahl"
+        },
+        {
+            "left": "Insertion Sort",
+            "right": "O(n²) - Sortieren durch Einfügen"
+        },
+        {
+            "left": "Merge Sort",
+            "right": "O(n log n) - Sortieren durch Teilen"
+        }
+    ]
+}

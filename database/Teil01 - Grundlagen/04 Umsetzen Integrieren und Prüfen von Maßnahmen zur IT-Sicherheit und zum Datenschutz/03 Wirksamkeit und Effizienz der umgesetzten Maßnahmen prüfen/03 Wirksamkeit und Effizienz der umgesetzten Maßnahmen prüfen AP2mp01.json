@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Wirksamkeit prüfen",
+    "topic": "Penetrationstests, Audits, Monitoring",
+    "estimated_minutes": 12,
+    "sets": [
+        {
+            "left": "Penetrationstest",
+            "right": "Sicherheitstest durch simulierte Angriffe"
+        },
+        {
+            "left": "Sicherheitsaudit",
+            "right": "Systematische Überprüfung von Sicherheitsmaßnahmen"
+        },
+        {
+            "left": "Monitoring",
+            "right": "Kontinuierliche Überwachung von Systemen"
+        },
+        {
+            "left": "Schwachstellenscan",
+            "right": "Automatisierte Suche nach Sicherheitslücken"
+        },
+        {
+            "left": "Log-Analyse",
+            "right": "Auswertung von Systemprotokollen"
+        },
+        {
+            "left": "IDS",
+            "right": "Intrusion Detection System – Erkennung von Angriffen"
+        },
+        {
+            "left": "IPS",
+            "right": "Intrusion Prevention System – Abwehr von Angriffen"
+        },
+        {
+            "left": "SIEM",
+            "right": "Security Information and Event Management"
+        },
+        {
+            "left": "Compliance-Prüfung",
+            "right": "Überprüfung der Einhaltung von Vorgaben"
+        },
+        {
+            "left": "Vulnerability Assessment",
+            "right": "Bewertung von Schwachstellen"
+        },
+        {
+            "left": "Red Team",
+            "right": "Angriffsteam bei Sicherheitstests"
+        },
+        {
+            "left": "Blue Team",
+            "right": "Verteidigungsteam bei Sicherheitstests"
+        }
+    ]
+}

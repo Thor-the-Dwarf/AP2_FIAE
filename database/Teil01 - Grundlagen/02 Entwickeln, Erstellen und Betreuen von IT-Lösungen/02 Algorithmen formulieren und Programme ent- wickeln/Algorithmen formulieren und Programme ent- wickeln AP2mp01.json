@@ -1,1 +1,57 @@
-{}
+{
+    "game_type": "matching_puzzle",
+    "schema_version": "1.0",
+    "title": "Matching-Puzzle – Algorithmen",
+    "topic": "UML, Aktivitätsdiagramme, Software-Ergonomie",
+    "estimated_minutes": 15,
+    "sets": [
+        {
+            "left": "UML",
+            "right": "Unified Modeling Language – Standardsprache zur Software-Modellierung"
+        },
+        {
+            "left": "Use Case Diagramm",
+            "right": "Zeigt Anwendungsfälle und Akteure eines Systems"
+        },
+        {
+            "left": "Klassendiagramm",
+            "right": "Zeigt Klassen, Attribute, Methoden und Beziehungen"
+        },
+        {
+            "left": "Aktivitätsdiagramm",
+            "right": "Zeigt Programmablauf und Kontrollstrukturen"
+        },
+        {
+            "left": "Pseudocode",
+            "right": "Algorithmus in vereinfachter, sprachunabhängiger Form"
+        },
+        {
+            "left": "Kontrollstrukturen",
+            "right": "Verzweigungen (if), Schleifen (while, for) und Sequenzen"
+        },
+        {
+            "left": "Software-Ergonomie",
+            "right": "Benutzerfreundliche Gestaltung von Software-Oberflächen"
+        },
+        {
+            "left": "Barrierefreiheit",
+            "right": "Zugänglichkeit für Menschen mit Behinderungen"
+        },
+        {
+            "left": "Akteur",
+            "right": "Person oder System, das mit der Software interagiert"
+        },
+        {
+            "left": "Vererbung",
+            "right": "Übertragung von Eigenschaften einer Klasse auf eine andere"
+        },
+        {
+            "left": "Assoziation",
+            "right": "Beziehung zwischen Klassen im Klassendiagramm"
+        },
+        {
+            "left": "Attribut",
+            "right": "Eigenschaft oder Merkmal einer Klasse"
+        }
+    ]
+}

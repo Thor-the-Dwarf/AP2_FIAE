@@ -1,1 +1,209 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Verfügbarkeit gewährleisten",
+    "topic": "Monitoring, Wartung, Backup-Strategien",
+    "estimated_minutes": 18,
+    "sections": [
+        {
+            "id": "verf-sort",
+            "type": "sort",
+            "title": "Rätsel 1: Verfügbarkeitsmaßnahmen zuordnen",
+            "subtitle": "Ordne die Maßnahmen den passenden Kategorien zu.",
+            "hintDefault": "Tipp: Monitoring = Überwachung, Wartung = Pflege, Backup = Sicherung.",
+            "sortColumns": [
+                {
+                    "zone": "monitoring",
+                    "label": "Monitoring",
+                    "hint": "(Überwachung)"
+                },
+                {
+                    "zone": "wartung",
+                    "label": "Wartung",
+                    "hint": "(Pflege)"
+                },
+                {
+                    "zone": "backup",
+                    "label": "Backup",
+                    "hint": "(Sicherung)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Zabbix",
+                    "correctZone": "monitoring"
+                },
+                {
+                    "id": "s2",
+                    "text": "Nagios",
+                    "correctZone": "monitoring"
+                },
+                {
+                    "id": "s3",
+                    "text": "Updates installieren",
+                    "correctZone": "wartung"
+                },
+                {
+                    "id": "s4",
+                    "text": "Patches einspielen",
+                    "correctZone": "wartung"
+                },
+                {
+                    "id": "s5",
+                    "text": "Vollsicherung",
+                    "correctZone": "backup"
+                },
+                {
+                    "id": "s6",
+                    "text": "Inkrementelles Backup",
+                    "correctZone": "backup"
+                }
+            ]
+        },
+        {
+            "id": "verf-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Verfügbarkeit",
+            "subtitle": "Teste dein Wissen zu Verfügbarkeit.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist Monitoring?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Kontinuierliche Überwachung"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Backup"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Wartung"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist RAID?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Redundant Array of Independent Disks"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Backup"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Monitoring"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist ein Vollbackup?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Komplette Datensicherung"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Nur Änderungen"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Nur Monitoring"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "verf-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Backup-Strategie",
+            "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Vollbackup → Inkrementell → Differenziell → Wiederherstellung.",
+            "rows": [
+                {
+                    "key": "voll",
+                    "label": "Vollbackup erstellen",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                },
+                {
+                    "key": "inkr",
+                    "label": "Inkrementelles Backup",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                },
+                {
+                    "key": "wieder",
+                    "label": "Wiederherstellung testen",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

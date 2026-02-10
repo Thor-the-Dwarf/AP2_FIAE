@@ -1,1 +1,193 @@
-{}
+{
+    "game_type": "quick_quiz",
+    "schema_version": "1.0",
+    "title": "Quick-Quiz – IT-Betrieb",
+    "topic": "Wartung, Support, Betrieb",
+    "estimated_minutes": 8,
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Was ist der Zweck von Wartung?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "System aktuell und sicher halten"
+                },
+                {
+                    "value": "b",
+                    "text": "Nur Fehler beheben"
+                },
+                {
+                    "value": "c",
+                    "text": "Nur Backups"
+                },
+                {
+                    "value": "d",
+                    "text": "Nur Monitoring"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q2",
+            "text": "Was ist ein Helpdesk?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Zentrale Anlaufstelle für Support-Anfragen"
+                },
+                {
+                    "value": "b",
+                    "text": "Software-Tool"
+                },
+                {
+                    "value": "c",
+                    "text": "Datenbank"
+                },
+                {
+                    "value": "d",
+                    "text": "Hardware"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q3",
+            "text": "Was ist System-Monitoring?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Überwachung der Systemleistung"
+                },
+                {
+                    "value": "b",
+                    "text": "Backup-Erstellung"
+                },
+                {
+                    "value": "c",
+                    "text": "Software-Update"
+                },
+                {
+                    "value": "d",
+                    "text": "Benutzer-Schulung"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q4",
+            "text": "Was ist ein Backup?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Sicherungskopie von Daten"
+                },
+                {
+                    "value": "b",
+                    "text": "Software-Update"
+                },
+                {
+                    "value": "c",
+                    "text": "Monitoring-Tool"
+                },
+                {
+                    "value": "d",
+                    "text": "Ticket-System"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q5",
+            "text": "Was ist ein Patch?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Sicherheits- oder Fehlerkorrektur"
+                },
+                {
+                    "value": "b",
+                    "text": "Vollständige Neuinstallation"
+                },
+                {
+                    "value": "c",
+                    "text": "Backup"
+                },
+                {
+                    "value": "d",
+                    "text": "Monitoring"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q6",
+            "text": "Was ist ein Incident?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Störung oder Problem im IT-Betrieb"
+                },
+                {
+                    "value": "b",
+                    "text": "Geplante Wartung"
+                },
+                {
+                    "value": "c",
+                    "text": "Backup"
+                },
+                {
+                    "value": "d",
+                    "text": "Update"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q7",
+            "text": "Was ist ein SLA?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Service Level Agreement – Vereinbarung über Servicequalität"
+                },
+                {
+                    "value": "b",
+                    "text": "Software License Agreement"
+                },
+                {
+                    "value": "c",
+                    "text": "System Log Analysis"
+                },
+                {
+                    "value": "d",
+                    "text": "Security Level Assessment"
+                }
+            ],
+            "correct": "a"
+        },
+        {
+            "id": "q8",
+            "text": "Was bedeutet Verfügbarkeit?",
+            "options": [
+                {
+                    "value": "a",
+                    "text": "Zeitanteil, in dem ein System betriebsbereit ist"
+                },
+                {
+                    "value": "b",
+                    "text": "Anzahl der Benutzer"
+                },
+                {
+                    "value": "c",
+                    "text": "Speicherplatz"
+                },
+                {
+                    "value": "d",
+                    "text": "Geschwindigkeit"
+                }
+            ],
+            "correct": "a"
+        }
+    ]
+}

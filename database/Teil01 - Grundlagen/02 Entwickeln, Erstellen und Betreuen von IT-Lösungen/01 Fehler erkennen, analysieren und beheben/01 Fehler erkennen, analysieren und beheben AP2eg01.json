@@ -1,1 +1,243 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Fehler erkennen und beheben",
+    "topic": "Debugging, Testverfahren, Testdaten, Versionsmanagement",
+    "estimated_minutes": 25,
+    "sections": [
+        {
+            "id": "fehler-sort-test",
+            "type": "sort",
+            "title": "Rätsel 1: Testverfahren zuordnen",
+            "subtitle": "Ordne die Begriffe den passenden Testarten zu.",
+            "hintDefault": "Tipp: Statisch = ohne Ausführung, Dynamisch = mit Ausführung, Testebenen = Komponente/Integration/System.",
+            "sortColumns": [
+                {
+                    "zone": "statisch",
+                    "label": "Statische Tests",
+                    "hint": "(ohne Code-Ausführung)"
+                },
+                {
+                    "zone": "dynamisch",
+                    "label": "Dynamische Tests",
+                    "hint": "(mit Code-Ausführung)"
+                },
+                {
+                    "zone": "testebenen",
+                    "label": "Testebenen",
+                    "hint": "(Komponente, Integration, System)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Code Review",
+                    "correctZone": "statisch"
+                },
+                {
+                    "id": "s2",
+                    "text": "Statische Code-Analyse",
+                    "correctZone": "statisch"
+                },
+                {
+                    "id": "s3",
+                    "text": "Walkthrough",
+                    "correctZone": "statisch"
+                },
+                {
+                    "id": "s4",
+                    "text": "Black Box Test",
+                    "correctZone": "dynamisch"
+                },
+                {
+                    "id": "s5",
+                    "text": "White Box Test",
+                    "correctZone": "dynamisch"
+                },
+                {
+                    "id": "s6",
+                    "text": "Extremwertetest",
+                    "correctZone": "dynamisch"
+                },
+                {
+                    "id": "s7",
+                    "text": "Komponententest (Unit Test)",
+                    "correctZone": "testebenen"
+                },
+                {
+                    "id": "s8",
+                    "text": "Integrationstest",
+                    "correctZone": "testebenen"
+                },
+                {
+                    "id": "s9",
+                    "text": "Systemtest",
+                    "correctZone": "testebenen"
+                }
+            ]
+        },
+        {
+            "id": "fehler-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Fehleranalyse",
+            "subtitle": "Teste dein Wissen zu Debugging und Testverfahren.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist ein Breakpoint?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Haltepunkt zum Debuggen"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Ein Fehler"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Ein Testverfahren"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist ein Black Box Test?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Test ohne Kenntnis der internen Struktur"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Test mit Code-Kenntnis"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Statischer Test"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was ist ein Review?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Statisches Testverfahren (Code-Durchsicht)"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Dynamisches Testverfahren"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Debugging-Methode"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q4",
+                    "text": "4. Welche Teststufe kommt zuerst?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Komponententest"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Integrationstest"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Systemtest"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "fehler-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Testphasen – richtige Reihenfolge",
+            "subtitle": "Bringe die Testphasen in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Komponente → Integration → System.",
+            "rows": [
+                {
+                    "key": "komponente",
+                    "label": "Komponententest (einzelne Module)",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                },
+                {
+                    "key": "integration",
+                    "label": "Integrationstest (Zusammenspiel)",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                },
+                {
+                    "key": "system",
+                    "label": "Systemtest (Gesamtsystem)",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

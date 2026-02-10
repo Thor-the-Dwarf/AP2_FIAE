@@ -1,1 +1,81 @@
-{}
+{
+    "game_type": "word_blanks_interactive",
+    "schema_version": "1.0",
+    "title": "Lückentext – Datenbanken",
+    "topic": "ER-Modell, SQL, Normalisierung",
+    "estimated_minutes": 12,
+    "sentences": [
+        {
+            "id": "s1",
+            "text": "Das _____ zeigt Entitäten und ihre Beziehungen.",
+            "correctAnswer": "ER-Modell",
+            "hint": "Entity-Relationship-Modell"
+        },
+        {
+            "id": "s2",
+            "text": "Ein _____ ist ein eindeutiger Identifikator für jeden Datensatz.",
+            "correctAnswer": "Primärschlüssel",
+            "hint": "Primary Key"
+        },
+        {
+            "id": "s3",
+            "text": "Ein _____ verweist auf den Primärschlüssel einer anderen Tabelle.",
+            "correctAnswer": "Fremdschlüssel",
+            "hint": "Foreign Key"
+        },
+        {
+            "id": "s4",
+            "text": "_____ ist der Prozess zur Vermeidung von Redundanzen.",
+            "correctAnswer": "Normalisierung",
+            "hint": "1.-3. Normalform"
+        },
+        {
+            "id": "s5",
+            "text": "Die _____ besagt, dass alle Werte atomar sein müssen.",
+            "correctAnswer": "1. Normalform",
+            "hint": "Erste NF"
+        },
+        {
+            "id": "s6",
+            "text": "_____ steht für Structured Query Language.",
+            "correctAnswer": "SQL",
+            "hint": "Datenbanksprache"
+        },
+        {
+            "id": "s7",
+            "text": "Der _____ Befehl ruft Daten aus der Datenbank ab.",
+            "correctAnswer": "SELECT",
+            "hint": "SQL-Abfrage"
+        },
+        {
+            "id": "s8",
+            "text": "Ein _____ verbindet mehrere Tabellen in SQL.",
+            "correctAnswer": "JOIN",
+            "hint": "Inner, Left, Right"
+        },
+        {
+            "id": "s9",
+            "text": "_____ beschreibt die Anzahl der Beziehungen zwischen Entitäten.",
+            "correctAnswer": "Kardinalität",
+            "hint": "1:1, 1:n, n:m"
+        },
+        {
+            "id": "s10",
+            "text": "_____ sind nicht-relationale Datenbanken.",
+            "correctAnswer": "NoSQL",
+            "hint": "z.B. MongoDB"
+        },
+        {
+            "id": "s11",
+            "text": "_____ sind SQL-Funktionen wie SUM, COUNT, AVG.",
+            "correctAnswer": "Aggregat-Funktionen",
+            "hint": "Berechnungen"
+        },
+        {
+            "id": "s12",
+            "text": "Eine _____ ist ein Objekt oder Gegenstand in der Datenbank.",
+            "correctAnswer": "Entität",
+            "hint": "Entity"
+        }
+    ]
+}

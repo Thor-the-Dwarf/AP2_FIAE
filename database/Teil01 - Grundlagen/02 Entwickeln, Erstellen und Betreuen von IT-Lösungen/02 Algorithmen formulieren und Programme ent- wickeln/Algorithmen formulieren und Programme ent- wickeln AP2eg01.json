@@ -1,1 +1,282 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – Algorithmen und Programmierung",
+    "topic": "UML, Aktivitätsdiagramme, Pseudocode, Software-Ergonomie",
+    "estimated_minutes": 25,
+    "sections": [
+        {
+            "id": "algo-sort-uml",
+            "type": "sort",
+            "title": "Rätsel 1: UML-Diagramme zuordnen",
+            "subtitle": "Ordne die Begriffe den passenden UML-Diagrammtypen zu.",
+            "hintDefault": "Tipp: Use Case = Anwendungsfälle, Klassen = Struktur, Aktivität = Ablauf.",
+            "sortColumns": [
+                {
+                    "zone": "usecase",
+                    "label": "Use Case Diagramm",
+                    "hint": "(Anwendungsfälle, Akteure)"
+                },
+                {
+                    "zone": "klassen",
+                    "label": "Klassendiagramm",
+                    "hint": "(Klassen, Attribute, Methoden)"
+                },
+                {
+                    "zone": "aktivitaet",
+                    "label": "Aktivitätsdiagramm",
+                    "hint": "(Ablauf, Kontrollstrukturen)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Akteure und Anwendungsfälle",
+                    "correctZone": "usecase"
+                },
+                {
+                    "id": "s2",
+                    "text": "System-Grenzen",
+                    "correctZone": "usecase"
+                },
+                {
+                    "id": "s3",
+                    "text": "Beziehungen zwischen Akteuren",
+                    "correctZone": "usecase"
+                },
+                {
+                    "id": "s4",
+                    "text": "Klassen mit Attributen",
+                    "correctZone": "klassen"
+                },
+                {
+                    "id": "s5",
+                    "text": "Methoden und Operationen",
+                    "correctZone": "klassen"
+                },
+                {
+                    "id": "s6",
+                    "text": "Vererbung und Assoziationen",
+                    "correctZone": "klassen"
+                },
+                {
+                    "id": "s7",
+                    "text": "Kontrollstrukturen (if, while, for)",
+                    "correctZone": "aktivitaet"
+                },
+                {
+                    "id": "s8",
+                    "text": "Programmablauf",
+                    "correctZone": "aktivitaet"
+                },
+                {
+                    "id": "s9",
+                    "text": "Verzweigungen und Schleifen",
+                    "correctZone": "aktivitaet"
+                }
+            ]
+        },
+        {
+            "id": "algo-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz Algorithmen",
+            "subtitle": "Teste dein Wissen zu UML und Programmierung.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Wofür steht UML?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Unified Modeling Language"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Universal Machine Language"
+                        },
+                        {
+                            "value": "c",
+                            "text": "User Management Logic"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was zeigt ein Use Case Diagramm?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Anwendungsfälle und Akteure"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Klassen und Methoden"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Programmablauf"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Was zeigt ein Klassendiagramm?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Klassen, Attribute und Methoden"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Anwendungsfälle"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Programmablauf"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q4",
+                    "text": "4. Was ist Software-Ergonomie?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Benutzerfreundliche Gestaltung"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Code-Optimierung"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Datenbank-Design"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "algo-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Entwicklungsprozess – richtige Reihenfolge",
+            "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Anforderungen → Entwurf → Implementierung → Test.",
+            "rows": [
+                {
+                    "key": "anforderung",
+                    "label": "Anforderungen analysieren (Use Case)",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "entwurf",
+                    "label": "Entwurf erstellen (Klassendiagramm)",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "algorithmus",
+                    "label": "Algorithmus formulieren (Aktivitätsdiagramm)",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "implementierung",
+                    "label": "Programmieren und Testen",
+                    "correct": "4",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        },
+                        {
+                            "value": "4",
+                            "text": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

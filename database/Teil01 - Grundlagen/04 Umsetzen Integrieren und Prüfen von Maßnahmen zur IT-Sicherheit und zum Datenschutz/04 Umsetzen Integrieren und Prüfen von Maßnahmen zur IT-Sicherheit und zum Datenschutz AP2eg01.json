@@ -1,1 +1,243 @@
-{}
+{
+    "game_type": "escape_game",
+    "schema_version": "1.0",
+    "title": "Mini-Escape-Room – IT-Sicherheit & Datenschutz",
+    "topic": "Bedrohungsszenarien, TOM, DSGVO, Sicherheitsmaßnahmen",
+    "estimated_minutes": 25,
+    "sections": [
+        {
+            "id": "sec-sort-tom",
+            "type": "sort",
+            "title": "Rätsel 1: TOM-Maßnahmen zuordnen",
+            "subtitle": "Ordne die Maßnahmen den passenden TOM-Kategorien zu.",
+            "hintDefault": "Tipp: Zutritt = physisch, Zugang = Authentifizierung, Zugriff = Berechtigungen.",
+            "sortColumns": [
+                {
+                    "zone": "zutritt",
+                    "label": "Zutrittskontrolle",
+                    "hint": "(physischer Zugang)"
+                },
+                {
+                    "zone": "zugang",
+                    "label": "Zugangskontrolle",
+                    "hint": "(Authentifizierung)"
+                },
+                {
+                    "zone": "zugriff",
+                    "label": "Zugriffskontrolle",
+                    "hint": "(Berechtigungen)"
+                }
+            ],
+            "sortCards": [
+                {
+                    "id": "s1",
+                    "text": "Alarmanlage",
+                    "correctZone": "zutritt"
+                },
+                {
+                    "id": "s2",
+                    "text": "Videoüberwachung",
+                    "correctZone": "zutritt"
+                },
+                {
+                    "id": "s3",
+                    "text": "Türschloss mit Chipkarte",
+                    "correctZone": "zutritt"
+                },
+                {
+                    "id": "s4",
+                    "text": "Passwort-Authentifizierung",
+                    "correctZone": "zugang"
+                },
+                {
+                    "id": "s5",
+                    "text": "Biometrische Authentifizierung",
+                    "correctZone": "zugang"
+                },
+                {
+                    "id": "s6",
+                    "text": "Zwei-Faktor-Authentifizierung (2FA)",
+                    "correctZone": "zugang"
+                },
+                {
+                    "id": "s7",
+                    "text": "Verschlüsselung von Daten",
+                    "correctZone": "zugriff"
+                },
+                {
+                    "id": "s8",
+                    "text": "Rollenkonzepte (RBAC)",
+                    "correctZone": "zugriff"
+                },
+                {
+                    "id": "s9",
+                    "text": "Berechtigungsmanagement",
+                    "correctZone": "zugriff"
+                }
+            ]
+        },
+        {
+            "id": "sec-quiz",
+            "type": "quiz",
+            "title": "Rätsel 2: Kurz-Quiz IT-Sicherheit",
+            "subtitle": "Teste dein Wissen zu IT-Sicherheit und Datenschutz.",
+            "hintDefault": "Alle Antworten müssen korrekt sein.",
+            "questions": [
+                {
+                    "id": "q1",
+                    "text": "1. Was ist Ransomware?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Schadsoftware, die Daten verschlüsselt und Lösegeld fordert"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Antivirus-Software"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Firewall"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q2",
+                    "text": "2. Was ist Phishing?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Täuschung zur Erlangung sensibler Daten"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Firewall-Technik"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Verschlüsselungsmethode"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q3",
+                    "text": "3. Wofür steht DSGVO?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Datenschutz-Grundverordnung"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Daten-Sicherheits-Gesetz"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Digital-Service-Verordnung"
+                        }
+                    ],
+                    "correct": "a"
+                },
+                {
+                    "id": "q4",
+                    "text": "4. Was ist ein Penetrationstest?",
+                    "options": [
+                        {
+                            "value": "a",
+                            "text": "Sicherheitstest durch simulierte Angriffe"
+                        },
+                        {
+                            "value": "b",
+                            "text": "Performance-Test"
+                        },
+                        {
+                            "value": "c",
+                            "text": "Usability-Test"
+                        }
+                    ],
+                    "correct": "a"
+                }
+            ]
+        },
+        {
+            "id": "sec-reihenfolge",
+            "type": "capital",
+            "title": "Rätsel 3: Sicherheitskonzept – Reihenfolge",
+            "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+            "hintDefault": "Hinweis: Bedrohung erkennen → Maßnahmen umsetzen → Wirksamkeit prüfen.",
+            "rows": [
+                {
+                    "key": "bedrohung",
+                    "label": "Bedrohungsszenarien erkennen",
+                    "correct": "1",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                },
+                {
+                    "key": "massnahmen",
+                    "label": "Sicherheitsmaßnahmen umsetzen",
+                    "correct": "2",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                },
+                {
+                    "key": "pruefen",
+                    "label": "Wirksamkeit prüfen (Audit, Pentest)",
+                    "correct": "3",
+                    "options": [
+                        {
+                            "value": "",
+                            "text": "– bitte wählen –"
+                        },
+                        {
+                            "value": "1",
+                            "text": "1"
+                        },
+                        {
+                            "value": "2",
+                            "text": "2"
+                        },
+                        {
+                            "value": "3",
+                            "text": "3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
