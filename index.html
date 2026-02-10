@@ -102,6 +102,112 @@
             gap: 0.5rem;
         }
 
+        .drawer-tools {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .search-group {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            background: hsl(var(--bg-surface) / var(--bg-surface-alpha));
+            border: 1px solid hsl(var(--glass-border));
+            border-radius: var(--radius-md);
+            padding: 0.4rem 0.6rem;
+            position: relative;
+        }
+
+        .search-group input {
+            flex: 1;
+            background: transparent;
+            border: none;
+            color: hsl(var(--txt));
+            font-size: 0.9rem;
+            outline: none;
+        }
+
+        .search-group input::placeholder {
+            color: hsl(var(--txt-muted));
+        }
+
+        .autocomplete {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: calc(100% + 6px);
+            background: hsl(var(--bg-surface) / 0.95);
+            border: 1px solid hsl(var(--glass-border));
+            border-radius: var(--radius-md);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+            z-index: 50;
+            overflow: hidden;
+        }
+
+        .autocomplete.hidden {
+            display: none;
+        }
+
+        .autocomplete-item {
+            padding: 0.45rem 0.6rem;
+            font-size: 0.85rem;
+            color: hsl(var(--txt));
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            gap: 0.1rem;
+        }
+
+        .autocomplete-item:hover,
+        .autocomplete-item.is-active {
+            background: hsl(var(--primary) / 0.15);
+            color: hsl(var(--primary));
+        }
+
+        .autocomplete-item:focus-visible {
+            outline: 2px solid hsl(var(--primary));
+            outline-offset: -2px;
+        }
+
+        .autocomplete-title {
+            font-weight: 600;
+        }
+
+        .autocomplete-path {
+            font-size: 0.7rem;
+            color: hsl(var(--txt-muted));
+        }
+
+        .filter-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+
+        .filter-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: hsl(var(--txt-muted));
+        }
+
+        .filter-chip {
+            font-size: 0.75rem;
+            padding: 0.25rem 0.55rem;
+            border-radius: 999px;
+            background: hsl(var(--bg-surface) / var(--bg-surface-alpha));
+            border: 1px solid hsl(var(--glass-border));
+            color: hsl(var(--txt));
+            cursor: pointer;
+        }
+
+        .filter-chip.is-active {
+            background: hsl(var(--primary) / 0.2);
+            border-color: hsl(var(--primary) / 0.5);
+            color: hsl(var(--primary));
+        }
+
         .drawer-footer-text {
             font-size: 0.8rem;
             color: hsl(var(--txt-muted));
@@ -131,6 +237,10 @@
 
         .tree-node {
             position: relative;
+        }
+
+        .tree-node.is-filtered {
+            display: none;
         }
 
         .tree-row {
@@ -188,6 +298,23 @@
             text-align: center;
         }
 
+        .tree-tags {
+            display: inline-flex;
+            gap: 0.25rem;
+            flex-wrap: wrap;
+            margin-left: 0.35rem;
+        }
+
+        .tree-tag {
+            font-size: 0.65rem;
+            padding: 0.1rem 0.35rem;
+            border-radius: 999px;
+            border: 1px solid hsl(var(--glass-border));
+            background: hsl(var(--bg-surface) / var(--bg-surface-alpha));
+            color: hsl(var(--txt-muted));
+            white-space: nowrap;
+        }
+
         .tree-progress {
             font-size: 0.75rem;
             color: hsl(var(--primary));
@@ -210,6 +337,11 @@
             text-overflow: ellipsis;
             white-space: nowrap;
             padding: 0;
+        }
+
+        .tree-label:focus-visible {
+            outline: 2px solid hsl(var(--primary));
+            outline-offset: 2px;
         }
 
         .tree-spacer {
@@ -525,6 +657,43 @@
             <header class="drawer-header">
                 <div class="drawer-title" id="drawer-title">Drive-Ordner</div>
             </header>
+
+            <div class="drawer-tools">
+                <div class="search-group">
+                    <span aria-hidden="true">🔎</span>
+                    <input id="tree-search" type="text" placeholder="Suchen (AP2, Testarten, Deployment)..." aria-label="Suche in Aufgaben" />
+                    <div id="autocomplete" class="autocomplete hidden" role="listbox" aria-label="Suchvorschlaege"></div>
+                </div>
+
+                <div>
+                    <div class="filter-label">Teil</div>
+                    <div class="filter-group" id="filter-teil" role="group" aria-label="Filter Teil">
+                        <button class="filter-chip" type="button" aria-pressed="false">Teil01</button>
+                        <button class="filter-chip" type="button" aria-pressed="false">Teil02</button>
+                        <button class="filter-chip" type="button" aria-pressed="false">Teil03</button>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="filter-label">Spieltyp</div>
+                    <div class="filter-group" id="filter-typ" role="group" aria-label="Filter Spieltyp">
+                        <button class="filter-chip" type="button" aria-pressed="false">Quiz</button>
+                        <button class="filter-chip" type="button" aria-pressed="false">Matching</button>
+                        <button class="filter-chip" type="button" aria-pressed="false">Escape</button>
+                        <button class="filter-chip" type="button" aria-pressed="false">What&Why</button>
+                        <button class="filter-chip" type="button" aria-pressed="false">Wer bin ich</button>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="filter-label">Schwierigkeit</div>
+                    <div class="filter-group" id="filter-level" role="group" aria-label="Filter Schwierigkeit">
+                        <button class="filter-chip" type="button" aria-pressed="false">Leicht</button>
+                        <button class="filter-chip" type="button" aria-pressed="false">Mittel</button>
+                        <button class="filter-chip" type="button" aria-pressed="false">Schwer</button>
+                    </div>
+                </div>
+            </div>
 
             <div class="tree-scroll">
                 <nav class="tree" id="tree-root">

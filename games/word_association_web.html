@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assoziationsnetz</title>
+
+    <!-- Global Theme System -->
+    <link rel="stylesheet" href="../shared_theme.css">
+
+    <!-- Game-specific Styles -->
+    <link rel="stylesheet" href="word_association_web.css">
+</head>
+
+<body>
+    <div id="game-root">
+        <div class="page" style="display:block;">
+            <main class="panel">
+                <header class="header">
+                    <div class="title-block">
+                        <h1 class="game-title">Assoziationsnetz</h1>
+                        <p class="game-description" id="game-description"></p>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-chip">
+                            <span class="label">Begriffe</span>
+                            <span id="count-label">0</span>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="toolbar">
+                    <div class="pill" id="howto-text">
+                        <strong>How to:</strong> Schau dir die Begriffe und Verbindungen an.
+                    </div>
+                    <div class="toolbar-actions">
+                        <button class="btn" id="finish-btn" type="button">
+                            <span>✔</span> Fertig
+                        </button>
+                        <button class="btn-secondary btn" id="reset-btn" type="button">
+                            <span>↻</span> Reset
+                        </button>
+                    </div>
+                </div>
+
+                <section class="center-card">
+                    <div class="center-label">Zentrum</div>
+                    <div class="center-word" id="center-word">–</div>
+                </section>
+
+                <section class="association-grid" id="association-grid"></section>
+
+                <div class="feedback" id="feedback-box">Bereit.</div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Configuration -->
+    <script src="../config.js"></script>
+
+    <!-- Game Base Class -->
+    <script src="game_base.js"></script>
+
+    <!-- Game Logic -->
+    <script src="word_association_web.js"></script>
+</body>
+
+</html>

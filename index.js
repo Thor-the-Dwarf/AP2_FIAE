@@ -25,6 +25,11 @@
     const drawerTitleEl = document.getElementById('drawer-title');
     const drawerResizer = document.getElementById('drawer-resizer');
     const treeDrawer = document.getElementById('tree-drawer');
+    const searchInput = document.getElementById('tree-search');
+    const autocompleteEl = document.getElementById('autocomplete');
+    const filterTeilEl = document.getElementById('filter-teil');
+    const filterTypEl = document.getElementById('filter-typ');
+    const filterLevelEl = document.getElementById('filter-level');
 
     // App State
     let appState = {
@@ -36,6 +41,7 @@
     let rootTree = [];
     let rootName = 'Database';
     let progressCache = loadProgressMap();
+    let searchIndex = [];
 
     // --- 2. Theme Logic ---
     function applyTheme(theme) {
@@ -83,6 +89,8 @@
         applyDrawerState();
         initLocalApp();
         initProgressListener();
+        initSearchUi();
+        initFilterUi();
     }
 
     function loadAppState() {
@@ -171,6 +179,7 @@
         treeRootEl.innerHTML = '';
         buildTreeHelper(treeRootEl, rootTree, 0);
         refreshProgressLabels();
+        searchIndex = buildSearchIndex(rootTree);
 
         // Initial View
         viewTitleEl.textContent = 'Bereit';
@@ -187,6 +196,262 @@
             const node = findNode(rootTree, appState.selectedId);
             if (node) selectNode(node.id);
         }
+    }
+
+    // --- 3a. Search Index (Logic only, UI comes later) ---
+    function buildSearchIndex(nodes, path = []) {
+        const index = [];
+        nodes.forEach(node => {
+            const currentPath = [...path, node.name];
+            if (node.isFolder && node.children) {
+                index.push(...buildSearchIndex(node.children, currentPath));
+                return;
+            }
+            if (!node.isFolder) {
+                const title = (node.name || '').replace(/\.[^.]+$/, '');
+                const entry = {
+                    id: node.id,
+                    title: title,
+                    path: currentPath.join(' / '),
+                    kind: node.kind || ''
+                };
+                entry.tokens = tokenizeForSearch([entry.title, entry.path, entry.id]);
+                index.push(entry);
+            }
+        });
+        return index;
+    }
+
+    function tokenizeForSearch(values) {
+        const joined = values.filter(Boolean).join(' ').toLowerCase();
+        return joined
+            .replace(/[^a-z0-9äöüß\- ]/gi, ' ')
+            .split(/\s+/)
+            .filter(Boolean);
+    }
+
+    function searchEntries(query, limit = 20) {
+        const q = (query || '').trim().toLowerCase();
+        if (!q) return [];
+        const qTokens = tokenizeForSearch([q]);
+        const results = [];
+        for (const entry of searchIndex) {
+            let score = 0;
+            for (const t of qTokens) {
+                if (entry.title.toLowerCase().includes(t)) score += 3;
+                if (entry.path.toLowerCase().includes(t)) score += 2;
+                if (entry.id.toLowerCase().includes(t)) score += 1;
+            }
+            if (score > 0) results.push({ entry, score });
+        }
+        results.sort((a, b) => b.score - a.score);
+        return results.slice(0, limit).map(r => r.entry);
+    }
+
+    function initSearchUi() {
+        if (!searchInput || !autocompleteEl) return;
+
+        let activeIndex = -1;
+        let currentResults = [];
+
+        const hide = () => {
+            autocompleteEl.classList.add('hidden');
+            autocompleteEl.innerHTML = '';
+            activeIndex = -1;
+            currentResults = [];
+        };
+
+        const showResults = (results) => {
+            if (!results.length) {
+                hide();
+                return;
+            }
+            currentResults = results;
+            autocompleteEl.innerHTML = results.map((r, idx) => `
+                <div class="autocomplete-item" data-idx="${idx}" role="option" tabindex="0">
+                    <div class="autocomplete-title">${r.title}</div>
+                    <div class="autocomplete-path">${r.path}</div>
+                </div>
+            `).join('');
+            autocompleteEl.classList.remove('hidden');
+        };
+
+        const pickActive = (idx) => {
+            const items = autocompleteEl.querySelectorAll('.autocomplete-item');
+            items.forEach(i => i.classList.remove('is-active'));
+            if (idx >= 0 && idx < items.length) {
+                items[idx].classList.add('is-active');
+                items[idx].focus();
+            }
+        };
+
+        const openEntry = (entry) => {
+            if (!entry) return;
+            selectNode(entry.id);
+            hide();
+        };
+
+        searchInput.addEventListener('input', (e) => {
+            const q = e.target.value;
+            const results = searchEntries(q, 10);
+            showResults(results);
+        });
+
+        searchInput.addEventListener('keydown', (e) => {
+            if (autocompleteEl.classList.contains('hidden')) return;
+
+            if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                activeIndex = Math.min(activeIndex + 1, currentResults.length - 1);
+                pickActive(activeIndex);
+            } else if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                activeIndex = Math.max(activeIndex - 1, 0);
+                pickActive(activeIndex);
+            } else if (e.key === 'Enter') {
+                e.preventDefault();
+                const entry = currentResults[activeIndex] || currentResults[0];
+                openEntry(entry);
+            } else if (e.key === 'Escape') {
+                hide();
+            }
+        });
+
+        autocompleteEl.addEventListener('click', (e) => {
+            const item = e.target.closest('.autocomplete-item');
+            if (!item) return;
+            const idx = Number(item.dataset.idx);
+            openEntry(currentResults[idx]);
+        });
+
+        autocompleteEl.addEventListener('keydown', (e) => {
+            if (e.key !== 'Enter') return;
+            const item = e.target.closest('.autocomplete-item');
+            if (!item) return;
+            const idx = Number(item.dataset.idx);
+            openEntry(currentResults[idx]);
+        });
+
+        document.addEventListener('click', (e) => {
+            if (e.target === searchInput || autocompleteEl.contains(e.target)) return;
+            hide();
+        });
+    }
+
+    // --- 3b. Filter UI (Teil/Spieltyp) ---
+    function initFilterUi() {
+        if (!filterTeilEl || !filterTypEl || !filterLevelEl) return;
+
+        const bindGroup = (groupEl) => {
+            groupEl.querySelectorAll('.filter-chip').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    btn.classList.toggle('is-active');
+                    btn.setAttribute('aria-pressed', btn.classList.contains('is-active') ? 'true' : 'false');
+                    applyFilters();
+                });
+            });
+        };
+
+        bindGroup(filterTeilEl);
+        bindGroup(filterTypEl);
+        bindGroup(filterLevelEl);
+    }
+
+    function getActiveFilterValues(groupEl) {
+        if (!groupEl) return [];
+        return Array.from(groupEl.querySelectorAll('.filter-chip.is-active'))
+            .map(btn => btn.textContent.trim().toLowerCase());
+    }
+
+    function applyFilters() {
+        const teilFilters = getActiveFilterValues(filterTeilEl);
+        const typFilters = getActiveFilterValues(filterTypEl);
+        const levelFilters = getActiveFilterValues(filterLevelEl);
+        const hasAnyFilter = teilFilters.length || typFilters.length || levelFilters.length;
+
+        const nodes = Array.from(document.querySelectorAll('.tree-node'));
+
+        // First pass: hide/show leaf nodes
+        nodes.forEach(nodeEl => {
+            const isFolder = nodeEl.dataset.isFolder === '1';
+            const kind = nodeEl.dataset.kind;
+
+            if (isFolder) {
+                nodeEl.classList.remove('is-filtered');
+                return;
+            }
+
+            if (!hasAnyFilter) {
+                nodeEl.classList.remove('is-filtered');
+                return;
+            }
+
+            if (kind !== 'json') {
+                nodeEl.classList.add('is-filtered');
+                return;
+            }
+
+            const teil = (nodeEl.dataset.teil || '').toLowerCase();
+            const typ = (nodeEl.dataset.typ || '').toLowerCase();
+            const level = (nodeEl.dataset.level || 'unbekannt').toLowerCase();
+
+            const teilOk = !teilFilters.length || teilFilters.includes(teil);
+            const typOk = !typFilters.length || typFilters.includes(typ);
+            const levelOk = !levelFilters.length || levelFilters.includes(level);
+
+            nodeEl.classList.toggle('is-filtered', !(teilOk && typOk && levelOk));
+        });
+
+        // Second pass: hide folders without visible children
+        const reversed = nodes.slice().reverse();
+        reversed.forEach(nodeEl => {
+            const isFolder = nodeEl.dataset.isFolder === '1';
+            if (!isFolder) return;
+
+            if (!hasAnyFilter) {
+                nodeEl.classList.remove('is-filtered');
+                return;
+            }
+
+            const children = nodeEl.querySelectorAll('.tree-children .tree-node');
+            const hasVisibleChild = Array.from(children).some(child => !child.classList.contains('is-filtered'));
+            nodeEl.classList.toggle('is-filtered', !hasVisibleChild);
+            if (hasVisibleChild) {
+                nodeEl.classList.remove('tree-node--collapsed');
+                const btn = nodeEl.querySelector('.tree-toggle');
+                if (btn) btn.textContent = '▾';
+            }
+        });
+    }
+
+    function inferTeilFromId(id) {
+        if (!id) return '';
+        const lower = id.toLowerCase();
+        if (lower.includes('teil01')) return 'teil01';
+        if (lower.includes('teil02')) return 'teil02';
+        if (lower.includes('teil03')) return 'teil03';
+        return '';
+    }
+
+    function inferSpieltypFromId(id) {
+        if (!id) return '';
+        const lower = id.toLowerCase();
+        if (lower.includes('ap2qq')) return 'quiz';
+        if (lower.includes('ap2mp')) return 'matching';
+        if (lower.includes('ap2eg')) return 'escape';
+        if (lower.includes('ap2waw')) return 'what&why';
+        if (lower.includes('ap2wbi')) return 'wer bin ich';
+        return '';
+    }
+
+
+    function inferLevelFromId(id) {
+        if (!id) return 'unbekannt';
+        const lower = id.toLowerCase();
+        if (lower.includes('ap2eg')) return 'schwer';
+        if (lower.includes('ap2mp')) return 'mittel';
+        if (lower.includes('ap2qq') || lower.includes('ap2waw') || lower.includes('ap2wbi')) return 'leicht';
+        return 'unbekannt';
     }
 
     function loadProgressMap() {
@@ -252,6 +517,11 @@
             div.dataset.id = node.id;
             div.dataset.kind = node.kind || '';
             div.dataset.isFolder = node.isFolder ? '1' : '0';
+            if (!node.isFolder && node.kind === 'json') {
+                div.dataset.teil = inferTeilFromId(node.id);
+                div.dataset.typ = inferSpieltypFromId(node.id);
+                div.dataset.level = inferLevelFromId(node.id);
+            }
 
             const isCollapsed = !appState.openedIds.includes(node.id);
             if (isCollapsed) div.classList.add('tree-node--collapsed');
@@ -294,8 +564,11 @@
 
             const label = document.createElement('button');
             label.className = 'tree-label';
-            label.textContent = node.name.replace(/\.[^.]+$/, '');
+            const cleanLabel = node.name.replace(/\.[^.]+$/, '');
+            label.textContent = cleanLabel;
+            label.title = cleanLabel;
             row.appendChild(label);
+
 
             div.appendChild(row);
 

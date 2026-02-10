@@ -1,0 +1,128 @@
+/*
+ * word_association_web.css - Styles fuer Assoziationsnetz
+ */
+
+:root {
+    --wa-surface: rgba(255, 255, 255, 0.06);
+    --wa-border: rgba(255, 255, 255, 0.12);
+    --wa-accent: #f5d76e;
+}
+
+.panel {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+.title-block .game-title {
+    margin: 0 0 6px 0;
+}
+
+.game-description {
+    margin: 0;
+    opacity: 0.85;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin: 12px 0 16px;
+}
+
+.toolbar-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.center-card {
+    border: 1px solid var(--wa-border);
+    background: var(--wa-surface);
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+}
+
+.center-label {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.center-word {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 6px;
+    color: var(--wa-accent);
+}
+
+.association-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 12px;
+}
+
+.association-card {
+    border: 1px solid var(--wa-border);
+    background: var(--wa-surface);
+    border-radius: 12px;
+    padding: 12px 14px;
+}
+
+.association-card h3 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+}
+
+.association-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.association-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 999px;
+    border: 1px solid var(--wa-border);
+    background: rgba(255, 255, 255, 0.04);
+    font-size: 12px;
+}
+
+.feedback {
+    margin-top: 16px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid var(--wa-border);
+    background: var(--wa-surface);
+}
+
+@media (max-width: 720px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .toolbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toolbar-actions {
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+}
