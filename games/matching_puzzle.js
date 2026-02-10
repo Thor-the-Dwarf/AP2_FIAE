@@ -35,6 +35,7 @@
             this.foundSetsEl = null;
             this.attemptsEl = null;
             this.feedbackEl = null;
+            this.explanationEl = null;
             this.nextRoundBtn = null;
 
             // Config-Cache
@@ -76,6 +77,7 @@
             this.foundSetsEl = document.getElementById('found-sets');
             this.attemptsEl = document.getElementById('attempts');
             this.feedbackEl = document.getElementById('feedback');
+            this.explanationEl = document.getElementById('explanation');
             this.nextRoundBtn = document.getElementById('next-round-btn');
 
             if (data.sets && Array.isArray(data.sets)) {
@@ -170,6 +172,11 @@
         clearWrongHighlight() {
             const wrongCards = document.querySelectorAll('.card.wrong');
             wrongCards.forEach(card => card.classList.remove('wrong'));
+        }
+
+        setExplanation(text) {
+            if (!this.explanationEl) return;
+            this.explanationEl.textContent = text || '';
         }
 
         setCardsDisabled(disabled) {
@@ -283,6 +290,15 @@
                     this.feedbackEl.textContent = 'Korrektes Set gefunden!';
                     this.feedbackEl.className = 'ok';
                 }
+                const matched = this.sets.find(s => s.id === refId);
+                if (matched && (matched.explanation || matched.memo)) {
+                    const parts = [];
+                    if (matched.explanation) parts.push(`Warum: ${matched.explanation}`);
+                    if (matched.memo) parts.push(`Merksatz: ${matched.memo}`);
+                    this.setExplanation(parts.join(' '));
+                } else {
+                    this.setExplanation('');
+                }
 
                 // Clear selection state
                 this.columnKeys.forEach(key => this.selection[key] = null);
@@ -300,6 +316,7 @@
                     this.feedbackEl.textContent = 'Das passt noch nicht zusammen. Versuch es erneut.';
                     this.feedbackEl.className = 'error';
                 }
+                this.setExplanation('');
 
                 this.setCardsDisabled(true);
 
@@ -349,6 +366,7 @@
                     this.feedbackEl.textContent = 'Wähle noch aus den anderen Spalten, um ein Set zu bilden.';
                     this.feedbackEl.className = 'info';
                 }
+                this.setExplanation('');
             }
         }
 
@@ -419,6 +437,26 @@
             if (this.feedbackEl) {
                 this.feedbackEl.textContent = 'Wähle je eine Karte aus jeder Spalte, um passende Dreier-Sets zu finden.';
                 this.feedbackEl.className = 'info';
+            }
+            this.setExplanation('');
+
+            if (!this.sets || this.sets.length === 0) {
+                if (this.feedbackEl) {
+                    this.feedbackEl.innerHTML = `
+                        <div style="color:hsl(var(--txt-muted));">
+                            Diese Aufgabe ist unvollständig (keine Sets definiert).
+                        </div>
+                        <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-top:0.75rem;">
+                            <button class="btn primary" onclick="window.location.reload()">Neu laden</button>
+                            <button class="btn" onclick="window.parent && window.parent.clearDriveCache && window.parent.clearDriveCache()">Cache leeren</button>
+                            <button class="btn" onclick="window.parent && window.parent.goToOverview && window.parent.goToOverview()">Zurück zur Übersicht</button>
+                        </div>
+                    `;
+                    this.feedbackEl.className = 'info';
+                }
+                this.columnsContainer.innerHTML = '';
+                this.updateStats();
+                return;
             }
 
             if (this.nextRoundBtn) {

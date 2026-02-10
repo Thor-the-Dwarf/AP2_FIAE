@@ -18,37 +18,49 @@
       "id": "test_framework",
       "name": "Testing-Framework",
       "description": "Bietet Runner, Assertions und Struktur für automatisierte Tests.",
-      "example": "JUnit, pytest, Jest"
+      "example": "JUnit, pytest, Jest",
+      "explanation": "Ein Testing-Framework liefert Strukturen und Assertions fuer automatisierte Tests.",
+      "memo": "Framework = Tests strukturieren."
     },
     {
       "id": "linting",
       "name": "Linter",
       "description": "Prüft Code-Stil und einfache Fehler automatisch.",
-      "example": "ESLint, Flake8"
+      "example": "ESLint, Flake8",
+      "explanation": "Linter pruefen Stilregeln und einfache Fehler automatisch.",
+      "memo": "Linter = Stil und Basics."
     },
     {
       "id": "static_analysis",
       "name": "Static Analysis",
       "description": "Findet Code-Smells, Bugs und Sicherheitsprobleme im Quellcode.",
-      "example": "SonarQube"
+      "example": "SonarQube",
+      "explanation": "Static Analysis findet Code-Smells und Sicherheitsprobleme ohne Ausfuehrung.",
+      "memo": "Static Analysis = Code ohne Laufzeit."
     },
     {
       "id": "code_review",
       "name": "Code-Review-Tool",
       "description": "Unterstützt Reviews, Comments und Qualitätschecks im PR.",
-      "example": "GitHub/GitLab Pull Requests"
+      "example": "GitHub/GitLab Pull Requests",
+      "explanation": "Code-Review-Tools unterstuetzen Feedback und Qualitaetskontrollen im PR.",
+      "memo": "Review = Vier-Augen-Prinzip."
     },
     {
       "id": "ci",
       "name": "CI-Pipeline",
       "description": "Automatisiert Build und Tests bei jedem Commit.",
-      "example": "GitHub Actions, GitLab CI"
+      "example": "GitHub Actions, GitLab CI",
+      "explanation": "CI fuehrt Builds und Tests automatisiert bei Aenderungen aus.",
+      "memo": "CI = Automatisierung pro Commit."
     },
     {
       "id": "cd",
       "name": "CD",
       "description": "Automatisiertes Deployment in Zielumgebungen.",
-      "example": "Automatischer Deploy auf Staging"
+      "example": "Automatischer Deploy auf Staging",
+      "explanation": "CD automatisiert die Auslieferung in Staging/Produktion.",
+      "memo": "CD = automatisiertes Deploy."
     }
   ]
 }

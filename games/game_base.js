@@ -427,7 +427,12 @@
           <h2 style="margin-top:0;margin-bottom:0.5rem;font-size:1.05rem;color:#fecaca;">
             Spiel konnte nicht gestartet werden
           </h2>
-          <p style="margin:0;">${this._escapeHtml(String(message))}</p>
+          <p style="margin:0 0 0.75rem 0;">${this._escapeHtml(String(message))}</p>
+          <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+            <button class="btn primary" onclick="window.location.reload()">Neu laden</button>
+            <button class="btn" onclick="window.parent && window.parent.clearDriveCache && window.parent.clearDriveCache()">Cache leeren</button>
+            <button class="btn" onclick="window.parent && window.parent.goToOverview && window.parent.goToOverview()">Zurück zur Übersicht</button>
+          </div>
         </div>
       `;
         }

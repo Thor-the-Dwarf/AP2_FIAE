@@ -104,7 +104,16 @@
             }
 
             function showError(msg) {
-                document.getElementById('status').innerHTML = `<div class="error"><h3>Fehler</h3><p>${msg}</p></div>`;
+                document.getElementById('status').innerHTML = `
+                    <div class="error">
+                        <h3>Inhalt konnte nicht geladen werden</h3>
+                        <p>${msg}</p>
+                        <div style="display:flex; gap:0.5rem; justify-content:center; flex-wrap:wrap; margin-top:1rem;">
+                            <button onclick="window.location.reload()">Neu laden</button>
+                            <button onclick="window.parent && window.parent.clearDriveCache && window.parent.clearDriveCache()">Cache leeren</button>
+                            <button onclick="window.parent && window.parent.goToOverview && window.parent.goToOverview()">Zurück zur Übersicht</button>
+                        </div>
+                    </div>`;
             }
         })();
     </script>

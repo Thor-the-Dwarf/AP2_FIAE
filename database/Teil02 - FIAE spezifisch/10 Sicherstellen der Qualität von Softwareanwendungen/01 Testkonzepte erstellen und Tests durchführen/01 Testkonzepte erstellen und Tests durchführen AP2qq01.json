@@ -17,15 +17,65 @@
     "Abnahmetest"
   ],
   "questions": [
-    { "text": "Testet eine einzelne Funktion isoliert.", "correct": "Unit-Test" },
-    { "text": "Prüft das Zusammenspiel mehrerer Module.", "correct": "Integrationstest" },
-    { "text": "Testet das Gesamtsystem Ende-zu-Ende.", "correct": "Systemtest" },
-    { "text": "Simuliert eine Abhängigkeit im Test.", "correct": "Mock" },
-    { "text": "Konkret definierter Input/Output zur Prüfung.", "correct": "Testfall" },
-    { "text": "Dokumentiert Strategie, Umfang und Ressourcen.", "correct": "Testplan" },
-    { "text": "Sichert, dass alte Fehler nicht wieder auftreten.", "correct": "Regressionstest" },
-    { "text": "Vollständiger Ablauf über alle Systeme hinweg.", "correct": "End-to-End" },
-    { "text": "Datenbasis, mit der Tests ausgeführt werden.", "correct": "Testdaten" },
-    { "text": "Test, der vom Kunden/Fachbereich freigegeben wird.", "correct": "Abnahmetest" }
+    {
+      "text": "Testet eine einzelne Funktion isoliert.",
+      "correct": "Unit-Test",
+      "explanation": "Ein Unit-Test betrachtet die kleinste testbare Einheit ohne echte Abhaengigkeiten.",
+      "memo": "Unit = kleinste Einheit, isoliert testen."
+    },
+    {
+      "text": "Prüft das Zusammenspiel mehrerer Module.",
+      "correct": "Integrationstest",
+      "explanation": "Integrationstests pruefen Schnittstellen und das Zusammenspiel mehrerer Komponenten.",
+      "memo": "Integration = Module zusammen."
+    },
+    {
+      "text": "Testet das Gesamtsystem Ende-zu-Ende.",
+      "correct": "Systemtest",
+      "explanation": "Systemtests pruefen den kompletten Ablauf inkl. aller beteiligten Komponenten.",
+      "memo": "Systemtest = Ende-zu-Ende."
+    },
+    {
+      "text": "Simuliert eine Abhängigkeit im Test.",
+      "correct": "Mock",
+      "explanation": "Mocks ersetzen echte Abhaengigkeiten, um gezielt das Verhalten zu testen.",
+      "memo": "Mock = Ersatzobjekt."
+    },
+    {
+      "text": "Konkret definierter Input/Output zur Prüfung.",
+      "correct": "Testfall",
+      "explanation": "Ein Testfall beschreibt Eingaben, erwartete Ergebnisse und Bedingungen.",
+      "memo": "Testfall = Input + Erwartung."
+    },
+    {
+      "text": "Dokumentiert Strategie, Umfang und Ressourcen.",
+      "correct": "Testplan",
+      "explanation": "Ein Testplan beschreibt Vorgehen, Umfang, Rollen und Zeitplanung.",
+      "memo": "Testplan = Strategie + Ressourcen."
+    },
+    {
+      "text": "Sichert, dass alte Fehler nicht wieder auftreten.",
+      "correct": "Regressionstest",
+      "explanation": "Regressionstests pruefen, ob bestehende Funktionalitaet nach Aenderungen stabil bleibt.",
+      "memo": "Regression = alte Fehler verhindern."
+    },
+    {
+      "text": "Vollständiger Ablauf über alle Systeme hinweg.",
+      "correct": "End-to-End",
+      "explanation": "End-to-End-Tests decken den kompletten fachlichen Ablauf ueber Systeme hinweg ab.",
+      "memo": "E2E = Prozess komplett."
+    },
+    {
+      "text": "Datenbasis, mit der Tests ausgeführt werden.",
+      "correct": "Testdaten",
+      "explanation": "Testdaten sind definierte Daten, mit denen Tests reproduzierbar laufen.",
+      "memo": "Testdaten = reproduzierbar."
+    },
+    {
+      "text": "Test, der vom Kunden/Fachbereich freigegeben wird.",
+      "correct": "Abnahmetest",
+      "explanation": "Der Abnahmetest bestaetigt die fachliche Freigabe durch den Auftraggeber.",
+      "memo": "Abnahme = Freigabe durch Kunde."
+    }
   ]
 }

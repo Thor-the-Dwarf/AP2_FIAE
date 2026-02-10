@@ -181,13 +181,7 @@
         refreshProgressLabels();
         searchIndex = buildSearchIndex(rootTree);
 
-        // Initial View
-        viewTitleEl.textContent = 'Bereit';
-        viewPathEl.textContent = rootName;
-        viewBodyEl.innerHTML = '<p style="padding:2rem; color:hsl(var(--txt-muted))">Bitte wähle eine Datei aus dem Menü.</p>';
-        contentEl.classList.remove('full-screen');
-        viewBodyEl.classList.remove('iframe-container');
-        viewBodyEl.classList.add('card');
+        showOverviewMessage('Bitte wähle eine Datei aus dem Menü.');
 
         applySelectedCss();
 
@@ -197,6 +191,23 @@
             if (node) selectNode(node.id);
         }
     }
+
+    function showOverviewMessage(message) {
+        viewTitleEl.textContent = 'Bereit';
+        viewPathEl.textContent = rootName;
+        viewBodyEl.innerHTML = `<p style="padding:2rem; color:hsl(var(--txt-muted))">${message}</p>`;
+        contentHeader.classList.remove('hidden');
+        contentEl.classList.remove('full-screen');
+        viewBodyEl.classList.remove('iframe-container');
+        viewBodyEl.classList.add('card');
+    }
+
+    window.goToOverview = function () {
+        appState.selectedId = null;
+        saveAppState();
+        applySelectedCss();
+        showOverviewMessage('Bitte wähle eine Datei aus dem Menü.');
+    };
 
     // --- 3a. Search Index (Logic only, UI comes later) ---
     function buildSearchIndex(nodes, path = []) {
@@ -688,7 +699,19 @@
                         if (!resp.ok) throw new Error("Datei nicht gefunden.");
                         node.data = await resp.json();
                     } catch (e) {
-                        viewBodyEl.innerHTML = `<div style="padding:2rem; color:hsl(var(--error))">Fehler beim Laden: ${e.message}</div>`;
+                        viewBodyEl.innerHTML = `
+                            <div style="padding:2rem;">
+                                <h2 style="margin-top:0; color:hsl(var(--error));">Spieldaten konnten nicht geladen werden</h2>
+                                <p style="color:hsl(var(--txt-muted));">
+                                    ${e.message} Bitte versuche es erneut oder gehe zurück zur Übersicht.
+                                </p>
+                                <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-top:1rem;">
+                                    <button class="btn primary" onclick="window.location.reload()">Neu laden</button>
+                                    <button class="btn" onclick="window.clearDriveCache()">Cache leeren</button>
+                                    <button class="btn" onclick="window.goToOverview()">Zurück zur Übersicht</button>
+                                </div>
+                            </div>
+                        `;
                         return;
                     }
                 }

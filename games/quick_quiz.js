@@ -43,6 +43,7 @@
             this.sublineEl = null;
             this.optionsContainer = null;
             this.feedbackEl = null;
+            this.explanationEl = null;
             this.scoreEl = null;
             this.highscoreEl = null;
             this.questionCountEl = null;
@@ -67,6 +68,7 @@
             this.sublineEl = document.getElementById('subline');
             this.optionsContainer = document.getElementById('options');
             this.feedbackEl = document.getElementById('feedback');
+            this.explanationEl = document.getElementById('explanation');
             this.scoreEl = document.getElementById('score');
             this.highscoreEl = document.getElementById('highscore');
             this.questionCountEl = document.getElementById('question-count');
@@ -106,6 +108,7 @@
             this.renderOptions();
             this.setOptionsDisabled(true);
             this.updateStats();
+            this.setExplanation('');
             this.timerLabelEl.textContent = '– s';
             this.timerBarInnerEl.style.transform = 'scaleX(0)';
             this.updateRestartButton();
@@ -144,6 +147,11 @@
         resetFeedback() {
             this.feedbackEl.textContent = '';
             this.feedbackEl.className = '';
+        }
+
+        setExplanation(text) {
+            if (!this.explanationEl) return;
+            this.explanationEl.textContent = text || '';
         }
 
         stopTimer() {
@@ -239,12 +247,24 @@
 
         nextQuestion() {
             if (!this.questions.length) {
-                this.questionTextEl.textContent = 'Keine Fragen definiert.';
+                this.questionTextEl.textContent = 'Diese Aufgabe ist unvollständig (keine Fragen definiert).';
+                this.feedbackEl.innerHTML = `
+                    <div style="margin-top:0.5rem; color:hsl(var(--txt-muted));">
+                        Bitte wähle eine andere Aufgabe oder versuche es erneut.
+                    </div>
+                    <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-top:0.75rem;">
+                        <button class="btn primary" onclick="window.location.reload()">Neu laden</button>
+                        <button class="btn" onclick="window.parent && window.parent.clearDriveCache && window.parent.clearDriveCache()">Cache leeren</button>
+                        <button class="btn" onclick="window.parent && window.parent.goToOverview && window.parent.goToOverview()">Zurück zur Übersicht</button>
+                    </div>
+                `;
+                this.setExplanation('');
                 return;
             }
 
             this.locked = false;
             this.resetFeedback();
+            this.setExplanation('');
             this.currentQuestion = this.pickRandomQuestion();
 
             // Render adaptive options (4 choices including correct answer)
@@ -277,6 +297,7 @@
             const msg = labels.timeout || `Zeit abgelaufen! Richtig wäre: ${this.currentQuestion.correct}.`;
             this.feedbackEl.textContent = msg;
             this.feedbackEl.className = 'error';
+            this.applyExplanation(this.currentQuestion);
 
             if (this.questionCount > 0) {
                 this.reportProgress(this.score, this.questionCount);
@@ -324,6 +345,7 @@
                 this.feedbackEl.textContent = msg;
                 this.feedbackEl.className = 'error';
             }
+            this.applyExplanation(this.currentQuestion);
 
             this.updateStats();
 
@@ -342,9 +364,24 @@
             this.streak = 0;
             this.questionCount = 0;
             this.resetFeedback();
+            this.setExplanation('');
             this.updateStats();
             this.renderOptions();
             this.nextQuestion();
+        }
+
+        applyExplanation(question) {
+            if (!question) return;
+            const why = question.explanation || '';
+            const memo = question.memo || '';
+            if (!why && !memo) {
+                this.setExplanation('');
+                return;
+            }
+            const parts = [];
+            if (why) parts.push(`Warum: ${why}`);
+            if (memo) parts.push(`Merksatz: ${memo}`);
+            this.setExplanation(parts.join(' '));
         }
 
         updateRestartButton() {
