@@ -1,1 +1,168 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Der Ausbildungsbetrieb",
+  "topic": "Berufsausbildung, Organisation, Arbeitsschutz, Umweltschutz",
+  "estimated_minutes": 25,
+  "sections": [
+    {
+      "id": "azubi-sort",
+      "type": "sort",
+      "title": "Raetsel 1: Themen zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Ausbildung = BBiG/dual, Organisation = Betriebsrat, Schutz = Arbeitsschutz, Umwelt = Green IT.",
+      "sortColumns": [
+        { "zone": "ausbildung", "label": "Berufsausbildung", "hint": "(BBiG, dual)" },
+        { "zone": "organisation", "label": "Aufbau/Organisation", "hint": "(Betriebsrat)" },
+        { "zone": "schutz", "label": "Sicherheit/Gesundheit", "hint": "(Arbeitsschutz)" },
+        { "zone": "umwelt", "label": "Umweltschutz", "hint": "(Green IT)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "BBiG", "correctZone": "ausbildung" },
+        { "id": "s2", "text": "Duales System", "correctZone": "ausbildung" },
+        { "id": "s3", "text": "Lerntechniken", "correctZone": "ausbildung" },
+        { "id": "s4", "text": "Betriebsrat", "correctZone": "organisation" },
+        { "id": "s5", "text": "JAV", "correctZone": "organisation" },
+        { "id": "s6", "text": "Aufbauorganisation", "correctZone": "organisation" },
+        { "id": "s7", "text": "Arbeitsschutzgesetz", "correctZone": "schutz" },
+        { "id": "s8", "text": "Ergonomie", "correctZone": "schutz" },
+        { "id": "s9", "text": "Brandschutz", "correctZone": "schutz" },
+        { "id": "s10", "text": "Abfalltrennung", "correctZone": "umwelt" },
+        { "id": "s11", "text": "Green IT", "correctZone": "umwelt" },
+        { "id": "s12", "text": "Ressourcenschonung", "correctZone": "umwelt" }
+      ]
+    },
+    {
+      "id": "azubi-quiz",
+      "type": "quiz",
+      "title": "Raetsel 2: Kurz-Quiz",
+      "subtitle": "Teste dein Wissen zu Ausbildung und Betrieb.",
+      "hintDefault": "Alle Antworten muessen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Wofuer steht BBiG?",
+          "options": [
+            { "value": "a", "text": "Berufsbildungsgesetz" },
+            { "value": "b", "text": "Betriebsverfassung" },
+            { "value": "c", "text": "Bilanzgesetz" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Was ist die JAV?",
+          "options": [
+            { "value": "a", "text": "Jugend- und Auszubildendenvertretung" },
+            { "value": "b", "text": "Just-in-time-Verfahren" },
+            { "value": "c", "text": "Java-Anwenderverein" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Green IT bedeutet ...",
+          "options": [
+            { "value": "a", "text": "Energie sparen und Ressourcen schonen" },
+            { "value": "b", "text": "Mehr Hardware kaufen" },
+            { "value": "c", "text": "Nur Papier benutzen" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "azubi-seq",
+      "type": "capital",
+      "title": "Raetsel 3: Ausbildungsstart",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Vertrag, Eintragung, Start, Lernen.",
+      "rows": [
+        {
+          "key": "vertrag",
+          "label": "Ausbildungsvertrag abschliessen",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "eintragung",
+          "label": "Eintragung bei der Kammer",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "start",
+          "label": "Ausbildung starten (Betrieb/Schule)",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "lernen",
+          "label": "Lerntechniken anwenden",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "schutz",
+          "label": "Arbeitsschutz einhalten",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "umwelt",
+          "label": "Umweltschutz im Betrieb umsetzen",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,66 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "FIAE – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Waehle einen Begriff.",
+    "column2": "Waehle die passende Erklaerung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "os",
+      "name": "Betriebssystem",
+      "description": "Verwaltet Hardware, Prozesse und Ressourcen.",
+      "example": "Linux oder Windows"
+    },
+    {
+      "id": "db",
+      "name": "Datenbank",
+      "description": "Strukturierte Speicherung und Abfrage von Daten.",
+      "example": "SQL-Server mit Tabellen"
+    },
+    {
+      "id": "story",
+      "name": "User Story",
+      "description": "Anforderung aus Sicht des Nutzers.",
+      "example": "Als Nutzer will ich Login"
+    },
+    {
+      "id": "sprint",
+      "name": "Sprint",
+      "description": "Zeitlich begrenzter Entwicklungszyklus.",
+      "example": "Zwei Wochen Iteration"
+    },
+    {
+      "id": "algo",
+      "name": "Algorithmus",
+      "description": "Schrittfolge zur Loesung eines Problems.",
+      "example": "Sortieren einer Liste"
+    },
+    {
+      "id": "bigo",
+      "name": "Komplexitaet",
+      "description": "Beschreibt den Aufwand in Abhaengigkeit von n.",
+      "example": "O(n log n)"
+    },
+    {
+      "id": "cicd",
+      "name": "CI/CD",
+      "description": "Automatisiert Build, Test und Deployment.",
+      "example": "Pipeline bei jedem Commit"
+    },
+    {
+      "id": "deploy",
+      "name": "Deployment",
+      "description": "Ausrollen einer Anwendung auf eine Umgebung.",
+      "example": "Release nach Produktion"
+    }
+  ]
+}

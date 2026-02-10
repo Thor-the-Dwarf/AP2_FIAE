@@ -1,1 +1,69 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Qualitätssicherung",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewählt.",
+  "legalForms": [
+    {
+      "id": "unit",
+      "name": "Unit-Test",
+      "attributes": {
+        "isolated": true,
+        "end_to_end": false,
+        "code_knowledge": true,
+        "automated_pipeline": false,
+        "documents_bugs": false
+      }
+    },
+    {
+      "id": "system",
+      "name": "Systemtest",
+      "attributes": {
+        "isolated": false,
+        "end_to_end": true,
+        "code_knowledge": false,
+        "automated_pipeline": false,
+        "documents_bugs": false
+      }
+    },
+    {
+      "id": "blackbox",
+      "name": "Black-Box-Test",
+      "attributes": {
+        "isolated": false,
+        "end_to_end": false,
+        "code_knowledge": false,
+        "automated_pipeline": false,
+        "documents_bugs": false
+      }
+    },
+    {
+      "id": "cicd",
+      "name": "CI/CD",
+      "attributes": {
+        "isolated": false,
+        "end_to_end": false,
+        "code_knowledge": false,
+        "automated_pipeline": true,
+        "documents_bugs": false
+      }
+    },
+    {
+      "id": "bug_tracking",
+      "name": "Bug-Tracking",
+      "attributes": {
+        "isolated": false,
+        "end_to_end": false,
+        "code_knowledge": false,
+        "automated_pipeline": false,
+        "documents_bugs": true
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Ist der Test isoliert auf eine Einheit fokussiert?", "attributeKey": "isolated" },
+    { "id": "q02", "hotkey": "2", "text": "Deckt der Ansatz End-to-End-Prozesse ab?", "attributeKey": "end_to_end" },
+    { "id": "q03", "hotkey": "3", "text": "Braucht man Codekenntnis für die Tests?", "attributeKey": "code_knowledge" },
+    { "id": "q04", "hotkey": "4", "text": "Automatisiert der Ansatz Build/Test/Deploy?", "attributeKey": "automated_pipeline" },
+    { "id": "q05", "hotkey": "5", "text": "Dokumentiert er Bugs und Status?", "attributeKey": "documents_bugs" }
+  ]
+}

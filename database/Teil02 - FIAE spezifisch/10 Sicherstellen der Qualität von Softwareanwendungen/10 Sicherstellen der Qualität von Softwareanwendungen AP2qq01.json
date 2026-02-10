@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Qualitätssicherung",
+  "introText": "Klick auf „Start“, um das Quick-Quiz zur Software-Qualität zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Unit-Test",
+    "Integrationstest",
+    "Systemtest",
+    "Black-Box-Test",
+    "White-Box-Test",
+    "Testing-Framework",
+    "Code-Review-Tool",
+    "CI/CD",
+    "Debugging",
+    "Bug-Tracking"
+  ],
+  "questions": [
+    { "text": "Testet eine einzelne Funktion isoliert.", "correct": "Unit-Test" },
+    { "text": "Testet das Zusammenspiel mehrerer Komponenten.", "correct": "Integrationstest" },
+    { "text": "End-to-End-Test im Gesamtsystem.", "correct": "Systemtest" },
+    { "text": "Test ohne Kenntnis des Quellcodes.", "correct": "Black-Box-Test" },
+    { "text": "Test mit Kenntnis der internen Struktur.", "correct": "White-Box-Test" },
+    { "text": "Framework für automatisierte Tests.", "correct": "Testing-Framework" },
+    { "text": "Tool für Reviews/Kommentare vor dem Merge.", "correct": "Code-Review-Tool" },
+    { "text": "Automatisiert Integration und Deployment.", "correct": "CI/CD" },
+    { "text": "Schritt-für-Schritt-Fehlersuche im Code.", "correct": "Debugging" },
+    { "text": "Dokumentiert Fehler und Status im Team.", "correct": "Bug-Tracking" }
+  ]
+}

@@ -1,1 +1,69 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Fehleranalyse",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewählt.",
+  "legalForms": [
+    {
+      "id": "debugging",
+      "name": "Debugging",
+      "attributes": {
+        "uses_breakpoints": true,
+        "focuses_root_cause": false,
+        "documents_status": false,
+        "uses_logs": true,
+        "tracks_tickets": false
+      }
+    },
+    {
+      "id": "root_cause",
+      "name": "Root-Cause-Analyse",
+      "attributes": {
+        "uses_breakpoints": false,
+        "focuses_root_cause": true,
+        "documents_status": false,
+        "uses_logs": true,
+        "tracks_tickets": false
+      }
+    },
+    {
+      "id": "bug_tracking",
+      "name": "Bug-Tracking",
+      "attributes": {
+        "uses_breakpoints": false,
+        "focuses_root_cause": false,
+        "documents_status": true,
+        "uses_logs": false,
+        "tracks_tickets": true
+      }
+    },
+    {
+      "id": "log_analysis",
+      "name": "Log-Analyse",
+      "attributes": {
+        "uses_breakpoints": false,
+        "focuses_root_cause": false,
+        "documents_status": false,
+        "uses_logs": true,
+        "tracks_tickets": false
+      }
+    },
+    {
+      "id": "workaround",
+      "name": "Workaround",
+      "attributes": {
+        "uses_breakpoints": false,
+        "focuses_root_cause": false,
+        "documents_status": false,
+        "uses_logs": false,
+        "tracks_tickets": false
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Werden Breakpoints/Step-Through genutzt?", "attributeKey": "uses_breakpoints" },
+    { "id": "q02", "hotkey": "2", "text": "Steht die eigentliche Ursache im Fokus?", "attributeKey": "focuses_root_cause" },
+    { "id": "q03", "hotkey": "3", "text": "Werden Status und Priorität dokumentiert?", "attributeKey": "documents_status" },
+    { "id": "q04", "hotkey": "4", "text": "Werden Logs systematisch ausgewertet?", "attributeKey": "uses_logs" },
+    { "id": "q05", "hotkey": "5", "text": "Werden Tickets verfolgt?", "attributeKey": "tracks_tickets" }
+  ]
+}

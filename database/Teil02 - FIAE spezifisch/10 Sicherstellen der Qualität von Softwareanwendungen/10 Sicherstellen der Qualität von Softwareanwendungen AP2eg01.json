@@ -1,1 +1,164 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Qualitätssicherung",
+  "topic": "Testkonzepte, Werkzeuge, Fehleranalyse",
+  "estimated_minutes": 25,
+  "sections": [
+    {
+      "id": "qa-sort",
+      "type": "sort",
+      "title": "Rätsel 1: QS-Bereiche zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Tests = Testarten, Tools = Frameworks/CI, Analyse = Debugging/Tracking.",
+      "sortColumns": [
+        { "zone": "tests", "label": "Testkonzepte", "hint": "(Unit/Integration/System)" },
+        { "zone": "tools", "label": "Werkzeuge", "hint": "(Frameworks, CI/CD)" },
+        { "zone": "analysis", "label": "Fehleranalyse", "hint": "(Debugging, Tracking)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Unit-Test", "correctZone": "tests" },
+        { "id": "s2", "text": "Integrationstest", "correctZone": "tests" },
+        { "id": "s3", "text": "Systemtest", "correctZone": "tests" },
+        { "id": "s4", "text": "Testing-Framework", "correctZone": "tools" },
+        { "id": "s5", "text": "CI/CD Pipeline", "correctZone": "tools" },
+        { "id": "s6", "text": "Code-Review-Tool", "correctZone": "tools" },
+        { "id": "s7", "text": "Debugging", "correctZone": "analysis" },
+        { "id": "s8", "text": "Bug-Tracking", "correctZone": "analysis" },
+        { "id": "s9", "text": "Root-Cause-Analyse", "correctZone": "analysis" }
+      ]
+    },
+    {
+      "id": "qa-quiz",
+      "type": "quiz",
+      "title": "Rätsel 2: Kurz-Quiz Qualität",
+      "subtitle": "Teste dein Wissen zu Tests, Tools und Fehleranalyse.",
+      "hintDefault": "Alle Antworten müssen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Welche Testart prüft das Zusammenspiel mehrerer Komponenten?",
+          "options": [
+            { "value": "a", "text": "Unit-Test" },
+            { "value": "b", "text": "Integrationstest" },
+            { "value": "c", "text": "Linting" }
+          ],
+          "correct": "b"
+        },
+        {
+          "id": "q2",
+          "text": "2. Wofür steht CI?",
+          "options": [
+            { "value": "a", "text": "Continuous Integration" },
+            { "value": "b", "text": "Code Inspection" },
+            { "value": "c", "text": "Client Interface" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Was ist Ziel der Root-Cause-Analyse?",
+          "options": [
+            { "value": "a", "text": "Nur Symptome beheben" },
+            { "value": "b", "text": "Ursache eines Fehlers finden" },
+            { "value": "c", "text": "UI-Tests erstellen" }
+          ],
+          "correct": "b"
+        }
+      ]
+    },
+    {
+      "id": "qa-seq",
+      "type": "capital",
+      "title": "Rätsel 3: Qualitätsprozess",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Erst testen, dann analysieren, dann dokumentieren.",
+      "rows": [
+        {
+          "key": "plan",
+          "label": "Testkonzept erstellen",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "execute",
+          "label": "Tests ausführen (Unit/Integration/System)",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "analyze",
+          "label": "Fehler analysieren (Debugging/Root Cause)",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "fix",
+          "label": "Fix implementieren",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "verify",
+          "label": "Regression testen",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "doc",
+          "label": "Bug dokumentieren/abschließen",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

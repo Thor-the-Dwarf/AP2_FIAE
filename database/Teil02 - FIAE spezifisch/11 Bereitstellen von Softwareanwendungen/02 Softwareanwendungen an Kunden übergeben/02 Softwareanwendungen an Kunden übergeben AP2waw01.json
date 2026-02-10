@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Übergabe an Kunden",
+  "description": "Schritt 1: Passenden Begriff wählen · Schritt 2: Begründungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst neue Software schrittweise an eine kleine Nutzergruppe ausrollen.",
+      "tags": ["Rollout", "Pilot"],
+      "options": [
+        {
+          "id": "pilot",
+          "label": "Pilot-Rollout",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Kleine Gruppe testet die Software vorab.", "correct": true },
+            { "id": "w2", "text": "Risiken werden vor dem großen Go-Live reduziert.", "correct": true },
+            { "id": "w3", "text": "Ersetzt alle Schulungen automatisch.", "correct": false },
+            { "id": "w4", "text": "Ist identisch mit der finalen Abnahme.", "correct": false }
+          ]
+        },
+        {
+          "id": "docs",
+          "label": "Dokumentation",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Hilft Nutzern beim Verständnis.", "correct": true },
+            { "id": "w2", "text": "Unterstützt Support und Schulungen.", "correct": true },
+            { "id": "w3", "text": "Ersetzt Pilot-Rollout vollständig.", "correct": false },
+            { "id": "w4", "text": "Ist nur für Entwickler gedacht.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Pilot-Rollout reduziert Risiken durch frühes Feedback."
+    },
+    {
+      "id": "c02",
+      "profile": "Nutzer sollen die Software sicher bedienen können und typische Abläufe kennen.",
+      "tags": ["Schulung"],
+      "options": [
+        {
+          "id": "training",
+          "label": "Schulung",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Vermittelt Wissen und sichere Bedienung.", "correct": true },
+            { "id": "w2", "text": "Reduziert Supportaufwand nach Go-Live.", "correct": true },
+            { "id": "w3", "text": "Ersetzt Dokumentation vollständig.", "correct": false },
+            { "id": "w4", "text": "Ist nur für Admins nötig.", "correct": false }
+          ]
+        },
+        {
+          "id": "rollout",
+          "label": "Rollout",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Plant die Auslieferung der Software.", "correct": true },
+            { "id": "w2", "text": "Umfasst Go-Live-Termine.", "correct": true },
+            { "id": "w3", "text": "Vermittelt Nutzerwissen.", "correct": false },
+            { "id": "w4", "text": "Ist identisch mit Schulung.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Schulungen befähigen die Nutzer, die Software sicher zu bedienen."
+    },
+    {
+      "id": "c03",
+      "profile": "Du willst alle Änderungen einer Version übersichtlich an Kunden kommunizieren.",
+      "tags": ["Dokumentation"],
+      "options": [
+        {
+          "id": "release_notes",
+          "label": "Release Notes",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Listen Änderungen, Fixes und neue Features.", "correct": true },
+            { "id": "w2", "text": "Helfen beim Erwartungsmanagement.", "correct": true },
+            { "id": "w3", "text": "Ersetzen Schulungen.", "correct": false },
+            { "id": "w4", "text": "Sind nur intern nutzbar.", "correct": false }
+          ]
+        },
+        {
+          "id": "support",
+          "label": "Support",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Hilft nach dem Go-Live bei Fragen.", "correct": true },
+            { "id": "w2", "text": "Fängt Fehler im Betrieb ab.", "correct": true },
+            { "id": "w3", "text": "Kommuniziert Änderungen strukturiert.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Release Notes vollständig.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Release Notes sind die standardisierte Änderungsübersicht."
+    }
+  ]
+}

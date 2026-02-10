@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Geschaeftsprozesse & Organisation",
+  "description": "Schritt 1: Passenden Begriff waehlen · Schritt 2: Begruendungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst die Struktur mit Abteilungen und Hierarchien beschreiben.",
+      "tags": ["Organisation"],
+      "options": [
+        {
+          "id": "aufbau",
+          "label": "Aufbauorganisation",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Zeigt die Struktur des Unternehmens.", "correct": true },
+            { "id": "w2", "text": "Ordnet Abteilungen und Hierarchie.", "correct": true },
+            { "id": "w3", "text": "Regelt Prozesszeiten.", "correct": false },
+            { "id": "w4", "text": "Ist identisch mit Marketing-Mix.", "correct": false }
+          ]
+        },
+        {
+          "id": "ablauf",
+          "label": "Ablauforganisation",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Regelt Prozesse und Ablaeufe.", "correct": true },
+            { "id": "w2", "text": "Definiert Prozessschritte.", "correct": true },
+            { "id": "w3", "text": "Stellt Hierarchie dar.", "correct": false },
+            { "id": "w4", "text": "Ist ein Organigramm.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Aufbauorganisation beschreibt die Struktur und Hierarchie."
+    },
+    {
+      "id": "c02",
+      "profile": "Du analysierst, wie Wertschöpfung von Input bis Output entsteht.",
+      "tags": ["Wertschoepfung"],
+      "options": [
+        {
+          "id": "wert",
+          "label": "Wertschoepfungskette",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Zeigt Stufen von Input zu Output.", "correct": true },
+            { "id": "w2", "text": "Hilft, Mehrwert zu erkennen.", "correct": true },
+            { "id": "w3", "text": "Ist nur ein Vertriebsplan.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Geschaeftsprozesse.", "correct": false }
+          ]
+        },
+        {
+          "id": "prozess",
+          "label": "Geschaeftsprozess",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Abfolge von Taetigkeiten.", "correct": true },
+            { "id": "w2", "text": "Kann Teil der Wertschoepfung sein.", "correct": true },
+            { "id": "w3", "text": "Beschreibt nur Abteilungen.", "correct": false },
+            { "id": "w4", "text": "Ist gleichbedeutend mit Marktanalyse.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Die Wertschoepfungskette zeigt Stufen der Wertentstehung."
+    },
+    {
+      "id": "c03",
+      "profile": "Du willst Kundenbeziehungen langfristig pflegen und auswerten.",
+      "tags": ["CRM"],
+      "options": [
+        {
+          "id": "crm",
+          "label": "CRM",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Pflegt Kundenbeziehungen langfristig.", "correct": true },
+            { "id": "w2", "text": "Unterstuetzt After-Sales und Service.", "correct": true },
+            { "id": "w3", "text": "Ist nur Preisgestaltung.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Beschaffung.", "correct": false }
+          ]
+        },
+        {
+          "id": "vertrieb",
+          "label": "Vertriebskanaele",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Bestimmen, wo verkauft wird.", "correct": true },
+            { "id": "w2", "text": "Teil des Marketing-Mix.", "correct": true },
+            { "id": "w3", "text": "Zielt direkt auf Kundenbindung.", "correct": false },
+            { "id": "w4", "text": "Ersetzt CRM.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "CRM fokussiert die langfristige Kundenbeziehung."
+    }
+  ]
+}

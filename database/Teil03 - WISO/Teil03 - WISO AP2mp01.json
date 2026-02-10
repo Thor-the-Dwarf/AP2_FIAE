@@ -1,1 +1,66 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "WISO – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Waehle einen Begriff.",
+    "column2": "Waehle die passende Erklaerung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "tarif",
+      "name": "Tarifvertrag",
+      "description": "Regelt Arbeitsbedingungen fuer eine Branche.",
+      "example": "Entgeltgruppen in der IT"
+    },
+    {
+      "id": "betriebsrat",
+      "name": "Betriebsrat",
+      "description": "Vertretung der Arbeitnehmer im Betrieb.",
+      "example": "Mitbestimmung bei Arbeitszeiten"
+    },
+    {
+      "id": "ausb",
+      "name": "Ausbildungsordnung",
+      "description": "Rechtliche Grundlage der Ausbildung.",
+      "example": "Berufsbild und Inhalte"
+    },
+    {
+      "id": "org",
+      "name": "Organigramm",
+      "description": "Darstellung von Aufbau und Hierarchie.",
+      "example": "Abteilungen im Unternehmen"
+    },
+    {
+      "id": "prozess",
+      "name": "Geschaeftsprozess",
+      "description": "Abfolge von Taetigkeiten fuer ein Ziel.",
+      "example": "Auftrag bearbeiten"
+    },
+    {
+      "id": "kosten",
+      "name": "Kostenrechnung",
+      "description": "Erfasst Kosten zur Steuerung.",
+      "example": "Kostentraegerrechnung"
+    },
+    {
+      "id": "bilanz",
+      "name": "Bilanz",
+      "description": "Gegenueberstellung von Vermoegen und Schulden.",
+      "example": "Aktiva/Passiva"
+    },
+    {
+      "id": "guv",
+      "name": "GuV",
+      "description": "Gegenueberstellung von Ertraegen und Aufwendungen.",
+      "example": "Jahresergebnis"
+    }
+  ]
+}

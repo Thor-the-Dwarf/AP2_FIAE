@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Beschaffung & Logistik",
+  "description": "Schritt 1: Passenden Begriff waehlen · Schritt 2: Begruendungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Material wird genau dann geliefert, wenn es gebraucht wird.",
+      "tags": ["JIT"],
+      "options": [
+        {
+          "id": "jit",
+          "label": "Just-in-Time",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Lieferung genau zum Bedarf.", "correct": true },
+            { "id": "w2", "text": "Minimiert Lagerkosten.", "correct": true },
+            { "id": "w3", "text": "Erfordert grosse Lagerbestaende.", "correct": false },
+            { "id": "w4", "text": "Ist nur fuer Vertrieb.", "correct": false }
+          ]
+        },
+        {
+          "id": "lager",
+          "label": "Lagerhaltung",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Verwaltung von Bestaenden.", "correct": true },
+            { "id": "w2", "text": "Sicherheitsbestand als Reserve.", "correct": true },
+            { "id": "w3", "text": "Lieferung exakt zum Bedarf.", "correct": false },
+            { "id": "w4", "text": "Ist identisch mit JIT.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Just-in-Time bedeutet Lieferung genau zum Bedarf."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst entscheiden, welchen Lieferanten du auswählst.",
+      "tags": ["Lieferant"],
+      "options": [
+        {
+          "id": "auswahl",
+          "label": "Lieferantenauswahl",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Bewertung nach Preis, Qualitaet, Zuverlaessigkeit.", "correct": true },
+            { "id": "w2", "text": "Vergleich mehrerer Anbieter.", "correct": true },
+            { "id": "w3", "text": "Ist nur Wareneingang.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Bestellprozess.", "correct": false }
+          ]
+        },
+        {
+          "id": "wareneingang",
+          "label": "Wareneingang",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Prueft gelieferte Ware.", "correct": true },
+            { "id": "w2", "text": "Bucht Bestand ein.", "correct": true },
+            { "id": "w3", "text": "Waehlst Lieferanten aus.", "correct": false },
+            { "id": "w4", "text": "Ist identisch mit Lieferantenauswahl.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Lieferantenauswahl bewertet Anbieter nach Kriterien."
+    },
+    {
+      "id": "c03",
+      "profile": "Du willst Bestand erfassen und Pruefung der Lieferung dokumentieren.",
+      "tags": ["Logistik"],
+      "options": [
+        {
+          "id": "wareneingang",
+          "label": "Wareneingang",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Pruefung der Lieferung.", "correct": true },
+            { "id": "w2", "text": "Bestand wird eingebucht.", "correct": true },
+            { "id": "w3", "text": "Ist nur Marketing.", "correct": false },
+            { "id": "w4", "text": "Ersetzt die Lagerhaltung.", "correct": false }
+          ]
+        },
+        {
+          "id": "beschaffung",
+          "label": "Beschaffungsprozess",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Ablauf von Bedarf bis Lieferung.", "correct": true },
+            { "id": "w2", "text": "Umfasst Angebote und Bestellung.", "correct": true },
+            { "id": "w3", "text": "Ist identisch mit Wareneingang.", "correct": false },
+            { "id": "w4", "text": "Hat nichts mit Logistik zu tun.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Wareneingang prueft Lieferung und bucht Bestand ein."
+    }
+  ]
+}

@@ -1,1 +1,69 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Übergabe an Kunden",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewählt.",
+  "legalForms": [
+    {
+      "id": "rollout",
+      "name": "Rollout",
+      "attributes": {
+        "delivers_to_users": true,
+        "is_training": false,
+        "is_documentation": false,
+        "has_go_live": true,
+        "is_support": false
+      }
+    },
+    {
+      "id": "training",
+      "name": "Schulung",
+      "attributes": {
+        "delivers_to_users": false,
+        "is_training": true,
+        "is_documentation": false,
+        "has_go_live": false,
+        "is_support": false
+      }
+    },
+    {
+      "id": "documentation",
+      "name": "Dokumentation",
+      "attributes": {
+        "delivers_to_users": false,
+        "is_training": false,
+        "is_documentation": true,
+        "has_go_live": false,
+        "is_support": false
+      }
+    },
+    {
+      "id": "go_live",
+      "name": "Go-Live",
+      "attributes": {
+        "delivers_to_users": true,
+        "is_training": false,
+        "is_documentation": false,
+        "has_go_live": true,
+        "is_support": false
+      }
+    },
+    {
+      "id": "support",
+      "name": "Support",
+      "attributes": {
+        "delivers_to_users": false,
+        "is_training": false,
+        "is_documentation": false,
+        "has_go_live": false,
+        "is_support": true
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Wird die Software aktiv an Nutzer ausgerollt?", "attributeKey": "delivers_to_users" },
+    { "id": "q02", "hotkey": "2", "text": "Geht es um Training der Nutzer?", "attributeKey": "is_training" },
+    { "id": "q03", "hotkey": "3", "text": "Geht es um schriftliche Unterlagen/Anleitungen?", "attributeKey": "is_documentation" },
+    { "id": "q04", "hotkey": "4", "text": "Ist der Produktivstart (Go-Live) zentral?", "attributeKey": "has_go_live" },
+    { "id": "q05", "hotkey": "5", "text": "Geht es um Hilfe nach der Einführung?", "attributeKey": "is_support" }
+  ]
+}

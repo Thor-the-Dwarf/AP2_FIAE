@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Bereitstellung von Software",
+  "introText": "Klick auf „Start“, um das Quick-Quiz zur Bereitstellung zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Konfigurationsmanagement",
+    "Deployment",
+    "Rollout",
+    "Schulung",
+    "Dokumentation",
+    "Change Management",
+    "Migration",
+    "Go-Live",
+    "Release",
+    "Support"
+  ],
+  "questions": [
+    { "text": "Verwaltet Konfigurationsstände und Änderungen.", "correct": "Konfigurationsmanagement" },
+    { "text": "Ausrollen einer Version auf eine Umgebung.", "correct": "Deployment" },
+    { "text": "Schrittweise Einführung bei Nutzern.", "correct": "Rollout" },
+    { "text": "Training zur sicheren Bedienung.", "correct": "Schulung" },
+    { "text": "Anleitungen und Handbücher für Nutzer/Admins.", "correct": "Dokumentation" },
+    { "text": "Begleitet organisatorische Veränderung.", "correct": "Change Management" },
+    { "text": "Überführt Daten in das neue System.", "correct": "Migration" },
+    { "text": "Start des produktiven Betriebs.", "correct": "Go-Live" },
+    { "text": "Offizieller Auslieferungsstand.", "correct": "Release" },
+    { "text": "Begleitung nach Go-Live bei Fragen/Fehlern.", "correct": "Support" }
+  ]
+}

@@ -1,1 +1,48 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Arbeitssicherheit – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "asg",
+      "name": "Arbeitsschutzgesetz",
+      "description": "Pflichten des Arbeitgebers zum Schutz der Beschaeftigten.",
+      "example": "Unterweisungspflicht"
+    },
+    {
+      "id": "uvv",
+      "name": "Unfallverhuetungsvorschriften",
+      "description": "Regeln der Berufsgenossenschaften zur Unfallvermeidung.",
+      "example": "Tragen von Schutzhelm"
+    },
+    {
+      "id": "gbe",
+      "name": "Gefaehrdungsbeurteilung",
+      "description": "Systematische Ermittlung und Bewertung von Risiken.",
+      "example": "Analyse der Ergonomie am Arbeitsplatz"
+    },
+    {
+      "id": "psa",
+      "name": "PSA",
+      "description": "Persoenliche Schutzausruestung.",
+      "example": "Handschuhe oder Schutzbrille"
+    },
+    {
+      "id": "unterweisung",
+      "name": "Unterweisung",
+      "description": "Einweisung in Sicherheitsregeln und Verhalten.",
+      "example": "Sicherheitsbelehrung vor Arbeitsbeginn"
+    }
+  ]
+}

@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Konfiguration & Deployment",
+  "description": "Schritt 1: Passenden Begriff wählen · Schritt 2: Begründungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst eine neue Funktion freischalten, ohne neu zu deployen.",
+      "tags": ["Feature-Flag"],
+      "options": [
+        {
+          "id": "flag",
+          "label": "Feature-Flag",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Schaltet Features dynamisch ein/aus.", "correct": true },
+            { "id": "w2", "text": "Kein Deployment erforderlich.", "correct": true },
+            { "id": "w3", "text": "Ersetzt Release-Prozesse vollständig.", "correct": false },
+            { "id": "w4", "text": "Ist dasselbe wie Rollback.", "correct": false }
+          ]
+        },
+        {
+          "id": "deployment",
+          "label": "Deployment",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Rollt neue Versionen aus.", "correct": true },
+            { "id": "w2", "text": "Benötigt meist Build/Release.", "correct": true },
+            { "id": "w3", "text": "Schaltet Features ohne Deploy frei.", "correct": false },
+            { "id": "w4", "text": "Ist identisch mit Feature-Flags.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Feature-Flags ermöglichen das Umschalten ohne Deployment."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst eine stabile Testumgebung, die Prod möglichst ähnelt.",
+      "tags": ["Staging"],
+      "options": [
+        {
+          "id": "staging",
+          "label": "Staging",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Ist eine Vorproduktionsumgebung.", "correct": true },
+            { "id": "w2", "text": "Dient finalen Tests vor Prod.", "correct": true },
+            { "id": "w3", "text": "Ist die echte Produktionsumgebung.", "correct": false },
+            { "id": "w4", "text": "Enthält nur lokale Entwicklerdaten.", "correct": false }
+          ]
+        },
+        {
+          "id": "dev",
+          "label": "Development",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Ist für Entwickler und Experimente.", "correct": true },
+            { "id": "w2", "text": "Stabilität ist nicht Hauptziel.", "correct": true },
+            { "id": "w3", "text": "Repliziert Produktions-Setup vollständig.", "correct": false },
+            { "id": "w4", "text": "Ist für Endkunden.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Staging ist die Vorproduktionsumgebung für reale Tests."
+    },
+    {
+      "id": "c03",
+      "profile": "Ein Deployment ist fehlerhaft. Du willst schnell auf die vorige Version zurück.",
+      "tags": ["Rollback"],
+      "options": [
+        {
+          "id": "rollback",
+          "label": "Rollback",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Setzt das System auf eine frühere Version zurück.", "correct": true },
+            { "id": "w2", "text": "Reduziert Ausfallzeit bei Fehlern.", "correct": true },
+            { "id": "w3", "text": "Ist eine neue Feature-Aktivierung.", "correct": false },
+            { "id": "w4", "text": "Erstellt nur ein Release-Tag.", "correct": false }
+          ]
+        },
+        {
+          "id": "release",
+          "label": "Release",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Kennzeichnet einen Auslieferungsstand.", "correct": true },
+            { "id": "w2", "text": "Kann für Rollback genutzt werden.", "correct": true },
+            { "id": "w3", "text": "Setzt automatisch auf frühere Version.", "correct": false },
+            { "id": "w4", "text": "Ist identisch mit Rollback.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Rollback bringt das System schnell auf die vorige Version."
+    }
+  ]
+}

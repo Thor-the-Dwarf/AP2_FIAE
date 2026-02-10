@@ -1,1 +1,66 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Grundlagen – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "bedarf",
+      "name": "Bedarfsermittlung",
+      "description": "Ermittlung von Anforderungen und Zielen des Kunden.",
+      "example": "Interview mit Stakeholdern"
+    },
+    {
+      "id": "pflichtenheft",
+      "name": "Pflichtenheft",
+      "description": "Beschreibung der Loesung aus Sicht des Auftragnehmers.",
+      "example": "Funktionen, Schnittstellen, Qualitaet"
+    },
+    {
+      "id": "testfall",
+      "name": "Testfall",
+      "description": "Definierter Input/Output zur Pruefung.",
+      "example": "Passwort leer -> Fehlermeldung"
+    },
+    {
+      "id": "dsgvo",
+      "name": "Datenschutz",
+      "description": "Schutz personenbezogener Daten.",
+      "example": "Datenminimierung"
+    },
+    {
+      "id": "verschluesselung",
+      "name": "Verschluesselung",
+      "description": "Schuetzt Daten vor unbefugtem Zugriff.",
+      "example": "TLS fuer Web" 
+    },
+    {
+      "id": "sla",
+      "name": "SLA",
+      "description": "Vereinbarte Service-Level und Reaktionszeiten.",
+      "example": "Antwort in 4 Stunden"
+    },
+    {
+      "id": "incident",
+      "name": "Incident",
+      "description": "Stoerung im Betrieb, die behoben werden muss.",
+      "example": "Service-Ausfall"
+    },
+    {
+      "id": "deployment",
+      "name": "Deployment",
+      "description": "Ausrollen einer Anwendung auf eine Umgebung.",
+      "example": "Release nach Prod"
+    }
+  ]
+}

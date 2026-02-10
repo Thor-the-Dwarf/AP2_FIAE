@@ -1,1 +1,81 @@
-{}
+{
+  "game_type": "word_blanks_interactive",
+  "schema_version": "1.0",
+  "title": "Lueckentext – Grundlagen (Teil01)",
+  "topic": "Beratung, IT-Loesungen, Qualitaet, Sicherheit, Service",
+  "estimated_minutes": 12,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Die _____ erfasst Anforderungen und Ziele des Kunden.",
+      "correctAnswer": "Bedarfsermittlung",
+      "hint": "Anforderungen aufnehmen"
+    },
+    {
+      "id": "s2",
+      "text": "Im _____ wird die Loesung aus Sicht des Auftragnehmers beschrieben.",
+      "correctAnswer": "Pflichtenheft",
+      "hint": "Dokument der Loesung"
+    },
+    {
+      "id": "s3",
+      "text": "_____ soll Fehler frueh erkennen und vermeiden.",
+      "correctAnswer": "Qualitaetssicherung",
+      "hint": "Tests und Reviews"
+    },
+    {
+      "id": "s4",
+      "text": "Ein _____ testet eine Funktion isoliert.",
+      "correctAnswer": "Unit-Test",
+      "hint": "Teststufe"
+    },
+    {
+      "id": "s5",
+      "text": "Bei der _____ bestaetigt der Kunde die Erfuellung der Anforderungen.",
+      "correctAnswer": "Abnahme",
+      "hint": "Formale Bestaetigung"
+    },
+    {
+      "id": "s6",
+      "text": "_____ regelt, wer auf Daten zugreifen darf.",
+      "correctAnswer": "Zugriffskontrolle",
+      "hint": "Berechtigungen"
+    },
+    {
+      "id": "s7",
+      "text": "_____ schuetzt Daten durch Kodierung.",
+      "correctAnswer": "Verschluesselung",
+      "hint": "Schutzmassnahme"
+    },
+    {
+      "id": "s8",
+      "text": "_____ bedeutet, nur notwendige Daten zu erheben.",
+      "correctAnswer": "Datensparsamkeit",
+      "hint": "Datenschutzprinzip"
+    },
+    {
+      "id": "s9",
+      "text": "Ein _____ erfasst und priorisiert Supportanfragen.",
+      "correctAnswer": "Ticket-System",
+      "hint": "Support-Tool"
+    },
+    {
+      "id": "s10",
+      "text": "Ein _____ legt Reaktionszeiten im Support fest.",
+      "correctAnswer": "SLA",
+      "hint": "Service-Level"
+    },
+    {
+      "id": "s11",
+      "text": "Bei der _____ wird eine Anwendung in eine Umgebung ausgerollt.",
+      "correctAnswer": "Deployment",
+      "hint": "Ausrollen"
+    },
+    {
+      "id": "s12",
+      "text": "Die _____ beschreibt Aufbau und Struktur einer Loesung.",
+      "correctAnswer": "Architektur",
+      "hint": "Struktur"
+    }
+  ]
+}

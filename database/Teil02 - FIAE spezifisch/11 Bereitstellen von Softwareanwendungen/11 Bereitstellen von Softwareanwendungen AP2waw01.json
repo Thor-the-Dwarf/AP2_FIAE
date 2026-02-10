@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Bereitstellung",
+  "description": "Schritt 1: Passenden Begriff wählen · Schritt 2: Begründungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst Änderungen an Konfigurationen nachvollziehbar versionieren.",
+      "tags": ["Konfiguration"],
+      "options": [
+        {
+          "id": "config_mgmt",
+          "label": "Konfigurationsmanagement",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Versioniert Konfigurationsstände.", "correct": true },
+            { "id": "w2", "text": "Änderungen sind nachvollziehbar.", "correct": true },
+            { "id": "w3", "text": "Rollt automatisch Deployments aus.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Change Management.", "correct": false }
+          ]
+        },
+        {
+          "id": "deployment",
+          "label": "Deployment",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Rollt neue Versionen auf Umgebungen aus.", "correct": true },
+            { "id": "w2", "text": "Benötigt Releases/Artefakte.", "correct": true },
+            { "id": "w3", "text": "Speichert Config-Änderungen automatisch.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Konfigurationsmanagement.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Konfigurationsmanagement sorgt für versionierte Configs."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst Nutzer schrittweise auf die neue Software umstellen.",
+      "tags": ["Rollout"],
+      "options": [
+        {
+          "id": "rollout",
+          "label": "Rollout",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Führt Software stufenweise ein.", "correct": true },
+            { "id": "w2", "text": "Reduziert Risiko beim Go-Live.", "correct": true },
+            { "id": "w3", "text": "Ist eine reine Datenübernahme.", "correct": false },
+            { "id": "w4", "text": "Ist identisch mit Migration.", "correct": false }
+          ]
+        },
+        {
+          "id": "migration",
+          "label": "Migration",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Überführt Daten in das neue System.", "correct": true },
+            { "id": "w2", "text": "Benötigt Mapping und Validierung.", "correct": true },
+            { "id": "w3", "text": "Ist der stufenweise Nutzer-Rollout.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Schulungen.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Rollout beschreibt die stufenweise Einführung bei Nutzern."
+    },
+    {
+      "id": "c03",
+      "profile": "Du musst Daten vom Altsystem ins neue System übertragen.",
+      "tags": ["Migration"],
+      "options": [
+        {
+          "id": "migration",
+          "label": "Migration",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Überführt Daten/Prozesse ins neue System.", "correct": true },
+            { "id": "w2", "text": "Erfordert Datenmapping.", "correct": true },
+            { "id": "w3", "text": "Ist nur Change-Kommunikation.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Rollout-Planung.", "correct": false }
+          ]
+        },
+        {
+          "id": "change",
+          "label": "Change Management",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Sichert Akzeptanz und Kommunikation.", "correct": true },
+            { "id": "w2", "text": "Begleitet organisatorische Veränderung.", "correct": true },
+            { "id": "w3", "text": "Überträgt Daten automatisch.", "correct": false },
+            { "id": "w4", "text": "Ist identisch mit Migration.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Migration ist für die Datenübernahme zuständig."
+    }
+  ]
+}

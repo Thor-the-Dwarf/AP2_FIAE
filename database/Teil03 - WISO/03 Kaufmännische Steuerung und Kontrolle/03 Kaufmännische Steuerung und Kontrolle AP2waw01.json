@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Kaufmännische Steuerung",
+  "description": "Schritt 1: Passenden Begriff waehlen · Schritt 2: Begruendungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst den Jahreserfolg durch Ertraege und Aufwendungen ermitteln.",
+      "tags": ["GuV"],
+      "options": [
+        {
+          "id": "guv",
+          "label": "GuV",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Stellt Ertraege und Aufwendungen gegenueber.", "correct": true },
+            { "id": "w2", "text": "Ermittelt Gewinn oder Verlust.", "correct": true },
+            { "id": "w3", "text": "Zeigt Vermoegen und Kapital.", "correct": false },
+            { "id": "w4", "text": "Ist eine Finanzierungsart.", "correct": false }
+          ]
+        },
+        {
+          "id": "bilanz",
+          "label": "Bilanz",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Stellt Aktiva und Passiva gegenueber.", "correct": true },
+            { "id": "w2", "text": "Zeigt Vermoegen und Kapital.", "correct": true },
+            { "id": "w3", "text": "Ermittelt den Jahresueberschuss.", "correct": false },
+            { "id": "w4", "text": "Ist identisch mit GuV.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Die GuV zeigt Ertraege und Aufwendungen und damit den Erfolg."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst wissen, wie rentabel eine Investition ist.",
+      "tags": ["ROI"],
+      "options": [
+        {
+          "id": "roi",
+          "label": "ROI",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Kennzahl fuer Rendite.", "correct": true },
+            { "id": "w2", "text": "Gewinn im Verhaeltnis zum Kapital.", "correct": true },
+            { "id": "w3", "text": "Misst Zeit bis Amortisation.", "correct": false },
+            { "id": "w4", "text": "Ist eine Finanzierungsart.", "correct": false }
+          ]
+        },
+        {
+          "id": "amort",
+          "label": "Amortisation",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Zeit bis zur Rueckzahlung.", "correct": true },
+            { "id": "w2", "text": "Misst Dauer, nicht Rendite.", "correct": true },
+            { "id": "w3", "text": "Zeigt Rendite in Prozent.", "correct": false },
+            { "id": "w4", "text": "Ist gleich ROI.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "ROI misst die Rendite einer Investition."
+    },
+    {
+      "id": "c03",
+      "profile": "Du brauchst Kapital von einer Bank fuer ein Projekt.",
+      "tags": ["Finanzierung"],
+      "options": [
+        {
+          "id": "fremd",
+          "label": "Fremdfinanzierung",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Kapital kommt von externen Gebern.", "correct": true },
+            { "id": "w2", "text": "Z. B. Bankkredit.", "correct": true },
+            { "id": "w3", "text": "Ist Finanzierung aus Gewinn.", "correct": false },
+            { "id": "w4", "text": "Ist identisch mit Eigenfinanzierung.", "correct": false }
+          ]
+        },
+        {
+          "id": "eigen",
+          "label": "Eigenfinanzierung",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Kapital aus Eigenmitteln.", "correct": true },
+            { "id": "w2", "text": "Gewinne werden einbehalten.", "correct": true },
+            { "id": "w3", "text": "Kommt von einer Bank.", "correct": false },
+            { "id": "w4", "text": "Ist eine Kreditform.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Bankkredit ist Fremdfinanzierung."
+    }
+  ]
+}

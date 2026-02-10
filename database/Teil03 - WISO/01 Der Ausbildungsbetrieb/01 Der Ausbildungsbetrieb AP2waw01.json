@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Der Ausbildungsbetrieb",
+  "description": "Schritt 1: Passenden Begriff waehlen · Schritt 2: Begruendungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst wissen, welches Gesetz die Ausbildung regelt.",
+      "tags": ["Berufsausbildung"],
+      "options": [
+        {
+          "id": "bbig",
+          "label": "BBiG",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Regelt Rechte und Pflichten in der Ausbildung.", "correct": true },
+            { "id": "w2", "text": "Gilt fuer Ausbildungsbetriebe und Azubis.", "correct": true },
+            { "id": "w3", "text": "Regelt nur Tarifvertraege.", "correct": false },
+            { "id": "w4", "text": "Ist ein Umweltschutzgesetz.", "correct": false }
+          ]
+        },
+        {
+          "id": "jav",
+          "label": "JAV",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Vertretung der Jugendlichen und Azubis.", "correct": true },
+            { "id": "w2", "text": "Wird im Betrieb gewaehlt.", "correct": true },
+            { "id": "w3", "text": "Regelt die Berufsausbildung gesetzlich.", "correct": false },
+            { "id": "w4", "text": "Ersetzt das BBiG.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "BBiG ist die gesetzliche Grundlage der Berufsausbildung."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst eine umweltfreundliche IT-Nutzung im Betrieb umsetzen.",
+      "tags": ["Umwelt"],
+      "options": [
+        {
+          "id": "greenit",
+          "label": "Green IT",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Zielt auf Energieeinsparung in der IT.", "correct": true },
+            { "id": "w2", "text": "Reduziert Ressourcenverbrauch.", "correct": true },
+            { "id": "w3", "text": "Hat nichts mit Umweltschutz zu tun.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Arbeitsschutzmassnahmen.", "correct": false }
+          ]
+        },
+        {
+          "id": "ergonomie",
+          "label": "Ergonomie",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Gesundheitsgerechte Arbeitsplatzgestaltung.", "correct": true },
+            { "id": "w2", "text": "Reduziert Belastung der Mitarbeiter.", "correct": true },
+            { "id": "w3", "text": "Sorgt fuer Energieeinsparung in Servern.", "correct": false },
+            { "id": "w4", "text": "Ist identisch mit Green IT.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Green IT beschreibt umweltfreundliche IT-Nutzung."
+    },
+    {
+      "id": "c03",
+      "profile": "Du willst die Interessen der Auszubildenden im Betrieb vertreten.",
+      "tags": ["Mitbestimmung"],
+      "options": [
+        {
+          "id": "jav",
+          "label": "JAV",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Vertretung der Jugendlichen und Azubis.", "correct": true },
+            { "id": "w2", "text": "Arbeitet mit dem Betriebsrat zusammen.", "correct": true },
+            { "id": "w3", "text": "Regelt Tarifvertraege.", "correct": false },
+            { "id": "w4", "text": "Ist die Geschaeftsleitung.", "correct": false }
+          ]
+        },
+        {
+          "id": "betriebsrat",
+          "label": "Betriebsrat",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Vertretung aller Arbeitnehmer.", "correct": true },
+            { "id": "w2", "text": "Mitbestimmung bei Arbeitsbedingungen.", "correct": true },
+            { "id": "w3", "text": "Nur fuer Azubis zustaendig.", "correct": false },
+            { "id": "w4", "text": "Ersetzt die JAV.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Die JAV vertritt speziell Jugendliche und Auszubildende."
+    }
+  ]
+}

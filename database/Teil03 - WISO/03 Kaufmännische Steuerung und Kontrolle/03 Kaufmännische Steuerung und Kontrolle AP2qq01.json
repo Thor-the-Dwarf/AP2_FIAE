@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Kaufmännische Steuerung",
+  "introText": "Klick auf Start, um das Quiz zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Buchfuehrung",
+    "Bilanz",
+    "GuV",
+    "Kostenrechnung",
+    "ROI",
+    "Budgetierung",
+    "Eigenfinanzierung",
+    "Fremdfinanzierung",
+    "Kapitalwert",
+    "Amortisation"
+  ],
+  "questions": [
+    { "text": "Aufzeichnung von Geschaeftsvorfaellen.", "correct": "Buchfuehrung" },
+    { "text": "Gegenueberstellung von Vermoegen und Kapital.", "correct": "Bilanz" },
+    { "text": "Ertraege minus Aufwendungen.", "correct": "GuV" },
+    { "text": "Interne Kostensteuerung.", "correct": "Kostenrechnung" },
+    { "text": "Kennzahl fuer Rendite.", "correct": "ROI" },
+    { "text": "Planung finanzieller Mittel.", "correct": "Budgetierung" },
+    { "text": "Finanzierung aus Eigenmitteln.", "correct": "Eigenfinanzierung" },
+    { "text": "Finanzierung durch Kredite.", "correct": "Fremdfinanzierung" },
+    { "text": "Bewertung mit abgezinsten Zahlungsstroemen.", "correct": "Kapitalwert" },
+    { "text": "Zeit bis zur Rueckzahlung der Investition.", "correct": "Amortisation" }
+  ]
+}

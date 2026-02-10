@@ -1,1 +1,63 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Berufsbildung & Arbeitsrecht",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewaehlt.",
+  "legalForms": [
+    {
+      "id": "bbig",
+      "name": "BBiG",
+      "attributes": {
+        "regulates_training": true,
+        "is_contract": false,
+        "is_tariff": false,
+        "protects_dismissal": false
+      }
+    },
+    {
+      "id": "vertrag",
+      "name": "Ausbildungsvertrag",
+      "attributes": {
+        "regulates_training": true,
+        "is_contract": true,
+        "is_tariff": false,
+        "protects_dismissal": false
+      }
+    },
+    {
+      "id": "arbeitsrecht",
+      "name": "Arbeitsrecht",
+      "attributes": {
+        "regulates_training": false,
+        "is_contract": false,
+        "is_tariff": false,
+        "protects_dismissal": true
+      }
+    },
+    {
+      "id": "tarif",
+      "name": "Tarifvertrag",
+      "attributes": {
+        "regulates_training": false,
+        "is_contract": false,
+        "is_tariff": true,
+        "protects_dismissal": false
+      }
+    },
+    {
+      "id": "kuendigung",
+      "name": "Kuendigungsschutz",
+      "attributes": {
+        "regulates_training": false,
+        "is_contract": false,
+        "is_tariff": false,
+        "protects_dismissal": true
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Regelt es die Berufsausbildung gesetzlich?", "attributeKey": "regulates_training" },
+    { "id": "q02", "hotkey": "2", "text": "Ist es ein individueller Vertrag?", "attributeKey": "is_contract" },
+    { "id": "q03", "hotkey": "3", "text": "Ist es ein Tarifvertrag?", "attributeKey": "is_tariff" },
+    { "id": "q04", "hotkey": "4", "text": "Schuetzt es vor Kuendigung?", "attributeKey": "protects_dismissal" }
+  ]
+}

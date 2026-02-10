@@ -1,1 +1,48 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Organisation & Wertschoepfung – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "aufbau",
+      "name": "Aufbauorganisation",
+      "description": "Struktur des Unternehmens mit Abteilungen und Hierarchie.",
+      "example": "Organigramm zeigt Bereiche"
+    },
+    {
+      "id": "ablauf",
+      "name": "Ablauforganisation",
+      "description": "Regelt Prozesse und Arbeitsablaeufe.",
+      "example": "Bestellprozess definiert"
+    },
+    {
+      "id": "prozess",
+      "name": "Geschaeftsprozess",
+      "description": "Abfolge von Taetigkeiten zur Leistungserstellung.",
+      "example": "Angebot -> Auftrag -> Lieferung"
+    },
+    {
+      "id": "wert",
+      "name": "Wertschoepfungskette",
+      "description": "Stufen von Input bis Output mit Mehrwert.",
+      "example": "Einkauf -> Produktion -> Vertrieb"
+    },
+    {
+      "id": "schnittstelle",
+      "name": "Schnittstelle",
+      "description": "Uebergabepunkt zwischen Abteilungen/Prozessen.",
+      "example": "Vertrieb uebergibt an Logistik"
+    }
+  ]
+}

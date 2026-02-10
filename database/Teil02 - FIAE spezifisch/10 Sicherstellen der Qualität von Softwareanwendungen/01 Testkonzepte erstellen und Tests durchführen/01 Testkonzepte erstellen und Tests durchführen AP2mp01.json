@@ -1,1 +1,54 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Testkonzepte – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle eine Testart.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "unit",
+      "name": "Unit-Test",
+      "description": "Testet einzelne Funktion/Klasse isoliert, oft mit Mocks.",
+      "example": "calculateTax() liefert 19% bei 100€"
+    },
+    {
+      "id": "integration",
+      "name": "Integrationstest",
+      "description": "Testet Zusammenspiel mehrerer Komponenten/Module.",
+      "example": "Service speichert Daten korrekt in DB"
+    },
+    {
+      "id": "system",
+      "name": "Systemtest",
+      "description": "Testet das Gesamtsystem Ende-zu-Ende in realistischer Umgebung.",
+      "example": "Checkout-Prozess vom Login bis Zahlung"
+    },
+    {
+      "id": "mock",
+      "name": "Mock",
+      "description": "Ersatzobjekt, das Abhängigkeiten simuliert.",
+      "example": "Fake API gibt vordefinierte Antwort zurück"
+    },
+    {
+      "id": "testfall",
+      "name": "Testfall",
+      "description": "Konkret definierter Input/Output zur Prüfung eines Verhaltens.",
+      "example": "Passwort leer -> Fehler Pflichtfeld"
+    },
+    {
+      "id": "testplan",
+      "name": "Testplan",
+      "description": "Dokumentiert Strategie, Testarten, Umfang und Ressourcen.",
+      "example": "Unit+Integration vor Systemtest"
+    }
+  ]
+}

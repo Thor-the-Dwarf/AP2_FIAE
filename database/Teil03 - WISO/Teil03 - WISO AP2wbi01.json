@@ -1,1 +1,81 @@
-{}
+{
+  "game_type": "word_blanks_interactive",
+  "schema_version": "1.0",
+  "title": "Lueckentext – WISO (Teil03)",
+  "topic": "Ausbildung, Organisation, Steuerung",
+  "estimated_minutes": 12,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Der _____ regelt Rechte und Pflichten in der Ausbildung.",
+      "correctAnswer": "Ausbildungsvertrag",
+      "hint": "Vertrag"
+    },
+    {
+      "id": "s2",
+      "text": "Die _____ beschreibt Inhalte und Dauer eines Ausbildungsberufs.",
+      "correctAnswer": "Ausbildungsordnung",
+      "hint": "Rechtliche Grundlage"
+    },
+    {
+      "id": "s3",
+      "text": "Der _____ dokumentiert Ausbildungsinhalte und Taetigkeiten.",
+      "correctAnswer": "Ausbildungsnachweis",
+      "hint": "Berichtsheft"
+    },
+    {
+      "id": "s4",
+      "text": "Ein _____ zeigt Hierarchie und Abteilungen im Unternehmen.",
+      "correctAnswer": "Organigramm",
+      "hint": "Aufbau"
+    },
+    {
+      "id": "s5",
+      "text": "Ein _____ beschreibt eine Abfolge von Taetigkeiten.",
+      "correctAnswer": "Geschaeftsprozess",
+      "hint": "Ablauf"
+    },
+    {
+      "id": "s6",
+      "text": "Die _____ optimiert Prozessschritte und Durchlaufzeiten.",
+      "correctAnswer": "Ablauforganisation",
+      "hint": "Prozesssicht"
+    },
+    {
+      "id": "s7",
+      "text": "Die _____ stellt Vermoegen und Schulden gegenueber.",
+      "correctAnswer": "Bilanz",
+      "hint": "Stichtag"
+    },
+    {
+      "id": "s8",
+      "text": "Die _____ zeigt Ertraege und Aufwendungen.",
+      "correctAnswer": "GuV",
+      "hint": "Ergebnis"
+    },
+    {
+      "id": "s9",
+      "text": "Der _____ ist Umsatz minus variable Kosten.",
+      "correctAnswer": "Deckungsbeitrag",
+      "hint": "Kalkulation"
+    },
+    {
+      "id": "s10",
+      "text": "_____ ist ein Preisnachlass bei schneller Zahlung.",
+      "correctAnswer": "Skonto",
+      "hint": "Zahlung"
+    },
+    {
+      "id": "s11",
+      "text": "Eine _____ erinnert an eine offene Forderung.",
+      "correctAnswer": "Mahnung",
+      "hint": "Zahlungserinnerung"
+    },
+    {
+      "id": "s12",
+      "text": "Der _____ vertritt die Arbeitnehmer im Betrieb.",
+      "correctAnswer": "Betriebsrat",
+      "hint": "Mitbestimmung"
+    }
+  ]
+}

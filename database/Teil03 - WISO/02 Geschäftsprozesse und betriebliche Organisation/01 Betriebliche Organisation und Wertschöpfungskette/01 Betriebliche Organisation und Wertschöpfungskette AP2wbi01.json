@@ -1,1 +1,63 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Organisation & Wertschoepfung",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewaehlt.",
+  "legalForms": [
+    {
+      "id": "aufbau",
+      "name": "Aufbauorganisation",
+      "attributes": {
+        "is_structure": true,
+        "is_process": false,
+        "shows_value_chain": false,
+        "uses_org_chart": true
+      }
+    },
+    {
+      "id": "ablauf",
+      "name": "Ablauforganisation",
+      "attributes": {
+        "is_structure": false,
+        "is_process": true,
+        "shows_value_chain": false,
+        "uses_org_chart": false
+      }
+    },
+    {
+      "id": "prozess",
+      "name": "Geschaeftsprozess",
+      "attributes": {
+        "is_structure": false,
+        "is_process": true,
+        "shows_value_chain": false,
+        "uses_org_chart": false
+      }
+    },
+    {
+      "id": "wert",
+      "name": "Wertschoepfungskette",
+      "attributes": {
+        "is_structure": false,
+        "is_process": true,
+        "shows_value_chain": true,
+        "uses_org_chart": false
+      }
+    },
+    {
+      "id": "organigramm",
+      "name": "Organigramm",
+      "attributes": {
+        "is_structure": true,
+        "is_process": false,
+        "shows_value_chain": false,
+        "uses_org_chart": true
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Geht es um Struktur/Hierarchie?", "attributeKey": "is_structure" },
+    { "id": "q02", "hotkey": "2", "text": "Geht es um Prozesse/Ablaeufe?", "attributeKey": "is_process" },
+    { "id": "q03", "hotkey": "3", "text": "Zeigt es eine Wertschoepfungskette?", "attributeKey": "shows_value_chain" },
+    { "id": "q04", "hotkey": "4", "text": "Ist ein Organigramm typisch?", "attributeKey": "uses_org_chart" }
+  ]
+}

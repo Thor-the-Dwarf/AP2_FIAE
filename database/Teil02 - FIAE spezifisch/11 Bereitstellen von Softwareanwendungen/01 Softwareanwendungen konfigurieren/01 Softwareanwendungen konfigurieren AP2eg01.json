@@ -1,1 +1,164 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Software konfigurieren",
+  "topic": "Konfigurationsmanagement, Deployment",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "conf-sort",
+      "type": "sort",
+      "title": "Rätsel 1: Begriffe zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Config = Parameter/Versionen, Deployment = Auslieferung/Umgebungen.",
+      "sortColumns": [
+        { "zone": "config", "label": "Konfigurationsmanagement", "hint": "(Parameter, Versionen)" },
+        { "zone": "deploy", "label": "Deployment", "hint": "(Rollout, Releases)" },
+        { "zone": "env", "label": "Umgebungen", "hint": "(Dev/Staging/Prod)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Konfigurationsdatei", "correctZone": "config" },
+        { "id": "s2", "text": "Versionierung von Configs", "correctZone": "config" },
+        { "id": "s3", "text": "Feature-Flag", "correctZone": "config" },
+        { "id": "s4", "text": "Release-Paket", "correctZone": "deploy" },
+        { "id": "s5", "text": "Rolling Deployment", "correctZone": "deploy" },
+        { "id": "s6", "text": "Rollback", "correctZone": "deploy" },
+        { "id": "s7", "text": "Development", "correctZone": "env" },
+        { "id": "s8", "text": "Staging", "correctZone": "env" },
+        { "id": "s9", "text": "Production", "correctZone": "env" }
+      ]
+    },
+    {
+      "id": "conf-quiz",
+      "type": "quiz",
+      "title": "Rätsel 2: Kurz-Quiz Konfiguration",
+      "subtitle": "Teste dein Wissen zu Config und Deployment.",
+      "hintDefault": "Alle Antworten müssen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Wozu dienen Feature-Flags?",
+          "options": [
+            { "value": "a", "text": "Funktionen ein-/ausschalten ohne Deployment" },
+            { "value": "b", "text": "Datenbanken löschen" },
+            { "value": "c", "text": "Nur für Tests" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Was ist Staging?",
+          "options": [
+            { "value": "a", "text": "Produktivsystem" },
+            { "value": "b", "text": "Vorproduktionsumgebung" },
+            { "value": "c", "text": "Nur lokale Umgebung" }
+          ],
+          "correct": "b"
+        },
+        {
+          "id": "q3",
+          "text": "3. Was bedeutet Rollback?",
+          "options": [
+            { "value": "a", "text": "Zurückrollen auf vorherige Version" },
+            { "value": "b", "text": "Backup löschen" },
+            { "value": "c", "text": "Neue Features aktivieren" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "conf-seq",
+      "type": "capital",
+      "title": "Rätsel 3: Deployment vorbereiten",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Erst konfigurieren, dann testen, dann deployen.",
+      "rows": [
+        {
+          "key": "config",
+          "label": "Konfiguration erstellen/anpassen",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "validate",
+          "label": "Config validieren (Syntax/Schema)",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "test",
+          "label": "Deploy auf Staging testen",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "package",
+          "label": "Release-Paket erstellen",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "deploy",
+          "label": "Deployment ausrollen",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "monitor",
+          "label": "Monitoring/Logs prüfen",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Qualitätssicherung",
+  "description": "Schritt 1: Passenden Begriff wählen · Schritt 2: Begründungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst testen, ob einzelne Funktionen korrekt arbeiten, ohne externe Abhängigkeiten.",
+      "tags": ["Unit"],
+      "options": [
+        {
+          "id": "unit",
+          "label": "Unit-Test",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Testet kleinste Einheiten isoliert.", "correct": true },
+            { "id": "w2", "text": "Mocks/Stubs sind üblich.", "correct": true },
+            { "id": "w3", "text": "Erfordert das ganze System.", "correct": false },
+            { "id": "w4", "text": "Ist primär für End-to-End-Prozesse.", "correct": false }
+          ]
+        },
+        {
+          "id": "system",
+          "label": "Systemtest",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Testet komplette End-to-End-Abläufe.", "correct": true },
+            { "id": "w2", "text": "Benötigt alle Subsysteme.", "correct": true },
+            { "id": "w3", "text": "Ist klein und isoliert.", "correct": false },
+            { "id": "w4", "text": "Verwendet nur Mocks.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Unit-Tests sind für isolierte Funktionen gedacht."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst prüfen, ob ein Feature aus User-Sicht funktioniert, ohne in den Code zu schauen.",
+      "tags": ["Black-Box"],
+      "options": [
+        {
+          "id": "blackbox",
+          "label": "Black-Box-Test",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Testet nur Input/Output, ohne Code-Wissen.", "correct": true },
+            { "id": "w2", "text": "Nutzerperspektive steht im Fokus.", "correct": true },
+            { "id": "w3", "text": "Analysiert Codepfade und Branches.", "correct": false },
+            { "id": "w4", "text": "Ist immer ein Unit-Test.", "correct": false }
+          ]
+        },
+        {
+          "id": "whitebox",
+          "label": "White-Box-Test",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Kennt die interne Struktur.", "correct": true },
+            { "id": "w2", "text": "Testet Codepfade gezielt.", "correct": true },
+            { "id": "w3", "text": "Ist rein nutzerorientiert.", "correct": false },
+            { "id": "w4", "text": "Benötigt keine Codekenntnis.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Black-Box-Tests prüfen aus Nutzersicht ohne Codekenntnis."
+    },
+    {
+      "id": "c03",
+      "profile": "Du willst sicherstellen, dass Tests automatisch laufen und Deployments reproduzierbar sind.",
+      "tags": ["CI/CD"],
+      "options": [
+        {
+          "id": "cicd",
+          "label": "CI/CD",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Automatisiert Build, Test und Deployment.", "correct": true },
+            { "id": "w2", "text": "Erhöht Konsistenz und Geschwindigkeit.", "correct": true },
+            { "id": "w3", "text": "Ersetzt Debugging vollständig.", "correct": false },
+            { "id": "w4", "text": "Dient nur der Codeformatierung.", "correct": false }
+          ]
+        },
+        {
+          "id": "review",
+          "label": "Code-Review-Tool",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Erlaubt Feedback vor dem Merge.", "correct": true },
+            { "id": "w2", "text": "Verbessert Code-Qualität durch Diskussion.", "correct": true },
+            { "id": "w3", "text": "Führt automatische Deployments aus.", "correct": false },
+            { "id": "w4", "text": "Ersetzt CI-Pipelines.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "CI/CD automatisiert Tests und Deployments."
+    }
+  ]
+}

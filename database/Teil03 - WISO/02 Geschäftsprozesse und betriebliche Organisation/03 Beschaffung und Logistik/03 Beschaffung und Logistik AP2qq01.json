@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Beschaffung & Logistik",
+  "introText": "Klick auf Start, um das Quiz zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Beschaffungsprozess",
+    "Lieferantenauswahl",
+    "Lagerhaltung",
+    "Just-in-Time",
+    "Wareneingang",
+    "Sicherheitsbestand",
+    "Mindestbestand",
+    "Bestellpunkt",
+    "Transport",
+    "Logistik"
+  ],
+  "questions": [
+    { "text": "Ablauf von Bedarf bis Lieferung.", "correct": "Beschaffungsprozess" },
+    { "text": "Auswahl nach Preis, Qualitaet, Zuverlaessigkeit.", "correct": "Lieferantenauswahl" },
+    { "text": "Verwaltung von Bestandsmengen.", "correct": "Lagerhaltung" },
+    { "text": "Lieferung exakt zum Bedarf.", "correct": "Just-in-Time" },
+    { "text": "Pruefung gelieferter Waren.", "correct": "Wareneingang" },
+    { "text": "Reservebestand zur Absicherung.", "correct": "Sicherheitsbestand" },
+    { "text": "Unterschreitungsgrenze fuer Bestellung.", "correct": "Mindestbestand" },
+    { "text": "Bestand, bei dem nachbestellt wird.", "correct": "Bestellpunkt" },
+    { "text": "Bewegung von Guetern.", "correct": "Transport" },
+    { "text": "Planung und Steuerung von Materialfluessen.", "correct": "Logistik" }
+  ]
+}

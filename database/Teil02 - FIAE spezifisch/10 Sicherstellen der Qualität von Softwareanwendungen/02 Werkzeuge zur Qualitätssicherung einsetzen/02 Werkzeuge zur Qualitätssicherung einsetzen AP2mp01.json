@@ -1,1 +1,54 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "QS-Werkzeuge – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle ein QS-Werkzeug.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "test_framework",
+      "name": "Testing-Framework",
+      "description": "Bietet Runner, Assertions und Struktur für automatisierte Tests.",
+      "example": "JUnit, pytest, Jest"
+    },
+    {
+      "id": "linting",
+      "name": "Linter",
+      "description": "Prüft Code-Stil und einfache Fehler automatisch.",
+      "example": "ESLint, Flake8"
+    },
+    {
+      "id": "static_analysis",
+      "name": "Static Analysis",
+      "description": "Findet Code-Smells, Bugs und Sicherheitsprobleme im Quellcode.",
+      "example": "SonarQube"
+    },
+    {
+      "id": "code_review",
+      "name": "Code-Review-Tool",
+      "description": "Unterstützt Reviews, Comments und Qualitätschecks im PR.",
+      "example": "GitHub/GitLab Pull Requests"
+    },
+    {
+      "id": "ci",
+      "name": "CI-Pipeline",
+      "description": "Automatisiert Build und Tests bei jedem Commit.",
+      "example": "GitHub Actions, GitLab CI"
+    },
+    {
+      "id": "cd",
+      "name": "CD",
+      "description": "Automatisiertes Deployment in Zielumgebungen.",
+      "example": "Automatischer Deploy auf Staging"
+    }
+  ]
+}

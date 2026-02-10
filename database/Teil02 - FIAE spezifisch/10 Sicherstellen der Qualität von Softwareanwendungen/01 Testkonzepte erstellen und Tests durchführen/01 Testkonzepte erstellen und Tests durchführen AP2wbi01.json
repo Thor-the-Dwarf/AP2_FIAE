@@ -1,1 +1,69 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Testkonzepte",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewählt.",
+  "legalForms": [
+    {
+      "id": "unit",
+      "name": "Unit-Test",
+      "attributes": {
+        "isolated": true,
+        "tests_integration": false,
+        "tests_end_to_end": false,
+        "uses_mocks": true,
+        "needs_full_system": false
+      }
+    },
+    {
+      "id": "integration",
+      "name": "Integrationstest",
+      "attributes": {
+        "isolated": false,
+        "tests_integration": true,
+        "tests_end_to_end": false,
+        "uses_mocks": false,
+        "needs_full_system": false
+      }
+    },
+    {
+      "id": "system",
+      "name": "Systemtest",
+      "attributes": {
+        "isolated": false,
+        "tests_integration": true,
+        "tests_end_to_end": true,
+        "uses_mocks": false,
+        "needs_full_system": true
+      }
+    },
+    {
+      "id": "regression",
+      "name": "Regressionstest",
+      "attributes": {
+        "isolated": false,
+        "tests_integration": false,
+        "tests_end_to_end": false,
+        "uses_mocks": false,
+        "needs_full_system": false
+      }
+    },
+    {
+      "id": "acceptance",
+      "name": "Abnahmetest",
+      "attributes": {
+        "isolated": false,
+        "tests_integration": false,
+        "tests_end_to_end": true,
+        "uses_mocks": false,
+        "needs_full_system": true
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Wird eine einzelne Funktion isoliert geprüft?", "attributeKey": "isolated" },
+    { "id": "q02", "hotkey": "2", "text": "Steht das Zusammenspiel mehrerer Komponenten im Fokus?", "attributeKey": "tests_integration" },
+    { "id": "q03", "hotkey": "3", "text": "Deckt der Test End-to-End-Prozesse ab?", "attributeKey": "tests_end_to_end" },
+    { "id": "q04", "hotkey": "4", "text": "Werden Mocks/Stubs typischerweise genutzt?", "attributeKey": "uses_mocks" },
+    { "id": "q05", "hotkey": "5", "text": "Wird das gesamte System benötigt?", "attributeKey": "needs_full_system" }
+  ]
+}

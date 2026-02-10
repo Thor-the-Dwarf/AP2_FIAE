@@ -1,1 +1,164 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – QS-Werkzeuge",
+  "topic": "Testing-Frameworks, Code-Review-Tools, CI/CD",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "qs-sort",
+      "type": "sort",
+      "title": "Rätsel 1: Werkzeuge zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Frameworks testen Code, Review-Tools prüfen Qualität, CI/CD automatisiert Builds/Deploys.",
+      "sortColumns": [
+        { "zone": "testing", "label": "Testing-Frameworks", "hint": "(Tests ausführen)" },
+        { "zone": "review", "label": "Code-Review-Tools", "hint": "(Qualitätschecks)" },
+        { "zone": "cicd", "label": "CI/CD", "hint": "(Build/Deploy)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Test Runner", "correctZone": "testing" },
+        { "id": "s2", "text": "Assertions", "correctZone": "testing" },
+        { "id": "s3", "text": "Coverage-Report", "correctZone": "testing" },
+        { "id": "s4", "text": "Linting-Regeln", "correctZone": "review" },
+        { "id": "s5", "text": "Static Analysis", "correctZone": "review" },
+        { "id": "s6", "text": "Pull-Request-Checks", "correctZone": "review" },
+        { "id": "s7", "text": "Build-Pipeline", "correctZone": "cicd" },
+        { "id": "s8", "text": "Automatisches Deployment", "correctZone": "cicd" },
+        { "id": "s9", "text": "Pipeline-Stages", "correctZone": "cicd" }
+      ]
+    },
+    {
+      "id": "qs-quiz",
+      "type": "quiz",
+      "title": "Rätsel 2: Kurz-Quiz QS-Tools",
+      "subtitle": "Teste dein Wissen zu Testing, Review und CI/CD.",
+      "hintDefault": "Alle Antworten müssen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Wofür wird ein Test-Framework genutzt?",
+          "options": [
+            { "value": "a", "text": "Automatisches Testen von Code" },
+            { "value": "b", "text": "Deployments planen" },
+            { "value": "c", "text": "Code nur formatieren" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Was ist ein Pull-Request-Check?",
+          "options": [
+            { "value": "a", "text": "Code-Review-Qualitätsprüfung" },
+            { "value": "b", "text": "Datenbank-Migration" },
+            { "value": "c", "text": "Manuelles Deployment" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. CI/CD bedeutet ...",
+          "options": [
+            { "value": "a", "text": "Continuous Integration/Delivery" },
+            { "value": "b", "text": "Code Inspection/Code Design" },
+            { "value": "c", "text": "Client Interface/Cloud Database" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "qs-seq",
+      "type": "capital",
+      "title": "Rätsel 3: CI-Pipeline Ablauf",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Erst Build, dann Tests, dann Deployment.",
+      "rows": [
+        {
+          "key": "checkout",
+          "label": "Code aus Repository holen",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "build",
+          "label": "Build/Compile",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "test",
+          "label": "Tests ausführen",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "quality",
+          "label": "Quality Gates (Lint/Static Analysis)",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "package",
+          "label": "Artefakt bauen/paketieren",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "deploy",
+          "label": "Deployment ausführen",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

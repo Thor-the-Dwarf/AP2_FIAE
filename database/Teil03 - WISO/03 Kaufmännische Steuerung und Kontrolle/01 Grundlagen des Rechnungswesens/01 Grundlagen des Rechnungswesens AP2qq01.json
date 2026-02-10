@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Rechnungswesen",
+  "introText": "Klick auf Start, um das Quiz zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Buchfuehrung",
+    "Bilanz",
+    "GuV",
+    "Kostenrechnung",
+    "Aktiva",
+    "Passiva",
+    "Ertrag",
+    "Aufwand",
+    "Eigenkapital",
+    "Buchungssatz"
+  ],
+  "questions": [
+    { "text": "Systematische Aufzeichnung von Geschaeftsvorfaellen.", "correct": "Buchfuehrung" },
+    { "text": "Gegenueberstellung von Vermoegen und Kapital.", "correct": "Bilanz" },
+    { "text": "Stellt Ertraege und Aufwendungen gegenueber.", "correct": "GuV" },
+    { "text": "Interne Erfassung und Verrechnung von Kosten.", "correct": "Kostenrechnung" },
+    { "text": "Vermoegensseite der Bilanz.", "correct": "Aktiva" },
+    { "text": "Kapitalseite der Bilanz.", "correct": "Passiva" },
+    { "text": "Einnahme aus Leistung/Verkauf.", "correct": "Ertrag" },
+    { "text": "Verbrauch fuer Leistungserstellung.", "correct": "Aufwand" },
+    { "text": "Differenz aus Vermoegen und Schulden.", "correct": "Eigenkapital" },
+    { "text": "Formel: Soll an Haben.", "correct": "Buchungssatz" }
+  ]
+}

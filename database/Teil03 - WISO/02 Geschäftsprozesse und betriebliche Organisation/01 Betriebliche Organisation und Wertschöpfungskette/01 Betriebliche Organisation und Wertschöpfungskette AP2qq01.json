@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Organisation & Wertschoepfung",
+  "introText": "Klick auf Start, um das Quiz zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Aufbauorganisation",
+    "Ablauforganisation",
+    "Geschaeftsprozess",
+    "Wertschoepfungskette",
+    "Organigramm",
+    "Schnittstelle",
+    "Durchlaufzeit",
+    "Standardisierung",
+    "Prozessschritt",
+    "Kennzahl"
+  ],
+  "questions": [
+    { "text": "Struktur des Unternehmens mit Abteilungen.", "correct": "Aufbauorganisation" },
+    { "text": "Regelt Prozesse und Arbeitsablaeufe.", "correct": "Ablauforganisation" },
+    { "text": "Abfolge von Taetigkeiten zur Leistungserstellung.", "correct": "Geschaeftsprozess" },
+    { "text": "Stufen vom Input bis Output mit Mehrwert.", "correct": "Wertschoepfungskette" },
+    { "text": "Darstellung der Hierarchie im Betrieb.", "correct": "Organigramm" },
+    { "text": "Uebergabepunkt zwischen Abteilungen.", "correct": "Schnittstelle" },
+    { "text": "Zeit vom Start bis Ende eines Prozesses.", "correct": "Durchlaufzeit" },
+    { "text": "Einheitliche Regeln fuer Abläufe.", "correct": "Standardisierung" },
+    { "text": "Einzelner Schritt innerhalb eines Prozesses.", "correct": "Prozessschritt" },
+    { "text": "Messgroesse zur Steuerung.", "correct": "Kennzahl" }
+  ]
+}

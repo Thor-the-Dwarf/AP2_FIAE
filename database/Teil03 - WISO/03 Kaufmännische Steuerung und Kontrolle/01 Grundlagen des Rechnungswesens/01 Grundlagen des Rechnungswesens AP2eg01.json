@@ -1,1 +1,168 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Rechnungswesen Grundlagen",
+  "topic": "Buchfuehrung, Bilanz, GuV, Kostenrechnung",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "rw-sort",
+      "type": "sort",
+      "title": "Raetsel 1: Begriffe zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Buchfuehrung = Konten/Buchen, Bilanz = Aktiva/Passiva, GuV = Erfolg, Kostenrechnung = intern.",
+      "sortColumns": [
+        { "zone": "buchf", "label": "Buchfuehrung", "hint": "(Konten, Buchen)" },
+        { "zone": "bilanz", "label": "Bilanz", "hint": "(Aktiva/Passiva)" },
+        { "zone": "guv", "label": "GuV", "hint": "(Ertrag/Aufwand)" },
+        { "zone": "kosten", "label": "Kostenrechnung", "hint": "(intern)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Soll/Haben", "correctZone": "buchf" },
+        { "id": "s2", "text": "Kontenrahmen", "correctZone": "buchf" },
+        { "id": "s3", "text": "Buchungssatz", "correctZone": "buchf" },
+        { "id": "s4", "text": "Aktiva", "correctZone": "bilanz" },
+        { "id": "s5", "text": "Passiva", "correctZone": "bilanz" },
+        { "id": "s6", "text": "Eigenkapital", "correctZone": "bilanz" },
+        { "id": "s7", "text": "Ertraege", "correctZone": "guv" },
+        { "id": "s8", "text": "Aufwendungen", "correctZone": "guv" },
+        { "id": "s9", "text": "Jahresueberschuss", "correctZone": "guv" },
+        { "id": "s10", "text": "Kostentraeger", "correctZone": "kosten" },
+        { "id": "s11", "text": "Kostenstelle", "correctZone": "kosten" },
+        { "id": "s12", "text": "Kalkulation", "correctZone": "kosten" }
+      ]
+    },
+    {
+      "id": "rw-quiz",
+      "type": "quiz",
+      "title": "Raetsel 2: Kurz-Quiz",
+      "subtitle": "Teste dein Wissen zum Rechnungswesen.",
+      "hintDefault": "Alle Antworten muessen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Was zeigt die Bilanz?",
+          "options": [
+            { "value": "a", "text": "Vermoegen und Kapital" },
+            { "value": "b", "text": "Nur Einnahmen" },
+            { "value": "c", "text": "Nur Kosten" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. GuV stellt gegenueber ...",
+          "options": [
+            { "value": "a", "text": "Ertraege und Aufwendungen" },
+            { "value": "b", "text": "Aktiva und Passiva" },
+            { "value": "c", "text": "Steuern und Ruecklagen" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Kostenrechnung dient ...",
+          "options": [
+            { "value": "a", "text": "interner Steuerung" },
+            { "value": "b", "text": "nur Steuererklaerung" },
+            { "value": "c", "text": "nur Marketing" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "rw-seq",
+      "type": "capital",
+      "title": "Raetsel 3: Abschluss erstellen",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Buchen, Abschluss, Bilanz/GuV.",
+      "rows": [
+        {
+          "key": "buchen",
+          "label": "Geschaeftsvorfaelle buchen",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "abschluss",
+          "label": "Konten abschliessen",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "guv",
+          "label": "GuV erstellen",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "bilanz",
+          "label": "Bilanz erstellen",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "kontrolle",
+          "label": "Ergebnisse kontrollieren",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "auswerten",
+          "label": "Kennzahlen auswerten",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

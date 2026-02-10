@@ -1,1 +1,54 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Kaufmännische Steuerung – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "bilanz",
+      "name": "Bilanz",
+      "description": "Gegenueberstellung von Vermoegen und Kapital.",
+      "example": "Aktiva = Passiva"
+    },
+    {
+      "id": "guv",
+      "name": "GuV",
+      "description": "Ertraege und Aufwendungen zur Erfolgsermittlung.",
+      "example": "Umsatz - Aufwand = Gewinn"
+    },
+    {
+      "id": "roi",
+      "name": "ROI",
+      "description": "Kennzahl fuer Rendite einer Investition.",
+      "example": "Gewinn / Kapital"
+    },
+    {
+      "id": "budget",
+      "name": "Budget",
+      "description": "Geplanter Finanzrahmen.",
+      "example": "Marketingbudget 50.000 EUR"
+    },
+    {
+      "id": "eigen",
+      "name": "Eigenfinanzierung",
+      "description": "Finanzierung aus Eigenmitteln.",
+      "example": "Gewinne einbehalten"
+    },
+    {
+      "id": "fremd",
+      "name": "Fremdfinanzierung",
+      "description": "Finanzierung durch Kredite/Darlehen.",
+      "example": "Bankkredit"
+    }
+  ]
+}

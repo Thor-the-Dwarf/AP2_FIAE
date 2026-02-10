@@ -1,1 +1,172 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Grundlagen (Teil01)",
+  "topic": "Kundenberatung, IT-Loesungen, Qualitaetssicherung, IT-Sicherheit, Service",
+  "estimated_minutes": 25,
+  "sections": [
+    {
+      "id": "grund-sort",
+      "type": "sort",
+      "title": "Raetsel 1: Begriffe zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Beratung = Bedarf/Komm., IT-Loesungen = Entwicklung, QS = Tests, Sicherheit = Datenschutz, Service = SLA/Support.",
+      "sortColumns": [
+        { "zone": "beratung", "label": "Informieren & Beraten", "hint": "(Bedarf, Kommunikation)" },
+        { "zone": "loesung", "label": "IT-Loesungen", "hint": "(Entwicklung)" },
+        { "zone": "qs", "label": "Qualitaetssicherung", "hint": "(Tests)" },
+        { "zone": "security", "label": "IT-Sicherheit/DSGVO", "hint": "(Schutz, Datenschutz)" },
+        { "zone": "service", "label": "Serviceleistungen", "hint": "(Support, SLA)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Bedarfsermittlung", "correctZone": "beratung" },
+        { "id": "s2", "text": "Loesungsvorschlag", "correctZone": "beratung" },
+        { "id": "s3", "text": "Pflichtenheft", "correctZone": "beratung" },
+        { "id": "s4", "text": "Implementierung", "correctZone": "loesung" },
+        { "id": "s5", "text": "Deployment", "correctZone": "loesung" },
+        { "id": "s6", "text": "Architektur", "correctZone": "loesung" },
+        { "id": "s7", "text": "Unit-Test", "correctZone": "qs" },
+        { "id": "s8", "text": "Testfall", "correctZone": "qs" },
+        { "id": "s9", "text": "Abnahme", "correctZone": "qs" },
+        { "id": "s10", "text": "Zugriffskontrolle", "correctZone": "security" },
+        { "id": "s11", "text": "Datensparsamkeit", "correctZone": "security" },
+        { "id": "s12", "text": "Verschluesselung", "correctZone": "security" },
+        { "id": "s13", "text": "Ticket-System", "correctZone": "service" },
+        { "id": "s14", "text": "SLA", "correctZone": "service" },
+        { "id": "s15", "text": "Incident-Handling", "correctZone": "service" }
+      ]
+    },
+    {
+      "id": "grund-quiz",
+      "type": "quiz",
+      "title": "Raetsel 2: Kurz-Quiz Grundlagen",
+      "subtitle": "Teste dein Wissen zu Beratung, QS und Sicherheit.",
+      "hintDefault": "Alle Antworten muessen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Wozu dient ein Pflichtenheft?",
+          "options": [
+            { "value": "a", "text": "Dokumentiert Anforderungen und Loesung" },
+            { "value": "b", "text": "Enthaelt nur Quellcode" },
+            { "value": "c", "text": "Ist ein Marketingplan" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Was ist Ziel der Qualitaetssicherung?",
+          "options": [
+            { "value": "a", "text": "Fehler frueh erkennen und vermeiden" },
+            { "value": "b", "text": "Nur Kosten reduzieren" },
+            { "value": "c", "text": "Nur Dokumentation" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Was bedeutet Datensparsamkeit?",
+          "options": [
+            { "value": "a", "text": "Nur notwendige Daten erheben" },
+            { "value": "b", "text": "Alle Daten speichern" },
+            { "value": "c", "text": "Daten oeffentlich machen" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "grund-seq",
+      "type": "capital",
+      "title": "Raetsel 3: Projektablauf grob",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Bedarf -> Konzept -> Umsetzung -> Test -> Betrieb.",
+      "rows": [
+        {
+          "key": "bedarf",
+          "label": "Bedarf ermitteln",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "konzept",
+          "label": "Loesung konzipieren",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "umsetzung",
+          "label": "Loesung umsetzen",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "test",
+          "label": "Qualitaet sichern (Tests)",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "security",
+          "label": "Sicherheitsmassnahmen umsetzen",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "betrieb",
+          "label": "Service/Betrieb sicherstellen",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

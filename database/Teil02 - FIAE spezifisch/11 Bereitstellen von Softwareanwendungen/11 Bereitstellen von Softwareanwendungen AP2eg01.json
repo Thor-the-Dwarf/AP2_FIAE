@@ -1,1 +1,163 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Software bereitstellen",
+  "topic": "Konfiguration, Übergabe, Einführung",
+  "estimated_minutes": 25,
+  "sections": [
+    {
+      "id": "deploy-sort",
+      "type": "sort",
+      "title": "Rätsel 1: Bereiche zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Konfiguration = Parameter/Deployment, Übergabe = Rollout/Schulung/Doku, Einführung = Change/Migration.",
+      "sortColumns": [
+        { "zone": "config", "label": "Konfiguration", "hint": "(Config, Deployment)" },
+        { "zone": "handover", "label": "Übergabe", "hint": "(Rollout, Doku)" },
+        { "zone": "intro", "label": "Einführung", "hint": "(Change, Migration)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Konfigurationsmanagement", "correctZone": "config" },
+        { "id": "s2", "text": "Deployment", "correctZone": "config" },
+        { "id": "s3", "text": "Rollout", "correctZone": "handover" },
+        { "id": "s4", "text": "Schulung", "correctZone": "handover" },
+        { "id": "s5", "text": "Dokumentation", "correctZone": "handover" },
+        { "id": "s6", "text": "Change Management", "correctZone": "intro" },
+        { "id": "s7", "text": "Migration", "correctZone": "intro" },
+        { "id": "s8", "text": "Go-Live Planung", "correctZone": "intro" }
+      ]
+    },
+    {
+      "id": "deploy-quiz",
+      "type": "quiz",
+      "title": "Rätsel 2: Kurz-Quiz Bereitstellung",
+      "subtitle": "Teste dein Wissen zu Konfiguration, Übergabe und Einführung.",
+      "hintDefault": "Alle Antworten müssen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Was ist Ziel von Change Management?",
+          "options": [
+            { "value": "a", "text": "Akzeptanz und Kommunikation sichern" },
+            { "value": "b", "text": "Nur Daten kopieren" },
+            { "value": "c", "text": "Nur Tests ausführen" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Was gehört zur Übergabe?",
+          "options": [
+            { "value": "a", "text": "Schulung" },
+            { "value": "b", "text": "Refactoring" },
+            { "value": "c", "text": "Unit-Test" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Was bedeutet Deployment?",
+          "options": [
+            { "value": "a", "text": "Ausrollen einer Version" },
+            { "value": "b", "text": "Daten bereinigen" },
+            { "value": "c", "text": "Tests schreiben" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "deploy-seq",
+      "type": "capital",
+      "title": "Rätsel 3: Bereitstellungsprozess",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Erst konfigurieren, dann übergeben, dann einführen.",
+      "rows": [
+        {
+          "key": "config",
+          "label": "Konfiguration vorbereiten",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "deploy",
+          "label": "Deployment auf Staging",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "docs",
+          "label": "Dokumentation finalisieren",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "train",
+          "label": "Schulungen durchführen",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "rollout",
+          "label": "Rollout/Go-Live",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "support",
+          "label": "Support/Optimierung",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,164 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Arbeitssicherheit",
+  "topic": "Arbeitsschutzgesetz, Unfallverhuetung, Gefaehrdungsbeurteilung",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "sich-sort",
+      "type": "sort",
+      "title": "Raetsel 1: Begriffe zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Gesetz = Pflichten, UVV = Regeln, Beurteilung = Risiken.",
+      "sortColumns": [
+        { "zone": "gesetz", "label": "Arbeitsschutzgesetz", "hint": "(Pflichten)" },
+        { "zone": "uvv", "label": "Unfallverhuetung", "hint": "(Regeln)" },
+        { "zone": "gbeurteilung", "label": "Gefaehrdungsbeurteilung", "hint": "(Risiken)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Unterweisungspflicht", "correctZone": "gesetz" },
+        { "id": "s2", "text": "Schutzmassnahmen", "correctZone": "gesetz" },
+        { "id": "s3", "text": "Arbeitgeberpflicht", "correctZone": "gesetz" },
+        { "id": "s4", "text": "BGV/UVV Regeln", "correctZone": "uvv" },
+        { "id": "s5", "text": "Schutzkleidung", "correctZone": "uvv" },
+        { "id": "s6", "text": "Sicherheitszeichen", "correctZone": "uvv" },
+        { "id": "s7", "text": "Risikoanalyse", "correctZone": "gbeurteilung" },
+        { "id": "s8", "text": "Bewertung von Gefaehrdungen", "correctZone": "gbeurteilung" },
+        { "id": "s9", "text": "Massnahmen ableiten", "correctZone": "gbeurteilung" }
+      ]
+    },
+    {
+      "id": "sich-quiz",
+      "type": "quiz",
+      "title": "Raetsel 2: Kurz-Quiz",
+      "subtitle": "Teste dein Wissen zur Arbeitssicherheit.",
+      "hintDefault": "Alle Antworten muessen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Was ist Zweck der Gefaehrdungsbeurteilung?",
+          "options": [
+            { "value": "a", "text": "Risiken erkennen und Massnahmen ableiten" },
+            { "value": "b", "text": "Lohn berechnen" },
+            { "value": "c", "text": "Marketing planen" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Wer ist fuer Arbeitsschutz verantwortlich?",
+          "options": [
+            { "value": "a", "text": "Arbeitgeber" },
+            { "value": "b", "text": "Nur Azubi" },
+            { "value": "c", "text": "Nur Kunden" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Was gehoert zu Unfallverhuetung?",
+          "options": [
+            { "value": "a", "text": "Schutzkleidung und Sicherheitsregeln" },
+            { "value": "b", "text": "Umsatzplanung" },
+            { "value": "c", "text": "Rechtsformwahl" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "sich-seq",
+      "type": "capital",
+      "title": "Raetsel 3: Sicherheitsprozess",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Risiko erkennen, bewerten, Massnahmen, pruefen.",
+      "rows": [
+        {
+          "key": "erkennen",
+          "label": "Gefaehrdungen erkennen",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "bewerten",
+          "label": "Risiken bewerten",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "massnahmen",
+          "label": "Schutzmassnahmen festlegen",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "umsetzen",
+          "label": "Massnahmen umsetzen",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "unterweisen",
+          "label": "Mitarbeiter unterweisen",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "pruefen",
+          "label": "Wirksamkeit pruefen",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

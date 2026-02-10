@@ -1,1 +1,63 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Kaufmännische Steuerung",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewaehlt.",
+  "legalForms": [
+    {
+      "id": "bilanz",
+      "name": "Bilanz",
+      "attributes": {
+        "shows_assets": true,
+        "shows_profit": false,
+        "is_budget": false,
+        "is_financing": false
+      }
+    },
+    {
+      "id": "guv",
+      "name": "GuV",
+      "attributes": {
+        "shows_assets": false,
+        "shows_profit": true,
+        "is_budget": false,
+        "is_financing": false
+      }
+    },
+    {
+      "id": "budget",
+      "name": "Budgetierung",
+      "attributes": {
+        "shows_assets": false,
+        "shows_profit": false,
+        "is_budget": true,
+        "is_financing": false
+      }
+    },
+    {
+      "id": "eigen",
+      "name": "Eigenfinanzierung",
+      "attributes": {
+        "shows_assets": false,
+        "shows_profit": false,
+        "is_budget": false,
+        "is_financing": true
+      }
+    },
+    {
+      "id": "fremd",
+      "name": "Fremdfinanzierung",
+      "attributes": {
+        "shows_assets": false,
+        "shows_profit": false,
+        "is_budget": false,
+        "is_financing": true
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Zeigt es Vermoegen und Kapital?", "attributeKey": "shows_assets" },
+    { "id": "q02", "hotkey": "2", "text": "Zeigt es Gewinn/Verlust?", "attributeKey": "shows_profit" },
+    { "id": "q03", "hotkey": "3", "text": "Geht es um Budgetplanung?", "attributeKey": "is_budget" },
+    { "id": "q04", "hotkey": "4", "text": "Ist es eine Finanzierungsart?", "attributeKey": "is_financing" }
+  ]
+}

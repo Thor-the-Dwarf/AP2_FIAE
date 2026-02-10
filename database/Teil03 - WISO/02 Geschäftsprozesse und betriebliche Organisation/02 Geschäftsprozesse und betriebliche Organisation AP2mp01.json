@@ -1,1 +1,54 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Geschaeftsprozesse & Organisation – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "aufbau",
+      "name": "Aufbauorganisation",
+      "description": "Struktur des Unternehmens mit Abteilungen und Hierarchie.",
+      "example": "Organigramm zeigt Bereiche"
+    },
+    {
+      "id": "ablauf",
+      "name": "Ablauforganisation",
+      "description": "Regelt Prozesse und Arbeitsablaeufe.",
+      "example": "Bestellprozess definiert"
+    },
+    {
+      "id": "wert",
+      "name": "Wertschoepfungskette",
+      "description": "Stufen von Input bis Output mit Mehrwert.",
+      "example": "Einkauf -> Produktion -> Vertrieb"
+    },
+    {
+      "id": "marktanalyse",
+      "name": "Marktanalyse",
+      "description": "Untersuchung von Markt, Wettbewerb und Bedarf.",
+      "example": "Zielgruppenanalyse"
+    },
+    {
+      "id": "beschaffung",
+      "name": "Beschaffung",
+      "description": "Planung und Einkauf von Guetern/Dienstleistungen.",
+      "example": "Angebote einholen und bestellen"
+    },
+    {
+      "id": "logistik",
+      "name": "Logistik",
+      "description": "Planung und Steuerung von Materialfluessen.",
+      "example": "Lager und Transport koordinieren"
+    }
+  ]
+}

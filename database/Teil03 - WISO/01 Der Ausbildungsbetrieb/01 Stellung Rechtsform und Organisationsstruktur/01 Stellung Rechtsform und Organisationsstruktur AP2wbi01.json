@@ -1,1 +1,63 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Rechtsform & Organisation",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewaehlt.",
+  "legalForms": [
+    {
+      "id": "gmbh",
+      "name": "GmbH",
+      "attributes": {
+        "limited_liability": true,
+        "shares": false,
+        "single_owner": false,
+        "org_chart": false
+      }
+    },
+    {
+      "id": "ag",
+      "name": "AG",
+      "attributes": {
+        "limited_liability": true,
+        "shares": true,
+        "single_owner": false,
+        "org_chart": false
+      }
+    },
+    {
+      "id": "einzel",
+      "name": "Einzelunternehmen",
+      "attributes": {
+        "limited_liability": false,
+        "shares": false,
+        "single_owner": true,
+        "org_chart": false
+      }
+    },
+    {
+      "id": "organigramm",
+      "name": "Organigramm",
+      "attributes": {
+        "limited_liability": false,
+        "shares": false,
+        "single_owner": false,
+        "org_chart": true
+      }
+    },
+    {
+      "id": "matrix",
+      "name": "Matrixorganisation",
+      "attributes": {
+        "limited_liability": false,
+        "shares": false,
+        "single_owner": false,
+        "org_chart": true
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Gibt es Haftungsbeschraenkung?", "attributeKey": "limited_liability" },
+    { "id": "q02", "hotkey": "2", "text": "Ist das Kapital in Aktien geteilt?", "attributeKey": "shares" },
+    { "id": "q03", "hotkey": "3", "text": "Gibt es einen alleinigen Inhaber?", "attributeKey": "single_owner" },
+    { "id": "q04", "hotkey": "4", "text": "Handelt es sich um eine Organisationsdarstellung?", "attributeKey": "org_chart" }
+  ]
+}

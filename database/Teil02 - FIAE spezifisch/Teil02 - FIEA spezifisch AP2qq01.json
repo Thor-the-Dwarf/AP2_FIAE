@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – FIAE (Teil02)",
+  "introText": "Klick auf „Start“, um das FIAE-Quiz zu starten.",
+  "sublineText": "Waehle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Betriebssystem",
+    "Datenbank",
+    "User Story",
+    "Sprint",
+    "Algorithmus",
+    "Komplexitaet",
+    "Unit-Test",
+    "CI/CD",
+    "Container",
+    "Rollback"
+  ],
+  "questions": [
+    { "text": "Verwaltet Hardware, Prozesse und Ressourcen.", "correct": "Betriebssystem" },
+    { "text": "Strukturierte Speicherung und Abfrage von Daten.", "correct": "Datenbank" },
+    { "text": "Anforderung aus Nutzersicht in agilen Teams.", "correct": "User Story" },
+    { "text": "Zeitlich begrenzter Entwicklungszyklus im Scrum.", "correct": "Sprint" },
+    { "text": "Schrittfolge zur Loesung eines Problems.", "correct": "Algorithmus" },
+    { "text": "Beschreibt Aufwand in Abhaengigkeit von n.", "correct": "Komplexitaet" },
+    { "text": "Test einer einzelnen Funktion isoliert.", "correct": "Unit-Test" },
+    { "text": "Automatisiert Build, Test und Deployment.", "correct": "CI/CD" },
+    { "text": "Leichtgewichtige Laufzeitumgebung fuer Apps.", "correct": "Container" },
+    { "text": "Rueckgaengig machen eines Releases.", "correct": "Rollback" }
+  ]
+}

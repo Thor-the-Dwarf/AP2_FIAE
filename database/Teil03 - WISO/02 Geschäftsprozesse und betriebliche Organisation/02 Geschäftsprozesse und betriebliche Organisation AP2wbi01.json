@@ -1,1 +1,63 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Geschaeftsprozesse & Organisation",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewaehlt.",
+  "legalForms": [
+    {
+      "id": "aufbau",
+      "name": "Aufbauorganisation",
+      "attributes": {
+        "is_structure": true,
+        "is_process": false,
+        "is_market": false,
+        "is_logistics": false
+      }
+    },
+    {
+      "id": "ablauf",
+      "name": "Ablauforganisation",
+      "attributes": {
+        "is_structure": false,
+        "is_process": true,
+        "is_market": false,
+        "is_logistics": false
+      }
+    },
+    {
+      "id": "markt",
+      "name": "Marktorientierung",
+      "attributes": {
+        "is_structure": false,
+        "is_process": false,
+        "is_market": true,
+        "is_logistics": false
+      }
+    },
+    {
+      "id": "logistik",
+      "name": "Logistik",
+      "attributes": {
+        "is_structure": false,
+        "is_process": false,
+        "is_market": false,
+        "is_logistics": true
+      }
+    },
+    {
+      "id": "wert",
+      "name": "Wertschoepfungskette",
+      "attributes": {
+        "is_structure": false,
+        "is_process": true,
+        "is_market": false,
+        "is_logistics": false
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Geht es um Struktur/Hierarchie?", "attributeKey": "is_structure" },
+    { "id": "q02", "hotkey": "2", "text": "Geht es um Prozesse?", "attributeKey": "is_process" },
+    { "id": "q03", "hotkey": "3", "text": "Geht es um Markt/Vertrieb?", "attributeKey": "is_market" },
+    { "id": "q04", "hotkey": "4", "text": "Geht es um Logistik/Lager?", "attributeKey": "is_logistics" }
+  ]
+}

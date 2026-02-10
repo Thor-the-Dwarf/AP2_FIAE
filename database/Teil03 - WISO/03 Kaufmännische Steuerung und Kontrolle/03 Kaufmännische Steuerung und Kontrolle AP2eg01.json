@@ -1,1 +1,164 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Kaufmaennische Steuerung",
+  "topic": "Rechnungswesen, Controlling, Finanzierung",
+  "estimated_minutes": 25,
+  "sections": [
+    {
+      "id": "ks-sort",
+      "type": "sort",
+      "title": "Raetsel 1: Bereiche zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: RW = Bilanz/GuV, Controlling = Kennzahlen, Finanzierung = Eigen/Fremd.",
+      "sortColumns": [
+        { "zone": "rw", "label": "Rechnungswesen", "hint": "(Bilanz/GuV)" },
+        { "zone": "cont", "label": "Controlling", "hint": "(Kennzahlen)" },
+        { "zone": "fin", "label": "Finanzierung", "hint": "(Eigen/Fremd)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Bilanz", "correctZone": "rw" },
+        { "id": "s2", "text": "GuV", "correctZone": "rw" },
+        { "id": "s3", "text": "Buchfuehrung", "correctZone": "rw" },
+        { "id": "s4", "text": "ROI", "correctZone": "cont" },
+        { "id": "s5", "text": "Soll-Ist-Vergleich", "correctZone": "cont" },
+        { "id": "s6", "text": "Deckungsbeitrag", "correctZone": "cont" },
+        { "id": "s7", "text": "Eigenkapital", "correctZone": "fin" },
+        { "id": "s8", "text": "Bankkredit", "correctZone": "fin" },
+        { "id": "s9", "text": "Leasing", "correctZone": "fin" }
+      ]
+    },
+    {
+      "id": "ks-quiz",
+      "type": "quiz",
+      "title": "Raetsel 2: Kurz-Quiz",
+      "subtitle": "Teste dein Wissen zu Steuerung und Kontrolle.",
+      "hintDefault": "Alle Antworten muessen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. GuV zeigt ...",
+          "options": [
+            { "value": "a", "text": "Ertraege und Aufwendungen" },
+            { "value": "b", "text": "Nur Vermoegen" },
+            { "value": "c", "text": "Nur Lager" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. ROI ist ...",
+          "options": [
+            { "value": "a", "text": "Kennzahl fuer Rendite" },
+            { "value": "b", "text": "Art von Kredit" },
+            { "value": "c", "text": "Preisstrategie" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Eigenkapital gehoert zu ...",
+          "options": [
+            { "value": "a", "text": "Eigenfinanzierung" },
+            { "value": "b", "text": "Fremdfinanzierung" },
+            { "value": "c", "text": "Controlling" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "ks-seq",
+      "type": "capital",
+      "title": "Raetsel 3: Steuerungszyklus",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Planen, messen, vergleichen, entscheiden.",
+      "rows": [
+        {
+          "key": "plan",
+          "label": "Ziele und Budget planen",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "messen",
+          "label": "Kennzahlen erheben",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "vergleich",
+          "label": "Soll-Ist-Vergleich",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "abweichung",
+          "label": "Abweichungen analysieren",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "massnahmen",
+          "label": "Massnahmen ableiten",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "nach",
+          "label": "Erfolg nachhalten",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

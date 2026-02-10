@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Rechtsform & Organisation",
+  "description": "Schritt 1: Passenden Begriff waehlen · Schritt 2: Begruendungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Ein Unternehmen haftet nur mit dem Gesellschaftsvermoegen.",
+      "tags": ["Rechtsform"],
+      "options": [
+        {
+          "id": "gmbh",
+          "label": "GmbH",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Haftung ist auf Gesellschaftsvermoegen beschraenkt.", "correct": true },
+            { "id": "w2", "text": "Braucht Stammkapital und Gesellschafter.", "correct": true },
+            { "id": "w3", "text": "Inhaber haftet privat unbegrenzt.", "correct": false },
+            { "id": "w4", "text": "Unternehmen ist immer boersennotiert.", "correct": false }
+          ]
+        },
+        {
+          "id": "einzel",
+          "label": "Einzelunternehmen",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Inhaber haftet privat.", "correct": true },
+            { "id": "w2", "text": "Kein Mindestkapital erforderlich.", "correct": true },
+            { "id": "w3", "text": "Haftung nur mit Gesellschaftsvermoegen.", "correct": false },
+            { "id": "w4", "text": "Hat Vorstand und Aufsichtsrat.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "GmbH hat Haftungsbeschraenkung auf Gesellschaftsvermoegen."
+    },
+    {
+      "id": "c02",
+      "profile": "Es gibt klare Weisungswege von oben nach unten.",
+      "tags": ["Organisation"],
+      "options": [
+        {
+          "id": "linie",
+          "label": "Linienorganisation",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Klare Hierarchie und Weisungskette.", "correct": true },
+            { "id": "w2", "text": "Eindeutige Verantwortlichkeiten.", "correct": true },
+            { "id": "w3", "text": "Doppelte Unterstellung ist Standard.", "correct": false },
+            { "id": "w4", "text": "Projekt- und Fachlinie gleichberechtigt.", "correct": false }
+          ]
+        },
+        {
+          "id": "matrix",
+          "label": "Matrixorganisation",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Mitarbeiter berichten an zwei Linien.", "correct": true },
+            { "id": "w2", "text": "Geeignet fuer Projekte.", "correct": true },
+            { "id": "w3", "text": "Es gibt nur eine Weisungslinie.", "correct": false },
+            { "id": "w4", "text": "Aufbau ist streng hierarchisch.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Linienorganisation = eindeutige Weisungswege."
+    },
+    {
+      "id": "c03",
+      "profile": "Ein Unternehmen ist Marktführer in seiner Branche.",
+      "tags": ["Stellung"],
+      "options": [
+        {
+          "id": "marktposition",
+          "label": "Marktposition",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Beschreibt die Stellung im Wettbewerb.", "correct": true },
+            { "id": "w2", "text": "Bezieht sich auf Konkurrenz und Marktanteile.", "correct": true },
+            { "id": "w3", "text": "Beschreibt nur die interne Organisation.", "correct": false },
+            { "id": "w4", "text": "Beschreibt die Rechtsform.", "correct": false }
+          ]
+        },
+        {
+          "id": "branche",
+          "label": "Branche",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Wirtschaftszweig des Unternehmens.", "correct": true },
+            { "id": "w2", "text": "Hilft, Wettbewerbsumfeld einzuordnen.", "correct": true },
+            { "id": "w3", "text": "Definiert Marktführerstatus.", "correct": false },
+            { "id": "w4", "text": "Ist gleichbedeutend mit Marktposition.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Marktposition beschreibt die Stellung im Wettbewerb."
+    }
+  ]
+}

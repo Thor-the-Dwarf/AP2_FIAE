@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Softwareeinführung",
+  "introText": "Klick auf „Start“, um das Quick-Quiz zur Einführung zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Change Management",
+    "Migration",
+    "Cutover",
+    "Stakeholder",
+    "Schulung",
+    "Testmigration",
+    "Kommunikationsplan",
+    "Go-Live",
+    "Rollback-Plan",
+    "Lessons Learned"
+  ],
+  "questions": [
+    { "text": "Begleitet organisatorische Veränderung und Akzeptanz.", "correct": "Change Management" },
+    { "text": "Überführung von Daten in das neue System.", "correct": "Migration" },
+    { "text": "Geplanter Umschaltzeitpunkt auf das neue System.", "correct": "Cutover" },
+    { "text": "Betroffene Gruppen identifizieren und einbinden.", "correct": "Stakeholder" },
+    { "text": "Training zur sicheren Bedienung.", "correct": "Schulung" },
+    { "text": "Probeübernahme von Daten zur Validierung.", "correct": "Testmigration" },
+    { "text": "Plan für Information der Nutzer.", "correct": "Kommunikationsplan" },
+    { "text": "Start des produktiven Betriebs.", "correct": "Go-Live" },
+    { "text": "Plan zur Rückkehr bei Problemen.", "correct": "Rollback-Plan" },
+    { "text": "Rückblick und Verbesserungen nach Einführung.", "correct": "Lessons Learned" }
+  ]
+}

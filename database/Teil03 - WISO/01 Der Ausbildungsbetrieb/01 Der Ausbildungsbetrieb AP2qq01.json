@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Der Ausbildungsbetrieb",
+  "introText": "Klick auf Start, um das Quiz zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "BBiG",
+    "Duales System",
+    "Ausbildungsvertrag",
+    "Betriebsrat",
+    "JAV",
+    "Ergonomie",
+    "Arbeitsschutzgesetz",
+    "Brandschutz",
+    "Green IT",
+    "Abfalltrennung"
+  ],
+  "questions": [
+    { "text": "Gesetzliche Grundlage der Berufsausbildung.", "correct": "BBiG" },
+    { "text": "Ausbildung im Betrieb und in der Schule.", "correct": "Duales System" },
+    { "text": "Vertrag zwischen Azubi und Betrieb.", "correct": "Ausbildungsvertrag" },
+    { "text": "Vertretung der Arbeitnehmer im Betrieb.", "correct": "Betriebsrat" },
+    { "text": "Vertretung der Jugendlichen und Azubis.", "correct": "JAV" },
+    { "text": "Gesundheitsgerechte Gestaltung des Arbeitsplatzes.", "correct": "Ergonomie" },
+    { "text": "Gesetzlicher Rahmen fuer Sicherheit am Arbeitsplatz.", "correct": "Arbeitsschutzgesetz" },
+    { "text": "Massnahmen gegen Feuergefahren.", "correct": "Brandschutz" },
+    { "text": "Umweltfreundliche Nutzung von IT.", "correct": "Green IT" },
+    { "text": "Trennung von Muellarten.", "correct": "Abfalltrennung" }
+  ]
+}

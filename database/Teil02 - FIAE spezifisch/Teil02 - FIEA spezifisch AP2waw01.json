@@ -1,1 +1,127 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – FIAE (Teil02)",
+  "description": "Schritt 1: Passenden Begriff waehlen · Schritt 2: Begruendungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du brauchst eine formale Beschreibung der Anforderungen aus Nutzersicht.",
+      "tags": ["Planung"],
+      "options": [
+        {
+          "id": "story",
+          "label": "User Story",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Formuliert Anforderungen aus Sicht des Nutzers.", "correct": true },
+            { "id": "w2", "text": "Hilft beim Priorisieren im Backlog.", "correct": true },
+            { "id": "w3", "text": "Ist ein Datenbank-Schema.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Tests vollstaendig.", "correct": false }
+          ]
+        },
+        {
+          "id": "db",
+          "label": "Datenbankmodell",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Definiert Tabellen und Beziehungen.", "correct": true },
+            { "id": "w2", "text": "Hilft bei Datenkonsistenz.", "correct": true },
+            { "id": "w3", "text": "Formuliert Nutzeranforderungen.", "correct": false },
+            { "id": "w4", "text": "Entscheidet die Sprintlaenge.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "User Stories beschreiben Anforderungen aus Nutzersicht."
+    },
+    {
+      "id": "c02",
+      "profile": "Du bewertest den Aufwand eines Algorithmus fuer wachsende Eingaben.",
+      "tags": ["Algorithmen"],
+      "options": [
+        {
+          "id": "comp",
+          "label": "Komplexitaet",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Beschreibt Aufwand in Abhaengigkeit von n.", "correct": true },
+            { "id": "w2", "text": "Nutzen von O-Notation.", "correct": true },
+            { "id": "w3", "text": "Ist ein UI-Designprinzip.", "correct": false },
+            { "id": "w4", "text": "Ersetzt eine Datenbank.", "correct": false }
+          ]
+        },
+        {
+          "id": "deploy",
+          "label": "Deployment",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Rollout einer Anwendung.", "correct": true },
+            { "id": "w2", "text": "Kann automatisiert werden.", "correct": true },
+            { "id": "w3", "text": "Bewertet Algorithmuslaufzeit.", "correct": false },
+            { "id": "w4", "text": "Definiert Datenstrukturen.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Komplexitaet bewertet den Aufwand eines Algorithmus."
+    },
+    {
+      "id": "c03",
+      "profile": "Du willst Build, Tests und Rollout automatisch ausfuehren.",
+      "tags": ["Qualitaet", "Bereitstellung"],
+      "options": [
+        {
+          "id": "cicd",
+          "label": "CI/CD",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Automatisiert Build, Test und Deployment.", "correct": true },
+            { "id": "w2", "text": "Erhoeht Release-Geschwindigkeit.", "correct": true },
+            { "id": "w3", "text": "Ist eine manuelle Checkliste.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Monitoring.", "correct": false }
+          ]
+        },
+        {
+          "id": "unit",
+          "label": "Unit-Test",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Testet Funktionen isoliert.", "correct": true },
+            { "id": "w2", "text": "Unterstuetzt fruehes Feedback.", "correct": true },
+            { "id": "w3", "text": "Automatisiert Deployment.", "correct": false },
+            { "id": "w4", "text": "Beschreibt Release-Strategien.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "CI/CD automatisiert Build, Tests und Deployment."
+    },
+    {
+      "id": "c04",
+      "profile": "Du kapselst eine Anwendung samt Abhaengigkeiten fuer den Betrieb.",
+      "tags": ["Bereitstellung"],
+      "options": [
+        {
+          "id": "container",
+          "label": "Container",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Enthaelt App und Abhaengigkeiten.", "correct": true },
+            { "id": "w2", "text": "Ermoeglicht gleiche Laufzeitumgebung.", "correct": true },
+            { "id": "w3", "text": "Ersetzt Quellcodeverwaltung.", "correct": false },
+            { "id": "w4", "text": "Ist nur eine Programmiersprache.", "correct": false }
+          ]
+        },
+        {
+          "id": "vm",
+          "label": "Virtuelle Maschine",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Emuliert ein komplettes Betriebssystem.", "correct": true },
+            { "id": "w2", "text": "Benoetigt mehr Ressourcen.", "correct": true },
+            { "id": "w3", "text": "Ist identisch mit Container.", "correct": false },
+            { "id": "w4", "text": "Fuehrt keine Apps aus.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Container kapseln App und Abhaengigkeiten kompakt."
+    }
+  ]
+}

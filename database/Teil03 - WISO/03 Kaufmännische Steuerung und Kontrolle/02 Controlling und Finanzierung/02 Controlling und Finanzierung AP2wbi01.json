@@ -1,1 +1,63 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Controlling & Finanzierung",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewaehlt.",
+  "legalForms": [
+    {
+      "id": "budget",
+      "name": "Budgetierung",
+      "attributes": {
+        "plans_money": true,
+        "compares_plan": false,
+        "measures_return": false,
+        "is_financing": false
+      }
+    },
+    {
+      "id": "sollist",
+      "name": "Soll-Ist-Vergleich",
+      "attributes": {
+        "plans_money": false,
+        "compares_plan": true,
+        "measures_return": false,
+        "is_financing": false
+      }
+    },
+    {
+      "id": "roi",
+      "name": "ROI",
+      "attributes": {
+        "plans_money": false,
+        "compares_plan": false,
+        "measures_return": true,
+        "is_financing": false
+      }
+    },
+    {
+      "id": "eigen",
+      "name": "Eigenfinanzierung",
+      "attributes": {
+        "plans_money": false,
+        "compares_plan": false,
+        "measures_return": false,
+        "is_financing": true
+      }
+    },
+    {
+      "id": "fremd",
+      "name": "Fremdfinanzierung",
+      "attributes": {
+        "plans_money": false,
+        "compares_plan": false,
+        "measures_return": false,
+        "is_financing": true
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Geht es um Finanzplanung?", "attributeKey": "plans_money" },
+    { "id": "q02", "hotkey": "2", "text": "Vergleicht es Plan und Ist?", "attributeKey": "compares_plan" },
+    { "id": "q03", "hotkey": "3", "text": "Misst es Rendite?", "attributeKey": "measures_return" },
+    { "id": "q04", "hotkey": "4", "text": "Ist es eine Finanzierungsart?", "attributeKey": "is_financing" }
+  ]
+}

@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Marktorientierung & Vertrieb",
+  "description": "Schritt 1: Passenden Begriff waehlen · Schritt 2: Begruendungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst Zielgruppen, Wettbewerber und Marktvolumen analysieren.",
+      "tags": ["Markt"],
+      "options": [
+        {
+          "id": "marktanalyse",
+          "label": "Marktanalyse",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Untersucht Markt, Bedarf und Wettbewerb.", "correct": true },
+            { "id": "w2", "text": "Grundlage fuer Strategie und Positionierung.", "correct": true },
+            { "id": "w3", "text": "Ist nur Werbung.", "correct": false },
+            { "id": "w4", "text": "Ersetzt den Marketing-Mix.", "correct": false }
+          ]
+        },
+        {
+          "id": "crm",
+          "label": "CRM",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Pflegt Kundenbeziehungen.", "correct": true },
+            { "id": "w2", "text": "Hilft bei Kundenbindung.", "correct": true },
+            { "id": "w3", "text": "Analysiert Wettbewerber systematisch.", "correct": false },
+            { "id": "w4", "text": "Ist gleichbedeutend mit Marktanalyse.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Marktanalyse untersucht Markt und Wettbewerb als Grundlage."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst festlegen, wie Produkt, Preis, Distribution und Promotion zusammenspielen.",
+      "tags": ["Marketing"],
+      "options": [
+        {
+          "id": "mix",
+          "label": "Marketing-Mix",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Besteht aus Produkt, Preis, Place, Promotion.", "correct": true },
+            { "id": "w2", "text": "Koordiniert Marketingmassnahmen.", "correct": true },
+            { "id": "w3", "text": "Ist nur Vertriebskanalwahl.", "correct": false },
+            { "id": "w4", "text": "Ist reines CRM.", "correct": false }
+          ]
+        },
+        {
+          "id": "vertrieb",
+          "label": "Vertriebskanaele",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Bestimmt, wo verkauft wird.", "correct": true },
+            { "id": "w2", "text": "Teil des Marketing-Mix.", "correct": true },
+            { "id": "w3", "text": "Enthaelt automatisch die gesamte Preisstrategie.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Marketing-Mix.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Der Marketing-Mix umfasst Produkt, Preis, Place, Promotion."
+    },
+    {
+      "id": "c03",
+      "profile": "Du willst Kunden langfristig binden und Zufriedenheit messen.",
+      "tags": ["CRM"],
+      "options": [
+        {
+          "id": "crm",
+          "label": "CRM",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Pflegt Kundenbeziehungen langfristig.", "correct": true },
+            { "id": "w2", "text": "Unterstuetzt After-Sales und Service.", "correct": true },
+            { "id": "w3", "text": "Ist nur Preisgestaltung.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Marktanalyse.", "correct": false }
+          ]
+        },
+        {
+          "id": "direkt",
+          "label": "Direktvertrieb",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Verkauf ohne Zwischenhaendler.", "correct": true },
+            { "id": "w2", "text": "Kann Teil der Strategie sein.", "correct": true },
+            { "id": "w3", "text": "Zielt primaer auf Kundenbindung.", "correct": false },
+            { "id": "w4", "text": "Ersetzt CRM.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "CRM fokussiert auf langfristige Kundenbeziehungen."
+    }
+  ]
+}

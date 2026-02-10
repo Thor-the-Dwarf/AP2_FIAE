@@ -1,1 +1,63 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Umweltschutz",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewaehlt.",
+  "legalForms": [
+    {
+      "id": "ressourcen",
+      "name": "Ressourcenschonung",
+      "attributes": {
+        "saves_energy": true,
+        "reduces_waste": false,
+        "reuses_material": false,
+        "reduces_emissions": false
+      }
+    },
+    {
+      "id": "abfall",
+      "name": "Abfallvermeidung",
+      "attributes": {
+        "saves_energy": false,
+        "reduces_waste": true,
+        "reuses_material": false,
+        "reduces_emissions": false
+      }
+    },
+    {
+      "id": "recycling",
+      "name": "Recycling",
+      "attributes": {
+        "saves_energy": false,
+        "reduces_waste": true,
+        "reuses_material": true,
+        "reduces_emissions": false
+      }
+    },
+    {
+      "id": "energie",
+      "name": "Energieeffizienz",
+      "attributes": {
+        "saves_energy": true,
+        "reduces_waste": false,
+        "reuses_material": false,
+        "reduces_emissions": true
+      }
+    },
+    {
+      "id": "co2",
+      "name": "CO2-Reduktion",
+      "attributes": {
+        "saves_energy": false,
+        "reduces_waste": false,
+        "reuses_material": false,
+        "reduces_emissions": true
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Spart es Energie?", "attributeKey": "saves_energy" },
+    { "id": "q02", "hotkey": "2", "text": "Reduziert es Abfall?", "attributeKey": "reduces_waste" },
+    { "id": "q03", "hotkey": "3", "text": "Werden Materialien wiederverwertet?", "attributeKey": "reuses_material" },
+    { "id": "q04", "hotkey": "4", "text": "Reduziert es Emissionen?", "attributeKey": "reduces_emissions" }
+  ]
+}

@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Geschaeftsprozesse & Organisation",
+  "introText": "Klick auf Start, um das Quiz zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Aufbauorganisation",
+    "Ablauforganisation",
+    "Geschaeftsprozess",
+    "Wertschoepfungskette",
+    "Marktanalyse",
+    "Marketing-Mix",
+    "Vertriebskanaele",
+    "Beschaffung",
+    "Logistik",
+    "CRM"
+  ],
+  "questions": [
+    { "text": "Struktur des Unternehmens (Abteilungen, Hierarchie).", "correct": "Aufbauorganisation" },
+    { "text": "Regelt Prozesse und Arbeitsablaeufe.", "correct": "Ablauforganisation" },
+    { "text": "Abfolge von Taetigkeiten zur Leistungserstellung.", "correct": "Geschaeftsprozess" },
+    { "text": "Stufen von Input bis Output mit Mehrwert.", "correct": "Wertschoepfungskette" },
+    { "text": "Untersuchung von Markt und Wettbewerb.", "correct": "Marktanalyse" },
+    { "text": "Kombination der 4Ps.", "correct": "Marketing-Mix" },
+    { "text": "Wahl der Kanaele fuer Verkauf.", "correct": "Vertriebskanaele" },
+    { "text": "Planung und Einkauf von Guetern.", "correct": "Beschaffung" },
+    { "text": "Steuerung von Materialfluessen.", "correct": "Logistik" },
+    { "text": "Pflege von Kundenbeziehungen.", "correct": "CRM" }
+  ]
+}

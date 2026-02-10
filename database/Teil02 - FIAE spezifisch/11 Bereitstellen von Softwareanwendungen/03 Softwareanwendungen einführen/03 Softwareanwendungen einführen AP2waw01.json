@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Softwareeinführung",
+  "description": "Schritt 1: Passenden Begriff wählen · Schritt 2: Begründungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du musst Nutzer informieren, Widerstände abbauen und Akzeptanz sichern.",
+      "tags": ["Change"],
+      "options": [
+        {
+          "id": "change",
+          "label": "Change Management",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Fokussiert auf Kommunikation und Akzeptanz.", "correct": true },
+            { "id": "w2", "text": "Begleitet organisatorische Veränderung.", "correct": true },
+            { "id": "w3", "text": "Ist nur technische Datenmigration.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Schulungen vollständig.", "correct": false }
+          ]
+        },
+        {
+          "id": "migration",
+          "label": "Migration",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Überführt Daten ins neue System.", "correct": true },
+            { "id": "w2", "text": "Braucht technische Mapping-Planung.", "correct": true },
+            { "id": "w3", "text": "Kümmert sich um Akzeptanz der Nutzer.", "correct": false },
+            { "id": "w4", "text": "Ist Kommunikation und Training.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Change Management ist für Akzeptanz und Kommunikation zuständig."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst Daten aus dem Altsystem in das neue System übertragen.",
+      "tags": ["Migration"],
+      "options": [
+        {
+          "id": "migration",
+          "label": "Migration",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Überführt Daten/Strukturen ins neue System.", "correct": true },
+            { "id": "w2", "text": "Erfordert Mapping und Validierung.", "correct": true },
+            { "id": "w3", "text": "Ist nur ein Kommunikationsplan.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Go-Live.", "correct": false }
+          ]
+        },
+        {
+          "id": "training",
+          "label": "Schulung",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Vermittelt Wissen an Nutzer.", "correct": true },
+            { "id": "w2", "text": "Reduziert Supportbedarf.", "correct": true },
+            { "id": "w3", "text": "Überführt Daten ins neue System.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Datenmigration.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Migration ist für die Datenüberführung zuständig."
+    },
+    {
+      "id": "c03",
+      "profile": "Du planst den konkreten Umschaltzeitpunkt vom alten auf das neue System.",
+      "tags": ["Cutover"],
+      "options": [
+        {
+          "id": "cutover",
+          "label": "Cutover",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Definiert den Umschaltzeitpunkt.", "correct": true },
+            { "id": "w2", "text": "Legt Ablauf und Fallback fest.", "correct": true },
+            { "id": "w3", "text": "Ist nur eine Schulungsmaßnahme.", "correct": false },
+            { "id": "w4", "text": "Ist identisch mit Change Management.", "correct": false }
+          ]
+        },
+        {
+          "id": "go_live",
+          "label": "Go-Live",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Start des produktiven Betriebs.", "correct": true },
+            { "id": "w2", "text": "Erfolgt nach Cutover.", "correct": true },
+            { "id": "w3", "text": "Ist die Planung, nicht der Zeitpunkt.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Cutover-Planung.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Cutover ist die geplante Umschaltung auf das neue System."
+    }
+  ]
+}

@@ -1,1 +1,48 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Rechnungswesen – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "buchf",
+      "name": "Buchfuehrung",
+      "description": "Systematische Aufzeichnung von Geschaeftsvorfaellen.",
+      "example": "Buchungssatz: Soll an Haben"
+    },
+    {
+      "id": "bilanz",
+      "name": "Bilanz",
+      "description": "Gegenueberstellung von Vermoegen und Kapital.",
+      "example": "Aktiva = Passiva"
+    },
+    {
+      "id": "guv",
+      "name": "GuV",
+      "description": "Ertraege und Aufwendungen zur Erfolgsermittlung.",
+      "example": "Umsatz - Aufwand = Gewinn"
+    },
+    {
+      "id": "kosten",
+      "name": "Kostenrechnung",
+      "description": "Interne Erfassung und Verrechnung von Kosten.",
+      "example": "Kalkulation je Produkt"
+    },
+    {
+      "id": "konto",
+      "name": "Konto",
+      "description": "Darstellung von Zu- und Abgaengen im Rechnungswesen.",
+      "example": "Konto 'Bank'"
+    }
+  ]
+}

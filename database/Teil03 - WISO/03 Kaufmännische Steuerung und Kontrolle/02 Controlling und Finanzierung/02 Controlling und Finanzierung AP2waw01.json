@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Controlling & Finanzierung",
+  "description": "Schritt 1: Passenden Begriff waehlen · Schritt 2: Begruendungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst Planwerte mit Ist-Werten vergleichen.",
+      "tags": ["Controlling"],
+      "options": [
+        {
+          "id": "sollist",
+          "label": "Soll-Ist-Vergleich",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Vergleicht Planung mit Ergebnis.", "correct": true },
+            { "id": "w2", "text": "Zeigt Abweichungen.", "correct": true },
+            { "id": "w3", "text": "Ist eine Finanzierungsart.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Budgetierung.", "correct": false }
+          ]
+        },
+        {
+          "id": "budget",
+          "label": "Budgetierung",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Plant finanzielle Mittel.", "correct": true },
+            { "id": "w2", "text": "Legt Zielwerte fest.", "correct": true },
+            { "id": "w3", "text": "Vergleicht Ist- und Sollwerte.", "correct": false },
+            { "id": "w4", "text": "Ist gleichbedeutend mit ROI.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Der Soll-Ist-Vergleich zeigt Abweichungen zwischen Planung und Ergebnis."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst wissen, wie schnell sich eine Investition rechnet.",
+      "tags": ["Investition"],
+      "options": [
+        {
+          "id": "amort",
+          "label": "Amortisation",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Misst Zeit bis zur Kostendeckung.", "correct": true },
+            { "id": "w2", "text": "Einfach und anschaulich.", "correct": true },
+            { "id": "w3", "text": "Misst Rendite in Prozent.", "correct": false },
+            { "id": "w4", "text": "Ist reine Budgetplanung.", "correct": false }
+          ]
+        },
+        {
+          "id": "roi",
+          "label": "ROI",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Misst Rendite der Investition.", "correct": true },
+            { "id": "w2", "text": "Vergleich von Gewinn zu Kapital.", "correct": true },
+            { "id": "w3", "text": "Misst Zeit bis Amortisation.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Investitionsrechnung.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Amortisation betrachtet die Zeit bis zur Rueckzahlung."
+    },
+    {
+      "id": "c03",
+      "profile": "Du brauchst Kapital von einer Bank.",
+      "tags": ["Finanzierung"],
+      "options": [
+        {
+          "id": "fremd",
+          "label": "Fremdfinanzierung",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Kapital kommt von externen Gebern.", "correct": true },
+            { "id": "w2", "text": "Z. B. Bankkredit.", "correct": true },
+            { "id": "w3", "text": "Eigenmittel des Unternehmens.", "correct": false },
+            { "id": "w4", "text": "Ist immer Gewinnfinanzierung.", "correct": false }
+          ]
+        },
+        {
+          "id": "eigen",
+          "label": "Eigenfinanzierung",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Kapital aus Eigenmitteln.", "correct": true },
+            { "id": "w2", "text": "Gewinne werden einbehalten.", "correct": true },
+            { "id": "w3", "text": "Kommt von einer Bank.", "correct": false },
+            { "id": "w4", "text": "Ist identisch mit Fremdfinanzierung.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Bankkredit ist Fremdfinanzierung."
+    }
+  ]
+}

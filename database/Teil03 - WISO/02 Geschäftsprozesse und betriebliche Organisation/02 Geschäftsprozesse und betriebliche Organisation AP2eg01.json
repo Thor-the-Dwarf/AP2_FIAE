@@ -1,1 +1,164 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Geschaeftsprozesse & Organisation",
+  "topic": "Organisation, Marketing/Vertrieb, Beschaffung/Logistik",
+  "estimated_minutes": 25,
+  "sections": [
+    {
+      "id": "gpo-sort",
+      "type": "sort",
+      "title": "Raetsel 1: Bereiche zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Organisation = Struktur/Prozess, Markt = Mix/Vertrieb, Logistik = Beschaffung/Lager.",
+      "sortColumns": [
+        { "zone": "org", "label": "Organisation/Prozesse", "hint": "(Aufbau/Ablauf)" },
+        { "zone": "markt", "label": "Markt & Vertrieb", "hint": "(Mix, CRM)" },
+        { "zone": "log", "label": "Beschaffung & Logistik", "hint": "(Lieferant/Lager)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Aufbauorganisation", "correctZone": "org" },
+        { "id": "s2", "text": "Ablauforganisation", "correctZone": "org" },
+        { "id": "s3", "text": "Geschaeftsprozess", "correctZone": "org" },
+        { "id": "s4", "text": "Marketing-Mix", "correctZone": "markt" },
+        { "id": "s5", "text": "Vertriebskanaele", "correctZone": "markt" },
+        { "id": "s6", "text": "CRM", "correctZone": "markt" },
+        { "id": "s7", "text": "Beschaffungsprozess", "correctZone": "log" },
+        { "id": "s8", "text": "Lagerhaltung", "correctZone": "log" },
+        { "id": "s9", "text": "Just-in-Time", "correctZone": "log" }
+      ]
+    },
+    {
+      "id": "gpo-quiz",
+      "type": "quiz",
+      "title": "Raetsel 2: Kurz-Quiz",
+      "subtitle": "Teste dein Wissen zu Prozessen, Vertrieb und Logistik.",
+      "hintDefault": "Alle Antworten muessen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Aufbauorganisation beschreibt ...",
+          "options": [
+            { "value": "a", "text": "Struktur und Hierarchie" },
+            { "value": "b", "text": "Nur Marketing" },
+            { "value": "c", "text": "Nur Lager" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Marketing-Mix besteht aus ...",
+          "options": [
+            { "value": "a", "text": "Produkt, Preis, Place, Promotion" },
+            { "value": "b", "text": "Plan, People, Profit, Process" },
+            { "value": "c", "text": "Lager, Transport, Inventur, Zoll" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Just-in-Time bedeutet ...",
+          "options": [
+            { "value": "a", "text": "Lieferung genau zum Bedarf" },
+            { "value": "b", "text": "Grosses Lager" },
+            { "value": "c", "text": "Keine Lieferanten" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "gpo-seq",
+      "type": "capital",
+      "title": "Raetsel 3: Prozesskette",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Struktur -> Prozess -> Markt -> Logistik.",
+      "rows": [
+        {
+          "key": "struktur",
+          "label": "Organisation aufbauen",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "prozesse",
+          "label": "Prozesse definieren",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "markt",
+          "label": "Marktstrategie festlegen",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "vertrieb",
+          "label": "Vertriebskanaele waehlen",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "beschaffung",
+          "label": "Beschaffung planen",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "logistik",
+          "label": "Logistik/Lager organisieren",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Umweltschutz",
+  "description": "Schritt 1: Passenden Begriff waehlen · Schritt 2: Begruendungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst den Verbrauch von Energie und Material senken.",
+      "tags": ["Ressourcen"],
+      "options": [
+        {
+          "id": "ressourcen",
+          "label": "Ressourcenschonung",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Reduziert Energie- und Materialverbrauch.", "correct": true },
+            { "id": "w2", "text": "Vermeidet Verschwendung.", "correct": true },
+            { "id": "w3", "text": "Erhoeht Abfallproduktion.", "correct": false },
+            { "id": "w4", "text": "Hat nichts mit Umwelt zu tun.", "correct": false }
+          ]
+        },
+        {
+          "id": "abfall",
+          "label": "Abfallvermeidung",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Reduziert Muell und Verpackung.", "correct": true },
+            { "id": "w2", "text": "Foerdert Wiederverwendung.", "correct": true },
+            { "id": "w3", "text": "Zielt primaer auf Energieverbrauch.", "correct": false },
+            { "id": "w4", "text": "Erhoeht Rohstoffverbrauch.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Ressourcenschonung senkt Energie- und Materialverbrauch."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst weniger Muell erzeugen, z. B. durch Mehrwegbecher.",
+      "tags": ["Abfall"],
+      "options": [
+        {
+          "id": "abfall",
+          "label": "Abfallvermeidung",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Reduziert Abfallmenge.", "correct": true },
+            { "id": "w2", "text": "Mehrweg statt Einweg.", "correct": true },
+            { "id": "w3", "text": "Erhoeht Energieverbrauch.", "correct": false },
+            { "id": "w4", "text": "Hat nichts mit Muell zu tun.", "correct": false }
+          ]
+        },
+        {
+          "id": "recycling",
+          "label": "Recycling",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Wiederverwertung von Material.", "correct": true },
+            { "id": "w2", "text": "Setzt Trennung von Abfall voraus.", "correct": true },
+            { "id": "w3", "text": "Vermeidet Abfall komplett.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Mehrwegloesungen.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Abfallvermeidung reduziert Muell durch Wiederverwendung."
+    },
+    {
+      "id": "c03",
+      "profile": "Du willst Materialien wiederverwerten, z. B. Papier und Kunststoff.",
+      "tags": ["Recycling"],
+      "options": [
+        {
+          "id": "recycling",
+          "label": "Recycling",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Materialien werden erneut genutzt.", "correct": true },
+            { "id": "w2", "text": "Trennung nach Wertstoffen.", "correct": true },
+            { "id": "w3", "text": "Erhoeht Einwegverbrauch.", "correct": false },
+            { "id": "w4", "text": "Hat nichts mit Abfall zu tun.", "correct": false }
+          ]
+        },
+        {
+          "id": "energie",
+          "label": "Energieeffizienz",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Reduziert Energieverbrauch.", "correct": true },
+            { "id": "w2", "text": "Beispiel: Standby aus.", "correct": true },
+            { "id": "w3", "text": "Ist Wiederverwertung von Papier.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Recycling.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Recycling bedeutet Wiederverwertung von Materialien."
+    }
+  ]
+}

@@ -1,1 +1,164 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Rechtsform & Organisation",
+  "topic": "Stellung des Ausbildungsbetriebes, Rechtsformen, Organisationsstruktur",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "org-sort",
+      "type": "sort",
+      "title": "Raetsel 1: Begriffe zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Rechtsformen = GmbH/AG, Organisation = Aufbau/Ablauf, Stellung = Markt/Branche.",
+      "sortColumns": [
+        { "zone": "rechtsform", "label": "Rechtsformen", "hint": "(GmbH, AG, OHG)" },
+        { "zone": "organisation", "label": "Organisationsstruktur", "hint": "(Aufbau, Ablauf)" },
+        { "zone": "stellung", "label": "Stellung im Markt", "hint": "(Branche, Wettbewerb)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "GmbH", "correctZone": "rechtsform" },
+        { "id": "s2", "text": "AG", "correctZone": "rechtsform" },
+        { "id": "s3", "text": "Einzelunternehmen", "correctZone": "rechtsform" },
+        { "id": "s4", "text": "Organigramm", "correctZone": "organisation" },
+        { "id": "s5", "text": "Linienorganisation", "correctZone": "organisation" },
+        { "id": "s6", "text": "Matrixorganisation", "correctZone": "organisation" },
+        { "id": "s7", "text": "Branche", "correctZone": "stellung" },
+        { "id": "s8", "text": "Wettbewerber", "correctZone": "stellung" },
+        { "id": "s9", "text": "Marktposition", "correctZone": "stellung" }
+      ]
+    },
+    {
+      "id": "org-quiz",
+      "type": "quiz",
+      "title": "Raetsel 2: Kurz-Quiz",
+      "subtitle": "Teste dein Wissen zu Rechtsformen und Organisation.",
+      "hintDefault": "Alle Antworten muessen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Was beschreibt eine Rechtsform?",
+          "options": [
+            { "value": "a", "text": "Rechtliche Huelle des Unternehmens" },
+            { "value": "b", "text": "Nur den Standort" },
+            { "value": "c", "text": "Nur die IT-Systeme" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Was zeigt ein Organigramm?",
+          "options": [
+            { "value": "a", "text": "Aufbauorganisation und Hierarchie" },
+            { "value": "b", "text": "Nur Prozesszeiten" },
+            { "value": "c", "text": "Nur Produkte" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Die Marktposition beschreibt ...",
+          "options": [
+            { "value": "a", "text": "Stellung im Wettbewerb" },
+            { "value": "b", "text": "Nur die Rechtsform" },
+            { "value": "c", "text": "Nur die Personalzahl" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "org-seq",
+      "type": "capital",
+      "title": "Raetsel 3: Unternehmen einordnen",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Erst analysieren, dann strukturieren, dann dokumentieren.",
+      "rows": [
+        {
+          "key": "analyse",
+          "label": "Branche und Marktumfeld analysieren",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "rechtsform",
+          "label": "Passende Rechtsform bestimmen",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "aufbau",
+          "label": "Aufbauorganisation festlegen",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "ablauf",
+          "label": "Ablauforganisation definieren",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "doku",
+          "label": "Organigramm erstellen",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "kommunikation",
+          "label": "Struktur kommunizieren",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

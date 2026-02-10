@@ -1,1 +1,48 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Umweltschutz – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "ressourcen",
+      "name": "Ressourcenschonung",
+      "description": "Sparsamer Einsatz von Energie und Material.",
+      "example": "Duplexdruck und LED-Licht"
+    },
+    {
+      "id": "abfall",
+      "name": "Abfallvermeidung",
+      "description": "Reduzierung von Abfall und Verpackung.",
+      "example": "Mehrwegbecher statt Einweg"
+    },
+    {
+      "id": "recycling",
+      "name": "Recycling",
+      "description": "Wiederverwertung von Materialien.",
+      "example": "Papier- und Wertstofftrennung"
+    },
+    {
+      "id": "energie",
+      "name": "Energieeffizienz",
+      "description": "Energieverbrauch reduzieren.",
+      "example": "Standby ausschalten"
+    },
+    {
+      "id": "co2",
+      "name": "CO2-Reduktion",
+      "description": "Massnahmen zur Verringerung von Emissionen.",
+      "example": "Videokonferenzen statt Dienstreise"
+    }
+  ]
+}

@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Marktorientierung & Vertrieb",
+  "introText": "Klick auf Start, um das Quiz zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Marktanalyse",
+    "Marketing-Mix",
+    "Produktpolitik",
+    "Preispolitik",
+    "Kommunikationspolitik",
+    "Distributionspolitik",
+    "Direktvertrieb",
+    "Indirekter Vertrieb",
+    "CRM",
+    "Kundenbindung"
+  ],
+  "questions": [
+    { "text": "Untersuchung von Markt, Wettbewerb und Bedarf.", "correct": "Marktanalyse" },
+    { "text": "Kombination der 4Ps.", "correct": "Marketing-Mix" },
+    { "text": "Entscheidungen zu Produktgestaltung/Sortiment.", "correct": "Produktpolitik" },
+    { "text": "Preisstrategie und Konditionen.", "correct": "Preispolitik" },
+    { "text": "Werbung und Kommunikation mit Kunden.", "correct": "Kommunikationspolitik" },
+    { "text": "Wahl der Vertriebskanaele.", "correct": "Distributionspolitik" },
+    { "text": "Verkauf ohne Zwischenhaendler.", "correct": "Direktvertrieb" },
+    { "text": "Verkauf ueber Handelspartner.", "correct": "Indirekter Vertrieb" },
+    { "text": "System zur Kundenbeziehungspflege.", "correct": "CRM" },
+    { "text": "Langfristige Beziehung zu Kunden aufbauen.", "correct": "Kundenbindung" }
+  ]
+}

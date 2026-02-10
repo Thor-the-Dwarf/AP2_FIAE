@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Berufsbildung & Arbeitsrecht",
+  "description": "Schritt 1: Passenden Begriff waehlen · Schritt 2: Begruendungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst wissen, welches Gesetz die Berufsausbildung regelt.",
+      "tags": ["Berufsbildung"],
+      "options": [
+        {
+          "id": "bbig",
+          "label": "BBiG",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Regelt Rechte und Pflichten in der Ausbildung.", "correct": true },
+            { "id": "w2", "text": "Gilt fuer Ausbildungsbetriebe und Azubis.", "correct": true },
+            { "id": "w3", "text": "Regelt nur Tarifvertraege.", "correct": false },
+            { "id": "w4", "text": "Ist nur fuer Beamte.", "correct": false }
+          ]
+        },
+        {
+          "id": "tarif",
+          "label": "Tarifvertrag",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Regelt Lohn und Arbeitszeit.", "correct": true },
+            { "id": "w2", "text": "Zwischen Gewerkschaft und Arbeitgeberverband.", "correct": true },
+            { "id": "w3", "text": "Regelt die gesamte Ausbildung gesetzlich.", "correct": false },
+            { "id": "w4", "text": "Ersetzt das BBiG.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Das BBiG ist die zentrale gesetzliche Grundlage der Berufsausbildung."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst die Bedingungen der Ausbildung schriftlich festhalten.",
+      "tags": ["Vertrag"],
+      "options": [
+        {
+          "id": "vertrag",
+          "label": "Ausbildungsvertrag",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Enthaelt Dauer, Verguetung, Probezeit.", "correct": true },
+            { "id": "w2", "text": "Wird zwischen Betrieb und Azubi geschlossen.", "correct": true },
+            { "id": "w3", "text": "Ist nur muendlich gueltig.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Arbeitsrecht.", "correct": false }
+          ]
+        },
+        {
+          "id": "arbeitsrecht",
+          "label": "Arbeitsrecht",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Regelt Arbeitszeit und Urlaub.", "correct": true },
+            { "id": "w2", "text": "Gilt allgemein fuer Arbeitsverhaeltnisse.", "correct": true },
+            { "id": "w3", "text": "Ist der individuelle Ausbildungsvertrag.", "correct": false },
+            { "id": "w4", "text": "Definiert nur Tariflohn.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Der Ausbildungsvertrag regelt die konkreten Ausbildungsbedingungen."
+    },
+    {
+      "id": "c03",
+      "profile": "Du willst Schutz vor willkuerlicher Kuendigung.",
+      "tags": ["Kuendigungsschutz"],
+      "options": [
+        {
+          "id": "kuendigung",
+          "label": "Kuendigungsschutz",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Schuetzt vor unbegruendeter Kuendigung.", "correct": true },
+            { "id": "w2", "text": "Kuendigung nur aus wichtigem Grund.", "correct": true },
+            { "id": "w3", "text": "Regelt Ausbildungsinhalte.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Tarifvertraege.", "correct": false }
+          ]
+        },
+        {
+          "id": "tarif",
+          "label": "Tarifvertrag",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Regelt Lohn und Arbeitszeit.", "correct": true },
+            { "id": "w2", "text": "Vertrag zwischen Gewerkschaft und Arbeitgeberverband.", "correct": true },
+            { "id": "w3", "text": "Gibt direkten Kuendigungsschutz im Einzelfall.", "correct": false },
+            { "id": "w4", "text": "Gilt nur fuer Azubis.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Kuendigungsschutz verhindert willkuerliche Entlassungen."
+    }
+  ]
+}

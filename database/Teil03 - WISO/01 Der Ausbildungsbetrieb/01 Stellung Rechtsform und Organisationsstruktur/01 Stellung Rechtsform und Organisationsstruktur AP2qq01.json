@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Rechtsform & Organisation",
+  "introText": "Klick auf Start, um das Quiz zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "GmbH",
+    "AG",
+    "Einzelunternehmen",
+    "Organigramm",
+    "Linienorganisation",
+    "Matrixorganisation",
+    "Branche",
+    "Marktposition",
+    "Aufbauorganisation",
+    "Ablauforganisation"
+  ],
+  "questions": [
+    { "text": "Kapitalgesellschaft mit Haftung nur auf Gesellschaftsvermoegen.", "correct": "GmbH" },
+    { "text": "Kapitalgesellschaft mit in Aktien zerlegtem Grundkapital.", "correct": "AG" },
+    { "text": "Unternehmer haftet privat mit seinem Vermoegen.", "correct": "Einzelunternehmen" },
+    { "text": "Darstellung der Hierarchie und Abteilungen.", "correct": "Organigramm" },
+    { "text": "Klare Weisungskette von oben nach unten.", "correct": "Linienorganisation" },
+    { "text": "Doppelte Berichtslinie, z. B. Projekt und Fach.", "correct": "Matrixorganisation" },
+    { "text": "Wirtschaftszweig, in dem das Unternehmen taetig ist.", "correct": "Branche" },
+    { "text": "Stellung im Wettbewerb, z. B. Marktfuehrer.", "correct": "Marktposition" },
+    { "text": "Struktur der Stellen und Beziehungen im Betrieb.", "correct": "Aufbauorganisation" },
+    { "text": "Regelt Prozesse und Arbeitsablaeufe.", "correct": "Ablauforganisation" }
+  ]
+}

@@ -1,1 +1,164 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Fehleranalyse & Bug-Tracking",
+  "topic": "Debugging, Fehleranalyse, Bug-Tracking",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "bug-sort",
+      "type": "sort",
+      "title": "Rätsel 1: Konzepte zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Debugging = Fehlersuche im Code, Analyse = Ursachen finden, Tracking = dokumentieren.",
+      "sortColumns": [
+        { "zone": "debug", "label": "Debugging", "hint": "(Breakpoints, Step)" },
+        { "zone": "analysis", "label": "Fehleranalyse", "hint": "(Root Cause)" },
+        { "zone": "tracking", "label": "Bug-Tracking", "hint": "(Tickets, Status)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Breakpoint setzen", "correctZone": "debug" },
+        { "id": "s2", "text": "Call Stack prüfen", "correctZone": "debug" },
+        { "id": "s3", "text": "Variable beobachten", "correctZone": "debug" },
+        { "id": "s4", "text": "Root Cause identifizieren", "correctZone": "analysis" },
+        { "id": "s5", "text": "Fehler reproduzieren", "correctZone": "analysis" },
+        { "id": "s6", "text": "Korrekturmaßnahme ableiten", "correctZone": "analysis" },
+        { "id": "s7", "text": "Ticket erstellen", "correctZone": "tracking" },
+        { "id": "s8", "text": "Status: In Bearbeitung", "correctZone": "tracking" },
+        { "id": "s9", "text": "Priorität P1/P2", "correctZone": "tracking" }
+      ]
+    },
+    {
+      "id": "bug-quiz",
+      "type": "quiz",
+      "title": "Rätsel 2: Kurz-Quiz Fehleranalyse",
+      "subtitle": "Teste dein Wissen zu Debugging und Bug-Tracking.",
+      "hintDefault": "Alle Antworten müssen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Was ist der erste Schritt bei der Fehleranalyse?",
+          "options": [
+            { "value": "a", "text": "Ticket schließen" },
+            { "value": "b", "text": "Fehler reproduzieren" },
+            { "value": "c", "text": "Deployment starten" }
+          ],
+          "correct": "b"
+        },
+        {
+          "id": "q2",
+          "text": "2. Wozu dient ein Bug-Ticket?",
+          "options": [
+            { "value": "a", "text": "Dokumentation von Fehlern und Status" },
+            { "value": "b", "text": "Nur zum Code-Review" },
+            { "value": "c", "text": "Nur für Builds" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Was hilft am meisten, die Ursache zu finden?",
+          "options": [
+            { "value": "a", "text": "Root-Cause-Analyse" },
+            { "value": "b", "text": "Mehr UI-Farben" },
+            { "value": "c", "text": "Neues Repo" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "bug-seq",
+      "type": "capital",
+      "title": "Rätsel 3: Fehlerbehebung Prozess",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Erst reproduzieren, dann analysieren, dann fixen und dokumentieren.",
+      "rows": [
+        {
+          "key": "repro",
+          "label": "Fehler reproduzieren",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "isolate",
+          "label": "Ursache eingrenzen (Logs/Debug)",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "fix",
+          "label": "Fix implementieren",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "test",
+          "label": "Fix testen/regression testen",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "document",
+          "label": "Ticket/Release Notes aktualisieren",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "close",
+          "label": "Ticket schließen",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

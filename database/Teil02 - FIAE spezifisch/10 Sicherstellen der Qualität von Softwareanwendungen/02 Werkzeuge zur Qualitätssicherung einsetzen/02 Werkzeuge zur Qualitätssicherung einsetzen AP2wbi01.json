@@ -1,1 +1,69 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – QS-Werkzeuge",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewählt.",
+  "legalForms": [
+    {
+      "id": "ci",
+      "name": "CI",
+      "attributes": {
+        "runs_builds": true,
+        "runs_tests": true,
+        "does_reviews": false,
+        "deploys": false,
+        "checks_style": false
+      }
+    },
+    {
+      "id": "cd",
+      "name": "CD",
+      "attributes": {
+        "runs_builds": true,
+        "runs_tests": true,
+        "does_reviews": false,
+        "deploys": true,
+        "checks_style": false
+      }
+    },
+    {
+      "id": "linter",
+      "name": "Linter",
+      "attributes": {
+        "runs_builds": false,
+        "runs_tests": false,
+        "does_reviews": false,
+        "deploys": false,
+        "checks_style": true
+      }
+    },
+    {
+      "id": "review",
+      "name": "Code-Review-Tool",
+      "attributes": {
+        "runs_builds": false,
+        "runs_tests": false,
+        "does_reviews": true,
+        "deploys": false,
+        "checks_style": false
+      }
+    },
+    {
+      "id": "test_framework",
+      "name": "Testing-Framework",
+      "attributes": {
+        "runs_builds": false,
+        "runs_tests": true,
+        "does_reviews": false,
+        "deploys": false,
+        "checks_style": false
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Führt automatisch Builds aus?", "attributeKey": "runs_builds" },
+    { "id": "q02", "hotkey": "2", "text": "Führt automatisierte Tests aus?", "attributeKey": "runs_tests" },
+    { "id": "q03", "hotkey": "3", "text": "Ermöglicht Reviews/Kommentare im PR?", "attributeKey": "does_reviews" },
+    { "id": "q04", "hotkey": "4", "text": "Deployt automatisch in Umgebungen?", "attributeKey": "deploys" },
+    { "id": "q05", "hotkey": "5", "text": "Prüft Code-Stil/Regeln?", "attributeKey": "checks_style" }
+  ]
+}

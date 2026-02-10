@@ -1,1 +1,54 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Fehleranalyse – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "debugging",
+      "name": "Debugging",
+      "description": "Fehlersuche durch Schritt-für-Schritt-Ausführung und Breakpoints.",
+      "example": "Breakpoint im Login-Flow setzen"
+    },
+    {
+      "id": "root_cause",
+      "name": "Root-Cause-Analyse",
+      "description": "Systematisches Finden der eigentlichen Ursache eines Fehlers.",
+      "example": "Fehler kommt von fehlerhafter Validierung"
+    },
+    {
+      "id": "log_analysis",
+      "name": "Log-Analyse",
+      "description": "Auswertung von Logs zur Fehlersuche.",
+      "example": "500-Fehler im Server-Log prüfen"
+    },
+    {
+      "id": "bug_ticket",
+      "name": "Bug-Ticket",
+      "description": "Dokumentiert Fehler, Status, Priorität und Fix.",
+      "example": "Ticket #123: Crash bei Export"
+    },
+    {
+      "id": "repro",
+      "name": "Reproduktion",
+      "description": "Schritte, mit denen der Fehler verlässlich nachgestellt wird.",
+      "example": "1) Login 2) Profil öffnen 3) Crash"
+    },
+    {
+      "id": "workaround",
+      "name": "Workaround",
+      "description": "Vorläufige Umgehung bis zum finalen Fix.",
+      "example": "Feature deaktivieren bis Patch"
+    }
+  ]
+}

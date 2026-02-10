@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Controlling & Finanzierung",
+  "introText": "Klick auf Start, um das Quiz zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Budgetierung",
+    "Soll-Ist-Vergleich",
+    "Kennzahl",
+    "ROI",
+    "Deckungsbeitrag",
+    "Eigenfinanzierung",
+    "Fremdfinanzierung",
+    "Leasing",
+    "Kapitalwert",
+    "Amortisation"
+  ],
+  "questions": [
+    { "text": "Planung und Zuweisung von finanziellen Mitteln.", "correct": "Budgetierung" },
+    { "text": "Vergleich von Planung und Ergebnis.", "correct": "Soll-Ist-Vergleich" },
+    { "text": "Messgroesse zur Steuerung.", "correct": "Kennzahl" },
+    { "text": "Rendite einer Investition.", "correct": "ROI" },
+    { "text": "Ueberschuss nach Abzug variabler Kosten.", "correct": "Deckungsbeitrag" },
+    { "text": "Finanzierung durch eigenes Kapital.", "correct": "Eigenfinanzierung" },
+    { "text": "Finanzierung durch Kredite.", "correct": "Fremdfinanzierung" },
+    { "text": "Nutzung eines Assets gegen Gebuehr.", "correct": "Leasing" },
+    { "text": "Bewertung mit abgezinsten Zahlungsstroemen.", "correct": "Kapitalwert" },
+    { "text": "Zeit bis sich Investition rechnet.", "correct": "Amortisation" }
+  ]
+}

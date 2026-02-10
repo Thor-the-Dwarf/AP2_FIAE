@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – QS-Werkzeuge",
+  "introText": "Klick auf „Start“, um das Quick-Quiz zu QS-Werkzeugen zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Testing-Framework",
+    "Linter",
+    "Static Analysis",
+    "Code-Review-Tool",
+    "CI",
+    "CD",
+    "Quality Gate",
+    "Coverage",
+    "Pipeline",
+    "Pull Request"
+  ],
+  "questions": [
+    { "text": "Struktur und Runner für automatisierte Tests.", "correct": "Testing-Framework" },
+    { "text": "Prüft Code-Stil und einfache Fehler.", "correct": "Linter" },
+    { "text": "Findet Code-Smells und Sicherheitsprobleme.", "correct": "Static Analysis" },
+    { "text": "Unterstützt Reviews und Kommentare im PR.", "correct": "Code-Review-Tool" },
+    { "text": "Automatisiert Build und Tests bei jedem Commit.", "correct": "CI" },
+    { "text": "Automatisiertes Deployment in Umgebungen.", "correct": "CD" },
+    { "text": "Schwellenwert, der Build freigibt oder stoppt.", "correct": "Quality Gate" },
+    { "text": "Misst, wie viel Code durch Tests abgedeckt ist.", "correct": "Coverage" },
+    { "text": "Ablauf aus Stages wie Build/Test/Deploy.", "correct": "Pipeline" },
+    { "text": "Anfrage zum Merge von Änderungen.", "correct": "Pull Request" }
+  ]
+}

@@ -1,1 +1,48 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Beschaffung & Logistik – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "beschaffung",
+      "name": "Beschaffungsprozess",
+      "description": "Ablauf von Bedarf bis Wareneingang.",
+      "example": "Bedarf -> Bestellung -> Lieferung"
+    },
+    {
+      "id": "lieferant",
+      "name": "Lieferantenauswahl",
+      "description": "Auswahl nach Preis, Qualitaet, Zuverlaessigkeit.",
+      "example": "Bewertung mit Punktesystem"
+    },
+    {
+      "id": "lager",
+      "name": "Lagerhaltung",
+      "description": "Verwaltung von Bestandsmengen und Lagerorten.",
+      "example": "Mindestbestand und Sicherheitsbestand"
+    },
+    {
+      "id": "jit",
+      "name": "Just-in-Time",
+      "description": "Lieferung genau zum Produktionsbedarf.",
+      "example": "Anlieferung direkt ans Band"
+    },
+    {
+      "id": "wareneingang",
+      "name": "Wareneingang",
+      "description": "Pruefung und Verbuchung gelieferter Waren.",
+      "example": "Qualitaetspruefung bei Lieferung"
+    }
+  ]
+}

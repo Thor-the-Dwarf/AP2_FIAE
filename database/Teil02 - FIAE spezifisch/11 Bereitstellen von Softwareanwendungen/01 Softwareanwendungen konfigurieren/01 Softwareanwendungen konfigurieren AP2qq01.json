@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Konfiguration & Deployment",
+  "introText": "Klick auf „Start“, um das Quick-Quiz zu Konfiguration und Deployment zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Konfiguration",
+    "Feature-Flag",
+    "Umgebung",
+    "Deployment",
+    "Rollback",
+    "Release",
+    "Staging",
+    "Production",
+    "Config-Repo",
+    "Monitoring"
+  ],
+  "questions": [
+    { "text": "Parameter, die das Verhalten der Anwendung steuern.", "correct": "Konfiguration" },
+    { "text": "Schaltet Funktionen ohne neues Deployment ein/aus.", "correct": "Feature-Flag" },
+    { "text": "Getrennter Bereich wie Dev/Staging/Prod.", "correct": "Umgebung" },
+    { "text": "Ausrollen einer Version auf eine Umgebung.", "correct": "Deployment" },
+    { "text": "Zurückrollen auf eine vorige Version.", "correct": "Rollback" },
+    { "text": "Offizieller Auslieferungsstand einer Version.", "correct": "Release" },
+    { "text": "Vorproduktionsumgebung zum Testen.", "correct": "Staging" },
+    { "text": "Produktivumgebung für Nutzer.", "correct": "Production" },
+    { "text": "Versionierte Ablage für Configs.", "correct": "Config-Repo" },
+    { "text": "Überwachung von Logs/Metriken nach Deploy.", "correct": "Monitoring" }
+  ]
+}

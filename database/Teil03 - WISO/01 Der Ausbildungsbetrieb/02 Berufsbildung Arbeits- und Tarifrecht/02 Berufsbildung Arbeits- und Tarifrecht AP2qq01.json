@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Berufsbildung & Arbeitsrecht",
+  "introText": "Klick auf Start, um das Quiz zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "BBiG",
+    "Ausbildungsvertrag",
+    "Arbeitsrecht",
+    "Tarifvertrag",
+    "Kuendigungsschutz",
+    "Probezeit",
+    "Arbeitszeit",
+    "Urlaubsanspruch",
+    "Gewerkschaft",
+    "Ausbildungsvergutung"
+  ],
+  "questions": [
+    { "text": "Gesetzliche Grundlage der Berufsausbildung.", "correct": "BBiG" },
+    { "text": "Vertrag zwischen Azubi und Betrieb.", "correct": "Ausbildungsvertrag" },
+    { "text": "Regelt Pflichten, Arbeitszeit und Urlaub.", "correct": "Arbeitsrecht" },
+    { "text": "Vereinbarung zu Lohn und Arbeitszeit.", "correct": "Tarifvertrag" },
+    { "text": "Schuetzt vor unbegruendeter Entlassung.", "correct": "Kuendigungsschutz" },
+    { "text": "Anfangszeit, in der leichter gekuendigt werden kann.", "correct": "Probezeit" },
+    { "text": "Regelt Hoechststunden pro Tag/Woche.", "correct": "Arbeitszeit" },
+    { "text": "Anspruch auf freie Tage im Jahr.", "correct": "Urlaubsanspruch" },
+    { "text": "Vertritt Arbeitnehmerinteressen.", "correct": "Gewerkschaft" },
+    { "text": "Geldleistung fuer die Ausbildung.", "correct": "Ausbildungsvergutung" }
+  ]
+}

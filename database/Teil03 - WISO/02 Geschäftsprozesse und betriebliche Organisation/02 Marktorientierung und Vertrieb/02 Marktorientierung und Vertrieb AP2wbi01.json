@@ -1,1 +1,63 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Marktorientierung & Vertrieb",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewaehlt.",
+  "legalForms": [
+    {
+      "id": "marktanalyse",
+      "name": "Marktanalyse",
+      "attributes": {
+        "analyzes_market": true,
+        "mix_4ps": false,
+        "selects_channels": false,
+        "builds_relationships": false
+      }
+    },
+    {
+      "id": "mix",
+      "name": "Marketing-Mix",
+      "attributes": {
+        "analyzes_market": false,
+        "mix_4ps": true,
+        "selects_channels": false,
+        "builds_relationships": false
+      }
+    },
+    {
+      "id": "vertrieb",
+      "name": "Vertriebskanaele",
+      "attributes": {
+        "analyzes_market": false,
+        "mix_4ps": false,
+        "selects_channels": true,
+        "builds_relationships": false
+      }
+    },
+    {
+      "id": "crm",
+      "name": "CRM",
+      "attributes": {
+        "analyzes_market": false,
+        "mix_4ps": false,
+        "selects_channels": false,
+        "builds_relationships": true
+      }
+    },
+    {
+      "id": "direkt",
+      "name": "Direktvertrieb",
+      "attributes": {
+        "analyzes_market": false,
+        "mix_4ps": false,
+        "selects_channels": true,
+        "builds_relationships": false
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Analysiert es Markt und Wettbewerb?", "attributeKey": "analyzes_market" },
+    { "id": "q02", "hotkey": "2", "text": "Geht es um die 4Ps?", "attributeKey": "mix_4ps" },
+    { "id": "q03", "hotkey": "3", "text": "Geht es um die Wahl der Kanaele?", "attributeKey": "selects_channels" },
+    { "id": "q04", "hotkey": "4", "text": "Fokussiert auf Kundenbeziehungen?", "attributeKey": "builds_relationships" }
+  ]
+}

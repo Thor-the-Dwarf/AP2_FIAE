@@ -1,1 +1,127 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Grundlagen (Teil01)",
+  "description": "Schritt 1: Passenden Begriff waehlen · Schritt 2: Begruendungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst Anforderungen und Loesung verbindlich dokumentieren.",
+      "tags": ["Beratung"],
+      "options": [
+        {
+          "id": "pflichten",
+          "label": "Pflichtenheft",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Beschreibt die Loesung aus Sicht des Auftragnehmers.", "correct": true },
+            { "id": "w2", "text": "Enthaelt Funktionen, Schnittstellen und Qualitaet.", "correct": true },
+            { "id": "w3", "text": "Ist nur eine Preisliste.", "correct": false },
+            { "id": "w4", "text": "Ersetzt die Abnahme.", "correct": false }
+          ]
+        },
+        {
+          "id": "angebot",
+          "label": "Angebot",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Regelt Preis und Leistungsumfang.", "correct": true },
+            { "id": "w2", "text": "Kann auf Anforderungen verweisen.", "correct": true },
+            { "id": "w3", "text": "Definiert Testfaelle detailliert.", "correct": false },
+            { "id": "w4", "text": "Ist identisch mit dem Pflichtenheft.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Ein Pflichtenheft beschreibt die technische Loesung verbindlich."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst sicherstellen, dass die Anwendung stabil und fehlerarm ist.",
+      "tags": ["Qualitaet"],
+      "options": [
+        {
+          "id": "qs",
+          "label": "Qualitaetssicherung",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Nutzt Tests und Reviews zur Fehlervermeidung.", "correct": true },
+            { "id": "w2", "text": "Prueft Anforderungen und Umsetzung.", "correct": true },
+            { "id": "w3", "text": "Bedeutet nur Dokumentation.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Sicherheitsmassnahmen.", "correct": false }
+          ]
+        },
+        {
+          "id": "support",
+          "label": "Supportprozess",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Bearbeitet Stoerungen im Betrieb.", "correct": true },
+            { "id": "w2", "text": "Verwendet Ticket-Systeme.", "correct": true },
+            { "id": "w3", "text": "Prueft keine Softwarequalitaet.", "correct": false },
+            { "id": "w4", "text": "Ist eine Teststrategie.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Qualitaetssicherung umfasst Tests und Reviews zur Stabilitaet."
+    },
+    {
+      "id": "c03",
+      "profile": "Du darfst nur notwendige personenbezogene Daten speichern.",
+      "tags": ["Datenschutz"],
+      "options": [
+        {
+          "id": "datenspar",
+          "label": "Datensparsamkeit",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Erhebt nur die wirklich notwendigen Daten.", "correct": true },
+            { "id": "w2", "text": "Reduziert Datenschutzrisiken.", "correct": true },
+            { "id": "w3", "text": "Fordert unbegrenzte Speicherung.", "correct": false },
+            { "id": "w4", "text": "Bedeutet Verzicht auf Backups.", "correct": false }
+          ]
+        },
+        {
+          "id": "verschl",
+          "label": "Verschluesselung",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Schuetzt Daten bei Uebertragung/Speicherung.", "correct": true },
+            { "id": "w2", "text": "Ist eine technische Schutzmassnahme.", "correct": true },
+            { "id": "w3", "text": "Regelt die Datenmenge.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Datenschutzprinzipien.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Datensparsamkeit bedeutet: nur notwendige Daten erheben."
+    },
+    {
+      "id": "c04",
+      "profile": "Du brauchst klare Reaktionszeiten fuer Supportanfragen.",
+      "tags": ["Service"],
+      "options": [
+        {
+          "id": "sla",
+          "label": "SLA",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Definiert Service-Level und Reaktionszeiten.", "correct": true },
+            { "id": "w2", "text": "Ist Teil eines Supportvertrags.", "correct": true },
+            { "id": "w3", "text": "Beschreibt nur Release-Prozesse.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Ticket-Systeme.", "correct": false }
+          ]
+        },
+        {
+          "id": "ticket",
+          "label": "Ticket-System",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Erfasst und priorisiert Anfragen.", "correct": true },
+            { "id": "w2", "text": "Unterstuetzt Support-Workflows.", "correct": true },
+            { "id": "w3", "text": "Regelt Reaktionszeiten vertraglich.", "correct": false },
+            { "id": "w4", "text": "Ist ein Sicherheitskonzept.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Ein SLA legt Reaktionszeiten und Service-Level verbindlich fest."
+    }
+  ]
+}

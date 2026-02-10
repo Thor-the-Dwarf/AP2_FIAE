@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Übergabe an Kunden",
+  "introText": "Klick auf „Start“, um das Quick-Quiz zur Übergabe zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Rollout",
+    "Pilotgruppe",
+    "Schulung",
+    "Dokumentation",
+    "Release Notes",
+    "Go-Live",
+    "Support",
+    "Training",
+    "Übergabeprotokoll",
+    "Abnahme"
+  ],
+  "questions": [
+    { "text": "Geplante Auslieferung der Software an Nutzer.", "correct": "Rollout" },
+    { "text": "Kleine Gruppe testet die Software zuerst.", "correct": "Pilotgruppe" },
+    { "text": "Training zur sicheren Bedienung der Software.", "correct": "Schulung" },
+    { "text": "Anleitungen für Nutzer/Admins.", "correct": "Dokumentation" },
+    { "text": "Zusammenfassung der Änderungen einer Version.", "correct": "Release Notes" },
+    { "text": "Start des produktiven Betriebs.", "correct": "Go-Live" },
+    { "text": "Begleitung nach Go-Live für Fragen/Probleme.", "correct": "Support" },
+    { "text": "Durchführung von Trainingsmaßnahmen.", "correct": "Training" },
+    { "text": "Protokolliert die formale Übergabe.", "correct": "Übergabeprotokoll" },
+    { "text": "Formale Bestätigung, dass Anforderungen erfüllt sind.", "correct": "Abnahme" }
+  ]
+}

@@ -1,1 +1,168 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Controlling & Finanzierung",
+  "topic": "Controlling-Instrumente, Kennzahlen, Finanzierungsarten, Investitionsrechnung",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "cont-sort",
+      "type": "sort",
+      "title": "Raetsel 1: Begriffe zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Instrumente = Planung/Budget, Kennzahlen = KPI, Finanzierung = Eigen/Fremd, Investition = Methoden.",
+      "sortColumns": [
+        { "zone": "instr", "label": "Controlling-Instrumente", "hint": "(Planung, Budget)" },
+        { "zone": "kpi", "label": "Kennzahlen", "hint": "(KPI)" },
+        { "zone": "fin", "label": "Finanzierungsarten", "hint": "(Eigen/Fremd)" },
+        { "zone": "inv", "label": "Investitionsrechnung", "hint": "(Methoden)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Budgetierung", "correctZone": "instr" },
+        { "id": "s2", "text": "Soll-Ist-Vergleich", "correctZone": "instr" },
+        { "id": "s3", "text": "Forecast", "correctZone": "instr" },
+        { "id": "s4", "text": "ROI", "correctZone": "kpi" },
+        { "id": "s5", "text": "Deckungsbeitrag", "correctZone": "kpi" },
+        { "id": "s6", "text": "Liquiditaetsgrad", "correctZone": "kpi" },
+        { "id": "s7", "text": "Eigenkapital", "correctZone": "fin" },
+        { "id": "s8", "text": "Bankkredit", "correctZone": "fin" },
+        { "id": "s9", "text": "Leasing", "correctZone": "fin" },
+        { "id": "s10", "text": "Kapitalwert", "correctZone": "inv" },
+        { "id": "s11", "text": "Amortisation", "correctZone": "inv" },
+        { "id": "s12", "text": "Break-even", "correctZone": "inv" }
+      ]
+    },
+    {
+      "id": "cont-quiz",
+      "type": "quiz",
+      "title": "Raetsel 2: Kurz-Quiz",
+      "subtitle": "Teste dein Wissen zu Controlling und Finanzierung.",
+      "hintDefault": "Alle Antworten muessen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Was ist ein Soll-Ist-Vergleich?",
+          "options": [
+            { "value": "a", "text": "Abgleich von Planung und Ergebnis" },
+            { "value": "b", "text": "Nur Umsatzsteuer" },
+            { "value": "c", "text": "Nur Personalplanung" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Eigenkapital gehoert zu ...",
+          "options": [
+            { "value": "a", "text": "Eigenfinanzierung" },
+            { "value": "b", "text": "Fremdfinanzierung" },
+            { "value": "c", "text": "Steuern" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Kapitalwertmethode dient ...",
+          "options": [
+            { "value": "a", "text": "Investitionsbewertung" },
+            { "value": "b", "text": "Urlaubsplanung" },
+            { "value": "c", "text": "Vertrieb" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "cont-seq",
+      "type": "capital",
+      "title": "Raetsel 3: Investition pruefen",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Daten sammeln, Methode waehlen, rechnen, entscheiden.",
+      "rows": [
+        {
+          "key": "daten",
+          "label": "Investitionsdaten sammeln",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "methode",
+          "label": "Methode waehlen (Kapitalwert/Amortisation)",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "rechnen",
+          "label": "Kennzahlen berechnen",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "bewerten",
+          "label": "Ergebnisse bewerten",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "entscheidung",
+          "label": "Investitionsentscheidung treffen",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "controlling",
+          "label": "Nachkalkulation/Controlling",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

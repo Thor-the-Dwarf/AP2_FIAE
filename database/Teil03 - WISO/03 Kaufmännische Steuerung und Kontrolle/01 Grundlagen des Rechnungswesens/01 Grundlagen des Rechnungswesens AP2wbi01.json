@@ -1,1 +1,63 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Rechnungswesen",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewaehlt.",
+  "legalForms": [
+    {
+      "id": "buchf",
+      "name": "Buchfuehrung",
+      "attributes": {
+        "records_transactions": true,
+        "shows_assets": false,
+        "shows_profit": false,
+        "internal_costing": false
+      }
+    },
+    {
+      "id": "bilanz",
+      "name": "Bilanz",
+      "attributes": {
+        "records_transactions": false,
+        "shows_assets": true,
+        "shows_profit": false,
+        "internal_costing": false
+      }
+    },
+    {
+      "id": "guv",
+      "name": "GuV",
+      "attributes": {
+        "records_transactions": false,
+        "shows_assets": false,
+        "shows_profit": true,
+        "internal_costing": false
+      }
+    },
+    {
+      "id": "kosten",
+      "name": "Kostenrechnung",
+      "attributes": {
+        "records_transactions": false,
+        "shows_assets": false,
+        "shows_profit": false,
+        "internal_costing": true
+      }
+    },
+    {
+      "id": "konto",
+      "name": "Konto",
+      "attributes": {
+        "records_transactions": true,
+        "shows_assets": false,
+        "shows_profit": false,
+        "internal_costing": false
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Werden Geschaeftsvorfaelle erfasst?", "attributeKey": "records_transactions" },
+    { "id": "q02", "hotkey": "2", "text": "Zeigt es Vermoegen und Kapital?", "attributeKey": "shows_assets" },
+    { "id": "q03", "hotkey": "3", "text": "Zeigt es Gewinn/Verlust?", "attributeKey": "shows_profit" },
+    { "id": "q04", "hotkey": "4", "text": "Ist es interne Kostensteuerung?", "attributeKey": "internal_costing" }
+  ]
+}

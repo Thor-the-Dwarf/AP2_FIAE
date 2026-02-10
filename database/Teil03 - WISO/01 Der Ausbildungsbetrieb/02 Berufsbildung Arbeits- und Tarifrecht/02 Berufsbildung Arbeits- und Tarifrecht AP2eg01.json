@@ -1,1 +1,164 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Berufsbildung & Arbeitsrecht",
+  "topic": "BBiG, Ausbildungsvertrag, Arbeitsrecht, Tarifvertraege, Kuendigungsschutz",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "recht-sort",
+      "type": "sort",
+      "title": "Raetsel 1: Begriffe zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: BBiG/Vertrag = Ausbildung, Arbeitsrecht = Pflichten, Tarif = Tarifbindung.",
+      "sortColumns": [
+        { "zone": "ausbildung", "label": "Berufsbildung", "hint": "(BBiG, Vertrag)" },
+        { "zone": "arbeitsrecht", "label": "Arbeitsrecht", "hint": "(Pflichten)" },
+        { "zone": "tarif", "label": "Tarifrecht", "hint": "(Tarifvertrag)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "BBiG", "correctZone": "ausbildung" },
+        { "id": "s2", "text": "Ausbildungsvertrag", "correctZone": "ausbildung" },
+        { "id": "s3", "text": "Probezeit", "correctZone": "ausbildung" },
+        { "id": "s4", "text": "Arbeitszeit", "correctZone": "arbeitsrecht" },
+        { "id": "s5", "text": "Urlaubsanspruch", "correctZone": "arbeitsrecht" },
+        { "id": "s6", "text": "Kuendigungsschutz", "correctZone": "arbeitsrecht" },
+        { "id": "s7", "text": "Tarifvertrag", "correctZone": "tarif" },
+        { "id": "s8", "text": "Gewerkschaft", "correctZone": "tarif" },
+        { "id": "s9", "text": "Tarifbindung", "correctZone": "tarif" }
+      ]
+    },
+    {
+      "id": "recht-quiz",
+      "type": "quiz",
+      "title": "Raetsel 2: Kurz-Quiz",
+      "subtitle": "Teste dein Wissen zu Berufsbildung und Arbeitsrecht.",
+      "hintDefault": "Alle Antworten muessen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Was regelt das BBiG?",
+          "options": [
+            { "value": "a", "text": "Berufsausbildung" },
+            { "value": "b", "text": "Umsatzsteuer" },
+            { "value": "c", "text": "IT-Sicherheit" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Was legt ein Tarifvertrag fest?",
+          "options": [
+            { "value": "a", "text": "Lohn, Arbeitszeit, Urlaub" },
+            { "value": "b", "text": "Produktspezifikation" },
+            { "value": "c", "text": "Marketingstrategie" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Was ist Teil des Ausbildungsvertrags?",
+          "options": [
+            { "value": "a", "text": "Ausbildungsziel und Dauer" },
+            { "value": "b", "text": "Aktienkurs" },
+            { "value": "c", "text": "Netzwerkplan" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "recht-seq",
+      "type": "capital",
+      "title": "Raetsel 3: Einstieg in die Ausbildung",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Vertrag, Eintragung, Start.",
+      "rows": [
+        {
+          "key": "vertrag",
+          "label": "Ausbildungsvertrag abschliessen",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "eintragung",
+          "label": "Eintragung bei Kammer",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "start",
+          "label": "Ausbildung starten",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "probe",
+          "label": "Probezeit absolvieren",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "rechte",
+          "label": "Rechte und Pflichten beachten",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "abschluss",
+          "label": "Abschlusspruefung"
+          ,"correct": "6",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,81 @@
-{}
+{
+  "game_type": "word_blanks_interactive",
+  "schema_version": "1.0",
+  "title": "Lueckentext – FIAE (Teil02)",
+  "topic": "IT-Systeme, Planung, Algorithmen, Qualitaet, Bereitstellung",
+  "estimated_minutes": 12,
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Ein _____ verwaltet Hardware, Prozesse und Speicher.",
+      "correctAnswer": "Betriebssystem",
+      "hint": "Systemsoftware"
+    },
+    {
+      "id": "s2",
+      "text": "Eine _____ speichert Daten strukturiert in Tabellen.",
+      "correctAnswer": "Datenbank",
+      "hint": "SQL"
+    },
+    {
+      "id": "s3",
+      "text": "Eine _____ beschreibt Anforderungen aus Nutzersicht.",
+      "correctAnswer": "User Story",
+      "hint": "Agil"
+    },
+    {
+      "id": "s4",
+      "text": "Ein _____ ist ein zeitlich begrenzter Entwicklungszyklus.",
+      "correctAnswer": "Sprint",
+      "hint": "Scrum"
+    },
+    {
+      "id": "s5",
+      "text": "Ein _____ ist eine Schrittfolge zur Problemloesung.",
+      "correctAnswer": "Algorithmus",
+      "hint": "Logik"
+    },
+    {
+      "id": "s6",
+      "text": "Die _____ beschreibt den Aufwand in Abhaengigkeit von n.",
+      "correctAnswer": "Komplexitaet",
+      "hint": "O-Notation"
+    },
+    {
+      "id": "s7",
+      "text": "Ein _____ testet eine Funktion isoliert.",
+      "correctAnswer": "Unit-Test",
+      "hint": "Teststufe"
+    },
+    {
+      "id": "s8",
+      "text": "_____ automatisiert Build, Test und Deployment.",
+      "correctAnswer": "CI/CD",
+      "hint": "Pipeline"
+    },
+    {
+      "id": "s9",
+      "text": "Ein _____ kapselt App und Abhaengigkeiten.",
+      "correctAnswer": "Container",
+      "hint": "Docker"
+    },
+    {
+      "id": "s10",
+      "text": "Ein _____ macht ein fehlerhaftes Release rueckgaengig.",
+      "correctAnswer": "Rollback",
+      "hint": "Rueckabwicklung"
+    },
+    {
+      "id": "s11",
+      "text": "Beim _____ wird eine Anwendung in Produktion ausgerollt.",
+      "correctAnswer": "Deployment",
+      "hint": "Release"
+    },
+    {
+      "id": "s12",
+      "text": "_____ ueberwacht Systeme und meldet Stoerungen.",
+      "correctAnswer": "Monitoring",
+      "hint": "Betrieb"
+    }
+  ]
+}

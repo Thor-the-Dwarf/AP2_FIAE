@@ -1,1 +1,69 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Bereitstellung",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewählt.",
+  "legalForms": [
+    {
+      "id": "config",
+      "name": "Konfigurationsmanagement",
+      "attributes": {
+        "manages_configs": true,
+        "rolls_out": false,
+        "trains_users": false,
+        "migrates_data": false,
+        "handles_change": false
+      }
+    },
+    {
+      "id": "deployment",
+      "name": "Deployment",
+      "attributes": {
+        "manages_configs": false,
+        "rolls_out": true,
+        "trains_users": false,
+        "migrates_data": false,
+        "handles_change": false
+      }
+    },
+    {
+      "id": "rollout",
+      "name": "Rollout",
+      "attributes": {
+        "manages_configs": false,
+        "rolls_out": true,
+        "trains_users": false,
+        "migrates_data": false,
+        "handles_change": true
+      }
+    },
+    {
+      "id": "training",
+      "name": "Schulung",
+      "attributes": {
+        "manages_configs": false,
+        "rolls_out": false,
+        "trains_users": true,
+        "migrates_data": false,
+        "handles_change": true
+      }
+    },
+    {
+      "id": "migration",
+      "name": "Migration",
+      "attributes": {
+        "manages_configs": false,
+        "rolls_out": false,
+        "trains_users": false,
+        "migrates_data": true,
+        "handles_change": false
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Werden Konfigurationen versioniert/verwaltet?", "attributeKey": "manages_configs" },
+    { "id": "q02", "hotkey": "2", "text": "Rollt es eine Version an Nutzer aus?", "attributeKey": "rolls_out" },
+    { "id": "q03", "hotkey": "3", "text": "Geht es um Nutzertraining?", "attributeKey": "trains_users" },
+    { "id": "q04", "hotkey": "4", "text": "Werden Daten übertragen?", "attributeKey": "migrates_data" },
+    { "id": "q05", "hotkey": "5", "text": "Steht organisatorischer Wandel im Fokus?", "attributeKey": "handles_change" }
+  ]
+}

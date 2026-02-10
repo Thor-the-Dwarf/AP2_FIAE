@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Testkonzepte",
+  "introText": "Klick auf „Start“, um das Quick-Quiz zu Testarten zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Unit-Test",
+    "Integrationstest",
+    "Systemtest",
+    "Mock",
+    "Testfall",
+    "Testplan",
+    "Regressionstest",
+    "End-to-End",
+    "Testdaten",
+    "Abnahmetest"
+  ],
+  "questions": [
+    { "text": "Testet eine einzelne Funktion isoliert.", "correct": "Unit-Test" },
+    { "text": "Prüft das Zusammenspiel mehrerer Module.", "correct": "Integrationstest" },
+    { "text": "Testet das Gesamtsystem Ende-zu-Ende.", "correct": "Systemtest" },
+    { "text": "Simuliert eine Abhängigkeit im Test.", "correct": "Mock" },
+    { "text": "Konkret definierter Input/Output zur Prüfung.", "correct": "Testfall" },
+    { "text": "Dokumentiert Strategie, Umfang und Ressourcen.", "correct": "Testplan" },
+    { "text": "Sichert, dass alte Fehler nicht wieder auftreten.", "correct": "Regressionstest" },
+    { "text": "Vollständiger Ablauf über alle Systeme hinweg.", "correct": "End-to-End" },
+    { "text": "Datenbasis, mit der Tests ausgeführt werden.", "correct": "Testdaten" },
+    { "text": "Test, der vom Kunden/Fachbereich freigegeben wird.", "correct": "Abnahmetest" }
+  ]
+}

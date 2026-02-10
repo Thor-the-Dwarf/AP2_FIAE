@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Rechnungswesen",
+  "description": "Schritt 1: Passenden Begriff waehlen · Schritt 2: Begruendungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst Vermoegen und Kapital eines Unternehmens gegenueberstellen.",
+      "tags": ["Bilanz"],
+      "options": [
+        {
+          "id": "bilanz",
+          "label": "Bilanz",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Stellt Aktiva und Passiva gegenueber.", "correct": true },
+            { "id": "w2", "text": "Zeigt Vermoegen und Kapital.", "correct": true },
+            { "id": "w3", "text": "Zeigt Ertraege und Aufwendungen.", "correct": false },
+            { "id": "w4", "text": "Ist nur interne Kostenrechnung.", "correct": false }
+          ]
+        },
+        {
+          "id": "guv",
+          "label": "GuV",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Stellt Ertraege und Aufwendungen gegenueber.", "correct": true },
+            { "id": "w2", "text": "Ermittelt den Jahresueberschuss.", "correct": true },
+            { "id": "w3", "text": "Zeigt Vermoegen und Kapital.", "correct": false },
+            { "id": "w4", "text": "Ist identisch mit Bilanz.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Die Bilanz zeigt Aktiva und Passiva (Vermoegen und Kapital)."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst den Erfolg eines Unternehmens durch Ertraege und Aufwendungen feststellen.",
+      "tags": ["GuV"],
+      "options": [
+        {
+          "id": "guv",
+          "label": "GuV",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Stellt Ertraege und Aufwendungen gegenueber.", "correct": true },
+            { "id": "w2", "text": "Ermittelt Gewinn oder Verlust.", "correct": true },
+            { "id": "w3", "text": "Stellt Aktiva und Passiva gegenueber.", "correct": false },
+            { "id": "w4", "text": "Ist nur fuer Lagerbestaende.", "correct": false }
+          ]
+        },
+        {
+          "id": "kosten",
+          "label": "Kostenrechnung",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Interne Verrechnung von Kosten.", "correct": true },
+            { "id": "w2", "text": "Dient Kalkulation und Steuerung.", "correct": true },
+            { "id": "w3", "text": "Ermittelt den Jahresueberschuss im Abschluss.", "correct": false },
+            { "id": "w4", "text": "Ersetzt die GuV.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Die GuV zeigt Ertraege und Aufwendungen und damit den Erfolg."
+    },
+    {
+      "id": "c03",
+      "profile": "Du willst intern Kosten erfassen, um Preise zu kalkulieren.",
+      "tags": ["Kostenrechnung"],
+      "options": [
+        {
+          "id": "kosten",
+          "label": "Kostenrechnung",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Interne Erfassung und Verrechnung von Kosten.", "correct": true },
+            { "id": "w2", "text": "Grundlage fuer Kalkulation.", "correct": true },
+            { "id": "w3", "text": "Gibt es nur fuer Steuern.", "correct": false },
+            { "id": "w4", "text": "Ersetzt die Buchfuehrung.", "correct": false }
+          ]
+        },
+        {
+          "id": "buchf",
+          "label": "Buchfuehrung",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Systematische Aufzeichnung von Geschaeftsvorfaellen.", "correct": true },
+            { "id": "w2", "text": "Extern relevant fuer Abschluss.", "correct": true },
+            { "id": "w3", "text": "Ermittelt intern Produktkosten.", "correct": false },
+            { "id": "w4", "text": "Ist identisch mit Kostenrechnung.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Kostenrechnung ist fuer interne Kalkulation und Steuerung da."
+    }
+  ]
+}

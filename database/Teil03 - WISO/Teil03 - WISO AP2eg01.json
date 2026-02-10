@@ -1,1 +1,150 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – WISO (Teil03)",
+  "topic": "Ausbildungsbetrieb, Geschaeftsprozesse, Kaufmaennische Steuerung",
+  "estimated_minutes": 25,
+  "sections": [
+    {
+      "id": "wiso-sort",
+      "type": "sort",
+      "title": "Raetsel 1: Begriffe zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Ausbildung = Vertrag/Pflichten, Organisation = Organigramm/Prozess, KSK = Bilanz/Kosten.",
+      "sortColumns": [
+        { "zone": "ausbildung", "label": "Ausbildungsbetrieb", "hint": "(Rechte/Pflichten)" },
+        { "zone": "org", "label": "Organisation", "hint": "(Prozesse)" },
+        { "zone": "ksk", "label": "Steuerung/Kontrolle", "hint": "(Rechnungswesen)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Ausbildungsvertrag", "correctZone": "ausbildung" },
+        { "id": "s2", "text": "Probezeit", "correctZone": "ausbildung" },
+        { "id": "s3", "text": "Ausbildungsnachweis", "correctZone": "ausbildung" },
+        { "id": "s4", "text": "Organigramm", "correctZone": "org" },
+        { "id": "s5", "text": "Geschaeftsprozess", "correctZone": "org" },
+        { "id": "s6", "text": "Ablauforganisation", "correctZone": "org" },
+        { "id": "s7", "text": "Bilanz", "correctZone": "ksk" },
+        { "id": "s8", "text": "GuV", "correctZone": "ksk" },
+        { "id": "s9", "text": "Kostenrechnung", "correctZone": "ksk" }
+      ]
+    },
+    {
+      "id": "wiso-quiz",
+      "type": "quiz",
+      "title": "Raetsel 2: Kurz-Quiz WISO",
+      "subtitle": "Teste dein Wissen zu Ausbildung, Organisation und Rechnungswesen.",
+      "hintDefault": "Alle Antworten muessen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Wozu dient ein Ausbildungsnachweis?",
+          "options": [
+            { "value": "a", "text": "Dokumentation der Ausbildungsinhalte" },
+            { "value": "b", "text": "Berechnung der Umsatzsteuer" },
+            { "value": "c", "text": "Ersetzt den Ausbildungsvertrag" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Was zeigt ein Organigramm?",
+          "options": [
+            { "value": "a", "text": "Hierarchie und Abteilungen" },
+            { "value": "b", "text": "Preisgestaltung" },
+            { "value": "c", "text": "Lieferzeiten" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Wozu dient die Bilanz?",
+          "options": [
+            { "value": "a", "text": "Vermoegen und Schulden gegenueberstellen" },
+            { "value": "b", "text": "Aufgaben im Betrieb verteilen" },
+            { "value": "c", "text": "Software testen" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "wiso-seq",
+      "type": "capital",
+      "title": "Raetsel 3: Ablauf der Ausbildung",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Vertrag -> Probezeit -> Ausbildung -> Abschluss.",
+      "rows": [
+        {
+          "key": "vertrag",
+          "label": "Ausbildungsvertrag abschliessen",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "probe",
+          "label": "Probezeit",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "ausbildung",
+          "label": "Ausbildung durchlaufen",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "pruefung",
+          "label": "Abschlusspruefung",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "abschluss",
+          "label": "Zeugnis/Abschluss",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

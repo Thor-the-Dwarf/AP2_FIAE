@@ -1,1 +1,69 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Softwareeinführung",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewählt.",
+  "legalForms": [
+    {
+      "id": "change",
+      "name": "Change Management",
+      "attributes": {
+        "focuses_acceptance": true,
+        "moves_data": false,
+        "has_cutover": false,
+        "involves_training": true,
+        "is_go_live": false
+      }
+    },
+    {
+      "id": "migration",
+      "name": "Migration",
+      "attributes": {
+        "focuses_acceptance": false,
+        "moves_data": true,
+        "has_cutover": true,
+        "involves_training": false,
+        "is_go_live": false
+      }
+    },
+    {
+      "id": "cutover",
+      "name": "Cutover",
+      "attributes": {
+        "focuses_acceptance": false,
+        "moves_data": false,
+        "has_cutover": true,
+        "involves_training": false,
+        "is_go_live": false
+      }
+    },
+    {
+      "id": "training",
+      "name": "Schulung",
+      "attributes": {
+        "focuses_acceptance": true,
+        "moves_data": false,
+        "has_cutover": false,
+        "involves_training": true,
+        "is_go_live": false
+      }
+    },
+    {
+      "id": "go_live",
+      "name": "Go-Live",
+      "attributes": {
+        "focuses_acceptance": false,
+        "moves_data": false,
+        "has_cutover": true,
+        "involves_training": false,
+        "is_go_live": true
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Steht Akzeptanz/Kommunikation im Fokus?", "attributeKey": "focuses_acceptance" },
+    { "id": "q02", "hotkey": "2", "text": "Werden Daten/Strukturen übertragen?", "attributeKey": "moves_data" },
+    { "id": "q03", "hotkey": "3", "text": "Gibt es einen Umschaltzeitpunkt (Cutover)?", "attributeKey": "has_cutover" },
+    { "id": "q04", "hotkey": "4", "text": "Gibt es Trainingsmaßnahmen?", "attributeKey": "involves_training" },
+    { "id": "q05", "hotkey": "5", "text": "Ist der Produktivstart zentral?", "attributeKey": "is_go_live" }
+  ]
+}

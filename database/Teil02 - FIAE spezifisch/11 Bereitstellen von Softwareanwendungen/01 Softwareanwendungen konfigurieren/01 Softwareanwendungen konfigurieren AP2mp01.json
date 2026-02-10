@@ -1,1 +1,54 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Konfiguration & Deployment – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "config",
+      "name": "Konfiguration",
+      "description": "Parameter, die Verhalten einer Anwendung steuern.",
+      "example": "DB_HOST=prod-db"
+    },
+    {
+      "id": "feature_flag",
+      "name": "Feature-Flag",
+      "description": "Schaltet Funktionen dynamisch ein/aus.",
+      "example": "newCheckout=true"
+    },
+    {
+      "id": "environment",
+      "name": "Umgebung",
+      "description": "Getrennter Betriebsbereich wie Dev, Staging, Prod.",
+      "example": "Staging mit Testdaten"
+    },
+    {
+      "id": "deployment",
+      "name": "Deployment",
+      "description": "Ausrollen einer Version auf eine Umgebung.",
+      "example": "Release v1.2 nach Prod"
+    },
+    {
+      "id": "rollback",
+      "name": "Rollback",
+      "description": "Zurückrollen auf eine vorige Version.",
+      "example": "Downgrade auf v1.1"
+    },
+    {
+      "id": "config_repo",
+      "name": "Konfigurations-Repo",
+      "description": "Versionierte Ablage für Konfigurationsdateien.",
+      "example": "config/production.yaml"
+    }
+  ]
+}

@@ -1,1 +1,63 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Der Ausbildungsbetrieb",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewaehlt.",
+  "legalForms": [
+    {
+      "id": "bbig",
+      "name": "BBiG",
+      "attributes": {
+        "is_law": true,
+        "is_representation": false,
+        "is_environment": false,
+        "is_safety": false
+      }
+    },
+    {
+      "id": "betriebsrat",
+      "name": "Betriebsrat",
+      "attributes": {
+        "is_law": false,
+        "is_representation": true,
+        "is_environment": false,
+        "is_safety": false
+      }
+    },
+    {
+      "id": "jav",
+      "name": "JAV",
+      "attributes": {
+        "is_law": false,
+        "is_representation": true,
+        "is_environment": false,
+        "is_safety": false
+      }
+    },
+    {
+      "id": "ergonomie",
+      "name": "Ergonomie",
+      "attributes": {
+        "is_law": false,
+        "is_representation": false,
+        "is_environment": false,
+        "is_safety": true
+      }
+    },
+    {
+      "id": "greenit",
+      "name": "Green IT",
+      "attributes": {
+        "is_law": false,
+        "is_representation": false,
+        "is_environment": true,
+        "is_safety": false
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Ist es ein Gesetz?", "attributeKey": "is_law" },
+    { "id": "q02", "hotkey": "2", "text": "Vertretung im Betrieb?", "attributeKey": "is_representation" },
+    { "id": "q03", "hotkey": "3", "text": "Geht es um Umweltschutz?", "attributeKey": "is_environment" },
+    { "id": "q04", "hotkey": "4", "text": "Geht es um Sicherheit/Gesundheit?", "attributeKey": "is_safety" }
+  ]
+}

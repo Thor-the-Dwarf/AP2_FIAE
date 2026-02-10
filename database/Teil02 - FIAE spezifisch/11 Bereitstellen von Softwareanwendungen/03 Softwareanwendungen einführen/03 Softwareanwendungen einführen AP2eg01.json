@@ -1,1 +1,164 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Software einführen",
+  "topic": "Change Management, Migration",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "intro-sort",
+      "type": "sort",
+      "title": "Rätsel 1: Einführungsthemen zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Change = Organisation/Kommunikation, Migration = Daten/Technik.",
+      "sortColumns": [
+        { "zone": "change", "label": "Change Management", "hint": "(Kommunikation, Akzeptanz)" },
+        { "zone": "migration", "label": "Migration", "hint": "(Daten, Systeme)" },
+        { "zone": "plan", "label": "Einführungsplanung", "hint": "(Zeitplan, Risiken)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Stakeholder-Analyse", "correctZone": "change" },
+        { "id": "s2", "text": "Kommunikationsplan", "correctZone": "change" },
+        { "id": "s3", "text": "Schulungskonzept", "correctZone": "change" },
+        { "id": "s4", "text": "Datenmapping", "correctZone": "migration" },
+        { "id": "s5", "text": "Cutover-Plan", "correctZone": "migration" },
+        { "id": "s6", "text": "Testmigration", "correctZone": "migration" },
+        { "id": "s7", "text": "Meilensteine", "correctZone": "plan" },
+        { "id": "s8", "text": "Risikoplan", "correctZone": "plan" },
+        { "id": "s9", "text": "Go-Live Termin", "correctZone": "plan" }
+      ]
+    },
+    {
+      "id": "intro-quiz",
+      "type": "quiz",
+      "title": "Rätsel 2: Kurz-Quiz Einführung",
+      "subtitle": "Teste dein Wissen zu Change Management und Migration.",
+      "hintDefault": "Alle Antworten müssen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Ziel von Change Management ist ...",
+          "options": [
+            { "value": "a", "text": "Akzeptanz und Kommunikation sicherstellen" },
+            { "value": "b", "text": "Nur Daten kopieren" },
+            { "value": "c", "text": "Code testen" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Was ist ein Cutover-Plan?",
+          "options": [
+            { "value": "a", "text": "Plan für den Umschaltzeitpunkt" },
+            { "value": "b", "text": "Design-Dokument" },
+            { "value": "c", "text": "Testfall" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Wozu dient eine Testmigration?",
+          "options": [
+            { "value": "a", "text": "Validiert Datenübernahme vor Go-Live" },
+            { "value": "b", "text": "Ersetzt Backups" },
+            { "value": "c", "text": "Ist nur Dokumentation" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "intro-seq",
+      "type": "capital",
+      "title": "Rätsel 3: Einführungsablauf",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Erst planen, dann migrieren, dann Go-Live.",
+      "rows": [
+        {
+          "key": "plan",
+          "label": "Einführung planen (Stakeholder, Timeline)",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "prepare",
+          "label": "Datenmapping und Testmigration",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "communicate",
+          "label": "Kommunikation & Schulungen",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "cutover",
+          "label": "Cutover/Umstellung durchführen",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "golive",
+          "label": "Go-Live & Stabilisierung",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "review",
+          "label": "Lessons Learned/Optimierungen",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

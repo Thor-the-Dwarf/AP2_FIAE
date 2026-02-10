@@ -1,1 +1,66 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Qualitätssicherung – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen QS-Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "unit",
+      "name": "Unit-Test",
+      "description": "Testet einzelne Funktionen/Module isoliert.",
+      "example": "calculateTotal() liefert korrektes Ergebnis"
+    },
+    {
+      "id": "integration",
+      "name": "Integrationstest",
+      "description": "Testet das Zusammenspiel mehrerer Komponenten.",
+      "example": "Service schreibt korrekt in die DB"
+    },
+    {
+      "id": "system",
+      "name": "Systemtest",
+      "description": "Testet den End-to-End-Prozess im Gesamtsystem.",
+      "example": "Checkout vom Login bis Zahlung"
+    },
+    {
+      "id": "blackbox",
+      "name": "Black-Box-Test",
+      "description": "Test ohne Kenntnis der internen Struktur – nur Input/Output.",
+      "example": "Login-Funktion mit falschem Passwort"
+    },
+    {
+      "id": "whitebox",
+      "name": "White-Box-Test",
+      "description": "Test mit Kenntnis des Codes/Strukturen.",
+      "example": "Pfadabdeckung in if/else prüfen"
+    },
+    {
+      "id": "ci",
+      "name": "CI",
+      "description": "Automatisiert Build und Tests bei Änderungen.",
+      "example": "Pipeline läuft bei jedem Commit"
+    },
+    {
+      "id": "code_review",
+      "name": "Code-Review-Tool",
+      "description": "Unterstützt Reviews und Freigaben im Team.",
+      "example": "Pull-Request-Review mit Kommentaren"
+    },
+    {
+      "id": "bug_tracking",
+      "name": "Bug-Tracking",
+      "description": "Dokumentiert Fehler, Status und Priorität.",
+      "example": "Ticket: P1 Crash in Produktion"
+    }
+  ]
+}

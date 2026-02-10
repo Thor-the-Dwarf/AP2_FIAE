@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Organisation & Wertschoepfung",
+  "description": "Schritt 1: Passenden Begriff waehlen · Schritt 2: Begruendungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst die Struktur mit Abteilungen und Hierarchien darstellen.",
+      "tags": ["Aufbau"],
+      "options": [
+        {
+          "id": "aufbau",
+          "label": "Aufbauorganisation",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Zeigt die organisatorische Struktur.", "correct": true },
+            { "id": "w2", "text": "Ordnet Abteilungen und Hierarchien.", "correct": true },
+            { "id": "w3", "text": "Beschreibt Prozesszeiten.", "correct": false },
+            { "id": "w4", "text": "Ist die Wertschoepfungskette.", "correct": false }
+          ]
+        },
+        {
+          "id": "ablauf",
+          "label": "Ablauforganisation",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Regelt Prozesse und Ablaeufe.", "correct": true },
+            { "id": "w2", "text": "Definiert Prozessschritte.", "correct": true },
+            { "id": "w3", "text": "Stellt Hierarchie dar.", "correct": false },
+            { "id": "w4", "text": "Ist ein Organigramm.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Aufbauorganisation beschreibt Struktur und Hierarchie."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst die Abfolge von Schritten eines Bestellprozesses festlegen.",
+      "tags": ["Prozess"],
+      "options": [
+        {
+          "id": "ablauf",
+          "label": "Ablauforganisation",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Regelt Prozesse und Ablaeufe.", "correct": true },
+            { "id": "w2", "text": "Definiert Reihenfolge von Prozessschritten.", "correct": true },
+            { "id": "w3", "text": "Stellt Hierarchien dar.", "correct": false },
+            { "id": "w4", "text": "Beschreibt Rechtsformen.", "correct": false }
+          ]
+        },
+        {
+          "id": "wert",
+          "label": "Wertschoepfungskette",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Beschreibt Stufen von Input zu Output.", "correct": true },
+            { "id": "w2", "text": "Hilft bei der Analyse von Mehrwert.", "correct": true },
+            { "id": "w3", "text": "Definiert konkrete Prozessschritte.", "correct": false },
+            { "id": "w4", "text": "Ist ein Organigramm.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Ablauforganisation legt Prozessschritte und Ablaeufe fest."
+    },
+    {
+      "id": "c03",
+      "profile": "Du analysierst, wie aus Inputs Schritt fuer Schritt Mehrwert entsteht.",
+      "tags": ["Wertschoepfung"],
+      "options": [
+        {
+          "id": "wert",
+          "label": "Wertschoepfungskette",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Zeigt Stufen von Input zu Output.", "correct": true },
+            { "id": "w2", "text": "Hilft, Mehrwert zu erkennen.", "correct": true },
+            { "id": "w3", "text": "Ist nur eine Hierarchie." ,"correct": false },
+            { "id": "w4", "text": "Ist identisch mit Ablauforganisation.", "correct": false }
+          ]
+        },
+        {
+          "id": "prozess",
+          "label": "Geschaeftsprozess",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Abfolge von Taetigkeiten zur Leistungserstellung.", "correct": true },
+            { "id": "w2", "text": "Kann Teil der Wertschoepfung sein.", "correct": true },
+            { "id": "w3", "text": "Beschreibt nur das Organigramm.", "correct": false },
+            { "id": "w4", "text": "Ist gleichbedeutend mit Marktanalyse.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Die Wertschoepfungskette zeigt den Mehrwert entlang der Stufen."
+    }
+  ]
+}

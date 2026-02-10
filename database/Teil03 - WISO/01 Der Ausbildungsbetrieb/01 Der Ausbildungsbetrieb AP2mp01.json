@@ -1,1 +1,54 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Der Ausbildungsbetrieb – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "bbig",
+      "name": "BBiG",
+      "description": "Regelt die Berufsausbildung gesetzlich.",
+      "example": "Rechte und Pflichten in der Ausbildung"
+    },
+    {
+      "id": "dualsystem",
+      "name": "Duales System",
+      "description": "Ausbildung im Betrieb und in der Berufsschule.",
+      "example": "3 Tage Betrieb, 2 Tage Schule"
+    },
+    {
+      "id": "betriebsrat",
+      "name": "Betriebsrat",
+      "description": "Vertretung der Arbeitnehmer im Betrieb.",
+      "example": "Mitbestimmung bei Arbeitszeiten"
+    },
+    {
+      "id": "jav",
+      "name": "JAV",
+      "description": "Vertretung der Jugendlichen und Azubis.",
+      "example": "Sprecher der Auszubildenden"
+    },
+    {
+      "id": "ergonomie",
+      "name": "Ergonomie",
+      "description": "Gestaltung des Arbeitsplatzes nach Gesundheitsaspekten.",
+      "example": "Monitorhoehe anpassen"
+    },
+    {
+      "id": "greenit",
+      "name": "Green IT",
+      "description": "Energiesparen und umweltfreundliche IT.",
+      "example": "Server konsolidieren"
+    }
+  ]
+}

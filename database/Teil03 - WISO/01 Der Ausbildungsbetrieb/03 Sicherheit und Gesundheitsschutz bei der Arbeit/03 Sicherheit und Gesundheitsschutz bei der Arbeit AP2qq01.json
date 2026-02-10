@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Arbeitssicherheit",
+  "introText": "Klick auf Start, um das Quiz zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Arbeitsschutzgesetz",
+    "Unfallverhuetungsvorschriften",
+    "Gefaehrdungsbeurteilung",
+    "PSA",
+    "Unterweisung",
+    "Berufsgenossenschaft",
+    "Schutzmassnahme",
+    "Sicherheitszeichen",
+    "Erste Hilfe",
+    "Unfallmeldung"
+  ],
+  "questions": [
+    { "text": "Gesetzliche Grundlage zum Schutz der Beschaeftigten.", "correct": "Arbeitsschutzgesetz" },
+    { "text": "Regeln zur Vermeidung von Unfaellen.", "correct": "Unfallverhuetungsvorschriften" },
+    { "text": "Bewertung von Risiken am Arbeitsplatz.", "correct": "Gefaehrdungsbeurteilung" },
+    { "text": "Persoenliche Schutzausruestung wie Helm oder Brille.", "correct": "PSA" },
+    { "text": "Einweisung in Sicherheitsregeln.", "correct": "Unterweisung" },
+    { "text": "Traeger der gesetzlichen Unfallversicherung.", "correct": "Berufsgenossenschaft" },
+    { "text": "Massnahme zur Risikoreduktion.", "correct": "Schutzmassnahme" },
+    { "text": "Kennzeichnung von Gefahren oder Fluchtwegen.", "correct": "Sicherheitszeichen" },
+    { "text": "Sofortmassnahmen bei Unfall.", "correct": "Erste Hilfe" },
+    { "text": "Meldung eines Unfalls an die zust. Stelle.", "correct": "Unfallmeldung" }
+  ]
+}

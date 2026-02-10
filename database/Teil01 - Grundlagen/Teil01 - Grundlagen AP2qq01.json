@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Grundlagen (Teil01)",
+  "introText": "Klick auf „Start“, um das Grundlagen-Quiz zu starten.",
+  "sublineText": "Waehle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Bedarfsermittlung",
+    "Pflichtenheft",
+    "Qualitaetssicherung",
+    "Unit-Test",
+    "Abnahme",
+    "Zugriffskontrolle",
+    "Verschluesselung",
+    "Datensparsamkeit",
+    "SLA",
+    "Ticket-System"
+  ],
+  "questions": [
+    { "text": "Erfasst Anforderungen und Ziele des Kunden.", "correct": "Bedarfsermittlung" },
+    { "text": "Dokumentiert die Loesung aus Sicht des Auftragnehmers.", "correct": "Pflichtenheft" },
+    { "text": "Ziel: Fehler frueh erkennen und vermeiden.", "correct": "Qualitaetssicherung" },
+    { "text": "Test einer einzelnen Funktion isoliert.", "correct": "Unit-Test" },
+    { "text": "Formelle Bestaetigung, dass Anforderungen erfuellt sind.", "correct": "Abnahme" },
+    { "text": "Regelt, wer auf Daten zugreifen darf.", "correct": "Zugriffskontrolle" },
+    { "text": "Schuetzt Daten bei Uebertragung/Speicherung.", "correct": "Verschluesselung" },
+    { "text": "Nur notwendige personenbezogene Daten erheben.", "correct": "Datensparsamkeit" },
+    { "text": "Vereinbarte Reaktionszeiten im Support.", "correct": "SLA" },
+    { "text": "Erfasst und steuert Support-Anfragen.", "correct": "Ticket-System" }
+  ]
+}

@@ -1,1 +1,127 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – WISO (Teil03)",
+  "description": "Schritt 1: Passenden Begriff waehlen · Schritt 2: Begruendungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst Rechte und Pflichten in der Ausbildung regeln.",
+      "tags": ["Ausbildung"],
+      "options": [
+        {
+          "id": "vertrag",
+          "label": "Ausbildungsvertrag",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Regelt Rechte und Pflichten beider Seiten.", "correct": true },
+            { "id": "w2", "text": "Ist die Grundlage der Ausbildung.", "correct": true },
+            { "id": "w3", "text": "Ersetzt die Ausbildungsordnung.", "correct": false },
+            { "id": "w4", "text": "Ist nur eine interne Richtlinie.", "correct": false }
+          ]
+        },
+        {
+          "id": "ordnung",
+          "label": "Ausbildungsordnung",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Beschreibt Berufsbild und Inhalte.", "correct": true },
+            { "id": "w2", "text": "Gilt bundesweit fuer den Beruf.", "correct": true },
+            { "id": "w3", "text": "Regelt individuelle Pflichten im Betrieb.", "correct": false },
+            { "id": "w4", "text": "Ist nur fuer ein Unternehmen gueltig.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Der Ausbildungsvertrag regelt Rechte und Pflichten konkret."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst die Hierarchie und Abteilungen sichtbar machen.",
+      "tags": ["Organisation"],
+      "options": [
+        {
+          "id": "org",
+          "label": "Organigramm",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Zeigt Aufbau und Hierarchie.", "correct": true },
+            { "id": "w2", "text": "Ordnet Abteilungen und Rollen.", "correct": true },
+            { "id": "w3", "text": "Ist ein Prozesshandbuch.", "correct": false },
+            { "id": "w4", "text": "Ersetzt die Bilanz.", "correct": false }
+          ]
+        },
+        {
+          "id": "ablauf",
+          "label": "Ablauforganisation",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Beschreibt Prozessschritte.", "correct": true },
+            { "id": "w2", "text": "Optimiert Durchlaufzeiten.", "correct": true },
+            { "id": "w3", "text": "Stellt Hierarchien dar.", "correct": false },
+            { "id": "w4", "text": "Ist eine Gehaltsregelung.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Ein Organigramm visualisiert Aufbau und Hierarchie."
+    },
+    {
+      "id": "c03",
+      "profile": "Du willst feststellen, ob ein Produkt zur Deckung der Fixkosten beitraegt.",
+      "tags": ["Steuerung"],
+      "options": [
+        {
+          "id": "deck",
+          "label": "Deckungsbeitrag",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Umsatz minus variable Kosten.", "correct": true },
+            { "id": "w2", "text": "Hilft bei Preis- und Sortimentsentscheidungen.", "correct": true },
+            { "id": "w3", "text": "Ist identisch mit Gewinn.", "correct": false },
+            { "id": "w4", "text": "Ersetzt die Bilanz.", "correct": false }
+          ]
+        },
+        {
+          "id": "bilanz",
+          "label": "Bilanz",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Gegenueberstellung von Vermoegen und Schulden.", "correct": true },
+            { "id": "w2", "text": "Zeigt die Finanzlage am Stichtag.", "correct": true },
+            { "id": "w3", "text": "Berechnet variable Kosten pro Stueck.", "correct": false },
+            { "id": "w4", "text": "Ist eine Lieferbedingung.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Der Deckungsbeitrag zeigt den Beitrag zur Fixkostendeckung."
+    },
+    {
+      "id": "c04",
+      "profile": "Du willst einen Preisnachlass bei schneller Zahlung anbieten.",
+      "tags": ["Zahlungsverkehr"],
+      "options": [
+        {
+          "id": "skonto",
+          "label": "Skonto",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Preisnachlass bei schneller Zahlung.", "correct": true },
+            { "id": "w2", "text": "Verkuerzt die Zahlungsdauer.", "correct": true },
+            { "id": "w3", "text": "Ist eine Mahnung.", "correct": false },
+            { "id": "w4", "text": "Ersetzt den Vertrag.", "correct": false }
+          ]
+        },
+        {
+          "id": "mahnung",
+          "label": "Mahnung",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Erinnert an offene Forderungen.", "correct": true },
+            { "id": "w2", "text": "Kann spaete Zahlungen sanktionieren.", "correct": true },
+            { "id": "w3", "text": "Gibt Rabatt bei schneller Zahlung.", "correct": false },
+            { "id": "w4", "text": "Ist ein Teil der GuV.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Skonto ist ein Preisnachlass bei schneller Zahlung."
+    }
+  ]
+}

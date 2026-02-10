@@ -1,1 +1,66 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Rechtsform & Organisation – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "gmbh",
+      "name": "GmbH",
+      "description": "Kapitalgesellschaft mit Haftungsbeschraenkung auf das Gesellschaftsvermoegen.",
+      "example": "Stammkapital, Gesellschafter" 
+    },
+    {
+      "id": "ag",
+      "name": "AG",
+      "description": "Kapitalgesellschaft mit in Aktien zerlegtem Grundkapital.",
+      "example": "Hauptversammlung und Vorstand" 
+    },
+    {
+      "id": "einzel",
+      "name": "Einzelunternehmen",
+      "description": "Unternehmen einer Person, volle Haftung.",
+      "example": "Inhaber haftet privat" 
+    },
+    {
+      "id": "organigramm",
+      "name": "Organigramm",
+      "description": "Darstellung der Aufbauorganisation und Hierarchie.",
+      "example": "Abteilungen und Leitungsebenen" 
+    },
+    {
+      "id": "linien",
+      "name": "Linienorganisation",
+      "description": "Klare Weisungswege in einer Hierarchie.",
+      "example": "Mitarbeiter berichten an Vorgesetzte" 
+    },
+    {
+      "id": "matrix",
+      "name": "Matrixorganisation",
+      "description": "Mehrfachunterstellung, z. B. nach Funktion und Projekt.",
+      "example": "Mitarbeiter berichtet an Fach- und Projektleitung" 
+    },
+    {
+      "id": "branche",
+      "name": "Branche",
+      "description": "Wirtschaftszweig, in dem das Unternehmen taetig ist.",
+      "example": "IT-Dienstleistungen" 
+    },
+    {
+      "id": "marktposition",
+      "name": "Marktposition",
+      "description": "Stellung des Unternehmens im Wettbewerb.",
+      "example": "Marktfuehrer oder Nischenanbieter" 
+    }
+  ]
+}

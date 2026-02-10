@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Fehleranalyse & Tracking",
+  "introText": "Klick auf „Start“, um das Quick-Quiz zu Debugging und Bug-Tracking zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Debugging",
+    "Breakpoint",
+    "Call Stack",
+    "Log-Analyse",
+    "Root-Cause-Analyse",
+    "Bug-Ticket",
+    "Reproduktion",
+    "Workaround",
+    "Priorität",
+    "Regressionstest"
+  ],
+  "questions": [
+    { "text": "Schritt-für-Schritt-Ausführung zur Fehlersuche.", "correct": "Debugging" },
+    { "text": "Haltepunkt, an dem die Ausführung stoppt.", "correct": "Breakpoint" },
+    { "text": "Zeigt, welche Funktionen aufgerufen wurden.", "correct": "Call Stack" },
+    { "text": "Auswertung von Protokollen zur Fehlersuche.", "correct": "Log-Analyse" },
+    { "text": "Systematische Suche nach der eigentlichen Ursache.", "correct": "Root-Cause-Analyse" },
+    { "text": "Dokumentiert Fehler, Status und Fix.", "correct": "Bug-Ticket" },
+    { "text": "Schritte, um den Fehler zuverlässig nachzustellen.", "correct": "Reproduktion" },
+    { "text": "Vorläufige Umgehung bis zum Fix.", "correct": "Workaround" },
+    { "text": "Einstufung der Dringlichkeit (P1, P2 ...).", "correct": "Priorität" },
+    { "text": "Test, der alte Fehler verhindert.", "correct": "Regressionstest" }
+  ]
+}

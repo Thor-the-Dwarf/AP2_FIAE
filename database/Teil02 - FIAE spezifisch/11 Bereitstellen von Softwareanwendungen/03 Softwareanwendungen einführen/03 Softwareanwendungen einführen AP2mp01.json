@@ -1,1 +1,54 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Softwareeinführung – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "change",
+      "name": "Change Management",
+      "description": "Begleitung der organisatorischen Veränderung, Kommunikation & Akzeptanz.",
+      "example": "Roadshows und Info-Sessions"
+    },
+    {
+      "id": "migration",
+      "name": "Migration",
+      "description": "Überführung von Daten/Systemen in neue Software.",
+      "example": "Altdaten in neues CRM übertragen"
+    },
+    {
+      "id": "cutover",
+      "name": "Cutover",
+      "description": "Geplanter Umschaltzeitpunkt auf das neue System.",
+      "example": "Umstellung am Wochenende 2–6 Uhr"
+    },
+    {
+      "id": "stakeholder",
+      "name": "Stakeholder-Analyse",
+      "description": "Identifikation und Einbindung betroffener Gruppen.",
+      "example": "Key-User früh einbeziehen"
+    },
+    {
+      "id": "training",
+      "name": "Schulung",
+      "description": "Nutzer werden auf neue Prozesse vorbereitet.",
+      "example": "Admin-Training vor Go-Live"
+    },
+    {
+      "id": "test_migration",
+      "name": "Testmigration",
+      "description": "Probeübernahme zur Validierung der Daten.",
+      "example": "Stichprobe: 100 Datensätze"
+    }
+  ]
+}

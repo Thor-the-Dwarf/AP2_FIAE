@@ -1,1 +1,63 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Beschaffung & Logistik",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewaehlt.",
+  "legalForms": [
+    {
+      "id": "beschaffung",
+      "name": "Beschaffungsprozess",
+      "attributes": {
+        "orders_goods": true,
+        "manages_stock": false,
+        "delivers_on_demand": false,
+        "selects_suppliers": true
+      }
+    },
+    {
+      "id": "lieferant",
+      "name": "Lieferantenauswahl",
+      "attributes": {
+        "orders_goods": false,
+        "manages_stock": false,
+        "delivers_on_demand": false,
+        "selects_suppliers": true
+      }
+    },
+    {
+      "id": "lager",
+      "name": "Lagerhaltung",
+      "attributes": {
+        "orders_goods": false,
+        "manages_stock": true,
+        "delivers_on_demand": false,
+        "selects_suppliers": false
+      }
+    },
+    {
+      "id": "jit",
+      "name": "Just-in-Time",
+      "attributes": {
+        "orders_goods": false,
+        "manages_stock": false,
+        "delivers_on_demand": true,
+        "selects_suppliers": false
+      }
+    },
+    {
+      "id": "wareneingang",
+      "name": "Wareneingang",
+      "attributes": {
+        "orders_goods": true,
+        "manages_stock": true,
+        "delivers_on_demand": false,
+        "selects_suppliers": false
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Geht es um Bestellungen?", "attributeKey": "orders_goods" },
+    { "id": "q02", "hotkey": "2", "text": "Geht es um Bestandsverwaltung?", "attributeKey": "manages_stock" },
+    { "id": "q03", "hotkey": "3", "text": "Lieferung exakt zum Bedarf?", "attributeKey": "delivers_on_demand" },
+    { "id": "q04", "hotkey": "4", "text": "Werden Lieferanten ausgewaehlt?", "attributeKey": "selects_suppliers" }
+  ]
+}

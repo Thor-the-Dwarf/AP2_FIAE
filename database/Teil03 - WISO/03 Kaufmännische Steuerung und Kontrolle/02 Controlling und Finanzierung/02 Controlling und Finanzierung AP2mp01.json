@@ -1,1 +1,54 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Controlling & Finanzierung – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "budget",
+      "name": "Budgetierung",
+      "description": "Planung und Zuweisung von finanziellen Mitteln.",
+      "example": "Jahresbudget je Abteilung"
+    },
+    {
+      "id": "kpi",
+      "name": "Kennzahl",
+      "description": "Messgroesse zur Steuerung (KPI).",
+      "example": "ROI oder Deckungsbeitrag"
+    },
+    {
+      "id": "roi",
+      "name": "ROI",
+      "description": "Rendite einer Investition.",
+      "example": "Gewinn / eingesetztes Kapital"
+    },
+    {
+      "id": "eigen",
+      "name": "Eigenfinanzierung",
+      "description": "Finanzierung durch Eigenkapital/Gewinne.",
+      "example": "Einlage der Gesellschafter"
+    },
+    {
+      "id": "fremd",
+      "name": "Fremdfinanzierung",
+      "description": "Finanzierung durch Kredite oder Darlehen.",
+      "example": "Bankkredit"
+    },
+    {
+      "id": "kapitalwert",
+      "name": "Kapitalwert",
+      "description": "Bewertung der Investition ueber abgezinste Zahlungsstroeme.",
+      "example": "NPV > 0 = vorteilhaft"
+    }
+  ]
+}

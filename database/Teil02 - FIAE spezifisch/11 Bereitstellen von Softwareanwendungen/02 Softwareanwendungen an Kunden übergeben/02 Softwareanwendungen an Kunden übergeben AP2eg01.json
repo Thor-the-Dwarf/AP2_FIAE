@@ -1,1 +1,164 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Übergabe an Kunden",
+  "topic": "Rollout, Schulung, Dokumentation",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "handover-sort",
+      "type": "sort",
+      "title": "Rätsel 1: Übergabe-Themen zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Rollout = Ausrollen, Schulung = Training, Doku = Unterlagen.",
+      "sortColumns": [
+        { "zone": "rollout", "label": "Rollout", "hint": "(Ausrollen)" },
+        { "zone": "training", "label": "Schulung", "hint": "(Training)" },
+        { "zone": "docs", "label": "Dokumentation", "hint": "(Handbuch, Anleitung)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Pilotgruppe", "correctZone": "rollout" },
+        { "id": "s2", "text": "Stufenweiser Rollout", "correctZone": "rollout" },
+        { "id": "s3", "text": "Go-Live Termin", "correctZone": "rollout" },
+        { "id": "s4", "text": "User-Training", "correctZone": "training" },
+        { "id": "s5", "text": "Admin-Schulung", "correctZone": "training" },
+        { "id": "s6", "text": "Train-the-Trainer", "correctZone": "training" },
+        { "id": "s7", "text": "Benutzerhandbuch", "correctZone": "docs" },
+        { "id": "s8", "text": "Installationsanleitung", "correctZone": "docs" },
+        { "id": "s9", "text": "Release Notes", "correctZone": "docs" }
+      ]
+    },
+    {
+      "id": "handover-quiz",
+      "type": "quiz",
+      "title": "Rätsel 2: Kurz-Quiz Übergabe",
+      "subtitle": "Teste dein Wissen zu Rollout, Schulung und Dokumentation.",
+      "hintDefault": "Alle Antworten müssen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Was ist eine Pilotgruppe?",
+          "options": [
+            { "value": "a", "text": "Kleine Gruppe für frühes Rollout" },
+            { "value": "b", "text": "Testdatenbank" },
+            { "value": "c", "text": "Server-Backup" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Wozu dient ein Benutzerhandbuch?",
+          "options": [
+            { "value": "a", "text": "Nutzer anleiten und informieren" },
+            { "value": "b", "text": "Deployment automatisieren" },
+            { "value": "c", "text": "Tests ausführen" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Was ist Ziel einer Schulung?",
+          "options": [
+            { "value": "a", "text": "Nutzer befähigen, die Software sicher zu bedienen" },
+            { "value": "b", "text": "Nur Code zu reviewen" },
+            { "value": "c", "text": "Automatisch deployen" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "handover-seq",
+      "type": "capital",
+      "title": "Rätsel 3: Übergabeprozess",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Erst vorbereiten, dann schulen, dann ausrollen.",
+      "rows": [
+        {
+          "key": "plan",
+          "label": "Übergabe planen",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "docs",
+          "label": "Dokumentation erstellen",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "train",
+          "label": "Schulungen durchführen",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "pilot",
+          "label": "Pilot-Rollout",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "golive",
+          "label": "Go-Live (Rollout für alle)",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "support",
+          "label": "Support/Feedback sammeln",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

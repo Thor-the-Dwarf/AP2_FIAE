@@ -1,1 +1,164 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Organisation & Wertschoepfung",
+  "topic": "Aufbauorganisation, Ablauforganisation, Geschaeftsprozesse, Wertschoepfungskette",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "proc-sort",
+      "type": "sort",
+      "title": "Raetsel 1: Begriffe zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Aufbau = Struktur, Ablauf = Prozesse, Wertschoepfung = Stufen von Input zu Output.",
+      "sortColumns": [
+        { "zone": "aufbau", "label": "Aufbauorganisation", "hint": "(Struktur)" },
+        { "zone": "ablauf", "label": "Ablauforganisation", "hint": "(Prozesse)" },
+        { "zone": "wert", "label": "Wertschoepfungskette", "hint": "(Stufen)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Organigramm", "correctZone": "aufbau" },
+        { "id": "s2", "text": "Abteilungen", "correctZone": "aufbau" },
+        { "id": "s3", "text": "Weisungslinien", "correctZone": "aufbau" },
+        { "id": "s4", "text": "Prozessschritte", "correctZone": "ablauf" },
+        { "id": "s5", "text": "Durchlaufzeit", "correctZone": "ablauf" },
+        { "id": "s6", "text": "Standardisierung", "correctZone": "ablauf" },
+        { "id": "s7", "text": "Eingang", "correctZone": "wert" },
+        { "id": "s8", "text": "Produktion", "correctZone": "wert" },
+        { "id": "s9", "text": "Vertrieb", "correctZone": "wert" }
+      ]
+    },
+    {
+      "id": "proc-quiz",
+      "type": "quiz",
+      "title": "Raetsel 2: Kurz-Quiz",
+      "subtitle": "Teste dein Wissen zu Organisation und Prozessen.",
+      "hintDefault": "Alle Antworten muessen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Aufbauorganisation beschreibt ...",
+          "options": [
+            { "value": "a", "text": "Strukturen und Hierarchien" },
+            { "value": "b", "text": "Nur Arbeitszeiten" },
+            { "value": "c", "text": "Nur Produkte" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Ablauforganisation regelt ...",
+          "options": [
+            { "value": "a", "text": "Prozesse und Arbeitsablaeufe" },
+            { "value": "b", "text": "Rechtsformen" },
+            { "value": "c", "text": "Steuern" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Wertschoepfungskette zeigt ...",
+          "options": [
+            { "value": "a", "text": "Stufen vom Input zum Output" },
+            { "value": "b", "text": "Urlaubsplanung" },
+            { "value": "c", "text": "Nur Vertrieb" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "proc-seq",
+      "type": "capital",
+      "title": "Raetsel 3: Prozess denken",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Erst Struktur, dann Prozesse, dann Verbesserung.",
+      "rows": [
+        {
+          "key": "struktur",
+          "label": "Aufbauorganisation festlegen",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "ablauf",
+          "label": "Prozesse definieren",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "schnittstellen",
+          "label": "Schnittstellen festlegen",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "standard",
+          "label": "Standards/Regeln definieren",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "messen",
+          "label": "Kennzahlen messen",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "verbessern",
+          "label": "Prozess verbessern",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

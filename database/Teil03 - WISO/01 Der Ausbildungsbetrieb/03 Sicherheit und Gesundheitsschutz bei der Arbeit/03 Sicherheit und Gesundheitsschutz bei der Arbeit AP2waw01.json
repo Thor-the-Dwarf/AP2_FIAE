@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Arbeitssicherheit",
+  "description": "Schritt 1: Passenden Begriff waehlen · Schritt 2: Begruendungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du sollst Risiken am Arbeitsplatz systematisch bewerten.",
+      "tags": ["Gefaehrdung"],
+      "options": [
+        {
+          "id": "gbe",
+          "label": "Gefaehrdungsbeurteilung",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Ermittelt und bewertet Risiken.", "correct": true },
+            { "id": "w2", "text": "Leitet Schutzmassnahmen ab.", "correct": true },
+            { "id": "w3", "text": "Ist nur eine Unfallmeldung.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Unterweisungen.", "correct": false }
+          ]
+        },
+        {
+          "id": "uvv",
+          "label": "Unfallverhuetungsvorschriften",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Regeln zur Unfallvermeidung.", "correct": true },
+            { "id": "w2", "text": "Werden von Berufsgenossenschaften erlassen.", "correct": true },
+            { "id": "w3", "text": "Bewerten Risiken systematisch.", "correct": false },
+            { "id": "w4", "text": "Sind nur fuer IT-Projekte.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Gefaehrdungsbeurteilung bewertet Risiken und definiert Massnahmen."
+    },
+    {
+      "id": "c02",
+      "profile": "Du musst Mitarbeiter in Sicherheitsregeln einweisen.",
+      "tags": ["Unterweisung"],
+      "options": [
+        {
+          "id": "unterweisung",
+          "label": "Unterweisung",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Einweisung in sicheres Verhalten.", "correct": true },
+            { "id": "w2", "text": "Pflicht des Arbeitgebers.", "correct": true },
+            { "id": "w3", "text": "Ist eine Unfallmeldung.", "correct": false },
+            { "id": "w4", "text": "Ersetzt PSA.", "correct": false }
+          ]
+        },
+        {
+          "id": "psa",
+          "label": "PSA",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Schutzkleidung und Ausruestung.", "correct": true },
+            { "id": "w2", "text": "Reduziert Unfallrisiken.", "correct": true },
+            { "id": "w3", "text": "Ist eine Schulung.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Unterweisung.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Unterweisung = Einweisung in Sicherheitsregeln."
+    },
+    {
+      "id": "c03",
+      "profile": "Regeln der Berufsgenossenschaft sollen Unfaelle verhindern.",
+      "tags": ["UVV"],
+      "options": [
+        {
+          "id": "uvv",
+          "label": "Unfallverhuetungsvorschriften",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Regeln zur Vermeidung von Unfaellen.", "correct": true },
+            { "id": "w2", "text": "Von Berufsgenossenschaften erlassen.", "correct": true },
+            { "id": "w3", "text": "Ersetzen das Arbeitsschutzgesetz.", "correct": false },
+            { "id": "w4", "text": "Sind nur freiwillig.", "correct": false }
+          ]
+        },
+        {
+          "id": "asg",
+          "label": "Arbeitsschutzgesetz",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Gesetzliche Pflichten des Arbeitgebers.", "correct": true },
+            { "id": "w2", "text": "Rahmen fuer Arbeitssicherheit.", "correct": true },
+            { "id": "w3", "text": "Konkrete UVV-Regeln.", "correct": false },
+            { "id": "w4", "text": "Wird nur von der BG erlassen.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "UVV sind konkrete Regeln zur Unfallvermeidung."
+    }
+  ]
+}

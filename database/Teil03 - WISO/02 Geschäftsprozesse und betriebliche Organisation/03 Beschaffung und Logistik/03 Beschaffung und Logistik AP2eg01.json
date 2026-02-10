@@ -1,1 +1,164 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Beschaffung & Logistik",
+  "topic": "Beschaffungsprozess, Lieferantenauswahl, Lagerhaltung, Just-in-Time",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "proc-sort",
+      "type": "sort",
+      "title": "Raetsel 1: Begriffe zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Beschaffung = Bedarf/Einkauf, Logistik = Lager/Transport, JIT = Just-in-Time.",
+      "sortColumns": [
+        { "zone": "beschaffung", "label": "Beschaffungsprozess", "hint": "(Bedarf, Bestellung)" },
+        { "zone": "logistik", "label": "Lager/Logistik", "hint": "(Bestand, Transport)" },
+        { "zone": "jit", "label": "Just-in-Time", "hint": "(Minimale Lager)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Bedarf ermitteln", "correctZone": "beschaffung" },
+        { "id": "s2", "text": "Angebot einholen", "correctZone": "beschaffung" },
+        { "id": "s3", "text": "Bestellung ausloesen", "correctZone": "beschaffung" },
+        { "id": "s4", "text": "Wareneingang", "correctZone": "logistik" },
+        { "id": "s5", "text": "Lagerbestand", "correctZone": "logistik" },
+        { "id": "s6", "text": "Inventur", "correctZone": "logistik" },
+        { "id": "s7", "text": "Lieferung exakt zum Bedarf", "correctZone": "jit" },
+        { "id": "s8", "text": "Minimale Lagerhaltung", "correctZone": "jit" },
+        { "id": "s9", "text": "Hohe Lieferzuverlaessigkeit", "correctZone": "jit" }
+      ]
+    },
+    {
+      "id": "proc-quiz",
+      "type": "quiz",
+      "title": "Raetsel 2: Kurz-Quiz",
+      "subtitle": "Teste dein Wissen zu Beschaffung und Logistik.",
+      "hintDefault": "Alle Antworten muessen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Just-in-Time bedeutet ...",
+          "options": [
+            { "value": "a", "text": "Lieferung genau zum Bedarf" },
+            { "value": "b", "text": "Grosses Lager" },
+            { "value": "c", "text": "Keine Lieferanten" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Was gehoert zur Lieferantenauswahl?",
+          "options": [
+            { "value": "a", "text": "Qualitaet und Preis vergleichen" },
+            { "value": "b", "text": "Nur Logo" },
+            { "value": "c", "text": "Nur Werbung" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Wareneingang ist Teil von ...",
+          "options": [
+            { "value": "a", "text": "Logistik/Lager" },
+            { "value": "b", "text": "Marketing" },
+            { "value": "c", "text": "Finanzen" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "proc-seq",
+      "type": "capital",
+      "title": "Raetsel 3: Beschaffungsablauf",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Bedarf, Angebot, Bestellung, Lieferung, Lager.",
+      "rows": [
+        {
+          "key": "bedarf",
+          "label": "Bedarf ermitteln",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "angebot",
+          "label": "Angebote einholen",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "auswahl",
+          "label": "Lieferanten auswaehlen",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "bestellung",
+          "label": "Bestellung ausloesen",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "eingang",
+          "label": "Wareneingang und Pruefung",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "lager",
+          "label": "Einlagerung/Bestand aktualisieren",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

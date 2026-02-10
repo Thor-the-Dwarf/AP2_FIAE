@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – QS-Werkzeuge",
+  "description": "Schritt 1: Passendes Werkzeug wählen · Schritt 2: Begründungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst automatisch prüfen, ob Tests bei jedem Commit laufen.",
+      "tags": ["CI", "Automatisierung"],
+      "options": [
+        {
+          "id": "ci",
+          "label": "CI (Continuous Integration)",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Build und Tests laufen automatisch bei Änderungen.", "correct": true },
+            { "id": "w2", "text": "Fehler werden früh im Integrationsprozess sichtbar.", "correct": true },
+            { "id": "w3", "text": "Ist primär ein Code-Editor.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Reviews vollständig.", "correct": false }
+          ]
+        },
+        {
+          "id": "linter",
+          "label": "Linter",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Prüft Code-Stil und einfache Fehler.", "correct": true },
+            { "id": "w2", "text": "Kann als Teil einer CI laufen.", "correct": true },
+            { "id": "w3", "text": "Führt Builds/Tests bei jedem Commit aus.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Pipeline-Stages.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "CI automatisiert Build und Test bei jedem Commit."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst Code-Smells und potenzielle Sicherheitsprobleme erkennen.",
+      "tags": ["Static Analysis"],
+      "options": [
+        {
+          "id": "static",
+          "label": "Static Analysis",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Analysiert Code ohne Ausführung.", "correct": true },
+            { "id": "w2", "text": "Findet Security-Issues und Code-Smells.", "correct": true },
+            { "id": "w3", "text": "Ist nur für Deployments da.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Tests vollständig.", "correct": false }
+          ]
+        },
+        {
+          "id": "testframework",
+          "label": "Testing-Framework",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Führt automatisierte Tests aus.", "correct": true },
+            { "id": "w2", "text": "Braucht ausführbare Tests.", "correct": true },
+            { "id": "w3", "text": "Findet Code-Smells ohne Tests.", "correct": false },
+            { "id": "w4", "text": "Ist primär für Code-Style zuständig.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Static Analysis erkennt Probleme direkt im Quellcode."
+    },
+    {
+      "id": "c03",
+      "profile": "Du willst Änderungen im Team prüfen und diskutieren, bevor sie gemerged werden.",
+      "tags": ["Review"],
+      "options": [
+        {
+          "id": "review",
+          "label": "Code-Review-Tool",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Erlaubt Kommentare und Freigaben im Pull Request.", "correct": true },
+            { "id": "w2", "text": "Verbessert Code-Qualität und Wissen im Team.", "correct": true },
+            { "id": "w3", "text": "Automatisiert Deployments.", "correct": false },
+            { "id": "w4", "text": "Ersetzt alle Tests.", "correct": false }
+          ]
+        },
+        {
+          "id": "cd",
+          "label": "CD",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Automatisiert das Deployment.", "correct": true },
+            { "id": "w2", "text": "Nutzt Pipeline-Stages.", "correct": true },
+            { "id": "w3", "text": "Ersetzt Reviews durch Automation.", "correct": false },
+            { "id": "w4", "text": "Dient primär der Code-Diskussion.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Für Diskussion und Freigabe ist das Code-Review-Tool zuständig."
+    }
+  ]
+}

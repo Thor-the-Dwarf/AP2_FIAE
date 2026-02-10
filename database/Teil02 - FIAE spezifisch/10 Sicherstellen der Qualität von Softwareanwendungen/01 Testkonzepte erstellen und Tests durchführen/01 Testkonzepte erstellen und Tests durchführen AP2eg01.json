@@ -1,1 +1,164 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Testkonzepte & Tests",
+  "topic": "Unit-Tests, Integrationstests, Systemtests",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "tests-sort",
+      "type": "sort",
+      "title": "Rätsel 1: Testarten zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Testarten zu.",
+      "hintDefault": "Tipp: Unit = einzelne Funktionen, Integration = Zusammenspiel, System = Gesamtprodukt.",
+      "sortColumns": [
+        { "zone": "unit", "label": "Unit-Tests", "hint": "(kleinste Einheiten)" },
+        { "zone": "integration", "label": "Integrationstests", "hint": "(Zusammenspiel)" },
+        { "zone": "system", "label": "Systemtests", "hint": "(End-to-End)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Methode berechnet Steuer korrekt", "correctZone": "unit" },
+        { "id": "s2", "text": "Klasse validiert Eingaben", "correctZone": "unit" },
+        { "id": "s3", "text": "Mock/Stubs für Abhängigkeiten", "correctZone": "unit" },
+        { "id": "s4", "text": "Repository + DB arbeiten zusammen", "correctZone": "integration" },
+        { "id": "s5", "text": "Service ruft API und Datenbank", "correctZone": "integration" },
+        { "id": "s6", "text": "Mehrere Module zusammenspielen", "correctZone": "integration" },
+        { "id": "s7", "text": "End-to-End Checkout im Shop", "correctZone": "system" },
+        { "id": "s8", "text": "Login-Prozess im Gesamtsystem", "correctZone": "system" },
+        { "id": "s9", "text": "UI + Backend + DB komplett", "correctZone": "system" }
+      ]
+    },
+    {
+      "id": "tests-quiz",
+      "type": "quiz",
+      "title": "Rätsel 2: Kurz-Quiz Testkonzepte",
+      "subtitle": "Teste dein Wissen zu Unit-, Integrations- und Systemtests.",
+      "hintDefault": "Alle Antworten müssen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Was ist der Fokus eines Unit-Tests?",
+          "options": [
+            { "value": "a", "text": "Gesamtsystem mit UI" },
+            { "value": "b", "text": "Einzelne Funktion/Modul" },
+            { "value": "c", "text": "Deployment-Pipeline" }
+          ],
+          "correct": "b"
+        },
+        {
+          "id": "q2",
+          "text": "2. Wann nutzt man Integrationstests?",
+          "options": [
+            { "value": "a", "text": "Beim Zusammenspiel mehrerer Komponenten" },
+            { "value": "b", "text": "Nur für UI-Design" },
+            { "value": "c", "text": "Nur für Compiler-Fehler" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Systemtests prüfen ...",
+          "options": [
+            { "value": "a", "text": "nur einzelne Klassen" },
+            { "value": "b", "text": "das Gesamtsystem Ende-zu-Ende" },
+            { "value": "c", "text": "nur Code-Style" }
+          ],
+          "correct": "b"
+        }
+      ]
+    },
+    {
+      "id": "tests-seq",
+      "type": "capital",
+      "title": "Rätsel 3: Teststrategie aufbauen",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Erst Anforderungen, dann Testplan, dann Implementierung und Ausführung.",
+      "rows": [
+        {
+          "key": "anforderung",
+          "label": "Anforderungen/Use Cases analysieren",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "plan",
+          "label": "Testarten auswählen (Unit/Integration/System)",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "fälle",
+          "label": "Testfälle definieren",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "implement",
+          "label": "Tests implementieren",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "ausführen",
+          "label": "Tests ausführen und Ergebnisse prüfen",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "verbessern",
+          "label": "Fehler beheben und Tests aktualisieren",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "– bitte wählen –" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

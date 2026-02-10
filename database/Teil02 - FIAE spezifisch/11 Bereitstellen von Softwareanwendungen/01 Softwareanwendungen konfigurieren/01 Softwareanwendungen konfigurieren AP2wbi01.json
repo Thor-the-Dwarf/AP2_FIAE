@@ -1,1 +1,69 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Konfiguration & Deployment",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewählt.",
+  "legalForms": [
+    {
+      "id": "config",
+      "name": "Konfiguration",
+      "attributes": {
+        "changes_behavior": true,
+        "rolls_out": false,
+        "switches_features": false,
+        "is_environment": false,
+        "can_rollback": false
+      }
+    },
+    {
+      "id": "feature_flag",
+      "name": "Feature-Flag",
+      "attributes": {
+        "changes_behavior": true,
+        "rolls_out": false,
+        "switches_features": true,
+        "is_environment": false,
+        "can_rollback": false
+      }
+    },
+    {
+      "id": "deployment",
+      "name": "Deployment",
+      "attributes": {
+        "changes_behavior": false,
+        "rolls_out": true,
+        "switches_features": false,
+        "is_environment": false,
+        "can_rollback": true
+      }
+    },
+    {
+      "id": "staging",
+      "name": "Staging",
+      "attributes": {
+        "changes_behavior": false,
+        "rolls_out": false,
+        "switches_features": false,
+        "is_environment": true,
+        "can_rollback": false
+      }
+    },
+    {
+      "id": "rollback",
+      "name": "Rollback",
+      "attributes": {
+        "changes_behavior": false,
+        "rolls_out": false,
+        "switches_features": false,
+        "is_environment": false,
+        "can_rollback": true
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Ändert es das Verhalten über Parameter?", "attributeKey": "changes_behavior" },
+    { "id": "q02", "hotkey": "2", "text": "Rollt es eine Version aus?", "attributeKey": "rolls_out" },
+    { "id": "q03", "hotkey": "3", "text": "Schaltet es Features ein/aus?", "attributeKey": "switches_features" },
+    { "id": "q04", "hotkey": "4", "text": "Ist es eine Umgebung (Dev/Staging/Prod)?", "attributeKey": "is_environment" },
+    { "id": "q05", "hotkey": "5", "text": "Kann man damit zurück auf eine frühere Version?", "attributeKey": "can_rollback" }
+  ]
+}

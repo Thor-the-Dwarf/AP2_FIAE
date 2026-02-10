@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – Umweltschutz",
+  "introText": "Klick auf Start, um das Quiz zu starten.",
+  "sublineText": "Wähle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Ressourcenschonung",
+    "Abfallvermeidung",
+    "Recycling",
+    "Energieeffizienz",
+    "CO2-Reduktion",
+    "Umweltmanagement",
+    "Muellsortierung",
+    "Papierloses Buero",
+    "Mehrwegbecher",
+    "Nachhaltige Beschaffung"
+  ],
+  "questions": [
+    { "text": "Sparsamer Einsatz von Energie und Material.", "correct": "Ressourcenschonung" },
+    { "text": "Reduzierung von Abfall und Verpackung.", "correct": "Abfallvermeidung" },
+    { "text": "Wiederverwertung von Materialien.", "correct": "Recycling" },
+    { "text": "Verringerung des Energieverbrauchs.", "correct": "Energieeffizienz" },
+    { "text": "Massnahmen zur Verringerung von Emissionen.", "correct": "CO2-Reduktion" },
+    { "text": "Systematische Planung von Umweltzielen.", "correct": "Umweltmanagement" },
+    { "text": "Trennung von Abfallarten.", "correct": "Muellsortierung" },
+    { "text": "Weniger Papier durch digitale Prozesse.", "correct": "Papierloses Buero" },
+    { "text": "Becher mehrfach verwenden.", "correct": "Mehrwegbecher" },
+    { "text": "Einkauf von umweltfreundlichen Produkten.", "correct": "Nachhaltige Beschaffung" }
+  ]
+}

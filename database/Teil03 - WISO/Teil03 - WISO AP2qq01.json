@@ -1,1 +1,31 @@
-{}
+{
+  "game_type": "quick_quiz",
+  "title": "Quick-Quiz – WISO (Teil03)",
+  "introText": "Klick auf „Start“, um das WISO-Quiz zu starten.",
+  "sublineText": "Waehle den passenden Begriff zur Aussage.",
+  "timePerQuestionSeconds": 12,
+  "answerLabels": [
+    "Ausbildungsordnung",
+    "Probezeit",
+    "Ausbildungsnachweis",
+    "Organigramm",
+    "Geschaeftsprozess",
+    "Deckungsbeitrag",
+    "Bilanz",
+    "GuV",
+    "Skonto",
+    "Mahnung"
+  ],
+  "questions": [
+    { "text": "Rechtliche Grundlage fuer Ausbildungsinhalte.", "correct": "Ausbildungsordnung" },
+    { "text": "Einstiegsphase mit kurzer Kuendigungsfrist.", "correct": "Probezeit" },
+    { "text": "Dokumentation der Ausbildungsinhalte.", "correct": "Ausbildungsnachweis" },
+    { "text": "Darstellung von Aufbau und Hierarchie.", "correct": "Organigramm" },
+    { "text": "Abfolge von Taetigkeiten fuer ein Ziel.", "correct": "Geschaeftsprozess" },
+    { "text": "Umsatz minus variable Kosten.", "correct": "Deckungsbeitrag" },
+    { "text": "Gegenueberstellung von Vermoegen und Schulden.", "correct": "Bilanz" },
+    { "text": "Gegenueberstellung von Ertraegen und Aufwendungen.", "correct": "GuV" },
+    { "text": "Preisnachlass bei schneller Zahlung.", "correct": "Skonto" },
+    { "text": "Zahlungserinnerung an Kunden.", "correct": "Mahnung" }
+  ]
+}

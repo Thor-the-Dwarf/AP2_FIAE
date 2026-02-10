@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Fehleranalyse",
+  "description": "Schritt 1: Passenden Begriff wählen · Schritt 2: Begründungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Ein Fehler tritt sporadisch auf. Du willst ihn Schritt für Schritt im Code nachvollziehen.",
+      "tags": ["Debugging"],
+      "options": [
+        {
+          "id": "debugging",
+          "label": "Debugging",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Breakpoints halten die Ausführung an.", "correct": true },
+            { "id": "w2", "text": "Step Over/Into zeigt den Ablauf.", "correct": true },
+            { "id": "w3", "text": "Dient primär der Dokumentation in Tickets.", "correct": false },
+            { "id": "w4", "text": "Ist eine reine Deployment-Aktivität.", "correct": false }
+          ]
+        },
+        {
+          "id": "bug_ticket",
+          "label": "Bug-Ticket",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Dokumentiert Fehler und Status.", "correct": true },
+            { "id": "w2", "text": "Hilft bei Priorisierung.", "correct": true },
+            { "id": "w3", "text": "Ersetzt Debugging.", "correct": false },
+            { "id": "w4", "text": "Führt Step-by-Step-Ausführung durch.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Debugging ist das Werkzeug für Schritt-für-Schritt-Analyse."
+    },
+    {
+      "id": "c02",
+      "profile": "Du möchtest die eigentliche Ursache eines Fehlers finden, nicht nur Symptome.",
+      "tags": ["Root Cause"],
+      "options": [
+        {
+          "id": "root",
+          "label": "Root-Cause-Analyse",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Fokussiert auf die eigentliche Ursache.", "correct": true },
+            { "id": "w2", "text": "Verhindert Wiederholungen durch nachhaltige Fixes.", "correct": true },
+            { "id": "w3", "text": "Ist nur Logging ohne Analyse.", "correct": false },
+            { "id": "w4", "text": "Ist ein reines UI-Testing.", "correct": false }
+          ]
+        },
+        {
+          "id": "log",
+          "label": "Log-Analyse",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Hilft Hinweise aus Logs zu gewinnen.", "correct": true },
+            { "id": "w2", "text": "Ist oft Teil der Ursachenanalyse.", "correct": true },
+            { "id": "w3", "text": "Garantiert die Root Cause.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Ursachenanalyse vollständig.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Root-Cause-Analyse zielt auf die eigentliche Ursache."
+    },
+    {
+      "id": "c03",
+      "profile": "Du willst Fehler systematisch dokumentieren und ihren Status im Team verfolgen.",
+      "tags": ["Bug-Tracking"],
+      "options": [
+        {
+          "id": "ticket",
+          "label": "Bug-Ticket",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Erfasst Fehler, Priorität und Status.", "correct": true },
+            { "id": "w2", "text": "Macht Fortschritt und Fix nachvollziehbar.", "correct": true },
+            { "id": "w3", "text": "Führt Debugging-Schritte automatisch aus.", "correct": false },
+            { "id": "w4", "text": "Ist nur für CI/CD da.", "correct": false }
+          ]
+        },
+        {
+          "id": "debug",
+          "label": "Debugging",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Hilft beim Finden der Ursache.", "correct": true },
+            { "id": "w2", "text": "Zeigt Variablenwerte und Call Stack.", "correct": true },
+            { "id": "w3", "text": "Dokumentiert Status und Priorität.", "correct": false },
+            { "id": "w4", "text": "Ersetzt Ticketing-Systeme.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Bug-Tickets sind für Dokumentation und Statusverfolgung."
+    }
+  ]
+}

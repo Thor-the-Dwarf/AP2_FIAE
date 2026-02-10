@@ -1,1 +1,54 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Übergabe an Kunden – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "rollout",
+      "name": "Rollout",
+      "description": "Geplante Auslieferung der Software an Nutzer.",
+      "example": "Stufenweiser Rollout pro Abteilung"
+    },
+    {
+      "id": "pilot",
+      "name": "Pilotgruppe",
+      "description": "Kleine Nutzergruppe testet die Software zuerst.",
+      "example": "10 Key-User erhalten vorab Zugang"
+    },
+    {
+      "id": "training",
+      "name": "Schulung",
+      "description": "Training zur sicheren Bedienung der Software.",
+      "example": "Admin-Schulung mit Übungen"
+    },
+    {
+      "id": "docs",
+      "name": "Dokumentation",
+      "description": "Anleitungen für Nutzer und Admins.",
+      "example": "Benutzerhandbuch als PDF"
+    },
+    {
+      "id": "release_notes",
+      "name": "Release Notes",
+      "description": "Zusammenfassung der Änderungen einer Version.",
+      "example": "Neue Funktion: Export als CSV"
+    },
+    {
+      "id": "support",
+      "name": "Support",
+      "description": "Begleitung nach Go-Live, um Probleme zu lösen.",
+      "example": "Hotline während der ersten Woche"
+    }
+  ]
+}

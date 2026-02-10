@@ -1,1 +1,48 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Berufsbildung & Arbeitsrecht – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "bbig",
+      "name": "BBiG",
+      "description": "Gesetzliche Grundlage der Berufsausbildung in Deutschland.",
+      "example": "Regelt Rechte und Pflichten in der Ausbildung"
+    },
+    {
+      "id": "vertrag",
+      "name": "Ausbildungsvertrag",
+      "description": "Schriftlicher Vertrag zwischen Azubi und Betrieb.",
+      "example": "Dauer, Verguetung, Probezeit"
+    },
+    {
+      "id": "arbeitsrecht",
+      "name": "Arbeitsrecht",
+      "description": "Regelt Arbeitszeit, Urlaub, Pflichten und Schutz.",
+      "example": "Jugendarbeitsschutz"
+    },
+    {
+      "id": "tarif",
+      "name": "Tarifvertrag",
+      "description": "Vereinbarung zwischen Gewerkschaft und Arbeitgeberverband.",
+      "example": "Tariflohn und Arbeitszeit"
+    },
+    {
+      "id": "kuendigung",
+      "name": "Kuendigungsschutz",
+      "description": "Schuetzt vor unbegruendeter Kuendigung.",
+      "example": "Kuendigung nur aus wichtigem Grund"
+    }
+  ]
+}

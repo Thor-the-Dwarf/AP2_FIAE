@@ -1,1 +1,170 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – FIAE (Teil02)",
+  "topic": "IT-Systeme, Planung, Algorithmen, Anwendungen, Qualitaet, Bereitstellung",
+  "estimated_minutes": 25,
+  "sections": [
+    {
+      "id": "fiae-sort",
+      "type": "sort",
+      "title": "Raetsel 1: Begriffe zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: System = OS/DB, Planung = Stories/Sprints, Algo = Laufzeit/Komplexitaet, Anwendung = Architektur/API, Qualitaet = Tests, Bereitstellung = Deployment/Monitoring.",
+      "sortColumns": [
+        { "zone": "system", "label": "IT-Systeme", "hint": "(OS, DB)" },
+        { "zone": "planung", "label": "Planung", "hint": "(Stories, Sprint)" },
+        { "zone": "algo", "label": "Algorithmen", "hint": "(Komplexitaet)" },
+        { "zone": "app", "label": "Anwendungen", "hint": "(Architektur, API)" },
+        { "zone": "qs", "label": "Qualitaet", "hint": "(Tests)" },
+        { "zone": "deploy", "label": "Bereitstellung", "hint": "(Deployment)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Betriebssystem", "correctZone": "system" },
+        { "id": "s2", "text": "Datenbank", "correctZone": "system" },
+        { "id": "s3", "text": "User Story", "correctZone": "planung" },
+        { "id": "s4", "text": "Sprint", "correctZone": "planung" },
+        { "id": "s5", "text": "Laufzeit", "correctZone": "algo" },
+        { "id": "s6", "text": "Komplexitaet", "correctZone": "algo" },
+        { "id": "s7", "text": "Architektur", "correctZone": "app" },
+        { "id": "s8", "text": "API", "correctZone": "app" },
+        { "id": "s9", "text": "Unit-Test", "correctZone": "qs" },
+        { "id": "s10", "text": "Integrationstest", "correctZone": "qs" },
+        { "id": "s11", "text": "Deployment", "correctZone": "deploy" },
+        { "id": "s12", "text": "Monitoring", "correctZone": "deploy" }
+      ]
+    },
+    {
+      "id": "fiae-quiz",
+      "type": "quiz",
+      "title": "Raetsel 2: Kurz-Quiz FIAE",
+      "subtitle": "Teste dein Wissen zu Planung, Algorithmen und Bereitstellung.",
+      "hintDefault": "Alle Antworten muessen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Wozu dient eine User Story?",
+          "options": [
+            { "value": "a", "text": "Beschreibt Anforderungen aus Nutzersicht" },
+            { "value": "b", "text": "Speichert Daten dauerhaft" },
+            { "value": "c", "text": "Verschluesselt Netzverkehr" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Was beschreibt die Laufzeit eines Algorithmus?",
+          "options": [
+            { "value": "a", "text": "Benutzte Programmiersprache" },
+            { "value": "b", "text": "Rechenaufwand in Abhaengigkeit von n" },
+            { "value": "c", "text": "Grafisches Design" }
+          ],
+          "correct": "b"
+        },
+        {
+          "id": "q3",
+          "text": "3. Was ist ein Deployment?",
+          "options": [
+            { "value": "a", "text": "Test einzelner Funktionen" },
+            { "value": "b", "text": "Ausrollen einer Anwendung" },
+            { "value": "c", "text": "Erstellung eines Pflichtenhefts" }
+          ],
+          "correct": "b"
+        }
+      ]
+    },
+    {
+      "id": "fiae-seq",
+      "type": "capital",
+      "title": "Raetsel 3: Entwicklungsablauf",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Anforderungen -> Design -> Implementierung -> Test -> Deployment -> Betrieb.",
+      "rows": [
+        {
+          "key": "anf",
+          "label": "Anforderungen erfassen",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "design",
+          "label": "Design/Architektur",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "impl",
+          "label": "Implementierung",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "test",
+          "label": "Tests/Qualitaet",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "deploy",
+          "label": "Deployment",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "betrieb",
+          "label": "Betrieb/Monitoring",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

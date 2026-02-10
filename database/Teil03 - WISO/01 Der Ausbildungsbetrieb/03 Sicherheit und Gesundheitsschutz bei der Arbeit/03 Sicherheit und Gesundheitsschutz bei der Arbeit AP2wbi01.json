@@ -1,1 +1,63 @@
-{}
+{
+  "game_type": "wer_bin_ich",
+  "title": "Wer bin ich? – Arbeitssicherheit",
+  "secretHintText": "Das System hat heimlich eine {SECRET_NAME} gewaehlt.",
+  "legalForms": [
+    {
+      "id": "asg",
+      "name": "Arbeitsschutzgesetz",
+      "attributes": {
+        "is_law": true,
+        "is_rule": false,
+        "assesses_risk": false,
+        "is_equipment": false
+      }
+    },
+    {
+      "id": "uvv",
+      "name": "Unfallverhuetungsvorschriften",
+      "attributes": {
+        "is_law": false,
+        "is_rule": true,
+        "assesses_risk": false,
+        "is_equipment": false
+      }
+    },
+    {
+      "id": "gbe",
+      "name": "Gefaehrdungsbeurteilung",
+      "attributes": {
+        "is_law": false,
+        "is_rule": false,
+        "assesses_risk": true,
+        "is_equipment": false
+      }
+    },
+    {
+      "id": "psa",
+      "name": "PSA",
+      "attributes": {
+        "is_law": false,
+        "is_rule": false,
+        "assesses_risk": false,
+        "is_equipment": true
+      }
+    },
+    {
+      "id": "unterweisung",
+      "name": "Unterweisung",
+      "attributes": {
+        "is_law": false,
+        "is_rule": false,
+        "assesses_risk": false,
+        "is_equipment": false
+      }
+    }
+  ],
+  "questions": [
+    { "id": "q01", "hotkey": "1", "text": "Ist es ein Gesetz?", "attributeKey": "is_law" },
+    { "id": "q02", "hotkey": "2", "text": "Sind es konkrete Regeln?", "attributeKey": "is_rule" },
+    { "id": "q03", "hotkey": "3", "text": "Geht es um Risikobewertung?", "attributeKey": "assesses_risk" },
+    { "id": "q04", "hotkey": "4", "text": "Ist es Schutzausruestung?", "attributeKey": "is_equipment" }
+  ]
+}

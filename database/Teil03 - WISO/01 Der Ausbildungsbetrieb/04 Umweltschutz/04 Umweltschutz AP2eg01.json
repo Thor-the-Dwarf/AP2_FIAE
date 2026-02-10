@@ -1,1 +1,164 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Umweltschutz",
+  "topic": "Umweltschutzmassnahmen, Ressourcenschonung, Abfallvermeidung",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "env-sort",
+      "type": "sort",
+      "title": "Raetsel 1: Begriffe zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Massnahmen = konkrete Aktionen, Ressourcen = Energie/Material, Abfall = Vermeiden/Trennen.",
+      "sortColumns": [
+        { "zone": "massnahmen", "label": "Umweltschutzmassnahmen", "hint": "(Aktionen)" },
+        { "zone": "ressourcen", "label": "Ressourcenschonung", "hint": "(Energie/Material)" },
+        { "zone": "abfall", "label": "Abfallvermeidung", "hint": "(Reduzieren/Trennen)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Energiesparmodus", "correctZone": "ressourcen" },
+        { "id": "s2", "text": "Duplexdruck", "correctZone": "ressourcen" },
+        { "id": "s3", "text": "LED-Beleuchtung", "correctZone": "ressourcen" },
+        { "id": "s4", "text": "Papierloses Buero", "correctZone": "abfall" },
+        { "id": "s5", "text": "Muellsortierung", "correctZone": "abfall" },
+        { "id": "s6", "text": "Mehrwegbecher", "correctZone": "abfall" },
+        { "id": "s7", "text": "CO2-Reduktion", "correctZone": "massnahmen" },
+        { "id": "s8", "text": "Nachhaltige Beschaffung", "correctZone": "massnahmen" },
+        { "id": "s9", "text": "Umweltmanagement", "correctZone": "massnahmen" }
+      ]
+    },
+    {
+      "id": "env-quiz",
+      "type": "quiz",
+      "title": "Raetsel 2: Kurz-Quiz Umweltschutz",
+      "subtitle": "Teste dein Wissen zu Umweltmassnahmen.",
+      "hintDefault": "Alle Antworten muessen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Was bedeutet Ressourcenschonung?",
+          "options": [
+            { "value": "a", "text": "Material und Energie sparen" },
+            { "value": "b", "text": "Mehr Abfall erzeugen" },
+            { "value": "c", "text": "Nur Marketing" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. Abfallvermeidung heisst ...",
+          "options": [
+            { "value": "a", "text": "Muellerzeugung reduzieren" },
+            { "value": "b", "text": "Mehr Verpackung" },
+            { "value": "c", "text": "Nur trennen" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Beispiel fuer Umweltschutzmassnahme?",
+          "options": [
+            { "value": "a", "text": "CO2-Reduktionsplan" },
+            { "value": "b", "text": "Mehr Ausdrucke" },
+            { "value": "c", "text": "Weniger Wartung" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "env-seq",
+      "type": "capital",
+      "title": "Raetsel 3: Umweltmassnahmen umsetzen",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Erst analysieren, dann planen, dann umsetzen.",
+      "rows": [
+        {
+          "key": "analyse",
+          "label": "Ist-Situation analysieren",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "ziele",
+          "label": "Ziele festlegen",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "massnahmen",
+          "label": "Massnahmen planen",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "umsetzen",
+          "label": "Massnahmen umsetzen",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "kontrolle",
+          "label": "Ergebnisse kontrollieren",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "verbessern",
+          "label": "Verbessern und anpassen",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

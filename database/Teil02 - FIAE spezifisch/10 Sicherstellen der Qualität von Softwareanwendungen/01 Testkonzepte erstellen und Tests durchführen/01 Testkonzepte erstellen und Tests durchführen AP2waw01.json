@@ -1,1 +1,97 @@
-{}
+{
+  "game_type": "what_and_why",
+  "title": "What & Why – Testkonzepte",
+  "description": "Schritt 1: Passende Testart wählen · Schritt 2: Begründungen markieren.",
+  "cases": [
+    {
+      "id": "c01",
+      "profile": "Du willst prüfen, ob eine einzelne Berechnungsfunktion korrekt arbeitet.",
+      "tags": ["Unit", "Funktion"],
+      "options": [
+        {
+          "id": "unit",
+          "label": "Unit-Test",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Testet kleinste Einheit isoliert.", "correct": true },
+            { "id": "w2", "text": "Abhängigkeiten können gemockt werden.", "correct": true },
+            { "id": "w3", "text": "Benötigt das gesamte System.", "correct": false },
+            { "id": "w4", "text": "Ist primär für UI-Ende-zu-Ende gedacht.", "correct": false }
+          ]
+        },
+        {
+          "id": "system",
+          "label": "Systemtest",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Prüft das Gesamtsystem in realer Umgebung.", "correct": true },
+            { "id": "w2", "text": "Ist für End-to-End-Prozesse geeignet.", "correct": true },
+            { "id": "w3", "text": "Zu groß für einzelne Funktionen.", "correct": true },
+            { "id": "w4", "text": "Isoliert die Funktion ohne Abhängigkeiten.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Für eine einzelne Funktion ist der Unit-Test passend."
+    },
+    {
+      "id": "c02",
+      "profile": "Du willst prüfen, ob Service und Datenbank korrekt zusammenarbeiten.",
+      "tags": ["Integration"],
+      "options": [
+        {
+          "id": "integration",
+          "label": "Integrationstest",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Testet das Zusammenspiel mehrerer Komponenten.", "correct": true },
+            { "id": "w2", "text": "Deckt Schnittstellenprobleme auf.", "correct": true },
+            { "id": "w3", "text": "Ist nur für UI gedacht.", "correct": false },
+            { "id": "w4", "text": "Isoliert jede Funktion vollständig.", "correct": false }
+          ]
+        },
+        {
+          "id": "unit",
+          "label": "Unit-Test",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Testet eine Komponente isoliert.", "correct": true },
+            { "id": "w2", "text": "Nutzen Mocks für Abhängigkeiten.", "correct": true },
+            { "id": "w3", "text": "Prüft Zusammenspiel ohne Mocks.", "correct": false },
+            { "id": "w4", "text": "Deckt Schnittstellenfehler automatisch auf.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Integrationstests prüfen das Zusammenspiel von Service und DB."
+    },
+    {
+      "id": "c03",
+      "profile": "Du willst sicherstellen, dass der komplette Checkout-Prozess läuft.",
+      "tags": ["System", "End-to-End"],
+      "options": [
+        {
+          "id": "system",
+          "label": "Systemtest",
+          "isCorrect": true,
+          "whys": [
+            { "id": "w1", "text": "Testet den End-to-End-Ablauf.", "correct": true },
+            { "id": "w2", "text": "Bezieht UI, Backend und DB ein.", "correct": true },
+            { "id": "w3", "text": "Ist zu klein für Gesamtprozesse.", "correct": false },
+            { "id": "w4", "text": "Testet nur einzelne Funktionen.", "correct": false }
+          ]
+        },
+        {
+          "id": "unit",
+          "label": "Unit-Test",
+          "isCorrect": false,
+          "whys": [
+            { "id": "w1", "text": "Eignet sich für isolierte Funktionen.", "correct": true },
+            { "id": "w2", "text": "Ist schnell und granular.", "correct": true },
+            { "id": "w3", "text": "Deckt End-to-End-Workflow ab.", "correct": false },
+            { "id": "w4", "text": "Bezieht alle Subsysteme mit ein.", "correct": false }
+          ]
+        }
+      ],
+      "solution": "Der komplette Prozess gehört in System-/End-to-End-Tests."
+    }
+  ]
+}

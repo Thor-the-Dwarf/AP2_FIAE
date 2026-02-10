@@ -1,1 +1,48 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Marktorientierung & Vertrieb – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "marktanalyse",
+      "name": "Marktanalyse",
+      "description": "Untersuchung von Markt, Wettbewerb und Kundenbedarf.",
+      "example": "SWOT und Zielgruppenanalyse"
+    },
+    {
+      "id": "marketingmix",
+      "name": "Marketing-Mix",
+      "description": "Kombination aus Produkt, Preis, Place, Promotion.",
+      "example": "Preisstrategie und Werbekampagne"
+    },
+    {
+      "id": "direkt",
+      "name": "Direktvertrieb",
+      "description": "Verkauf ohne Zwischenhaendler.",
+      "example": "Eigener Online-Shop"
+    },
+    {
+      "id": "indirekt",
+      "name": "Indirekter Vertrieb",
+      "description": "Verkauf ueber Handelspartner.",
+      "example": "Grosshaendler und Retail"
+    },
+    {
+      "id": "crm",
+      "name": "CRM",
+      "description": "Pflege von Kundenbeziehungen und Bindung.",
+      "example": "After-Sales und Support"
+    }
+  ]
+}

@@ -1,1 +1,60 @@
-{}
+{
+  "game_type": "matching_puzzle",
+  "title": "Bereitstellung – Matching",
+  "schema_version": "1.0",
+  "subtitle": "Ziel: Kombiniere Begriff, Kurzbeschreibung und Beispiel.",
+  "columnTitles": {
+    "column1": "Begriff",
+    "column2": "Kurzbeschreibung",
+    "column3": "Beispiel"
+  },
+  "columnHints": {
+    "column1": "Wähle einen Begriff.",
+    "column2": "Wähle die passende Erklärung.",
+    "column3": "Ordne ein Beispiel zu."
+  },
+  "sets": [
+    {
+      "id": "config_mgmt",
+      "name": "Konfigurationsmanagement",
+      "description": "Verwaltet Konfigurationsstände und Änderungen nachvollziehbar.",
+      "example": "config.yml im Git-Repo"
+    },
+    {
+      "id": "deployment",
+      "name": "Deployment",
+      "description": "Ausrollen einer Version auf eine Umgebung.",
+      "example": "Release v2.0 nach Prod"
+    },
+    {
+      "id": "rollout",
+      "name": "Rollout",
+      "description": "Schrittweise Einführung der Software bei Nutzern.",
+      "example": "Abteilung A zuerst, dann B"
+    },
+    {
+      "id": "training",
+      "name": "Schulung",
+      "description": "Befähigt Nutzer zur Bedienung der Software.",
+      "example": "Webinar für Key-User"
+    },
+    {
+      "id": "documentation",
+      "name": "Dokumentation",
+      "description": "Anleitungen und Informationen zur Nutzung/Administration.",
+      "example": "Admin-Handbuch"
+    },
+    {
+      "id": "change",
+      "name": "Change Management",
+      "description": "Begleitet organisatorische Veränderungen und Kommunikation.",
+      "example": "Stakeholder-Workshops"
+    },
+    {
+      "id": "migration",
+      "name": "Migration",
+      "description": "Überführt Daten/Prozesse ins neue System.",
+      "example": "Altdaten in neues CRM"
+    }
+  ]
+}

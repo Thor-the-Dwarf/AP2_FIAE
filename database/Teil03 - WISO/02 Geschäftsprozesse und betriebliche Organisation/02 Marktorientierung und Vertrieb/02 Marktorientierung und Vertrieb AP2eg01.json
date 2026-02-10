@@ -1,1 +1,168 @@
-{}
+{
+  "game_type": "escape_game",
+  "schema_version": "1.0",
+  "title": "Mini-Escape-Room – Marktorientierung & Vertrieb",
+  "topic": "Marktanalyse, Marketing-Mix, Vertriebskanaele, CRM",
+  "estimated_minutes": 20,
+  "sections": [
+    {
+      "id": "market-sort",
+      "type": "sort",
+      "title": "Raetsel 1: Begriffe zuordnen",
+      "subtitle": "Ordne die Begriffe den passenden Bereichen zu.",
+      "hintDefault": "Tipp: Analyse = Markt, Mix = 4Ps, Vertrieb = Kanaele, CRM = Kundenbeziehung.",
+      "sortColumns": [
+        { "zone": "analyse", "label": "Marktanalyse", "hint": "(Bedarf, Wettbewerb)" },
+        { "zone": "mix", "label": "Marketing-Mix", "hint": "(Produkt, Preis, Place, Promotion)" },
+        { "zone": "vertrieb", "label": "Vertriebskanaele", "hint": "(Direkt/Indirekt)" },
+        { "zone": "crm", "label": "Kundenbeziehungsmanagement", "hint": "(Bindung)" }
+      ],
+      "sortCards": [
+        { "id": "s1", "text": "Wettbewerbsanalyse", "correctZone": "analyse" },
+        { "id": "s2", "text": "Zielgruppenanalyse", "correctZone": "analyse" },
+        { "id": "s3", "text": "Marktvolumen", "correctZone": "analyse" },
+        { "id": "s4", "text": "Produktpolitik", "correctZone": "mix" },
+        { "id": "s5", "text": "Preispolitik", "correctZone": "mix" },
+        { "id": "s6", "text": "Kommunikationspolitik", "correctZone": "mix" },
+        { "id": "s7", "text": "Direktvertrieb", "correctZone": "vertrieb" },
+        { "id": "s8", "text": "Handelspartner", "correctZone": "vertrieb" },
+        { "id": "s9", "text": "Online-Shop", "correctZone": "vertrieb" },
+        { "id": "s10", "text": "Kundenzufriedenheit", "correctZone": "crm" },
+        { "id": "s11", "text": "After-Sales", "correctZone": "crm" },
+        { "id": "s12", "text": "Kundenbindung", "correctZone": "crm" }
+      ]
+    },
+    {
+      "id": "market-quiz",
+      "type": "quiz",
+      "title": "Raetsel 2: Kurz-Quiz",
+      "subtitle": "Teste dein Wissen zu Marketing und Vertrieb.",
+      "hintDefault": "Alle Antworten muessen korrekt sein.",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "1. Welche 4Ps gehoeren zum Marketing-Mix?",
+          "options": [
+            { "value": "a", "text": "Produkt, Preis, Place, Promotion" },
+            { "value": "b", "text": "Plan, People, Profit, Process" },
+            { "value": "c", "text": "Preis, Politik, Personal, Produktion" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q2",
+          "text": "2. CRM zielt auf ...",
+          "options": [
+            { "value": "a", "text": "Kundenbindung" },
+            { "value": "b", "text": "Nur Preisgestaltung" },
+            { "value": "c", "text": "Produktionsplanung" }
+          ],
+          "correct": "a"
+        },
+        {
+          "id": "q3",
+          "text": "3. Direktvertrieb bedeutet ...",
+          "options": [
+            { "value": "a", "text": "Verkauf ohne Zwischenhaendler" },
+            { "value": "b", "text": "Nur ueber Grosshaendler" },
+            { "value": "c", "text": "Nur ueber Messen" }
+          ],
+          "correct": "a"
+        }
+      ]
+    },
+    {
+      "id": "market-seq",
+      "type": "capital",
+      "title": "Raetsel 3: Vertriebsplanung",
+      "subtitle": "Bringe die Schritte in die richtige Reihenfolge.",
+      "hintDefault": "Hinweis: Erst Markt analysieren, dann Mix festlegen, dann Kanaele.",
+      "rows": [
+        {
+          "key": "analyse",
+          "label": "Marktanalyse durchfuehren",
+          "correct": "1",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "zielgruppe",
+          "label": "Zielgruppe definieren",
+          "correct": "2",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "mix",
+          "label": "Marketing-Mix festlegen",
+          "correct": "3",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "kanaele",
+          "label": "Vertriebskanaele waehlen",
+          "correct": "4",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "umsetzen",
+          "label": "Massnahmen umsetzen",
+          "correct": "5",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        },
+        {
+          "key": "crm",
+          "label": "CRM-Massnahmen etablieren",
+          "correct": "6",
+          "options": [
+            { "value": "", "text": "- bitte waehlen -" },
+            { "value": "1", "text": "1" },
+            { "value": "2", "text": "2" },
+            { "value": "3", "text": "3" },
+            { "value": "4", "text": "4" },
+            { "value": "5", "text": "5" },
+            { "value": "6", "text": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}
