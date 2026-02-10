@@ -693,7 +693,7 @@
 
                 // Falls die Daten fehlen (dynamischer Index), müssen wir sie nachladen
                 if (!node.data) {
-                    viewBodyEl.innerHTML = '<div style="padding:2rem; text-align:center;">Lade Spieldaten...</div>';
+                    viewBodyEl.innerHTML = '';
                     try {
                         const resp = await fetch(node.id);
                         if (!resp.ok) throw new Error("Datei nicht gefunden.");
