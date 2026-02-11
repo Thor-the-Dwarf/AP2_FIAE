@@ -45,6 +45,11 @@
       </div>
       <div class="feedback-body">
         <div class="feedback-section">
+          <div style="font-size:0.85rem; color:hsl(var(--txt-muted));">
+            Tipp: Markiere und bearbeite Text direkt im Vorschau-Bereich. Keine Buttons funktionieren dort.
+          </div>
+        </div>
+        <div class="feedback-section">
           <div style="font-size:0.85rem; margin-bottom:0.4rem; color:hsl(var(--txt-muted));">Tags</div>
           <div class="feedback-tags" id="feedback-tags"></div>
           <input class="feedback-input" id="feedback-tag-input" placeholder="Tag hinzufuegen und Enter druecken" />
@@ -193,7 +198,10 @@
 
     const closeDrawer = () => drawer.classList.remove('open');
 
-    fab.addEventListener('click', openDrawer);
+    fab.addEventListener('click', () => {
+      if (drawer.classList.contains('open')) closeDrawer();
+      else openDrawer();
+    });
     closeBtn.addEventListener('click', closeDrawer);
     submitBtn.addEventListener('click', () => submitFeedback(getTags));
   }
