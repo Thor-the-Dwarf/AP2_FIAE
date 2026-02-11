@@ -36,13 +36,8 @@
     const fab = document.createElement('button');
     fab.className = 'feedback-fab';
     fab.type = 'button';
-    fab.innerHTML = '<span>💬</span><span>Kommentar</span>';
-
-    const submitFab = document.createElement('button');
-    submitFab.className = 'feedback-fab secondary hidden';
-    submitFab.type = 'button';
-    submitFab.id = 'feedback-submit-inline';
-    submitFab.innerHTML = '<span>📨</span><span>Senden</span>';
+    fab.innerHTML = '<span>💬</span><span>Feedback</span>';
+    fab.title = 'Stimmt was nicht? Teile es uns mit.';
 
     const drawer = document.createElement('div');
     drawer.className = 'feedback-drawer';
@@ -62,24 +57,26 @@
           </div>
           <div style="position:relative;">
             <textarea class="feedback-textarea" id="feedback-comment" placeholder="Sag mir was du verändern würdest, bzw. was merkwürdig ist"></textarea>
-            <button class="feedback-send-inline" id="feedback-send-inline" type="button" aria-label="Senden">📨</button>
+            <button class="feedback-send-inline" id="feedback-send-inline" type="button" aria-label="Feedback senden" title="Feedback senden">➤</button>
           </div>
         </div>
       </div>
     `;
 
     document.body.appendChild(fab);
-    document.body.appendChild(submitFab);
     document.body.appendChild(drawer);
 
-    return { fab, submitFab, drawer };
+    return { fab, drawer };
   }
 
   async function submitFeedback(closeDrawer) {
+    const commentEl = document.getElementById('feedback-comment');
+    const comment = commentEl.value.trim();
+    if (!comment) return;
+
     const ok = await ensureFirebase();
     if (!ok) return;
     const cfg = getConfig();
-    const comment = document.getElementById('feedback-comment').value.trim();
 
     let meta = {};
     try {
@@ -109,17 +106,18 @@
     await ref.push(doc);
     showToast('Danke für dein Feedback');
     if (typeof closeDrawer === 'function') closeDrawer();
+    commentEl.value = '';
   }
 
   function init() {
-    const { fab, submitFab, drawer } = buildDrawer();
+    const { fab, drawer } = buildDrawer();
     const closeBtn = drawer.querySelector('.feedback-close');
     const sendInline = drawer.querySelector('#feedback-send-inline');
     const resizer = drawer.querySelector('#feedback-resizer');
+    const commentEl = drawer.querySelector('#feedback-comment');
 
     const openDrawer = () => {
       const title = drawer.querySelector('#feedback-title');
-      const lead = drawer.querySelector('#feedback-lead');
       let taskTitle = '';
       try {
         const id = sessionStorage.getItem('game_payload_id');
@@ -132,15 +130,22 @@
         }
       } catch (_) { }
       title.textContent = taskTitle ? `Dein Feedback zu ${taskTitle}` : 'Dein Feedback';
-      lead.textContent = 'Du hast einen Verbesserungsvorschlag oder die Aufgabe ist irgendwie komisch?';
 
+      fab.innerHTML = '<span>✕</span><span>Schließen</span>';
+      fab.title = 'Feedback-Sektion schließen';
       drawer.classList.add('open');
-      submitFab.classList.remove('hidden');
+      updateSendState();
     };
 
     const closeDrawer = () => {
       drawer.classList.remove('open');
-      submitFab.classList.add('hidden');
+      fab.innerHTML = '<span>💬</span><span>Feedback</span>';
+      fab.title = 'Stimmt was nicht? Teile es uns mit.';
+    };
+
+    const updateSendState = () => {
+      const hasText = commentEl.value.trim().length > 0;
+      sendInline.disabled = !hasText;
     };
 
     fab.addEventListener('click', () => {
@@ -148,8 +153,8 @@
       else openDrawer();
     });
     closeBtn.addEventListener('click', closeDrawer);
-    submitFab.addEventListener('click', () => submitFeedback(closeDrawer));
     sendInline.addEventListener('click', () => submitFeedback(closeDrawer));
+    commentEl.addEventListener('input', updateSendState);
 
     let resizing = false;
     resizer.addEventListener('mousedown', () => { resizing = true; });

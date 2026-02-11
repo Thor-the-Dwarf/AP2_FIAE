@@ -20,14 +20,6 @@
   display: none !important;
 }
 
-.feedback-fab.secondary {
-  right: 160px !important;
-  background: hsl(var(--primary));
-  border-color: hsl(var(--primary));
-  color: hsl(var(--primary-fg));
-  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45);
-}
-
 .feedback-drawer {
   position: fixed;
   left: 0;
@@ -177,6 +169,11 @@
   align-items: center;
   justify-content: center;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.feedback-send-inline[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .feedback-close {
