@@ -351,9 +351,10 @@
                 this.reportProgress(this.score, this.questionCount);
             }
 
+            const delay = isCorrect ? 800 : 7000;
             setTimeout(() => {
                 this.nextQuestion();
-            }, 800);
+            }, delay);
         }
 
         restartGame() {
