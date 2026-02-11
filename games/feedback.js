@@ -52,9 +52,6 @@
           <div id="feedback-lead" style="font-size:0.9rem; margin-bottom:0.35rem; color:hsl(var(--txt));">
             Du hast einen Verbesserungsvorschlag oder die Aufgabe ist irgendwie komisch?
           </div>
-          <div style="font-size:0.8rem; margin-bottom:0.5rem; color:hsl(var(--txt-muted));">
-            Sag mir was du verändern würdest, bzw. was merkwürdig ist
-          </div>
           <div style="position:relative;">
             <textarea class="feedback-textarea" id="feedback-comment" placeholder="Sag mir was du verändern würdest, bzw. was merkwürdig ist"></textarea>
             <button class="feedback-send-inline" id="feedback-send-inline" type="button" aria-label="Feedback senden" title="Feedback senden">➤</button>
