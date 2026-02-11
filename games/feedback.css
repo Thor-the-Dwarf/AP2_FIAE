@@ -127,8 +127,10 @@
   background: hsl(var(--bg-surface));
   border: 1px solid hsl(var(--glass-border));
   color: hsl(var(--txt));
-  border-radius: var(--radius-sm);
-  padding: 0.6rem;
+  border-radius: 10px;
+  padding: 0.7rem 0.8rem;
+  line-height: 1.5;
+  box-sizing: border-box;
   resize: vertical;
 }
 

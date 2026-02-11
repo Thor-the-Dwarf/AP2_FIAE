@@ -120,6 +120,9 @@
             payload.tags.forEach(t => tags.push(String(t)));
           }
         }
+        if (!tags.length) {
+          inferTagsFromId(id).forEach(t => tags.push(t));
+        }
       }
     } catch (_) { }
 
@@ -149,6 +152,18 @@
 
     render();
     return () => tags.slice();
+  }
+
+  function inferTagsFromId(id) {
+    const lower = String(id || '').toLowerCase();
+    const tags = [];
+    if (lower.includes('teil02')) tags.push('AP2', 'FIAE');
+    if (lower.includes('teil03')) tags.push('WISO');
+    if (lower.includes('qualität') || lower.includes('qualitaet')) tags.push('QS');
+    if (lower.includes('bereitstellen')) tags.push('Deployment');
+    if (lower.includes('test')) tags.push('Tests');
+    if (lower.includes('debug') || lower.includes('fehler')) tags.push('Debug');
+    return tags.slice(0, 4);
   }
 
   async function submitFeedback(getTags) {
