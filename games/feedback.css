@@ -86,6 +86,31 @@
   padding: 0.9rem;
 }
 
+.feedback-section.notice {
+  border-color: hsl(var(--error) / 0.6);
+  background: hsl(var(--error) / 0.08);
+}
+
+.feedback-toast {
+  position: fixed;
+  right: 24px;
+  bottom: 90px;
+  z-index: 2147483647;
+  background: hsl(var(--success) / 0.2);
+  border: 1px solid hsl(var(--success) / 0.6);
+  color: hsl(var(--txt));
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.feedback-toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .feedback-tags {
   display: flex;
   flex-wrap: wrap;

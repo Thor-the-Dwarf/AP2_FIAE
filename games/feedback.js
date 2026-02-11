@@ -15,18 +15,23 @@
     });
   }
 
+  function getConfig() {
+    if (window.FEEDBACK_CONFIG && window.FEEDBACK_CONFIG.firebase) return window.FEEDBACK_CONFIG;
+    return null;
+  }
+
   async function ensureFirebase() {
     if (window.firebase && window.firebase.apps && window.firebase.apps.length) return true;
     const cfgLoaded = await loadOptionalScript(CONFIG_PATH);
-    if (!cfgLoaded) return false;
-    const cfg = window.FEEDBACK_CONFIG;
+    if (!cfgLoaded) {
+      // allow localStorage config
+    }
+    const cfg = getConfig();
     if (!cfg || !cfg.firebase || !cfg.firebase.apiKey) return false;
     await loadOptionalScript(FIREBASE_APP_URL);
     await loadOptionalScript(FIREBASE_DB_URL);
     if (!window.firebase || !window.firebase.apps) return false;
-    if (!window.firebase.apps.length) {
-      window.firebase.initializeApp(cfg.firebase);
-    }
+    if (!window.firebase.apps.length) window.firebase.initializeApp(cfg.firebase);
     return true;
   }
 
@@ -168,12 +173,8 @@
 
   async function submitFeedback(getTags) {
     const ok = await ensureFirebase();
-    if (!ok) {
-      alert('Firebase ist nicht konfiguriert. Bitte API-Key in config.local.js eintragen.');
-      return;
-    }
-
-    const cfg = window.FEEDBACK_CONFIG;
+    if (!ok) return;
+    const cfg = getConfig();
     const comment = document.getElementById('feedback-comment').value.trim();
     const preview = document.getElementById('feedback-preview');
     const editedText = preview ? preview.innerText.trim() : '';
@@ -206,7 +207,7 @@
     const db = window.firebase.database();
     const ref = db.ref(cfg.collection || 'feedback');
     await ref.push(doc);
-    alert('Danke! Dein Feedback wurde gesendet.');
+    showToast('Feedback gesendet');
   }
 
   function init() {
@@ -222,6 +223,7 @@
       drawer.classList.add('open');
       backdrop.classList.add('open');
       submitFab.classList.remove('hidden');
+      // no-op
     };
 
     const closeDrawer = () => {
@@ -238,6 +240,18 @@
     submitBtn.addEventListener('click', () => submitFeedback(getTags));
     submitFab.addEventListener('click', () => submitFeedback(getTags));
     backdrop.addEventListener('click', closeDrawer);
+  }
+
+  function showToast(message) {
+    let toast = document.querySelector('.feedback-toast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.className = 'feedback-toast';
+      document.body.appendChild(toast);
+    }
+    toast.textContent = message;
+    toast.classList.add('show');
+    setTimeout(() => toast.classList.remove('show'), 1200);
   }
 
   if (document.readyState === 'loading') {
