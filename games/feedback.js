@@ -49,17 +49,22 @@
     drawer.innerHTML = `
       <div class="feedback-resizer" id="feedback-resizer"></div>
       <div class="feedback-header">
-        <strong>Kommentar</strong>
+        <strong id="feedback-title">Dein Feedback</strong>
         <button class="feedback-close" type="button" aria-label="Schliessen">✕</button>
       </div>
       <div class="feedback-body">
         <div class="feedback-section">
-          <div style="font-size:0.85rem; margin-bottom:0.4rem; color:hsl(var(--txt-muted));">Allgemeinkommentar</div>
-          <textarea class="feedback-textarea" id="feedback-comment" placeholder="Allgemeine Hinweise zur Aufgabe..."></textarea>
+          <div id="feedback-lead" style="font-size:0.9rem; margin-bottom:0.35rem; color:hsl(var(--txt));">
+            Du hast einen Verbesserungsvorschlag oder die Aufgabe ist irgendwie komisch?
+          </div>
+          <div style="font-size:0.8rem; margin-bottom:0.5rem; color:hsl(var(--txt-muted));">
+            Sag mir was du verändern würdest, bzw. was merkwürdig ist
+          </div>
+          <div style="position:relative;">
+            <textarea class="feedback-textarea" id="feedback-comment" placeholder="Sag mir was du verändern würdest, bzw. was merkwürdig ist"></textarea>
+            <button class="feedback-send-inline" id="feedback-send-inline" type="button" aria-label="Senden">📨</button>
+          </div>
         </div>
-      </div>
-      <div class="feedback-footer">
-        <button class="btn primary" id="feedback-submit" type="button">Submit</button>
       </div>
     `;
 
@@ -70,7 +75,7 @@
     return { fab, submitFab, drawer };
   }
 
-  async function submitFeedback() {
+  async function submitFeedback(closeDrawer) {
     const ok = await ensureFirebase();
     if (!ok) return;
     const cfg = getConfig();
@@ -102,16 +107,33 @@
     const db = window.firebase.database();
     const ref = db.ref(cfg.collection || 'feedback');
     await ref.push(doc);
-    showToast('Feedback gesendet');
+    showToast('Danke für dein Feedback');
+    if (typeof closeDrawer === 'function') closeDrawer();
   }
 
   function init() {
     const { fab, submitFab, drawer } = buildDrawer();
     const closeBtn = drawer.querySelector('.feedback-close');
-    const submitBtn = drawer.querySelector('#feedback-submit');
+    const sendInline = drawer.querySelector('#feedback-send-inline');
     const resizer = drawer.querySelector('#feedback-resizer');
 
     const openDrawer = () => {
+      const title = drawer.querySelector('#feedback-title');
+      const lead = drawer.querySelector('#feedback-lead');
+      let taskTitle = '';
+      try {
+        const id = sessionStorage.getItem('game_payload_id');
+        if (id) {
+          const raw = sessionStorage.getItem('game_payload_' + id);
+          if (raw) {
+            const payload = JSON.parse(raw);
+            taskTitle = payload.title || '';
+          }
+        }
+      } catch (_) { }
+      title.textContent = taskTitle ? `Dein Feedback zu ${taskTitle}` : 'Dein Feedback';
+      lead.textContent = 'Du hast einen Verbesserungsvorschlag oder die Aufgabe ist irgendwie komisch?';
+
       drawer.classList.add('open');
       submitFab.classList.remove('hidden');
     };
@@ -126,8 +148,8 @@
       else openDrawer();
     });
     closeBtn.addEventListener('click', closeDrawer);
-    submitBtn.addEventListener('click', () => submitFeedback());
-    submitFab.addEventListener('click', () => submitFeedback());
+    submitFab.addEventListener('click', () => submitFeedback(closeDrawer));
+    sendInline.addEventListener('click', () => submitFeedback(closeDrawer));
 
     let resizing = false;
     resizer.addEventListener('mousedown', () => { resizing = true; });
