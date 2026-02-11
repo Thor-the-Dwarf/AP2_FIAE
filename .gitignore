@@ -1,4 +1,3 @@
 # Admin folder - do not push to GitHub
 __admin_Dont_Push_to_Github/
 database/**/*.txt
-config.local.js
