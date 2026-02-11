@@ -1,0 +1,126 @@
+.feedback-fab {
+  position: fixed !important;
+  right: 20px !important;
+  bottom: 20px !important;
+  z-index: 2147483647 !important;
+  pointer-events: auto !important;
+  border-radius: 999px;
+  border: 1px solid hsl(var(--glass-border));
+  background: hsl(var(--bg-surface) / 0.9);
+  color: hsl(var(--txt));
+  padding: 12px 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.feedback-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background: hsl(var(--bg));
+  transform: translateX(100%);
+  transition: transform 0.25s ease-out;
+  z-index: 2147483646;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-drawer.open {
+  transform: translateX(0);
+}
+
+.feedback-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid hsl(var(--glass-border));
+  background: hsl(var(--bg-surface) / 0.6);
+}
+
+.feedback-body {
+  flex: 1;
+  overflow: auto;
+  padding: 1rem 1.25rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feedback-section {
+  background: hsl(var(--bg-surface) / 0.7);
+  border: 1px solid hsl(var(--glass-border));
+  border-radius: var(--radius-md);
+  padding: 0.9rem;
+}
+
+.feedback-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.feedback-tag {
+  border-radius: 999px;
+  border: 1px solid hsl(var(--glass-border));
+  padding: 0.2rem 0.6rem;
+  font-size: 0.8rem;
+  color: hsl(var(--txt));
+  background: hsl(var(--bg-surface) / 0.8);
+  display: inline-flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.feedback-tag button {
+  border: none;
+  background: transparent;
+  color: hsl(var(--txt-muted));
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.feedback-input {
+  width: 100%;
+  background: hsl(var(--bg-surface));
+  border: 1px solid hsl(var(--glass-border));
+  color: hsl(var(--txt));
+  border-radius: var(--radius-sm);
+  padding: 0.5rem 0.6rem;
+}
+
+.feedback-textarea {
+  width: 100%;
+  min-height: 120px;
+  background: hsl(var(--bg-surface));
+  border: 1px solid hsl(var(--glass-border));
+  color: hsl(var(--txt));
+  border-radius: var(--radius-sm);
+  padding: 0.6rem;
+  resize: vertical;
+}
+
+.feedback-preview [contenteditable="true"] {
+  outline: 1px dashed hsl(var(--primary) / 0.5);
+  outline-offset: 2px;
+}
+
+.feedback-footer {
+  position: fixed;
+  right: 24px;
+  bottom: 20px;
+  z-index: 9999;
+}
+
+.feedback-close {
+  border: none;
+  background: transparent;
+  color: hsl(var(--txt));
+  font-size: 1.2rem;
+  cursor: pointer;
+}
