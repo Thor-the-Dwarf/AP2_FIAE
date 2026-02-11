@@ -16,13 +16,39 @@
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
 }
 
+.feedback-fab.hidden {
+  display: none !important;
+}
+
+.feedback-fab.secondary {
+  right: 150px !important;
+  background: hsl(var(--primary) / 0.25);
+  border-color: hsl(var(--primary) / 0.6);
+  color: hsl(var(--txt));
+}
+
+.feedback-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 2147483645;
+}
+
+.feedback-backdrop.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 .feedback-drawer {
   position: fixed;
   top: 0;
   right: 0;
   width: 100vw;
   height: 100vh;
-  background: hsl(var(--bg));
+  background: linear-gradient(180deg, hsl(var(--bg-surface)) 0%, hsl(var(--bg)) 100%);
   transform: translateX(100%);
   transition: transform 0.25s ease-out;
   z-index: 2147483646;
@@ -40,7 +66,7 @@
   justify-content: space-between;
   padding: 1rem 1.25rem;
   border-bottom: 1px solid hsl(var(--glass-border));
-  background: hsl(var(--bg-surface) / 0.6);
+  background: hsl(var(--primary) / 0.15);
 }
 
 .feedback-body {

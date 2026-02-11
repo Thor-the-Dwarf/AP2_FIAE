@@ -36,6 +36,15 @@
     fab.type = 'button';
     fab.innerHTML = '<span>💬</span><span>Kommentar</span>';
 
+    const submitFab = document.createElement('button');
+    submitFab.className = 'feedback-fab secondary hidden';
+    submitFab.type = 'button';
+    submitFab.id = 'feedback-submit-inline';
+    submitFab.innerHTML = '<span>📨</span><span>Senden</span>';
+
+    const backdrop = document.createElement('div');
+    backdrop.className = 'feedback-backdrop';
+
     const drawer = document.createElement('div');
     drawer.className = 'feedback-drawer';
     drawer.innerHTML = `
@@ -66,9 +75,11 @@
     `;
 
     document.body.appendChild(fab);
+    document.body.appendChild(submitFab);
+    document.body.appendChild(backdrop);
     document.body.appendChild(drawer);
 
-    return { fab, drawer };
+    return { fab, submitFab, backdrop, drawer };
   }
 
   function cloneGameContent() {
@@ -184,7 +195,7 @@
   }
 
   function init() {
-    const { fab, drawer } = buildDrawer();
+    const { fab, submitFab, backdrop, drawer } = buildDrawer();
     const preview = document.getElementById('feedback-preview');
     const closeBtn = drawer.querySelector('.feedback-close');
     const submitBtn = drawer.querySelector('#feedback-submit');
@@ -194,9 +205,15 @@
       preview.innerHTML = '';
       preview.appendChild(cloneGameContent());
       drawer.classList.add('open');
+      backdrop.classList.add('open');
+      submitFab.classList.remove('hidden');
     };
 
-    const closeDrawer = () => drawer.classList.remove('open');
+    const closeDrawer = () => {
+      drawer.classList.remove('open');
+      backdrop.classList.remove('open');
+      submitFab.classList.add('hidden');
+    };
 
     fab.addEventListener('click', () => {
       if (drawer.classList.contains('open')) closeDrawer();
@@ -204,6 +221,8 @@
     });
     closeBtn.addEventListener('click', closeDrawer);
     submitBtn.addEventListener('click', () => submitFeedback(getTags));
+    submitFab.addEventListener('click', () => submitFeedback(getTags));
+    backdrop.addEventListener('click', closeDrawer);
   }
 
   if (document.readyState === 'loading') {
